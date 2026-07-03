@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "fonora_compat": ">=0.1.0",
+  "updated_at": "2026-07-03T00:00:00.000Z",
+  "repository": "https://github.com/Fonora/fonora-data",
+  "files": {
+    "data/fonoran-llm-evaluations.json": {
+      "sha256": "8c02b86ed8656e62de7ff808b71f7b12ac0c24e9fa64f170eb54673a9f85bea2",
+      "description": "LLM intuition battery rounds + aggregates (advisory)"
+    },
+    "data/fonoran-playtests.json": {
+      "sha256": "a7980ec2c43a929762e4d4a0b45a638b3d3ef057725ff1adb2f6106bf56635b8",
+      "description": "Human Puzzle Conversation playtest rounds"
+    },
+    "data/fonoran-translation-test-latest.json": {
+      "sha256": "ba9bba3ffe551b39ad6ad0443bf2cb42b815381654bba00e40036f7dac8f3267",
+      "description": "Latest English→Fonoran translation regression snapshot"
+    },
+    "data/research-notes-store.json": {
+      "sha256": "ae0baf55a7d886e7f4d7caf6539c04d8a9bee10bd5f767ff6758561ebef2c40e",
+      "description": "Research notebook canonical JSON store"
+    }
+  }
+}
