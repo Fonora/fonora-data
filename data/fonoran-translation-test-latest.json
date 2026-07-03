@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-03T03:42:20.570Z",
+  "generated_at": "2026-07-03T17:50:48.233Z",
   "corpus_version": "2.0",
-  "total_phrases": 131,
-  "clean_phrases": 124,
-  "coverage_pct": 95,
-  "distinct_gaps": 7,
+  "total_phrases": 129,
+  "clean_phrases": 121,
+  "coverage_pct": 94,
+  "distinct_gaps": 8,
   "quality": {
     "tokens": {
-      "pass": 492,
+      "pass": 491,
       "soft": 18,
-      "hard": 7
+      "hard": 8
     },
-    "pass_phrases": 109,
+    "pass_phrases": 106,
     "soft_phrases": 15,
-    "hard_phrases": 7
+    "hard_phrases": 8
   },
   "levels": [
     {
@@ -51,8 +51,8 @@
     {
       "level": 5,
       "name": "Questions",
-      "phrases": 10,
-      "clean": 10,
+      "phrases": 8,
+      "clean": 8,
       "coverage": 100,
       "unresolved_words": 0
     },
@@ -76,9 +76,9 @@
       "level": 8,
       "name": "Multi-clause sentences",
       "phrases": 10,
-      "clean": 9,
-      "coverage": 90,
-      "unresolved_words": 1
+      "clean": 8,
+      "coverage": 80,
+      "unresolved_words": 2
     },
     {
       "level": 9,
@@ -156,6 +156,13 @@
       "count": 1,
       "samples": [
         "The child laughed after the dog ran away."
+      ]
+    },
+    {
+      "word": "when",
+      "count": 1,
+      "samples": [
+        "When the sun rose, we began walking."
       ]
     },
     {
@@ -307,6 +314,17 @@
       ]
     },
     {
+      "root": "no",
+      "words": [
+        "nobody",
+        "what",
+        "when",
+        "where",
+        "who"
+      ],
+      "concepts": []
+    },
+    {
       "root": "tel",
       "words": [
         "ate",
@@ -343,15 +361,15 @@
       ]
     },
     {
-      "root": "to",
+      "root": "che",
       "words": [
-        "although it",
-        "it",
-        "thing",
-        "this"
+        "house",
+        "man who built house",
+        "new house",
+        "place"
       ],
       "concepts": [
-        "thing"
+        "place"
       ]
     },
     {
@@ -374,17 +392,6 @@
       ],
       "concepts": [
         "plant"
-      ]
-    },
-    {
-      "root": "che",
-      "words": [
-        "house",
-        "man who built house",
-        "new house"
-      ],
-      "concepts": [
-        "place"
       ]
     },
     {
@@ -473,6 +480,17 @@
       ],
       "concepts": [
         "bound"
+      ]
+    },
+    {
+      "root": "to",
+      "words": [
+        "although it",
+        "it",
+        "thing"
+      ],
+      "concepts": [
+        "thing"
       ]
     },
     {
@@ -607,16 +625,6 @@
       ]
     },
     {
-      "root": "nam",
-      "words": [
-        "here",
-        "you here"
-      ],
-      "concepts": [
-        "here"
-      ]
-    },
-    {
       "root": "hu",
       "words": [
         "know",
@@ -644,6 +652,16 @@
       ],
       "concepts": [
         "doctor"
+      ]
+    },
+    {
+      "root": "bakas",
+      "words": [
+        "helps",
+        "who"
+      ],
+      "concepts": [
+        "helper"
       ]
     },
     {
@@ -1677,99 +1695,7 @@
     {
       "level": 5,
       "phrase": "Where are you?",
-      "roman": "wo zis be",
-      "unresolved": [],
-      "counts": {
-        "direct": 3,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 3,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "wo zis be",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "Who are you?",
-      "roman": "wo zas be",
-      "unresolved": [],
-      "counts": {
-        "direct": 3,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 3,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "wo zas be",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "What is this?",
-      "roman": "wo vus to",
-      "unresolved": [],
-      "counts": {
-        "direct": 3,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 3,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "wo vus to",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "Why are you here?",
-      "roman": "wo zos nam",
-      "unresolved": [],
-      "counts": {
-        "direct": 3,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 3,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "wo zos nam",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "When will you return?",
-      "roman": "wo zes sa be gi",
+      "roman": "no hu che be ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -1786,16 +1712,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "wo zes sa be gi",
+      "expected": "no hu che be ?",
       "matches_golden": true
     },
     {
       "level": 5,
-      "phrase": "How do you know?",
-      "roman": "wo zus be hu",
+      "phrase": "Who are you?",
+      "roman": "no hu ba be ?",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -1803,22 +1729,68 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "wo zus be hu",
+      "expected": "no hu ba be ?",
+      "matches_golden": true
+    },
+    {
+      "level": 5,
+      "phrase": "What do you want?",
+      "roman": "no hu to be sak ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 6,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 6,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "no hu to be sak ?",
+      "matches_golden": true
+    },
+    {
+      "level": 5,
+      "phrase": "When will you return?",
+      "roman": "no hu kan sa be gi ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 7,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 7,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "no hu kan sa be gi ?",
       "matches_golden": true
     },
     {
       "level": 5,
       "phrase": "Is the food ready?",
-      "roman": "tel kel",
+      "roman": "tel kel ?",
       "unresolved": [],
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "interpreted": 0,
         "semantic": 1,
         "alias_weak": 0,
@@ -1826,7 +1798,7 @@
       },
       "quality": {
         "gate": "soft",
-        "pass": 1,
+        "pass": 2,
         "soft": 1,
         "hard": 0
       },
@@ -1839,37 +1811,14 @@
         }
       ],
       "gaps": [],
-      "expected": "tel kel",
+      "expected": "tel kel ?",
       "matches_golden": true,
       "note": "review: ready→kel(semantic)"
     },
     {
       "level": 5,
       "phrase": "Can you help me?",
-      "roman": "be kas mi",
-      "unresolved": [],
-      "counts": {
-        "direct": 2,
-        "interpreted": 1,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 3,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "be kas mi",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "Did you see it?",
-      "roman": "be ta wi to",
+      "roman": "be kas mi ?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1886,16 +1835,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta wi to",
+      "expected": "be kas mi ?",
       "matches_golden": true
     },
     {
       "level": 5,
-      "phrase": "Will it rain?",
-      "roman": "to sa yeju",
+      "phrase": "Did you see it?",
+      "roman": "be ta wi to ?",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 4,
         "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
@@ -1903,13 +1852,36 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 3,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "to sa yeju",
+      "expected": "be ta wi to ?",
+      "matches_golden": true
+    },
+    {
+      "level": 5,
+      "phrase": "Will it rain?",
+      "roman": "to sa yeju ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 3,
+        "interpreted": 1,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "to sa yeju ?",
       "matches_golden": true
     },
     {
@@ -2506,25 +2478,33 @@
     {
       "level": 8,
       "phrase": "When the sun rose, we began walking.",
-      "roman": "wo zes samdat ra dan diye gi",
-      "unresolved": [],
+      "roman": "[when] samdat ra dan diye gi",
+      "unresolved": [
+        "when"
+      ],
       "counts": {
-        "direct": 6,
+        "direct": 4,
         "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 7,
+        "gate": "hard",
+        "pass": 5,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
-      "expected": "wo zes samdat ra dan diye gi",
-      "matches_golden": true
+      "gaps": [
+        {
+          "english": "when",
+          "kind": "unknown"
+        }
+      ],
+      "expected": "[when] samdat ra dan diye gi",
+      "matches_golden": true,
+      "note": "gap: when (needs a root)"
     },
     {
       "level": 8,
@@ -2689,11 +2669,11 @@
     },
     {
       "level": 10,
-      "phrase": "I only saw the red bird.",
-      "roman": "mi ta vat wi datwi kal",
+      "phrase": "I saw the red bird.",
+      "roman": "mi ta wi datwi kal",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -2701,22 +2681,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta vat wi datwi kal",
+      "expected": "mi ta wi datwi kal",
       "matches_golden": true
     },
     {
       "level": 10,
-      "phrase": "Only I saw the red bird.",
-      "roman": "vat ta mi wi datwi kal",
+      "phrase": "The bird saw me.",
+      "roman": "kal ta wi mi",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -2724,13 +2704,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "vat ta mi wi datwi kal",
+      "expected": "kal ta wi mi",
       "matches_golden": true
     },
     {
@@ -3082,30 +3062,7 @@
     {
       "level": 11,
       "phrase": "The woman who taught me said that the river had changed.",
-      "roman": "wo ba ta zas kuhu mi se yenanye diho",
-      "unresolved": [],
-      "counts": {
-        "direct": 9,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 9,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "wo ba ta zas kuhu mi se yenanye diho",
-      "matches_golden": true
-    },
-    {
-      "level": 11,
-      "phrase": "Why did the old hunter give the child his knife?",
-      "roman": "wo zos ta di lakalba ku re jatem",
+      "roman": "ba ta bakas kuhu mi se yenanye diho",
       "unresolved": [],
       "counts": {
         "direct": 8,
@@ -3122,7 +3079,30 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "wo zos ta di lakalba ku re jatem",
+      "expected": "ba ta bakas kuhu mi se yenanye diho",
+      "matches_golden": true
+    },
+    {
+      "level": 11,
+      "phrase": "The old hunter gave the child his knife.",
+      "roman": "di ta lakalba ku re jatem",
+      "unresolved": [],
+      "counts": {
+        "direct": 6,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 6,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "di ta lakalba ku re jatem",
       "matches_golden": true
     },
     {
@@ -3389,10 +3369,10 @@
     {
       "level": 13,
       "phrase": "Are you going to the market tomorrow?",
-      "roman": "shu be gi nan mo",
+      "roman": "shu be gi nan mo ?",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 2,
         "semantic": 1,
         "alias_weak": 0,
@@ -3400,7 +3380,7 @@
       },
       "quality": {
         "gate": "soft",
-        "pass": 4,
+        "pass": 5,
         "soft": 1,
         "hard": 0
       },
@@ -3413,7 +3393,7 @@
         }
       ],
       "gaps": [],
-      "expected": "shu be gi nan mo",
+      "expected": "shu be gi nan mo ?",
       "matches_golden": true,
       "note": "review: market→mo(semantic)"
     },
