@@ -2207,6 +2207,41 @@
       "core_only": true,
       "difficulty_mode": "normal",
       "source": "puzzle"
+    },
+    {
+      "id": "pt-mr4nk7tl-h10rxy",
+      "at": "2026-07-03T08:09:32.313Z",
+      "concept_id": "star",
+      "shown_spelling": "kekfet",
+      "shown_composition": [
+        "kek",
+        "fet"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "star",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mr53ci58-8etfh0",
+      "at": "2026-07-03T15:31:26.300Z",
+      "concept_id": "fisherman",
+      "shown_spelling": "kalyeba",
+      "shown_composition": [
+        "kal",
+        "ye",
+        "ba"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fisherman",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
     }
   ],
   "feedback": [
