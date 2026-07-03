@@ -9,7 +9,7 @@ This repo holds growing JSON artifacts that do not belong in the main codebase:
 | `data/fonoran-llm-evaluations.json` | LLM Compositional Intuition Battery rounds (advisory; outcomes promoted in main repo `compounds.json`) |
 | `data/fonoran-playtests.json` | Human Puzzle Conversation playtest rounds |
 | `data/fonoran-translation-test-latest.json` | Translation regression snapshot for `/language#gaps` |
-| `data/research-notes-store.json` | Research notebook canonical JSON (synced to Postgres on Heroku release) |
+| `data/research-notes-store.json` | Optional metadata overlay for research notes (bodies live in main repo markdown) |
 
 ## Layout
 
