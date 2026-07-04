@@ -1,0 +1,7129 @@
+{
+  "version": "1.0",
+  "description": "Two-stranger first-week communication corpus for Fonoran gap testing",
+  "generated_at": "2026-07-04T05:57:16.936Z",
+  "model": "claude-sonnet-4-6",
+  "total_phrases": 1000,
+  "domains": [
+    {
+      "id": "first_contact",
+      "label": "First contact & identity",
+      "phrases": [
+        {
+          "id": "fc-001",
+          "en": "Hello.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-002",
+          "en": "I am a person.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-003",
+          "en": "My name is this.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-004",
+          "en": "I will not hurt you.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-005",
+          "en": "You are safe here.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-006",
+          "en": "I am not dangerous.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-007",
+          "en": "What is your name?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-008",
+          "en": "Are you alone?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-009",
+          "en": "I am alone too.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-010",
+          "en": "I do not understand your words.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-011",
+          "en": "Please do not run away.",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-012",
+          "en": "I mean no harm.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-013",
+          "en": "I am friendly.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-014",
+          "en": "Are you hurt?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-015",
+          "en": "I feel afraid right now.",
+          "type": "feeling",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-016",
+          "en": "Do you feel afraid?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-017",
+          "en": "I am not your enemy.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-018",
+          "en": "We can help each other.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-019",
+          "en": "Look at my hands.",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-020",
+          "en": "My hands are empty.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-021",
+          "en": "I will stay still.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-022",
+          "en": "You can come closer.",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-023",
+          "en": "I will not move toward you.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-024",
+          "en": "Can you hear me?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-025",
+          "en": "I see you.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-026",
+          "en": "I am glad you are here.",
+          "type": "feeling",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-027",
+          "en": "We are both strangers here.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-028",
+          "en": "This is my name.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-029",
+          "en": "Please say your name again.",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-030",
+          "en": "I will say my name slowly.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-031",
+          "en": "Are you a person like me?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-032",
+          "en": "I am a stranger and I need help.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 3
+        },
+        {
+          "id": "fc-033",
+          "en": "I am lost and I am alone.",
+          "type": "feeling",
+          "domain": "first_contact",
+          "complexity": 3
+        },
+        {
+          "id": "fc-034",
+          "en": "Can we sit together?",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-035",
+          "en": "I will sit down now.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-036",
+          "en": "Do you want me to move back?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-037",
+          "en": "I feel relieved to see you.",
+          "type": "feeling",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-038",
+          "en": "You do not need to be afraid.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-039",
+          "en": "I come in peace.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-040",
+          "en": "Can I speak to you?",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-041",
+          "en": "I do not know your language.",
+          "type": "repair",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-042",
+          "en": "Can we try to understand each other?",
+          "type": "repair",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-043",
+          "en": "Point to yourself and say your name.",
+          "type": "request",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-044",
+          "en": "I am pointing to myself.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-045",
+          "en": "Are there other people near you?",
+          "type": "question",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-046",
+          "en": "I have no weapon.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-047",
+          "en": "I am not following you.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 1
+        },
+        {
+          "id": "fc-048",
+          "en": "We are in the same place now.",
+          "type": "statement",
+          "domain": "first_contact",
+          "complexity": 2
+        },
+        {
+          "id": "fc-049",
+          "en": "I feel nervous and unsure.",
+          "type": "feeling",
+          "domain": "first_contact",
+          "complexity": 3
+        },
+        {
+          "id": "fc-050",
+          "en": "Can we start again?",
+          "type": "repair",
+          "domain": "first_contact",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "id": "immediate_needs",
+      "label": "Immediate needs",
+      "phrases": [
+        {
+          "id": "in-001",
+          "en": "I am thirsty.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-002",
+          "en": "I am hungry.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-003",
+          "en": "I am cold.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-004",
+          "en": "I am tired.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-005",
+          "en": "I need water.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-006",
+          "en": "We need shelter.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-007",
+          "en": "There is water over there.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-008",
+          "en": "Is that water safe?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-009",
+          "en": "We need fire.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-010",
+          "en": "I can make fire.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-011",
+          "en": "Please drink this.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-012",
+          "en": "Do you want food?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-013",
+          "en": "This food is safe.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-014",
+          "en": "Do not eat that.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-015",
+          "en": "Let us rest here.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-016",
+          "en": "I am cold and hungry.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 3
+        },
+        {
+          "id": "in-017",
+          "en": "We can sleep here tonight.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-018",
+          "en": "Are you thirsty?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-019",
+          "en": "Are you hungry?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-020",
+          "en": "Are you cold?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-021",
+          "en": "This place is dry.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-022",
+          "en": "We can stay here.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-023",
+          "en": "I found food.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-024",
+          "en": "I found water.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-025",
+          "en": "Take this and eat.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-026",
+          "en": "The rain is coming.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-027",
+          "en": "We need to move now.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-028",
+          "en": "Is there more water?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-029",
+          "en": "I need to sleep.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-030",
+          "en": "I am very weak.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-031",
+          "en": "Come and sit here.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-032",
+          "en": "The fire is warm.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-033",
+          "en": "Sit near the fire.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-034",
+          "en": "This water is not safe.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-035",
+          "en": "I am tired and cold.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 3
+        },
+        {
+          "id": "in-036",
+          "en": "We need more wood.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-037",
+          "en": "Can you carry this?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-038",
+          "en": "I will carry the water.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-039",
+          "en": "Do not drink that water.",
+          "type": "request",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-040",
+          "en": "We must boil the water.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-041",
+          "en": "This food is not good.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-042",
+          "en": "I will find food for us.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-043",
+          "en": "Are you in pain?",
+          "type": "question",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-044",
+          "en": "I am in pain.",
+          "type": "feeling",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-045",
+          "en": "We need to find shelter now.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-046",
+          "en": "I see a dry place.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        },
+        {
+          "id": "in-047",
+          "en": "Do you understand me?",
+          "type": "repair",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-048",
+          "en": "Please say that again.",
+          "type": "repair",
+          "domain": "immediate_needs",
+          "complexity": 1
+        },
+        {
+          "id": "in-049",
+          "en": "We need food and water.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 3
+        },
+        {
+          "id": "in-050",
+          "en": "I will keep the fire burning.",
+          "type": "statement",
+          "domain": "immediate_needs",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "pain_injury",
+      "label": "Pain & injury",
+      "phrases": [
+        {
+          "id": "pi-001",
+          "en": "I am hurt.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-002",
+          "en": "My leg is broken.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-003",
+          "en": "I feel sick.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-004",
+          "en": "Do you have medicine?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-005",
+          "en": "I am bleeding.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-006",
+          "en": "This wound is very deep.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-007",
+          "en": "Please help me.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-008",
+          "en": "My arm hurts a lot.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-010",
+          "en": "I cannot walk.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-011",
+          "en": "The cut is still bleeding.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-012",
+          "en": "I need clean water for this wound.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-013",
+          "en": "My head hurts.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-014",
+          "en": "Is your leg broken?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-015",
+          "en": "I feel very weak.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-016",
+          "en": "Please press here to stop the bleeding.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-017",
+          "en": "This bone is broken.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-018",
+          "en": "I am sick and very tired.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-019",
+          "en": "Do you feel pain here?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-020",
+          "en": "The wound needs to be covered.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-021",
+          "en": "I will wrap your wound.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-022",
+          "en": "My stomach hurts.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-023",
+          "en": "Are you bleeding?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-024",
+          "en": "I cannot move my arm.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-025",
+          "en": "This plant may help the wound.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-026",
+          "en": "I feel hot and sick.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-027",
+          "en": "Do you have cloth for the wound?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-028",
+          "en": "Let me look at your injury.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-029",
+          "en": "The swelling is getting larger.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-030",
+          "en": "I fell and hit my head.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-031",
+          "en": "Does this hurt?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-032",
+          "en": "I need to rest.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-033",
+          "en": "The pain is very strong.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-034",
+          "en": "I am cold and I feel sick.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-035",
+          "en": "Is the wound getting better?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-036",
+          "en": "Please do not touch that.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-037",
+          "en": "My foot is injured.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-038",
+          "en": "I cannot carry that, I am hurt.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-039",
+          "en": "Do you feel sick today?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-040",
+          "en": "The bleeding has stopped.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-041",
+          "en": "I will help clean your wound.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-042",
+          "en": "This area is red and swollen.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-043",
+          "en": "I am getting better slowly.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-044",
+          "en": "Did you mean this place hurts?",
+          "type": "repair",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-045",
+          "en": "Show me where the pain is.",
+          "type": "request",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-046",
+          "en": "Is the pain here or there?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-047",
+          "en": "I do not understand, show me again.",
+          "type": "repair",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-048",
+          "en": "My back hurts and I cannot stand.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 3
+        },
+        {
+          "id": "pi-049",
+          "en": "The wound is healing.",
+          "type": "statement",
+          "domain": "pain_injury",
+          "complexity": 1
+        },
+        {
+          "id": "pi-050",
+          "en": "Are you feeling better now?",
+          "type": "question",
+          "domain": "pain_injury",
+          "complexity": 2
+        },
+        {
+          "id": "pi-003",
+          "en": "I feel very sick.",
+          "type": "feeling",
+          "domain": "pain_injury",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "fear_danger",
+      "label": "Fear & danger",
+      "phrases": [
+        {
+          "id": "fd-001",
+          "en": "I am afraid.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-002",
+          "en": "There is danger here.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-003",
+          "en": "We must run now.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-004",
+          "en": "An animal is near.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-005",
+          "en": "Hide behind that rock.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-006",
+          "en": "Do not move.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-007",
+          "en": "This place is not safe.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-008",
+          "en": "I hear something moving.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-009",
+          "en": "Are you afraid?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-010",
+          "en": "We are safe here.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-011",
+          "en": "That animal is very large.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-012",
+          "en": "Be quiet and still.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-013",
+          "en": "I am very afraid right now.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-014",
+          "en": "Run to the trees.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-015",
+          "en": "Something is watching us.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-016",
+          "en": "Is it safe to go there?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-017",
+          "en": "I see tracks on the ground.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-018",
+          "en": "That sound is dangerous.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-019",
+          "en": "We must hide now.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-020",
+          "en": "My heart is beating fast.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-021",
+          "en": "Do not go near that animal.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-022",
+          "en": "The animal is moving closer.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-023",
+          "en": "Is that animal dangerous?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-024",
+          "en": "I feel very unsafe here.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-025",
+          "en": "Stay low and do not speak.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 3
+        },
+        {
+          "id": "fd-026",
+          "en": "There is a large animal ahead.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-027",
+          "en": "We need to leave this area.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-028",
+          "en": "I am shaking with fear.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-029",
+          "en": "Did you see that?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-030",
+          "en": "The danger is gone now.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-031",
+          "en": "Come with me to safety.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-032",
+          "en": "I see something in the dark.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-033",
+          "en": "Are we safe now?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-034",
+          "en": "The animal has gone away.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-035",
+          "en": "I do not feel safe here.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-036",
+          "en": "That path is not safe.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-037",
+          "en": "Do you see any danger?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-038",
+          "en": "We can rest here, it is safe.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 3
+        },
+        {
+          "id": "fd-039",
+          "en": "I heard a loud noise nearby.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-040",
+          "en": "Wait here and do not move.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 3
+        },
+        {
+          "id": "fd-041",
+          "en": "I think I said danger wrong.",
+          "type": "repair",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-042",
+          "en": "Is there an animal near the water?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-043",
+          "en": "I am afraid and I want to leave.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 3
+        },
+        {
+          "id": "fd-044",
+          "en": "Do not make that sound.",
+          "type": "request",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-045",
+          "en": "The noise stopped.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 1
+        },
+        {
+          "id": "fd-046",
+          "en": "I meant that, not this.",
+          "type": "repair",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-047",
+          "en": "That animal is fast and large.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 3
+        },
+        {
+          "id": "fd-048",
+          "en": "Can we go somewhere safer?",
+          "type": "question",
+          "domain": "fear_danger",
+          "complexity": 2
+        },
+        {
+          "id": "fd-049",
+          "en": "I am cold and afraid.",
+          "type": "feeling",
+          "domain": "fear_danger",
+          "complexity": 3
+        },
+        {
+          "id": "fd-050",
+          "en": "We ran and now we are safe.",
+          "type": "statement",
+          "domain": "fear_danger",
+          "complexity": 3
+        }
+      ]
+    },
+    {
+      "id": "basic_emotion",
+      "label": "Basic emotions",
+      "phrases": [
+        {
+          "id": "em-001",
+          "en": "I am happy.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-002",
+          "en": "I feel sad.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-003",
+          "en": "I am angry.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-004",
+          "en": "I feel calm now.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-005",
+          "en": "I am lonely.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-006",
+          "en": "I feel relieved.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-007",
+          "en": "I am worried.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-008",
+          "en": "You look happy.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-009",
+          "en": "You look sad.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-010",
+          "en": "You seem angry.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-011",
+          "en": "Are you happy?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-012",
+          "en": "Are you sad?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-013",
+          "en": "Are you angry?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-014",
+          "en": "Are you calm?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-015",
+          "en": "Are you lonely?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-016",
+          "en": "Are you worried?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-017",
+          "en": "I am not angry now.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-018",
+          "en": "I am sad and lonely.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        },
+        {
+          "id": "em-019",
+          "en": "I am calm and relieved.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        },
+        {
+          "id": "em-020",
+          "en": "I am happy and calm.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        },
+        {
+          "id": "em-021",
+          "en": "I was worried, but I am calm now.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        },
+        {
+          "id": "em-022",
+          "en": "I feel worried about you.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-023",
+          "en": "I feel happy with you.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-024",
+          "en": "I do not feel calm.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-025",
+          "en": "I am very relieved.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-026",
+          "en": "This makes me happy.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-027",
+          "en": "This makes me sad.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-028",
+          "en": "This makes me angry.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-029",
+          "en": "I was very worried.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-030",
+          "en": "You are safe now.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-031",
+          "en": "Please be calm.",
+          "type": "request",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-032",
+          "en": "Please do not be angry.",
+          "type": "request",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-033",
+          "en": "I want you to be calm.",
+          "type": "request",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-034",
+          "en": "I want you to be happy.",
+          "type": "request",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-035",
+          "en": "You do not need to be sad.",
+          "type": "request",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-036",
+          "en": "You are not alone.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-037",
+          "en": "I am here with you.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-038",
+          "en": "I feel less lonely now.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-039",
+          "en": "I was angry, but I am calm now.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        },
+        {
+          "id": "em-040",
+          "en": "Do you feel lonely?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-041",
+          "en": "Do you feel relieved?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 1
+        },
+        {
+          "id": "em-042",
+          "en": "I do not want to be alone.",
+          "type": "statement",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-043",
+          "en": "I am still worried.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-044",
+          "en": "I am not sad anymore.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-045",
+          "en": "Did I make you angry?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-046",
+          "en": "Did that make you sad?",
+          "type": "question",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-047",
+          "en": "I see that you are sad.",
+          "type": "repair",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-048",
+          "en": "I think you are worried.",
+          "type": "repair",
+          "domain": "basic_emotion",
+          "complexity": 2
+        },
+        {
+          "id": "em-049",
+          "en": "I am sad and worried.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        },
+        {
+          "id": "em-050",
+          "en": "I am angry but not at you.",
+          "type": "feeling",
+          "domain": "basic_emotion",
+          "complexity": 3
+        }
+      ]
+    },
+    {
+      "id": "social_bond",
+      "label": "Social bond",
+      "phrases": [
+        {
+          "id": "sb-001",
+          "en": "Thank you.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-002",
+          "en": "I am sorry.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-003",
+          "en": "I will help you.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-004",
+          "en": "We can work together.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-005",
+          "en": "I trust you.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-006",
+          "en": "Do you trust me?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-007",
+          "en": "I promise.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-008",
+          "en": "We are friends now.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-009",
+          "en": "Can I help you?",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-010",
+          "en": "I did not mean to hurt you.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-011",
+          "en": "Please forgive me.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-013",
+          "en": "You helped me a lot.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-014",
+          "en": "Are you my friend?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-015",
+          "en": "I will not leave you alone.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-017",
+          "en": "That was my mistake.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-018",
+          "en": "I feel safe with you.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-019",
+          "en": "Do you need help?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-020",
+          "en": "I am thankful for your help.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-021",
+          "en": "Let us stay together.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-023",
+          "en": "You are a good person.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-024",
+          "en": "Did I do something wrong?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-025",
+          "en": "I am sorry I took that.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-026",
+          "en": "I promise I will return.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-027",
+          "en": "Are you angry with me?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-029",
+          "en": "I need your help today.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-030",
+          "en": "We are stronger together.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-031",
+          "en": "I will share with you.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-032",
+          "en": "Do you forgive me?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-033",
+          "en": "I feel better near you.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-034",
+          "en": "That was not your fault.",
+          "type": "repair",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-035",
+          "en": "I am here for you.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-037",
+          "en": "I did not want to fight.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-038",
+          "en": "You can trust me.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-039",
+          "en": "Is everything good between us?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-040",
+          "en": "I am glad we are together.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-041",
+          "en": "Please do not go.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-042",
+          "en": "I made a mistake.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-043",
+          "en": "We can share this food.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-044",
+          "en": "Did I upset you?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-045",
+          "en": "I will keep my promise.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-046",
+          "en": "I am not angry with you.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-047",
+          "en": "Let me carry that for you.",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-048",
+          "en": "I feel lonely and scared.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 3
+        },
+        {
+          "id": "sb-049",
+          "en": "I am cold and I need help.",
+          "type": "repair",
+          "domain": "social_bond",
+          "complexity": 3
+        },
+        {
+          "id": "sb-050",
+          "en": "We survived and I am grateful.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 3
+        },
+        {
+          "id": "sb-003",
+          "en": "I am sorry for that.",
+          "type": "feeling",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-005",
+          "en": "We can do this together.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-008",
+          "en": "Can I help you with that?",
+          "type": "request",
+          "domain": "social_bond",
+          "complexity": 1
+        },
+        {
+          "id": "sb-009",
+          "en": "I promise I will not leave you.",
+          "type": "statement",
+          "domain": "social_bond",
+          "complexity": 2
+        },
+        {
+          "id": "sb-010",
+          "en": "Are we friends now?",
+          "type": "question",
+          "domain": "social_bond",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "id": "refusal_boundary",
+      "label": "Refusal & boundaries",
+      "phrases": [
+        {
+          "id": "rb-001",
+          "en": "No.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-002",
+          "en": "Stop.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-003",
+          "en": "Do not touch that.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-004",
+          "en": "This is mine.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-005",
+          "en": "That is enough.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-006",
+          "en": "Leave me alone.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-007",
+          "en": "Do not come closer.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-008",
+          "en": "I do not want that.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-009",
+          "en": "Step back, please.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-010",
+          "en": "Do not take my food.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-011",
+          "en": "This space is mine.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-012",
+          "en": "I said no.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-013",
+          "en": "Do not touch me.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-014",
+          "en": "That belongs to me.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-015",
+          "en": "I need you to stop now.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-016",
+          "en": "Do not go there.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-017",
+          "en": "I am not ready.",
+          "type": "feeling",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-018",
+          "en": "Please give that back.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-019",
+          "en": "Do not open that bag.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-020",
+          "en": "I feel uncomfortable right now.",
+          "type": "feeling",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-021",
+          "en": "Stay on your side.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-022",
+          "en": "Do not look at my things.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-023",
+          "en": "That water is mine.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-024",
+          "en": "I need space.",
+          "type": "feeling",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-025",
+          "en": "Do not do that again.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-026",
+          "en": "Is this yours or mine?",
+          "type": "question",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-027",
+          "en": "Did you take my food?",
+          "type": "question",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-028",
+          "en": "I will not share this.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-029",
+          "en": "Do not wake me.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-030",
+          "en": "That is too much.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-031",
+          "en": "I am angry and I need quiet.",
+          "type": "feeling",
+          "domain": "refusal_boundary",
+          "complexity": 3
+        },
+        {
+          "id": "rb-032",
+          "en": "Please do not shout.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-033",
+          "en": "This side is mine and that side is yours.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 3
+        },
+        {
+          "id": "rb-034",
+          "en": "Are you taking my things?",
+          "type": "question",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-035",
+          "en": "I do not agree.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-037",
+          "en": "I said stop.",
+          "type": "repair",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-038",
+          "en": "That is not yours.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-039",
+          "en": "I will not go there.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-040",
+          "en": "Do not move my things.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-041",
+          "en": "I feel scared when you come close.",
+          "type": "feeling",
+          "domain": "refusal_boundary",
+          "complexity": 3
+        },
+        {
+          "id": "rb-042",
+          "en": "Did I say yes?",
+          "type": "question",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-043",
+          "en": "Please stop and listen.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-044",
+          "en": "I need you to move back.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-045",
+          "en": "Do not touch my shelter.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-046",
+          "en": "That is not acceptable.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 2
+        },
+        {
+          "id": "rb-047",
+          "en": "I am tired and I need rest.",
+          "type": "feeling",
+          "domain": "refusal_boundary",
+          "complexity": 3
+        },
+        {
+          "id": "rb-048",
+          "en": "Do you hear me?",
+          "type": "repair",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-049",
+          "en": "I will not do that.",
+          "type": "statement",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-050",
+          "en": "Is this clear to you?",
+          "type": "repair",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        },
+        {
+          "id": "rb-005",
+          "en": "Please do not come closer.",
+          "type": "request",
+          "domain": "refusal_boundary",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "id": "what_questions",
+      "label": "What questions",
+      "phrases": [
+        {
+          "id": "wq-001",
+          "en": "What is this?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-002",
+          "en": "What is that?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-003",
+          "en": "What happened here?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-004",
+          "en": "What do you want?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-005",
+          "en": "What is in there?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-006",
+          "en": "What is that sound?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-007",
+          "en": "What is that smell?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-008",
+          "en": "What do you need?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-009",
+          "en": "What is happening?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-010",
+          "en": "What is that animal?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-011",
+          "en": "What is that plant?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-012",
+          "en": "What is that noise at night?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-013",
+          "en": "What do you have there?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-014",
+          "en": "What is this food?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-015",
+          "en": "What is that mark on your arm?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-016",
+          "en": "I do not know what this is.",
+          "type": "statement",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-017",
+          "en": "I do not know what that is.",
+          "type": "statement",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-018",
+          "en": "What is this liquid?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-019",
+          "en": "What happened to your hand?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-020",
+          "en": "What happened last night?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-021",
+          "en": "What is that thing called?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-022",
+          "en": "What is the name of this?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-023",
+          "en": "What do you see over there?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-024",
+          "en": "What is that light?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-025",
+          "en": "What is this tool for?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-026",
+          "en": "Something happened here.",
+          "type": "statement",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-027",
+          "en": "I want to know what this is.",
+          "type": "statement",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-028",
+          "en": "What is wrong with you?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-029",
+          "en": "What is wrong with this?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-030",
+          "en": "What do you want me to do?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-031",
+          "en": "I do not understand what you want.",
+          "type": "repair",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-032",
+          "en": "What is that over the water?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-033",
+          "en": "What did you find?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-034",
+          "en": "What did you eat?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wq-035",
+          "en": "What is safe to eat here?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-036",
+          "en": "I am not sure what that is.",
+          "type": "feeling",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-037",
+          "en": "What is that on the ground?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-039",
+          "en": "What is that dark shape?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-040",
+          "en": "I want to know what happened.",
+          "type": "statement",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-041",
+          "en": "What is this white powder?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-042",
+          "en": "What is that structure?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-043",
+          "en": "What is in this bag?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-044",
+          "en": "I feel afraid and I do not know what is there.",
+          "type": "feeling",
+          "domain": "what_questions",
+          "complexity": 3
+        },
+        {
+          "id": "wq-045",
+          "en": "What do you want to show me?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-046",
+          "en": "What is that color in the sky?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-047",
+          "en": "Please show me what you mean.",
+          "type": "request",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-048",
+          "en": "I see something and I do not know what it is.",
+          "type": "statement",
+          "domain": "what_questions",
+          "complexity": 3
+        },
+        {
+          "id": "wq-049",
+          "en": "What is this word?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-050",
+          "en": "What do you call this thing?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wq-002",
+          "en": "What is that thing over there?",
+          "type": "question",
+          "domain": "what_questions",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "who_questions",
+      "label": "Who questions",
+      "phrases": [
+        {
+          "id": "hq-001",
+          "en": "Who are you?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-002",
+          "en": "Who is that person?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-003",
+          "en": "Who is hurt?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-004",
+          "en": "Who needs water?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-005",
+          "en": "I do not know you.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-006",
+          "en": "Who is the child?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-007",
+          "en": "That person is a stranger to me.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-008",
+          "en": "Who is sleeping over there?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-009",
+          "en": "I am a stranger here.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-010",
+          "en": "Who needs food now?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-011",
+          "en": "Who is the old person?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-013",
+          "en": "Who is crying?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-014",
+          "en": "Who is with you?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-015",
+          "en": "I do not recognize that person.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-016",
+          "en": "Who is sick?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-017",
+          "en": "Who can carry this?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-018",
+          "en": "I feel afraid of that person.",
+          "type": "feeling",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-019",
+          "en": "Who is making that sound?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-020",
+          "en": "That person is alone and looks lost.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 3
+        },
+        {
+          "id": "hq-021",
+          "en": "Who is in danger?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-023",
+          "en": "Who is the leader here?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-024",
+          "en": "Please tell me who you are.",
+          "type": "request",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-025",
+          "en": "Who is bleeding?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-026",
+          "en": "I am confused about who is here.",
+          "type": "feeling",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-027",
+          "en": "Who is that woman?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-028",
+          "en": "Who is that man?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-029",
+          "en": "Point to who needs help.",
+          "type": "request",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-030",
+          "en": "Who was here before us?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-031",
+          "en": "I do not understand who that is.",
+          "type": "repair",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-032",
+          "en": "That person is cold and shaking.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 3
+        },
+        {
+          "id": "hq-033",
+          "en": "Who is coming toward us?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-034",
+          "en": "Show me who needs medicine.",
+          "type": "request",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-035",
+          "en": "I feel uneasy about that person.",
+          "type": "feeling",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-036",
+          "en": "Who is the youngest person here?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-037",
+          "en": "That person is watching us.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-038",
+          "en": "Who is not eating?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-039",
+          "en": "I want to know who you are.",
+          "type": "request",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-040",
+          "en": "Who is standing guard tonight?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-041",
+          "en": "That person is not moving.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-042",
+          "en": "Who is missing?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-043",
+          "en": "Tell me your name if you can.",
+          "type": "request",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-044",
+          "en": "I feel glad you are here.",
+          "type": "feeling",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-045",
+          "en": "Who is the strongest person here?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-046",
+          "en": "That person is a friend or an enemy.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 3
+        },
+        {
+          "id": "hq-047",
+          "en": "Show me who you are.",
+          "type": "request",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-048",
+          "en": "I did not understand who you meant.",
+          "type": "repair",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-049",
+          "en": "Who is able to walk?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 1
+        },
+        {
+          "id": "hq-050",
+          "en": "That person is hurt and needs us.",
+          "type": "statement",
+          "domain": "who_questions",
+          "complexity": 3
+        },
+        {
+          "id": "hq-002",
+          "en": "Who is that person over there?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        },
+        {
+          "id": "hq-003",
+          "en": "Who needs help right now?",
+          "type": "question",
+          "domain": "who_questions",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "where_questions",
+      "label": "Where questions",
+      "phrases": [
+        {
+          "id": "wh-001",
+          "en": "Where is the water?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-002",
+          "en": "Where are we?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-003",
+          "en": "Where is the food?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-004",
+          "en": "The water is there.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-005",
+          "en": "The water is far away.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-006",
+          "en": "Which way do we go?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-007",
+          "en": "I do not know where we are.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-008",
+          "en": "Where is the shelter?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-009",
+          "en": "We are near the trees.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-010",
+          "en": "The shelter is over there.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-011",
+          "en": "Where is the other person?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-012",
+          "en": "I am here.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-013",
+          "en": "You are there.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-014",
+          "en": "The fire is close to us.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-015",
+          "en": "Where is the fire?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-016",
+          "en": "Is the water near here?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-017",
+          "en": "The river is below us.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-018",
+          "en": "We should go that way.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-019",
+          "en": "Where did you sleep?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-020",
+          "en": "I slept near the big rock.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-021",
+          "en": "Point to where the water is.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-022",
+          "en": "The path goes to the left.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-023",
+          "en": "Is the village far from here?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-024",
+          "en": "I feel lost.",
+          "type": "feeling",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-025",
+          "en": "Where is the path?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-026",
+          "en": "The path is behind those trees.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-027",
+          "en": "Show me where the food is.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-028",
+          "en": "We are far from people.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-029",
+          "en": "I am scared of this place.",
+          "type": "feeling",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-030",
+          "en": "Where is the high ground?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-031",
+          "en": "The high ground is that way.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-032",
+          "en": "Let us go toward the light.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-033",
+          "en": "Is there water in that direction?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-034",
+          "en": "I do not see the path.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-035",
+          "en": "Stay here and wait for me.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-036",
+          "en": "Where is the old person?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-037",
+          "en": "The old person is near the water.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-038",
+          "en": "I am not sure which way.",
+          "type": "repair",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-039",
+          "en": "The sun is in that direction.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-040",
+          "en": "We came from over there.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-041",
+          "en": "Can you see water from here?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-042",
+          "en": "The water and the food are there.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 3
+        },
+        {
+          "id": "wh-043",
+          "en": "I am relieved to find water.",
+          "type": "feeling",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-044",
+          "en": "Where is the child?",
+          "type": "question",
+          "domain": "where_questions",
+          "complexity": 1
+        },
+        {
+          "id": "wh-045",
+          "en": "The child is near the big tree.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-046",
+          "en": "Come here and look at this.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-047",
+          "en": "I meant that place, not this one.",
+          "type": "repair",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-048",
+          "en": "I am worried and I feel lost.",
+          "type": "feeling",
+          "domain": "where_questions",
+          "complexity": 3
+        },
+        {
+          "id": "wh-049",
+          "en": "The dry land is to the right.",
+          "type": "statement",
+          "domain": "where_questions",
+          "complexity": 2
+        },
+        {
+          "id": "wh-050",
+          "en": "We go left and then up.",
+          "type": "request",
+          "domain": "where_questions",
+          "complexity": 3
+        }
+      ]
+    },
+    {
+      "id": "when_questions",
+      "label": "When questions",
+      "phrases": [
+        {
+          "id": "tn-001",
+          "en": "Is it time to eat now?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-002",
+          "en": "We should leave soon.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-003",
+          "en": "When do we go?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-004",
+          "en": "I am ready now.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-005",
+          "en": "We will eat later.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-006",
+          "en": "Is it time to sleep?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-007",
+          "en": "We must go before dark.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-008",
+          "en": "Wait here for now.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-009",
+          "en": "After the rain, we can move.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-010",
+          "en": "Is it morning or night now?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-011",
+          "en": "I will return soon.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-012",
+          "en": "When will the rain stop?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-013",
+          "en": "Not now, later.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-014",
+          "en": "We should rest before we walk.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-015",
+          "en": "Is it time to go now?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-016",
+          "en": "I feel tired now.",
+          "type": "feeling",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-017",
+          "en": "We can talk later.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-018",
+          "en": "Before we sleep, we need water.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-019",
+          "en": "When does the sun rise here?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-020",
+          "en": "Let us eat now.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-021",
+          "en": "I was afraid before, not now.",
+          "type": "feeling",
+          "domain": "when_questions",
+          "complexity": 3
+        },
+        {
+          "id": "tn-022",
+          "en": "After we eat, we can rest.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-023",
+          "en": "Is it too late to move?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-024",
+          "en": "We should do this now.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-025",
+          "en": "When did you last drink water?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-026",
+          "en": "The fire was burning before.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-027",
+          "en": "I feel better now.",
+          "type": "feeling",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-028",
+          "en": "We will find food soon.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-029",
+          "en": "Can we leave after the rain?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-030",
+          "en": "Not yet, wait a little more.",
+          "type": "repair",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-031",
+          "en": "Before dark, we need shelter.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-032",
+          "en": "I will help you later.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-033",
+          "en": "When will it be light again?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-034",
+          "en": "We move now and rest later.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 3
+        },
+        {
+          "id": "tn-035",
+          "en": "After you sleep, I will watch.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-036",
+          "en": "I was not ready before.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-037",
+          "en": "Is it safe to go now?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-038",
+          "en": "I feel hungry now.",
+          "type": "feeling",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-039",
+          "en": "We should eat before we walk.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-040",
+          "en": "Soon the sun will go down.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-041",
+          "en": "Did you sleep before?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-042",
+          "en": "I mean later, not right now.",
+          "type": "repair",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-043",
+          "en": "After I rest, I will help.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 2
+        },
+        {
+          "id": "tn-044",
+          "en": "When will the water come back?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-045",
+          "en": "I felt safe before, not now.",
+          "type": "feeling",
+          "domain": "when_questions",
+          "complexity": 3
+        },
+        {
+          "id": "tn-046",
+          "en": "Let us decide later, not now.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 3
+        },
+        {
+          "id": "tn-047",
+          "en": "The noise stopped just now.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-048",
+          "en": "Is it still night?",
+          "type": "question",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-049",
+          "en": "We can try again soon.",
+          "type": "statement",
+          "domain": "when_questions",
+          "complexity": 1
+        },
+        {
+          "id": "tn-050",
+          "en": "Before we go, drink some water.",
+          "type": "request",
+          "domain": "when_questions",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "direction_motion",
+      "label": "Direction & motion",
+      "phrases": [
+        {
+          "id": "dm-001",
+          "en": "Come here.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-002",
+          "en": "Stay here.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-003",
+          "en": "Go there.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-004",
+          "en": "Wait for me.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-005",
+          "en": "Follow me.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-007",
+          "en": "I am leaving now.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-008",
+          "en": "You must stay here.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-009",
+          "en": "I will wait here.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-010",
+          "en": "Move away from there.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-011",
+          "en": "Are you coming with me?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-012",
+          "en": "I am going to the water.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-013",
+          "en": "Please wait for me here.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-014",
+          "en": "Do not enter that place.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-015",
+          "en": "I will follow you.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-016",
+          "en": "We can go together.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-017",
+          "en": "You are moving too fast.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-018",
+          "en": "I feel afraid to go there.",
+          "type": "feeling",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-019",
+          "en": "Are you staying or leaving?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-020",
+          "en": "Move slowly and carefully.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-021",
+          "en": "I do not want to go alone.",
+          "type": "feeling",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-022",
+          "en": "Come with me now.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-023",
+          "en": "I entered the shelter.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-024",
+          "en": "You can enter here.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-025",
+          "en": "I am going and coming back.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-026",
+          "en": "Do you want to follow me?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-027",
+          "en": "I will stay and wait here.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-028",
+          "en": "We must leave this place.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-029",
+          "en": "That direction is not safe.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-030",
+          "en": "I am scared and I want to stay.",
+          "type": "feeling",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-031",
+          "en": "Can you come back soon?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-032",
+          "en": "Do not leave me alone.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-033",
+          "en": "I will go and you stay.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-034",
+          "en": "Move closer to the fire.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-035",
+          "en": "Are you going to come back?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-036",
+          "en": "I did not follow you on purpose.",
+          "type": "repair",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-037",
+          "en": "Wait here until I return.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-038",
+          "en": "I feel relieved that you came back.",
+          "type": "feeling",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-039",
+          "en": "Do not move from that spot.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-040",
+          "en": "I am coming back soon.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-041",
+          "en": "You left and I was alone.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-042",
+          "en": "Can I enter this space?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-043",
+          "en": "I meant to go the other way.",
+          "type": "repair",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-044",
+          "en": "We should move together.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-045",
+          "en": "Is someone coming toward us?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 1
+        },
+        {
+          "id": "dm-046",
+          "en": "I feel tired but I must keep moving.",
+          "type": "feeling",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-047",
+          "en": "Do not follow that animal.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-048",
+          "en": "You went the wrong direction.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-049",
+          "en": "Are we moving toward the water?",
+          "type": "question",
+          "domain": "direction_motion",
+          "complexity": 2
+        },
+        {
+          "id": "dm-050",
+          "en": "I stayed and waited for a long time.",
+          "type": "statement",
+          "domain": "direction_motion",
+          "complexity": 3
+        },
+        {
+          "id": "dm-002",
+          "en": "Stay where you are.",
+          "type": "request",
+          "domain": "direction_motion",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "id": "possession_trade",
+      "label": "Possession & trade",
+      "phrases": [
+        {
+          "id": "pt-001",
+          "en": "I have food.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-002",
+          "en": "Do you have water?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-003",
+          "en": "Take this.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-004",
+          "en": "Give me that.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-006",
+          "en": "I will return this to you.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-007",
+          "en": "Can I borrow that tool?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-008",
+          "en": "This belongs to me.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-009",
+          "en": "I give you this cloth.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-010",
+          "en": "Do you have more of this?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-011",
+          "en": "I have no fire.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-012",
+          "en": "Take some of my food.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-013",
+          "en": "I feel glad to share.",
+          "type": "feeling",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-014",
+          "en": "This is yours now.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-015",
+          "en": "Can we exchange these things?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-016",
+          "en": "I will give you this rope.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-018",
+          "en": "I have a knife and a rope.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-019",
+          "en": "Do you want to share this?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-020",
+          "en": "I borrowed this from you.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-021",
+          "en": "Here, take this piece.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-022",
+          "en": "I do not have enough water.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-023",
+          "en": "I feel uneasy taking your food.",
+          "type": "feeling",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-024",
+          "en": "You can keep this.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-026",
+          "en": "I have water and you have food.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-027",
+          "en": "Let us share everything equally.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-028",
+          "en": "Can I take one of those?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-029",
+          "en": "I will return your container soon.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-030",
+          "en": "I feel good giving this to you.",
+          "type": "feeling",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-031",
+          "en": "Do not take that.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-032",
+          "en": "I have a small amount of this.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-033",
+          "en": "Give me the large piece and take the small one.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-034",
+          "en": "Did you take my container?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-035",
+          "en": "I want to exchange this for that.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-036",
+          "en": "This is not mine.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 1
+        },
+        {
+          "id": "pt-037",
+          "en": "I feel worried that I have too little.",
+          "type": "feeling",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-038",
+          "en": "Can you give me a little water?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-039",
+          "en": "I will share my shelter with you.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-040",
+          "en": "Take this and give me that one.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-041",
+          "en": "I gave you that already.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-042",
+          "en": "Do you have a container I can borrow?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-043",
+          "en": "I am sorry, I took the wrong thing.",
+          "type": "repair",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-044",
+          "en": "We each have enough food now.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-045",
+          "en": "I feel relieved that we can share.",
+          "type": "feeling",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-046",
+          "en": "Please return that to me.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-047",
+          "en": "I think I took yours by mistake.",
+          "type": "repair",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-048",
+          "en": "Is there more food somewhere?",
+          "type": "question",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-049",
+          "en": "I have fire and wood.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-050",
+          "en": "You can borrow this but please return it.",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 3
+        },
+        {
+          "id": "pt-001",
+          "en": "I have some food here.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-004",
+          "en": "I will give you some of this.",
+          "type": "statement",
+          "domain": "possession_trade",
+          "complexity": 2
+        },
+        {
+          "id": "pt-005",
+          "en": "Can we share this food?",
+          "type": "request",
+          "domain": "possession_trade",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "id": "food_eating",
+      "label": "Food & eating",
+      "phrases": [
+        {
+          "id": "fe-003",
+          "en": "This food is good.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-005",
+          "en": "I am full.",
+          "type": "feeling",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-006",
+          "en": "This tastes bad.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-007",
+          "en": "We must cook this meat.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-008",
+          "en": "That plant is poison.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-010",
+          "en": "This meat is raw.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-011",
+          "en": "I will cook the food.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-012",
+          "en": "Can you eat this?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-013",
+          "en": "I am very hungry.",
+          "type": "feeling",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-014",
+          "en": "This water is clean.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-015",
+          "en": "That fruit is not safe.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-016",
+          "en": "Please eat something.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-017",
+          "en": "I will share this food.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-018",
+          "en": "Is this safe to eat?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-019",
+          "en": "This tastes very good.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-020",
+          "en": "I cannot eat raw fish.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-021",
+          "en": "We need to find water.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-022",
+          "en": "Do you want more food?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-023",
+          "en": "I am not full yet.",
+          "type": "feeling",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-024",
+          "en": "This smell is bad.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-025",
+          "en": "Cook it over the fire.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-028",
+          "en": "This food is still raw.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-029",
+          "en": "I do not eat that animal.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-030",
+          "en": "That berry made me sick.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-031",
+          "en": "We can eat this together.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-032",
+          "en": "Is that water drinkable?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-033",
+          "en": "I am hungry and thirsty.",
+          "type": "feeling",
+          "domain": "food_eating",
+          "complexity": 3
+        },
+        {
+          "id": "fe-034",
+          "en": "This food is cooked enough.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-035",
+          "en": "Do not touch that plant.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-036",
+          "en": "I will boil the water.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-037",
+          "en": "This has a strange taste.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-038",
+          "en": "Take this food, please.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-039",
+          "en": "Did you eat today?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-040",
+          "en": "I am full and satisfied.",
+          "type": "feeling",
+          "domain": "food_eating",
+          "complexity": 3
+        },
+        {
+          "id": "fe-041",
+          "en": "That food is rotten.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-042",
+          "en": "We have very little food.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-043",
+          "en": "I tasted it and it is safe.",
+          "type": "repair",
+          "domain": "food_eating",
+          "complexity": 3
+        },
+        {
+          "id": "fe-044",
+          "en": "Do not eat that red berry.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-045",
+          "en": "This root is good to eat.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-046",
+          "en": "Can we cook this together?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-047",
+          "en": "I do not know this food.",
+          "type": "repair",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-048",
+          "en": "This meat smells bad.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 1
+        },
+        {
+          "id": "fe-003",
+          "en": "This food tastes good.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-004",
+          "en": "I am full now.",
+          "type": "feeling",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-005",
+          "en": "That food may be poison.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-007",
+          "en": "This meat is still raw.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-008",
+          "en": "We must cook this first.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-009",
+          "en": "Do you want to eat now?",
+          "type": "question",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-011",
+          "en": "Please drink some water.",
+          "type": "request",
+          "domain": "food_eating",
+          "complexity": 2
+        },
+        {
+          "id": "fe-012",
+          "en": "This tastes very bad.",
+          "type": "statement",
+          "domain": "food_eating",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "weather_environment",
+      "label": "Weather & environment",
+      "phrases": [
+        {
+          "id": "we-001",
+          "en": "It is raining.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-002",
+          "en": "The night is very cold.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-004",
+          "en": "It is dark here.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-005",
+          "en": "The wind is strong.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-006",
+          "en": "The sun is gone.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-007",
+          "en": "Is it going to rain more?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-009",
+          "en": "The storm is coming closer.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-010",
+          "en": "Please help me make fire.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-011",
+          "en": "I am cold and wet.",
+          "type": "feeling",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-012",
+          "en": "The rain is very heavy.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-013",
+          "en": "Is the storm dangerous?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-014",
+          "en": "We must stay near the fire.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-015",
+          "en": "The wind is getting stronger.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-016",
+          "en": "Do you see the dark clouds?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-017",
+          "en": "The fire is going out.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-018",
+          "en": "I am afraid of the storm.",
+          "type": "feeling",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-019",
+          "en": "We need dry wood for fire.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-020",
+          "en": "The sun will come tomorrow.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-021",
+          "en": "Is the rain stopping?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-022",
+          "en": "It is too dark to move.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-023",
+          "en": "The ground is wet and cold.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-024",
+          "en": "Come closer to the fire.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-025",
+          "en": "The sky is very dark.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-026",
+          "en": "Is it cold where you are?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-027",
+          "en": "The storm is loud and strong.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-028",
+          "en": "I feel the cold wind.",
+          "type": "feeling",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-029",
+          "en": "We must not let the fire die.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-030",
+          "en": "The rain stopped.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-031",
+          "en": "Is the sun coming up?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-032",
+          "en": "I do not understand the weather here.",
+          "type": "repair",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-033",
+          "en": "The air is cold and wet.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-034",
+          "en": "Please move away from the wind.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-035",
+          "en": "The fire gives us warmth.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-036",
+          "en": "Is it safe to go outside now?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-037",
+          "en": "I am very cold tonight.",
+          "type": "feeling",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-038",
+          "en": "The storm passed.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-039",
+          "en": "Can you see the sun?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-040",
+          "en": "The wind is cold and sharp.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-041",
+          "en": "We need shelter from the rain.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-042",
+          "en": "I do not know this word.",
+          "type": "repair",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-043",
+          "en": "The night is long and cold.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-044",
+          "en": "Is the wind stopping?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-045",
+          "en": "I feel better near the fire.",
+          "type": "feeling",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-046",
+          "en": "The sun is warm today.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-047",
+          "en": "Give me wood for the fire.",
+          "type": "request",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-048",
+          "en": "Are those storm clouds?",
+          "type": "question",
+          "domain": "weather_environment",
+          "complexity": 1
+        },
+        {
+          "id": "we-049",
+          "en": "The darkness is frightening to me.",
+          "type": "feeling",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-050",
+          "en": "The rain and wind came together.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 3
+        },
+        {
+          "id": "we-001",
+          "en": "It is raining very hard now.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        },
+        {
+          "id": "we-002",
+          "en": "The night will be very cold.",
+          "type": "statement",
+          "domain": "weather_environment",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "body_health",
+      "label": "Body & health",
+      "phrases": [
+        {
+          "id": "bh-003",
+          "en": "I cannot sleep.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-004",
+          "en": "I feel strong today.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-005",
+          "en": "Are you sick?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-006",
+          "en": "My leg hurts.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-009",
+          "en": "Please breathe slowly.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-010",
+          "en": "I cannot breathe well.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-011",
+          "en": "Are you well?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-012",
+          "en": "My arm is hurt.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-013",
+          "en": "I slept a little.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-014",
+          "en": "I did not sleep.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-015",
+          "en": "You look very tired.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-016",
+          "en": "My stomach hurts badly.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-018",
+          "en": "Can you walk?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-020",
+          "en": "Please let me sleep.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-021",
+          "en": "My back hurts a lot.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-023",
+          "en": "I am not sick.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-024",
+          "en": "You should rest now.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-025",
+          "en": "Does your hand hurt?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-026",
+          "en": "I am strong enough.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-027",
+          "en": "I need to breathe fresh air.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-028",
+          "en": "My eyes are very heavy.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-029",
+          "en": "I cannot stand up.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-030",
+          "en": "Are you breathing well?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-031",
+          "en": "My foot is swollen.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-032",
+          "en": "I feel weak and sick.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-033",
+          "en": "This person needs rest.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-034",
+          "en": "I slept and feel better.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-035",
+          "en": "Do you feel pain?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-036",
+          "en": "I mean I am unwell.",
+          "type": "repair",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-037",
+          "en": "My chest feels tight.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-038",
+          "en": "I am not strong today.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-039",
+          "en": "Can you breathe deeply?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-040",
+          "en": "My body is very sore.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-041",
+          "en": "I need more sleep.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-042",
+          "en": "The old person is sick.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-043",
+          "en": "I said sick, not tired.",
+          "type": "repair",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-044",
+          "en": "Are you tired or sick?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-045",
+          "en": "I feel pain in my side.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-046",
+          "en": "Please carry this for me.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-047",
+          "en": "I am well and strong.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-048",
+          "en": "My knee cannot bend.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-049",
+          "en": "Is the child well?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-050",
+          "en": "I am tired but not sick.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-001",
+          "en": "I am very tired.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-005",
+          "en": "I feel weak and cold.",
+          "type": "feeling",
+          "domain": "body_health",
+          "complexity": 3
+        },
+        {
+          "id": "bh-006",
+          "en": "My leg is hurting.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-007",
+          "en": "I need to sleep now.",
+          "type": "request",
+          "domain": "body_health",
+          "complexity": 2
+        },
+        {
+          "id": "bh-008",
+          "en": "Can you breathe normally?",
+          "type": "question",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-010",
+          "en": "My arm is injured.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 1
+        },
+        {
+          "id": "bh-011",
+          "en": "I could not sleep last night.",
+          "type": "statement",
+          "domain": "body_health",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "family_children",
+      "label": "Family & children",
+      "phrases": [
+        {
+          "id": "fa-001",
+          "en": "The baby is crying.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-002",
+          "en": "My child is missing.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-003",
+          "en": "Is your mother here?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-004",
+          "en": "The old person needs help.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-005",
+          "en": "My baby is very hungry.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-006",
+          "en": "Is the child safe?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-007",
+          "en": "I am looking for my father.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-008",
+          "en": "My mother is sick.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-009",
+          "en": "Please hold the baby.",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-010",
+          "en": "I am worried about my child.",
+          "type": "feeling",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-011",
+          "en": "The child is sleeping.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-012",
+          "en": "Do you have children?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-013",
+          "en": "My family is not here.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-014",
+          "en": "The baby needs water.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-015",
+          "en": "I miss my family.",
+          "type": "feeling",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-016",
+          "en": "Is the old person eating?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-017",
+          "en": "Please watch the child.",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-018",
+          "en": "My father is very weak.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-019",
+          "en": "The child is cold and scared.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 3
+        },
+        {
+          "id": "fa-020",
+          "en": "Can you help the old person?",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-021",
+          "en": "The baby is not breathing well.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-022",
+          "en": "Is your father alive?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-023",
+          "en": "I am the mother of this child.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-024",
+          "en": "The old person cannot walk far.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-025",
+          "en": "I feel afraid for my baby.",
+          "type": "feeling",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-026",
+          "en": "Do you have a mother here?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-027",
+          "en": "Give food to the child first.",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-028",
+          "en": "My child is very small.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-029",
+          "en": "The baby is sleeping now.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-030",
+          "en": "I do not understand you.",
+          "type": "repair",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-031",
+          "en": "Is this child your child?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-032",
+          "en": "My mother is old and tired.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 3
+        },
+        {
+          "id": "fa-033",
+          "en": "Please stay near the child.",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-034",
+          "en": "I am the father.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-035",
+          "en": "The child is hurt.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-036",
+          "en": "Are you the mother?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-037",
+          "en": "I feel sad without my family.",
+          "type": "feeling",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-038",
+          "en": "The old person is in pain.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-039",
+          "en": "Can I carry the baby?",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-040",
+          "en": "My child is not eating.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-041",
+          "en": "Please say that again slowly.",
+          "type": "repair",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-042",
+          "en": "The family is separated.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-043",
+          "en": "Is the baby a girl or boy?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-044",
+          "en": "The child is tired and hungry.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 3
+        },
+        {
+          "id": "fa-045",
+          "en": "I need to find my mother.",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-046",
+          "en": "I feel alone without my child.",
+          "type": "feeling",
+          "domain": "family_children",
+          "complexity": 2
+        },
+        {
+          "id": "fa-047",
+          "en": "The old person needs rest.",
+          "type": "statement",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-048",
+          "en": "Is your family near here?",
+          "type": "question",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-049",
+          "en": "I am frightened for my family.",
+          "type": "feeling",
+          "domain": "family_children",
+          "complexity": 1
+        },
+        {
+          "id": "fa-050",
+          "en": "The child needs warmth and food.",
+          "type": "request",
+          "domain": "family_children",
+          "complexity": 3
+        }
+      ]
+    },
+    {
+      "id": "repair_clarify",
+      "label": "Repair & clarification",
+      "phrases": [
+        {
+          "id": "rc-001",
+          "en": "I do not understand.",
+          "type": "feeling",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-002",
+          "en": "Say that again.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-003",
+          "en": "Please speak more slowly.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-004",
+          "en": "Do you mean this one?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-005",
+          "en": "That is wrong.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-006",
+          "en": "Point to what you mean.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-007",
+          "en": "I did not hear you.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-009",
+          "en": "Please repeat that.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-010",
+          "en": "I understood you wrongly.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-011",
+          "en": "Can you show me again?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-012",
+          "en": "That is not what I meant.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-013",
+          "en": "Do you mean that thing?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-014",
+          "en": "I am confused.",
+          "type": "feeling",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-015",
+          "en": "Please say it one more time.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-017",
+          "en": "Point to it again.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-018",
+          "en": "Is this what you mean?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-019",
+          "en": "No, that is not right.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-020",
+          "en": "I will say it again.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-021",
+          "en": "Do you mean the big one?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-022",
+          "en": "Please speak slowly and clearly.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-024",
+          "en": "Did I do that wrong?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-025",
+          "en": "You spoke too fast.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-026",
+          "en": "I am lost and confused.",
+          "type": "feeling",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-027",
+          "en": "Please point to it slowly.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-028",
+          "en": "Do you mean this or that?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-029",
+          "en": "That word is not clear to me.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-030",
+          "en": "I do not understand this signal.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-031",
+          "en": "Let me try again.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-032",
+          "en": "Is that the wrong place?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-033",
+          "en": "I think I understand now.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-034",
+          "en": "Please do that one more time.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-035",
+          "en": "I was wrong about that.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-036",
+          "en": "Do you understand this sign?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-037",
+          "en": "I feel unsure and uncertain.",
+          "type": "feeling",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-038",
+          "en": "That is not what I wanted.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-039",
+          "en": "Can you point more clearly?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-040",
+          "en": "Please show me the correct one.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-041",
+          "en": "I do not know that word.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-042",
+          "en": "Say the first part again.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-043",
+          "en": "Did you mean the small one?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-044",
+          "en": "I understand a little now.",
+          "type": "feeling",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-045",
+          "en": "That action was not correct.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-046",
+          "en": "I do not understand and I am sorry.",
+          "type": "repair",
+          "domain": "repair_clarify",
+          "complexity": 3
+        },
+        {
+          "id": "rc-047",
+          "en": "Please slow down and repeat.",
+          "type": "repair",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-048",
+          "en": "I was wrong and I will try again.",
+          "type": "repair",
+          "domain": "repair_clarify",
+          "complexity": 3
+        },
+        {
+          "id": "rc-049",
+          "en": "We do not understand each other yet.",
+          "type": "repair",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-050",
+          "en": "Let us start that part again.",
+          "type": "repair",
+          "domain": "repair_clarify",
+          "complexity": 2
+        },
+        {
+          "id": "rc-001",
+          "en": "I did not understand that.",
+          "type": "statement",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-002",
+          "en": "Can you say that again?",
+          "type": "question",
+          "domain": "repair_clarify",
+          "complexity": 1
+        },
+        {
+          "id": "rc-003",
+          "en": "Please repeat the last part.",
+          "type": "request",
+          "domain": "repair_clarify",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "id": "plans_intent",
+      "label": "Plans & intent",
+      "phrases": [
+        {
+          "id": "pl-001",
+          "en": "I want to leave this place.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-002",
+          "en": "We will rest here tonight.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-003",
+          "en": "Can you help me carry this?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-004",
+          "en": "Maybe we can find water tomorrow.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-005",
+          "en": "I will try to start a fire.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-006",
+          "en": "Do you want to move now?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-007",
+          "en": "I hope someone finds us soon.",
+          "type": "feeling",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-008",
+          "en": "We can sleep here and leave at light.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 3
+        },
+        {
+          "id": "pl-009",
+          "en": "I plan to go up that hill.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-010",
+          "en": "Can you try to climb that tree?",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-011",
+          "en": "Maybe tomorrow will be better.",
+          "type": "feeling",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-012",
+          "en": "I want food and I want rest.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 3
+        },
+        {
+          "id": "pl-013",
+          "en": "Will you stay here with me?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-014",
+          "en": "I can carry that for you.",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-015",
+          "en": "We will try to find the path.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-016",
+          "en": "Do you plan to go that way?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-017",
+          "en": "I hope we find shelter before dark.",
+          "type": "feeling",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-018",
+          "en": "Maybe we should wait here.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-019",
+          "en": "I want to go toward the water.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-020",
+          "en": "Can we rest for a short time?",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-021",
+          "en": "I will not go there alone.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-022",
+          "en": "Do you want to come with me?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-023",
+          "en": "I think I can fix this.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-024",
+          "en": "We will need more wood for the fire.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-025",
+          "en": "Can you try to signal for help?",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-026",
+          "en": "I hope the rain stops soon.",
+          "type": "feeling",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-027",
+          "en": "Maybe we can share the work.",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-028",
+          "en": "I want to try a different path.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-029",
+          "en": "Will you watch while I sleep?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-030",
+          "en": "I plan to gather food in the morning.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-031",
+          "en": "Can you show me what you plan?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-032",
+          "en": "I will try and I will not stop.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 3
+        },
+        {
+          "id": "pl-033",
+          "en": "We can go together or stay here.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 3
+        },
+        {
+          "id": "pl-034",
+          "en": "I want to understand your plan.",
+          "type": "repair",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-035",
+          "en": "Maybe we can build a shelter today.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-037",
+          "en": "Can we make a plan together?",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-038",
+          "en": "I hope we can find each other again.",
+          "type": "feeling",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-039",
+          "en": "Will you try to find more food?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-040",
+          "en": "I want to rest and then move.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 3
+        },
+        {
+          "id": "pl-041",
+          "en": "Maybe that path leads to people.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-042",
+          "en": "I can try to make a signal.",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-043",
+          "en": "Do you want to stay or go?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 3
+        },
+        {
+          "id": "pl-044",
+          "en": "I will wait here for you.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-045",
+          "en": "We can try again tomorrow.",
+          "type": "repair",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-046",
+          "en": "I hope this is the right way.",
+          "type": "feeling",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-047",
+          "en": "Can you wait for me here?",
+          "type": "request",
+          "domain": "plans_intent",
+          "complexity": 1
+        },
+        {
+          "id": "pl-048",
+          "en": "I plan to watch through the night.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-049",
+          "en": "Maybe we can try a different way.",
+          "type": "repair",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-050",
+          "en": "Will we find people near the water?",
+          "type": "question",
+          "domain": "plans_intent",
+          "complexity": 2
+        },
+        {
+          "id": "pl-001",
+          "en": "I want to find higher ground.",
+          "type": "statement",
+          "domain": "plans_intent",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "id": "closure_gratitude",
+      "label": "Closure & gratitude",
+      "phrases": [
+        {
+          "id": "cg-002",
+          "en": "We are safe now.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-003",
+          "en": "That is enough for today.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-004",
+          "en": "Rest well.",
+          "type": "request",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-005",
+          "en": "I am grateful for your help.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-006",
+          "en": "We did enough today.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-007",
+          "en": "I will go now.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-008",
+          "en": "Sleep well tonight.",
+          "type": "request",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-009",
+          "en": "You helped me today.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-011",
+          "en": "We can stop now.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-012",
+          "en": "This day is finished.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-014",
+          "en": "Will you be here tomorrow?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-015",
+          "en": "I will see you again.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-016",
+          "en": "Please rest now.",
+          "type": "request",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-017",
+          "en": "The work is done.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-018",
+          "en": "We are both tired.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-019",
+          "en": "Are you ready to stop?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-020",
+          "en": "I feel peaceful now.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-021",
+          "en": "Thank you for staying with me.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-022",
+          "en": "We survived another day.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-023",
+          "en": "I am going to sleep now.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-025",
+          "en": "We have enough food and water.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-026",
+          "en": "Is this a good place to stop?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-028",
+          "en": "I am no longer afraid.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-029",
+          "en": "That was hard but we finished.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-031",
+          "en": "I will not forget your help.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-032",
+          "en": "We can rest and then continue.",
+          "type": "request",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-033",
+          "en": "Do you want to stop here?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-035",
+          "en": "This is a good place to sleep.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-036",
+          "en": "We worked well together today.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-037",
+          "en": "Did I understand you correctly?",
+          "type": "repair",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-038",
+          "en": "I am glad this day is over.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-039",
+          "en": "Let us not speak now.",
+          "type": "request",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-040",
+          "en": "You kept me warm and safe.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-041",
+          "en": "Are we finished for today?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-042",
+          "en": "I will stay near you tonight.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-043",
+          "en": "Please show me that again.",
+          "type": "repair",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-044",
+          "en": "We are both alive and well.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-045",
+          "en": "Thank you for the food today.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-046",
+          "en": "Is there more to do now?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-047",
+          "en": "I am ready to sleep.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-049",
+          "en": "I see you and I am grateful.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-050",
+          "en": "Tomorrow we continue together.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-001",
+          "en": "You were good to me today.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-003",
+          "en": "We can stop working now.",
+          "type": "request",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-004",
+          "en": "I feel calm and at peace.",
+          "type": "feeling",
+          "domain": "closure_gratitude",
+          "complexity": 3
+        },
+        {
+          "id": "cg-005",
+          "en": "This is enough for now.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-006",
+          "en": "You did not leave me alone.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-007",
+          "en": "Are you going to sleep now?",
+          "type": "question",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        },
+        {
+          "id": "cg-008",
+          "en": "I will come back to this place.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 2
+        },
+        {
+          "id": "cg-009",
+          "en": "We made it through this day.",
+          "type": "statement",
+          "domain": "closure_gratitude",
+          "complexity": 1
+        }
+      ]
+    }
+  ]
+}

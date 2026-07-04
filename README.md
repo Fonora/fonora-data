@@ -8,7 +8,9 @@ This repo holds growing JSON artifacts that do not belong in the main codebase:
 |------|---------|
 | `data/fonoran-llm-evaluations.json` | LLM Compositional Intuition Battery rounds (advisory; outcomes promoted in main repo `compounds.json`) |
 | `data/fonoran-playtests.json` | Human Puzzle Conversation playtest rounds |
-| `data/fonoran-translation-test-latest.json` | Translation regression snapshot for `/language#gaps` |
+| `data/fonoran-translation-test-latest.json` | Translation regression snapshot (viewed at `/tools#translation-test`) |
+| `data/fonoran-stranger-corpus.json` | 1,000-phrase two-stranger communication corpus for gap testing |
+| `data/fonoran-stranger-gap-report.json` | Gap frequency report from the stranger corpus |
 | `data/research-notes-store.json` | Optional metadata overlay for research notes (bodies live in main repo markdown) |
 
 ## Layout
@@ -20,6 +22,8 @@ fonora-data/
     fonoran-llm-evaluations.json
     fonoran-playtests.json
     fonoran-translation-test-latest.json
+    fonoran-stranger-corpus.json
+    fonoran-stranger-gap-report.json
     research-notes-store.json
 ```
 
@@ -28,13 +32,13 @@ fonora-data/
 Clone the main repo, then either:
 
 ```bash
-git submodule update --init   # vendor/fonora-data
+git submodule update --init   # external/fonora-data
 ```
 
 Or set in `.env`:
 
 ```
-FONORAN_DATA_DIR=vendor/fonora-data
+FONORAN_DATA_DIR=external/fonora-data
 ```
 
 The main repo pins this data via `data/fonora-data.manifest.json` (commit SHA or release tag).

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T16:13:57.527Z",
-  "corpus": "golden",
-  "corpus_version": "3.0",
+  "generated_at": "2026-07-04T14:40:57.667Z",
+  "corpus": "stranger",
+  "corpus_version": "1.0",
   "total_phrases": 1000,
   "clean_phrases": 892,
   "coverage_pct": 89,
@@ -187,7 +187,8 @@
         "I feel relieved to see you.",
         "I feel relieved.",
         "I am calm and relieved."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "maybe",
@@ -197,7 +198,8 @@
         "Maybe we can find water tomorrow.",
         "Maybe we should wait here.",
         "Maybe we can share the work."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "closer",
@@ -207,6 +209,15 @@
         "You can come closer.",
         "Do not come closer.",
         "Please do not come closer."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "person",
+          "fonoran": "ba",
+          "gloss": "a person; someone",
+          "reason": "hypernym:person",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -217,6 +228,22 @@
         "Please breathe slowly.",
         "I cannot breathe well.",
         "I need to breathe fresh air."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "air",
+          "fonoran": "ges",
+          "gloss": "the air we breathe",
+          "reason": "weak alias:breathe",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "rest",
+          "fonoran": "tinal",
+          "gloss": "rest",
+          "reason": "synonym:rest",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -227,7 +254,8 @@
         "We can sleep here tonight.",
         "I am very cold tonight.",
         "We will rest here tonight."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "mother",
@@ -237,7 +265,8 @@
         "Is your mother here?",
         "I am the mother of this child.",
         "Do you have a mother here?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "noise",
@@ -247,7 +276,8 @@
         "I heard a loud noise nearby.",
         "The noise stopped.",
         "The noise stopped just now."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "my mother",
@@ -257,7 +287,8 @@
         "My mother is sick.",
         "My mother is old and tired.",
         "I need to find my mother."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "shaking",
@@ -266,7 +297,8 @@
       "samples": [
         "I am shaking with fear.",
         "That person is cold and shaking."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "survived",
@@ -275,7 +307,8 @@
       "samples": [
         "We survived and I am grateful.",
         "We survived another day."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "side",
@@ -284,6 +317,36 @@
       "samples": [
         "Stay on your side.",
         "I feel pain in my side."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "front",
+          "fonoran": "cha",
+          "gloss": "forward; the front side; ahead",
+          "reason": "weak alias:side",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "place",
+          "fonoran": "che",
+          "gloss": "a spot or location",
+          "reason": "hypernym:place",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "cliff",
+          "fonoran": "sasju",
+          "gloss": "cliff",
+          "reason": "synonym:face",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "below",
+          "fonoran": "cheju",
+          "gloss": "below",
+          "reason": "synonym:position",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -293,7 +356,8 @@
       "samples": [
         "I feel uneasy about that person.",
         "I feel uneasy taking your food."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "direction",
@@ -302,6 +366,36 @@
       "samples": [
         "Is there water in that direction?",
         "You went the wrong direction."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "front",
+          "fonoran": "cha",
+          "gloss": "forward; the front side; ahead",
+          "reason": "weak alias:direction",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "thing",
+          "fonoran": "to",
+          "gloss": "any object or item",
+          "reason": "hypernym:thing",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "path",
+          "fonoran": "nan",
+          "gloss": "a way or route to travel along",
+          "reason": "synonym:way",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "focus",
+          "fonoran": "gatmet",
+          "gloss": "focus",
+          "reason": "synonym:focus",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -311,7 +405,8 @@
       "samples": [
         "That berry made me sick.",
         "Do not eat that red berry."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "hello",
@@ -319,7 +414,8 @@
       "role": "concept",
       "samples": [
         "Hello."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "friendly",
@@ -327,7 +423,8 @@
       "role": "event",
       "samples": [
         "I am friendly."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "like",
@@ -335,7 +432,8 @@
       "role": "object",
       "samples": [
         "Are you a person like me?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "pointing",
@@ -343,7 +441,8 @@
       "role": "event",
       "samples": [
         "I am pointing to myself."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "nervous",
@@ -351,7 +450,8 @@
       "role": "object",
       "samples": [
         "I feel nervous and unsure."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "very deep",
@@ -359,7 +459,8 @@
       "role": "modifier",
       "samples": [
         "This wound is very deep."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "a lot",
@@ -367,7 +468,8 @@
       "role": "object",
       "samples": [
         "My arm hurts a lot."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "swelling",
@@ -375,7 +477,8 @@
       "role": "subject",
       "samples": [
         "The swelling is getting larger."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "tracks",
@@ -383,7 +486,8 @@
       "role": "object",
       "samples": [
         "I see tracks on the ground."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "moving closer",
@@ -391,7 +495,8 @@
       "role": "modifier",
       "samples": [
         "The animal is moving closer."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "safety",
@@ -399,7 +504,8 @@
       "role": "modifier",
       "samples": [
         "Come with me to safety."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "any",
@@ -407,7 +513,8 @@
       "role": "object",
       "samples": [
         "Do you see any danger?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "safer",
@@ -415,7 +522,8 @@
       "role": "modifier",
       "samples": [
         "Can we go somewhere safer?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "seem",
@@ -423,6 +531,15 @@
       "role": "event",
       "samples": [
         "You seem angry."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "see",
+          "fonoran": "wi",
+          "gloss": "to see",
+          "reason": "synonym:look",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -431,7 +548,8 @@
       "role": "subject",
       "samples": [
         "Please do not be angry."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "anymore",
@@ -439,7 +557,8 @@
       "role": "object",
       "samples": [
         "I am not sad anymore."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "not your fault",
@@ -447,7 +566,8 @@
       "role": "modifier",
       "samples": [
         "That was not your fault."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "upset",
@@ -455,7 +575,8 @@
       "role": "event",
       "samples": [
         "Did I upset you?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "step",
@@ -463,6 +584,29 @@
       "role": "subject",
       "samples": [
         "Step back, please."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "move",
+          "fonoran": "gi",
+          "gloss": "to go from one place to another",
+          "reason": "hypernym:move",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "far",
+          "fonoran": "fet",
+          "gloss": "a long way off",
+          "reason": "hypernym:far",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "walk",
+          "fonoran": "tigi",
+          "gloss": "walk",
+          "reason": "synonym:pace",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -471,7 +615,8 @@
       "role": "object",
       "samples": [
         "I feel uncomfortable right now."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "this side",
@@ -479,7 +624,8 @@
       "role": "subject",
       "samples": [
         "This side is mine and that side is yours."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "agree",
@@ -487,6 +633,22 @@
       "role": "event",
       "samples": [
         "I do not agree."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "hold",
+          "fonoran": "gat",
+          "gloss": "to keep something in your grasp",
+          "reason": "synonym:hold",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "equal",
+          "fonoran": "homas",
+          "gloss": "equal",
+          "reason": "synonym:match",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -495,7 +657,8 @@
       "role": "modifier",
       "samples": [
         "That is not acceptable."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "clear",
@@ -503,6 +666,43 @@
       "role": "event",
       "samples": [
         "Is this clear to you?"
+      ],
+      "suggestions": [
+        {
+          "concept_id": "light",
+          "fonoran": "kek",
+          "gloss": "light; what lets you see",
+          "reason": "synonym:brighten",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "pass",
+          "fonoran": "felgi",
+          "gloss": "pass",
+          "reason": "synonym:pass",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "net",
+          "fonoran": "kamlek",
+          "gloss": "net",
+          "reason": "synonym:net",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "sack",
+          "fonoran": "nimes",
+          "gloss": "sack",
+          "reason": "synonym:sack",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "make",
+          "fonoran": "kel",
+          "gloss": "to make something",
+          "reason": "synonym:make",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -511,7 +711,8 @@
       "role": "modifier",
       "samples": [
         "What is this tool for?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "this white powder",
@@ -519,7 +720,8 @@
       "role": "modifier",
       "samples": [
         "What is this white powder?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "recognize",
@@ -527,6 +729,22 @@
       "role": "event",
       "samples": [
         "I do not recognize that person."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "know",
+          "fonoran": "hu",
+          "gloss": "to know something",
+          "reason": "synonym:know",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "place",
+          "fonoran": "che",
+          "gloss": "a spot or location",
+          "reason": "synonym:spot",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -535,7 +753,8 @@
       "role": "modifier",
       "samples": [
         "Who is standing guard tonight?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "in that direction",
@@ -543,7 +762,8 @@
       "role": "modifier",
       "samples": [
         "The sun is in that direction."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "right",
@@ -551,6 +771,29 @@
       "role": "modifier",
       "samples": [
         "The dry land is to the right."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "now",
+          "fonoran": "gem",
+          "gloss": "right now; this moment",
+          "reason": "weak alias:right",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "true",
+          "fonoran": "nat",
+          "gloss": "true; matches what's real",
+          "reason": "synonym:correct",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "good",
+          "fonoran": "gu",
+          "gloss": "good; works well or is wanted",
+          "reason": "synonym:good",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -559,6 +802,15 @@
       "role": "modifier",
       "samples": [
         "Let us decide later, not now."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "mediator",
+          "fonoran": "bapakas",
+          "gloss": "mediator",
+          "reason": "synonym:resolve",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -567,7 +819,8 @@
       "role": "object",
       "samples": [
         "The noise stopped just now."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "that direction",
@@ -575,7 +828,8 @@
       "role": "subject",
       "samples": [
         "That direction is not safe."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "until",
@@ -583,7 +837,8 @@
       "role": "modifier",
       "samples": [
         "Wait here until I return."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "equally",
@@ -591,7 +846,8 @@
       "role": "modifier",
       "samples": [
         "Let us share everything equally."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "amount",
@@ -599,6 +855,22 @@
       "role": "object",
       "samples": [
         "I have a small amount of this."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "more",
+          "fonoran": "mas",
+          "gloss": "a greater amount",
+          "reason": "weak alias:amount",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "collective",
+          "fonoran": "dan",
+          "gloss": "a group seen as one; togetherness",
+          "reason": "synonym:total",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -607,7 +879,8 @@
       "role": "event",
       "samples": [
         "We each have enough food now."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "strange",
@@ -615,7 +888,8 @@
       "role": "subject",
       "samples": [
         "This has a strange taste."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "satisfied",
@@ -623,7 +897,8 @@
       "role": "object",
       "samples": [
         "I am full and satisfied."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "raining",
@@ -631,7 +906,8 @@
       "role": "modifier",
       "samples": [
         "It is raining."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "coming closer",
@@ -639,7 +915,8 @@
       "role": "modifier",
       "samples": [
         "The storm is coming closer."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "getting stronger",
@@ -647,7 +924,8 @@
       "role": "modifier",
       "samples": [
         "The wind is getting stronger."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "going out",
@@ -655,7 +933,8 @@
       "role": "modifier",
       "samples": [
         "The fire is going out."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "badly",
@@ -663,7 +942,8 @@
       "role": "object",
       "samples": [
         "My stomach hurts badly."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "tight",
@@ -671,6 +951,29 @@
       "role": "modifier",
       "samples": [
         "My chest feels tight."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "meaning",
+          "fonoran": "kuwimalhu",
+          "gloss": "meaning",
+          "reason": "synonym:mean",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "close",
+          "fonoran": "meskel",
+          "gloss": "close",
+          "reason": "synonym:close",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "swamp",
+          "fonoran": "fenye",
+          "gloss": "swamp",
+          "reason": "synonym:wet",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -679,6 +982,15 @@
       "role": "object",
       "samples": [
         "Can you breathe deeply?"
+      ],
+      "suggestions": [
+        {
+          "concept_id": "love",
+          "fonoran": "san",
+          "gloss": "to deeply care for someone",
+          "reason": "weak alias:deeply",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -687,7 +999,8 @@
       "role": "modifier",
       "samples": [
         "My body is very sore."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "bend",
@@ -695,6 +1008,15 @@
       "role": "event",
       "samples": [
         "My knee cannot bend."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "turn",
+          "fonoran": "yicha",
+          "gloss": "turn",
+          "reason": "synonym:turn",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -703,7 +1025,8 @@
       "role": "object",
       "samples": [
         "Can you breathe normally?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "miss",
@@ -711,6 +1034,22 @@
       "role": "event",
       "samples": [
         "I miss my family."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "drop",
+          "fonoran": "juku",
+          "gloss": "drop",
+          "reason": "synonym:drop",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "dehydration",
+          "fonoran": "lesko",
+          "gloss": "dehydration",
+          "reason": "synonym:lack",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -719,7 +1058,8 @@
       "role": "event",
       "samples": [
         "Is the baby a girl or boy?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "boy",
@@ -727,6 +1067,15 @@
       "role": "object",
       "samples": [
         "Is the baby a girl or boy?"
+      ],
+      "suggestions": [
+        {
+          "concept_id": "child",
+          "fonoran": "bagen",
+          "gloss": "child",
+          "reason": "synonym:son",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -735,7 +1084,8 @@
       "role": "event",
       "samples": [
         "I am frightened for my family."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "wrongly",
@@ -743,7 +1093,8 @@
       "role": "modifier",
       "samples": [
         "I understood you wrongly."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "not right",
@@ -751,7 +1102,8 @@
       "role": "modifier",
       "samples": [
         "No, that is not right."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "uncertain",
@@ -759,6 +1111,15 @@
       "role": "modifier",
       "samples": [
         "I feel unsure and uncertain."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "doubt",
+          "fonoran": "metpa",
+          "gloss": "doubt",
+          "reason": "synonym:unsure",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -767,7 +1128,8 @@
       "role": "modifier",
       "samples": [
         "That is not what I wanted."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "slow",
@@ -775,7 +1137,8 @@
       "role": "event",
       "samples": [
         "Please slow down and repeat."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "gather",
@@ -783,7 +1146,8 @@
       "role": "object",
       "samples": [
         "I plan to gather food in the morning."
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "leads",
@@ -791,6 +1155,15 @@
       "role": "object",
       "samples": [
         "Maybe that path leads to people."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "front",
+          "fonoran": "cha",
+          "gloss": "forward; the front side; ahead",
+          "reason": "weak alias:leads",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -799,6 +1172,15 @@
       "role": "modifier",
       "samples": [
         "Maybe we can try a different way."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "same",
+          "fonoran": "ho",
+          "gloss": "the same; not different",
+          "reason": "weak alias:different",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -807,6 +1189,15 @@
       "role": "object",
       "samples": [
         "We survived another day."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "move",
+          "fonoran": "gi",
+          "gloss": "to go from one place to another",
+          "reason": "weak alias:another",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -815,6 +1206,36 @@
       "role": "modifier",
       "samples": [
         "That was hard but we finished."
+      ],
+      "suggestions": [
+        {
+          "concept_id": "stone",
+          "fonoran": "sas",
+          "gloss": "a hard rock",
+          "reason": "weak alias:hard",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "starvation",
+          "fonoran": "leslo",
+          "gloss": "starvation",
+          "reason": "synonym:severe",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "lever",
+          "fonoran": "gini",
+          "gloss": "lever",
+          "reason": "synonym:heavy",
+          "kind": "wordnet"
+        },
+        {
+          "concept_id": "strong",
+          "fonoran": "femgu",
+          "gloss": "strong",
+          "reason": "synonym:strong",
+          "kind": "wordnet"
+        }
       ]
     },
     {
@@ -823,7 +1244,8 @@
       "role": "modifier",
       "samples": [
         "Did I understand you correctly?"
-      ]
+      ],
+      "suggestions": []
     },
     {
       "word": "you tonight",
@@ -831,7 +1253,8 @@
       "role": "object",
       "samples": [
         "I will stay near you tonight."
-      ]
+      ],
+      "suggestions": []
     }
   ],
   "collapses": [

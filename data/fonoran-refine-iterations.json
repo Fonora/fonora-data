@@ -1,0 +1,1153 @@
+{
+  "version": "1.0",
+  "iterations": [
+    {
+      "iteration": 1,
+      "at": "2026-07-04T06:41:17.151Z",
+      "dry_run": false,
+      "skip_llm": true,
+      "report": {
+        "generated_at": "2026-07-04T06:41:17.149Z",
+        "corpus": "stranger",
+        "total_phrases": 1000,
+        "clean_phrases": 882,
+        "coverage_pct": 88,
+        "distinct_gaps": 85,
+        "quality": {
+          "tokens": {
+            "pass": 3684,
+            "soft": 0,
+            "hard": 127
+          },
+          "pass_phrases": 882,
+          "soft_phrases": 0,
+          "hard_phrases": 118
+        },
+        "levels": [
+          {
+            "level": 1,
+            "name": "First contact & identity",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 2,
+            "name": "Immediate needs",
+            "coverage": 98,
+            "unresolved_words": 1
+          },
+          {
+            "level": 3,
+            "name": "Pain & injury",
+            "coverage": 94,
+            "unresolved_words": 3
+          },
+          {
+            "level": 4,
+            "name": "Fear & danger",
+            "coverage": 84,
+            "unresolved_words": 8
+          },
+          {
+            "level": 5,
+            "name": "Basic emotions",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 6,
+            "name": "Social bond",
+            "coverage": 94,
+            "unresolved_words": 3
+          },
+          {
+            "level": 7,
+            "name": "Refusal & boundaries",
+            "coverage": 82,
+            "unresolved_words": 9
+          },
+          {
+            "level": 8,
+            "name": "What questions",
+            "coverage": 96,
+            "unresolved_words": 2
+          },
+          {
+            "level": 9,
+            "name": "Who questions",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 10,
+            "name": "Where questions",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 11,
+            "name": "When questions",
+            "coverage": 96,
+            "unresolved_words": 3
+          },
+          {
+            "level": 12,
+            "name": "Direction & motion",
+            "coverage": 88,
+            "unresolved_words": 6
+          },
+          {
+            "level": 13,
+            "name": "Possession & trade",
+            "coverage": 90,
+            "unresolved_words": 5
+          },
+          {
+            "level": 14,
+            "name": "Food & eating",
+            "coverage": 80,
+            "unresolved_words": 12
+          },
+          {
+            "level": 15,
+            "name": "Weather & environment",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 16,
+            "name": "Body & health",
+            "coverage": 80,
+            "unresolved_words": 12
+          },
+          {
+            "level": 17,
+            "name": "Family & children",
+            "coverage": 80,
+            "unresolved_words": 11
+          },
+          {
+            "level": 18,
+            "name": "Repair & clarification",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 19,
+            "name": "Plans & intent",
+            "coverage": 84,
+            "unresolved_words": 10
+          },
+          {
+            "level": 20,
+            "name": "Closure & gratitude",
+            "coverage": 90,
+            "unresolved_words": 6
+          }
+        ]
+      },
+      "analytics": {
+        "generated_at": "2026-07-04T06:40:21.609Z",
+        "iteration": 1,
+        "coverage_pct": 87,
+        "distinct_gaps": 94,
+        "onset_tier_share": {
+          "very_safe": 0.9414519906323185,
+          "fairly_safe": 0.05035128805620609,
+          "difficult": 0.00507416081186573
+        },
+        "rhyme_family_share": {
+          "stop_iu": 0.4179337231968811,
+          "stop_a": 0.08966861598440545,
+          "cvc": 0.3200779727095517,
+          "stop_e": 0.11617933723196881,
+          "fairly_safe": 0.050292397660818715,
+          "difficult": 0.0050682261208577,
+          "other": 0.0007797270955165692
+        },
+        "avg_phonetic_score": 0.7966716366471743,
+        "avg_flattened_syllables": 1.3426900584795323
+      },
+      "before": {
+        "coverage_pct": 87,
+        "distinct_gaps": 94
+      },
+      "after": {
+        "coverage_pct": 88,
+        "distinct_gaps": 85
+      },
+      "auto_accepted": 11,
+      "rejected": 9,
+      "deferred": 0,
+      "promoted": {
+        "promoted": 4,
+        "skipped": 0,
+        "already_present": 324
+      },
+      "build": {
+        "roots": 89,
+        "compounds": 456
+      },
+      "top_unresolved_gaps": [
+        {
+          "word": "relieved",
+          "count": 8
+        },
+        {
+          "word": "maybe",
+          "count": 6
+        },
+        {
+          "word": "closer",
+          "count": 5
+        },
+        {
+          "word": "breathe",
+          "count": 5
+        },
+        {
+          "word": "tonight",
+          "count": 4
+        },
+        {
+          "word": "mother",
+          "count": 4
+        },
+        {
+          "word": "noise",
+          "count": 3
+        },
+        {
+          "word": "my mother",
+          "count": 3
+        },
+        {
+          "word": "shaking",
+          "count": 2
+        },
+        {
+          "word": "survived",
+          "count": 2
+        },
+        {
+          "word": "side",
+          "count": 2
+        },
+        {
+          "word": "uneasy",
+          "count": 2
+        },
+        {
+          "word": "direction",
+          "count": 2
+        },
+        {
+          "word": "long",
+          "count": 2
+        },
+        {
+          "word": "meat",
+          "count": 2
+        }
+      ],
+      "details": [
+        {
+          "word": "relieved",
+          "pass": true,
+          "composition": [
+            "feel",
+            "fear",
+            "good"
+          ],
+          "aliasTarget": null
+        },
+        {
+          "word": "maybe",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "closer",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "closer"
+        },
+        {
+          "word": "breathe",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "breathe"
+        },
+        {
+          "word": "tonight",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "mother",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "noise",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "father",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "parent"
+        },
+        {
+          "word": "my mother",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "stand",
+          "pass": true,
+          "composition": [
+            "still",
+            "up"
+          ],
+          "aliasTarget": null
+        },
+        {
+          "word": "shaking",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "mistake",
+          "pass": true,
+          "composition": [
+            "do",
+            "bad"
+          ],
+          "aliasTarget": null
+        },
+        {
+          "word": "survived",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.64 < 0.7"
+          ]
+        },
+        {
+          "word": "belongs",
+          "pass": true,
+          "composition": [
+            "bond",
+            "place"
+          ],
+          "aliasTarget": null
+        },
+        {
+          "word": "side",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "sure",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "certain"
+        },
+        {
+          "word": "uneasy",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "which",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "what"
+        },
+        {
+          "word": "direction",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "direction"
+        },
+        {
+          "word": "staying",
+          "pass": true,
+          "composition": [
+            "still",
+            "place"
+          ],
+          "aliasTarget": null
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "at": "2026-07-04T06:43:14.764Z",
+      "dry_run": false,
+      "skip_llm": false,
+      "report": {
+        "generated_at": "2026-07-04T06:43:14.763Z",
+        "corpus": "stranger",
+        "total_phrases": 1000,
+        "clean_phrases": 882,
+        "coverage_pct": 88,
+        "distinct_gaps": 85,
+        "quality": {
+          "tokens": {
+            "pass": 3684,
+            "soft": 0,
+            "hard": 127
+          },
+          "pass_phrases": 882,
+          "soft_phrases": 0,
+          "hard_phrases": 118
+        },
+        "levels": [
+          {
+            "level": 1,
+            "name": "First contact & identity",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 2,
+            "name": "Immediate needs",
+            "coverage": 98,
+            "unresolved_words": 1
+          },
+          {
+            "level": 3,
+            "name": "Pain & injury",
+            "coverage": 94,
+            "unresolved_words": 3
+          },
+          {
+            "level": 4,
+            "name": "Fear & danger",
+            "coverage": 84,
+            "unresolved_words": 8
+          },
+          {
+            "level": 5,
+            "name": "Basic emotions",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 6,
+            "name": "Social bond",
+            "coverage": 94,
+            "unresolved_words": 3
+          },
+          {
+            "level": 7,
+            "name": "Refusal & boundaries",
+            "coverage": 82,
+            "unresolved_words": 9
+          },
+          {
+            "level": 8,
+            "name": "What questions",
+            "coverage": 96,
+            "unresolved_words": 2
+          },
+          {
+            "level": 9,
+            "name": "Who questions",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 10,
+            "name": "Where questions",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 11,
+            "name": "When questions",
+            "coverage": 96,
+            "unresolved_words": 3
+          },
+          {
+            "level": 12,
+            "name": "Direction & motion",
+            "coverage": 88,
+            "unresolved_words": 6
+          },
+          {
+            "level": 13,
+            "name": "Possession & trade",
+            "coverage": 90,
+            "unresolved_words": 5
+          },
+          {
+            "level": 14,
+            "name": "Food & eating",
+            "coverage": 80,
+            "unresolved_words": 12
+          },
+          {
+            "level": 15,
+            "name": "Weather & environment",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 16,
+            "name": "Body & health",
+            "coverage": 80,
+            "unresolved_words": 12
+          },
+          {
+            "level": 17,
+            "name": "Family & children",
+            "coverage": 80,
+            "unresolved_words": 11
+          },
+          {
+            "level": 18,
+            "name": "Repair & clarification",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 19,
+            "name": "Plans & intent",
+            "coverage": 84,
+            "unresolved_words": 10
+          },
+          {
+            "level": 20,
+            "name": "Closure & gratitude",
+            "coverage": 90,
+            "unresolved_words": 6
+          }
+        ]
+      },
+      "analytics": {
+        "generated_at": "2026-07-04T06:42:16.593Z",
+        "iteration": 1,
+        "coverage_pct": 88,
+        "distinct_gaps": 85,
+        "onset_tier_share": {
+          "very_safe": 0.9414519906323185,
+          "fairly_safe": 0.05035128805620609,
+          "difficult": 0.00507416081186573
+        },
+        "rhyme_family_share": {
+          "stop_iu": 0.4179337231968811,
+          "stop_a": 0.08966861598440545,
+          "cvc": 0.3200779727095517,
+          "stop_e": 0.11617933723196881,
+          "fairly_safe": 0.050292397660818715,
+          "difficult": 0.0050682261208577,
+          "other": 0.0007797270955165692
+        },
+        "avg_phonetic_score": 0.7966716366471743,
+        "avg_flattened_syllables": 1.3426900584795323
+      },
+      "before": {
+        "coverage_pct": 88,
+        "distinct_gaps": 85
+      },
+      "after": {
+        "coverage_pct": 88,
+        "distinct_gaps": 85
+      },
+      "auto_accepted": 3,
+      "rejected": 12,
+      "deferred": 0,
+      "promoted": {
+        "promoted": 0,
+        "skipped": 0,
+        "already_present": 328
+      },
+      "build": {
+        "roots": 89,
+        "compounds": 456
+      },
+      "top_unresolved_gaps": [
+        {
+          "word": "relieved",
+          "count": 8
+        },
+        {
+          "word": "maybe",
+          "count": 6
+        },
+        {
+          "word": "closer",
+          "count": 5
+        },
+        {
+          "word": "breathe",
+          "count": 5
+        },
+        {
+          "word": "tonight",
+          "count": 4
+        },
+        {
+          "word": "mother",
+          "count": 4
+        },
+        {
+          "word": "noise",
+          "count": 3
+        },
+        {
+          "word": "my mother",
+          "count": 3
+        },
+        {
+          "word": "shaking",
+          "count": 2
+        },
+        {
+          "word": "survived",
+          "count": 2
+        },
+        {
+          "word": "side",
+          "count": 2
+        },
+        {
+          "word": "uneasy",
+          "count": 2
+        },
+        {
+          "word": "direction",
+          "count": 2
+        },
+        {
+          "word": "long",
+          "count": 2
+        },
+        {
+          "word": "meat",
+          "count": 2
+        }
+      ],
+      "details": [
+        {
+          "word": "relieved",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "maybe",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.59 < 0.7",
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        },
+        {
+          "word": "closer",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "closer"
+        },
+        {
+          "word": "breathe",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "breathe"
+        },
+        {
+          "word": "tonight",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.58 < 0.7",
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        },
+        {
+          "word": "mother",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "noise",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.59 < 0.7",
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        },
+        {
+          "word": "my mother",
+          "pass": false,
+          "reasons": [
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        },
+        {
+          "word": "shaking",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "survived",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "side",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "uneasy",
+          "pass": false,
+          "reasons": [
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        },
+        {
+          "word": "direction",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "direction"
+        },
+        {
+          "word": "long",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.61 < 0.7",
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        },
+        {
+          "word": "meat",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.63 < 0.7",
+            "LLM cold recovery failed (confidence 0.00)"
+          ]
+        }
+      ]
+    },
+    {
+      "iteration": 1,
+      "at": "2026-07-04T14:40:29.557Z",
+      "dry_run": false,
+      "skip_llm": true,
+      "report": {
+        "generated_at": "2026-07-04T14:40:29.556Z",
+        "corpus": "stranger",
+        "total_phrases": 1000,
+        "clean_phrases": 892,
+        "coverage_pct": 89,
+        "distinct_gaps": 79,
+        "quality": {
+          "tokens": {
+            "pass": 3696,
+            "soft": 0,
+            "hard": 115
+          },
+          "pass_phrases": 892,
+          "soft_phrases": 0,
+          "hard_phrases": 108
+        },
+        "levels": [
+          {
+            "level": 1,
+            "name": "First contact & identity",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 2,
+            "name": "Immediate needs",
+            "coverage": 98,
+            "unresolved_words": 1
+          },
+          {
+            "level": 3,
+            "name": "Pain & injury",
+            "coverage": 94,
+            "unresolved_words": 3
+          },
+          {
+            "level": 4,
+            "name": "Fear & danger",
+            "coverage": 84,
+            "unresolved_words": 8
+          },
+          {
+            "level": 5,
+            "name": "Basic emotions",
+            "coverage": 86,
+            "unresolved_words": 7
+          },
+          {
+            "level": 6,
+            "name": "Social bond",
+            "coverage": 94,
+            "unresolved_words": 3
+          },
+          {
+            "level": 7,
+            "name": "Refusal & boundaries",
+            "coverage": 82,
+            "unresolved_words": 9
+          },
+          {
+            "level": 8,
+            "name": "What questions",
+            "coverage": 96,
+            "unresolved_words": 2
+          },
+          {
+            "level": 9,
+            "name": "Who questions",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 10,
+            "name": "Where questions",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 11,
+            "name": "When questions",
+            "coverage": 96,
+            "unresolved_words": 3
+          },
+          {
+            "level": 12,
+            "name": "Direction & motion",
+            "coverage": 90,
+            "unresolved_words": 5
+          },
+          {
+            "level": 13,
+            "name": "Possession & trade",
+            "coverage": 90,
+            "unresolved_words": 5
+          },
+          {
+            "level": 14,
+            "name": "Food & eating",
+            "coverage": 92,
+            "unresolved_words": 4
+          },
+          {
+            "level": 15,
+            "name": "Weather & environment",
+            "coverage": 88,
+            "unresolved_words": 6
+          },
+          {
+            "level": 16,
+            "name": "Body & health",
+            "coverage": 80,
+            "unresolved_words": 12
+          },
+          {
+            "level": 17,
+            "name": "Family & children",
+            "coverage": 80,
+            "unresolved_words": 11
+          },
+          {
+            "level": 18,
+            "name": "Repair & clarification",
+            "coverage": 90,
+            "unresolved_words": 5
+          },
+          {
+            "level": 19,
+            "name": "Plans & intent",
+            "coverage": 84,
+            "unresolved_words": 10
+          },
+          {
+            "level": 20,
+            "name": "Closure & gratitude",
+            "coverage": 90,
+            "unresolved_words": 6
+          }
+        ]
+      },
+      "analytics": {
+        "generated_at": "2026-07-04T14:39:52.139Z",
+        "iteration": 1,
+        "coverage_pct": 88,
+        "distinct_gaps": 85,
+        "onset_tier_share": {
+          "very_safe": 0.9414519906323185,
+          "fairly_safe": 0.05035128805620609,
+          "difficult": 0.00507416081186573
+        },
+        "rhyme_family_share": {
+          "stop_iu": 0.4179337231968811,
+          "stop_a": 0.08966861598440545,
+          "cvc": 0.3200779727095517,
+          "stop_e": 0.11617933723196881,
+          "fairly_safe": 0.050292397660818715,
+          "difficult": 0.0050682261208577,
+          "other": 0.0007797270955165692
+        },
+        "avg_phonetic_score": 0.7966716366471743,
+        "avg_flattened_syllables": 1.3426900584795323
+      },
+      "before": {
+        "coverage_pct": 88,
+        "distinct_gaps": 85
+      },
+      "after": {
+        "coverage_pct": 89,
+        "distinct_gaps": 79
+      },
+      "auto_accepted": 10,
+      "rejected": 10,
+      "deferred": 0,
+      "promoted": {
+        "promoted": 6,
+        "skipped": 0,
+        "already_present": 325
+      },
+      "build": {
+        "roots": 89,
+        "compounds": 459
+      },
+      "top_unresolved_gaps": [
+        {
+          "word": "relieved",
+          "count": 8
+        },
+        {
+          "word": "maybe",
+          "count": 6
+        },
+        {
+          "word": "closer",
+          "count": 5
+        },
+        {
+          "word": "breathe",
+          "count": 5
+        },
+        {
+          "word": "tonight",
+          "count": 4
+        },
+        {
+          "word": "mother",
+          "count": 4
+        },
+        {
+          "word": "noise",
+          "count": 3
+        },
+        {
+          "word": "my mother",
+          "count": 3
+        },
+        {
+          "word": "shaking",
+          "count": 2
+        },
+        {
+          "word": "survived",
+          "count": 2
+        },
+        {
+          "word": "side",
+          "count": 2
+        },
+        {
+          "word": "uneasy",
+          "count": 2
+        },
+        {
+          "word": "direction",
+          "count": 2
+        },
+        {
+          "word": "berry",
+          "count": 2
+        },
+        {
+          "word": "hello",
+          "count": 1
+        }
+      ],
+      "details": [
+        {
+          "word": "relieved",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "relieved"
+        },
+        {
+          "word": "maybe",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.59 < 0.7"
+          ]
+        },
+        {
+          "word": "closer",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "closer"
+        },
+        {
+          "word": "breathe",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "breathe"
+        },
+        {
+          "word": "tonight",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.58 < 0.7"
+          ]
+        },
+        {
+          "word": "mother",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "noise",
+          "pass": false,
+          "reasons": [
+            "agentive duplicate of \"blame\" (same roots as person+role compound)"
+          ]
+        },
+        {
+          "word": "my mother",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "shaking",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "shake"
+        },
+        {
+          "word": "survived",
+          "pass": false,
+          "reasons": [
+            "concept id \"survived\" looks inflected; use lemma \"surviv\" as concept id"
+          ]
+        },
+        {
+          "word": "side",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "uneasy",
+          "pass": false,
+          "reasons": [
+            "no valid composition passes hard gates"
+          ]
+        },
+        {
+          "word": "direction",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "direction"
+        },
+        {
+          "word": "long",
+          "pass": true,
+          "composition": [
+            "big",
+            "path"
+          ],
+          "aliasTarget": null
+        },
+        {
+          "word": "meat",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.63 < 0.7"
+          ]
+        },
+        {
+          "word": "this meat",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "food"
+        },
+        {
+          "word": "raw",
+          "pass": true,
+          "composition": null,
+          "aliasTarget": "raw_food"
+        },
+        {
+          "word": "still raw",
+          "pass": true,
+          "composition": [
+            "food",
+            "before",
+            "fire"
+          ],
+          "aliasTarget": null
+        },
+        {
+          "word": "berry",
+          "pass": false,
+          "reasons": [
+            "phonetic score 0.68 < 0.7"
+          ]
+        },
+        {
+          "word": "clearly",
+          "pass": true,
+          "composition": [
+            "see",
+            "true"
+          ],
+          "aliasTarget": null
+        }
+      ]
+    }
+  ]
+}

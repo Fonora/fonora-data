@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "fonora_compat": ">=0.1.0",
-  "updated_at": "2026-07-03T00:00:00.000Z",
+  "updated_at": "2026-07-04T00:00:00.000Z",
   "repository": "https://github.com/Fonora/fonora-data",
   "files": {
     "data/fonoran-llm-evaluations.json": {
@@ -15,6 +15,14 @@
     "data/fonoran-translation-test-latest.json": {
       "sha256": "ba9bba3ffe551b39ad6ad0443bf2cb42b815381654bba00e40036f7dac8f3267",
       "description": "Latest English→Fonoran translation regression snapshot"
+    },
+    "data/fonoran-stranger-corpus.json": {
+      "sha256": "381a9c6c85d10c273ffa05e7da318ebbdf3e0abf9e1f0913821df276e64acf50",
+      "description": "1,000-phrase two-stranger communication corpus for gap testing"
+    },
+    "data/fonoran-stranger-gap-report.json": {
+      "sha256": "173317f32b885916cc50b81e3d7114c6621d171f276436454602e23a16334e9a",
+      "description": "Gap frequency report from the stranger corpus"
     },
     "data/research-notes-store.json": {
       "sha256": "ae0baf55a7d886e7f4d7caf6539c04d8a9bee10bd5f767ff6758561ebef2c40e",
