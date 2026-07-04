@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-03T17:50:48.233Z",
+  "generated_at": "2026-07-04T01:40:58.298Z",
   "corpus_version": "2.0",
   "total_phrases": 129,
-  "clean_phrases": 121,
-  "coverage_pct": 94,
-  "distinct_gaps": 8,
+  "clean_phrases": 122,
+  "coverage_pct": 95,
+  "distinct_gaps": 7,
   "quality": {
     "tokens": {
-      "pass": 491,
-      "soft": 18,
-      "hard": 8
+      "pass": 509,
+      "soft": 0,
+      "hard": 7
     },
-    "pass_phrases": 106,
-    "soft_phrases": 15,
-    "hard_phrases": 8
+    "pass_phrases": 122,
+    "soft_phrases": 0,
+    "hard_phrases": 7
   },
   "levels": [
     {
@@ -52,9 +52,9 @@
       "level": 5,
       "name": "Questions",
       "phrases": 8,
-      "clean": 8,
-      "coverage": 100,
-      "unresolved_words": 0
+      "clean": 7,
+      "coverage": 88,
+      "unresolved_words": 1
     },
     {
       "level": 6,
@@ -76,9 +76,9 @@
       "level": 8,
       "name": "Multi-clause sentences",
       "phrases": 10,
-      "clean": 8,
-      "coverage": 80,
-      "unresolved_words": 2
+      "clean": 9,
+      "coverage": 90,
+      "unresolved_words": 1
     },
     {
       "level": 9,
@@ -116,9 +116,9 @@
       "level": 13,
       "name": "Complex motion & discourse",
       "phrases": 10,
-      "clean": 9,
-      "coverage": 90,
-      "unresolved_words": 1
+      "clean": 10,
+      "coverage": 100,
+      "unresolved_words": 0
     },
     {
       "level": 14,
@@ -131,8 +131,17 @@
   ],
   "gaps": [
     {
+      "word": "ready",
+      "count": 1,
+      "role": "event",
+      "samples": [
+        "Is the food ready?"
+      ]
+    },
+    {
       "word": "teaches",
       "count": 1,
+      "role": "event",
       "samples": [
         "The teacher teaches the student."
       ]
@@ -140,6 +149,7 @@
     {
       "word": "raindrops",
       "count": 1,
+      "role": "subject",
       "samples": [
         "The raindrops fall quietly."
       ]
@@ -147,6 +157,7 @@
     {
       "word": "birdsong",
       "count": 1,
+      "role": "subject",
       "samples": [
         "The birdsong wakes everyone."
       ]
@@ -154,27 +165,15 @@
     {
       "word": "laughed",
       "count": 1,
+      "role": "event",
       "samples": [
         "The child laughed after the dog ran away."
       ]
     },
     {
-      "word": "when",
-      "count": 1,
-      "samples": [
-        "When the sun rose, we began walking."
-      ]
-    },
-    {
-      "word": "alone",
-      "count": 1,
-      "samples": [
-        "Go away and leave me alone."
-      ]
-    },
-    {
       "word": "fonoran",
       "count": 1,
+      "role": "modifier",
       "samples": [
         "She wants to learn Fonoran."
       ]
@@ -182,6 +181,7 @@
     {
       "word": "ruled",
       "count": 1,
+      "role": "object",
       "samples": [
         "The old king ruled the city for many years."
       ]
@@ -197,18 +197,14 @@
         "continuing",
         "crossed",
         "flew",
-        "followed",
         "follows",
         "go",
         "going",
         "leave",
         "left",
-        "return",
         "returned",
         "travels",
-        "walk",
         "walked",
-        "walking",
         "went"
       ],
       "concepts": [
@@ -218,9 +214,10 @@
     {
       "root": "ba",
       "words": [
-        "flower",
         "he",
+        "king",
         "man",
+        "parents",
         "person",
         "she",
         "traveler",
@@ -231,7 +228,7 @@
       ]
     },
     {
-      "root": "re",
+      "root": "bagen",
       "words": [
         "baby",
         "child",
@@ -259,17 +256,17 @@
       ]
     },
     {
-      "root": "kel",
+      "root": "che",
       "words": [
-        "build",
-        "builds",
-        "built",
-        "cooked",
-        "ready",
-        "toy"
+        "house",
+        "man who built house",
+        "market",
+        "new house",
+        "place",
+        "store"
       ],
       "concepts": [
-        "make"
+        "place"
       ]
     },
     {
@@ -337,39 +334,38 @@
       ]
     },
     {
+      "root": "gat",
+      "words": [
+        "carries",
+        "guard",
+        "keeps",
+        "protect"
+      ],
+      "concepts": [
+        "hold"
+      ]
+    },
+    {
+      "root": "to",
+      "words": [
+        "although it",
+        "it",
+        "thing",
+        "toy"
+      ],
+      "concepts": [
+        "thing"
+      ]
+    },
+    {
       "root": "kal",
       "words": [
         "animal",
-        "bird",
         "cat",
         "dog"
       ],
       "concepts": [
         "animal"
-      ]
-    },
-    {
-      "root": "ju",
-      "words": [
-        "fall",
-        "fell",
-        "set",
-        "sets"
-      ],
-      "concepts": [
-        "down"
-      ]
-    },
-    {
-      "root": "che",
-      "words": [
-        "house",
-        "man who built house",
-        "new house",
-        "place"
-      ],
-      "concepts": [
-        "place"
       ]
     },
     {
@@ -384,29 +380,51 @@
       ]
     },
     {
-      "root": "tet",
+      "root": "ra",
       "words": [
-        "leaves",
-        "old tree",
-        "tree"
+        "high",
+        "rises",
+        "rose"
       ],
       "concepts": [
-        "plant"
+        "up"
       ]
     },
     {
-      "root": "gat",
+      "root": "ju",
       "words": [
-        "carries",
-        "keeps",
-        "protect"
+        "fell",
+        "set",
+        "sets"
       ],
       "concepts": [
-        "hold"
+        "down"
       ]
     },
     {
-      "root": "kelnan",
+      "root": "ni",
+      "words": [
+        "large",
+        "tall",
+        "wide"
+      ],
+      "concepts": [
+        "big"
+      ]
+    },
+    {
+      "root": "kel",
+      "words": [
+        "build",
+        "builds",
+        "built"
+      ],
+      "concepts": [
+        "make"
+      ]
+    },
+    {
+      "root": "tamtem",
       "words": [
         "open",
         "opened",
@@ -414,17 +432,6 @@
       ],
       "concepts": [
         "open"
-      ]
-    },
-    {
-      "root": "sak",
-      "words": [
-        "hungry",
-        "want",
-        "wants"
-      ],
-      "concepts": [
-        "want"
       ]
     },
     {
@@ -483,17 +490,6 @@
       ]
     },
     {
-      "root": "to",
-      "words": [
-        "although it",
-        "it",
-        "thing"
-      ],
-      "concepts": [
-        "thing"
-      ]
-    },
-    {
       "root": "kas",
       "words": [
         "friends help",
@@ -502,17 +498,6 @@
       ],
       "concepts": [
         "help"
-      ]
-    },
-    {
-      "root": "hugatmes",
-      "words": [
-        "memory",
-        "over",
-        "store"
-      ],
-      "concepts": [
-        "memory"
       ]
     },
     {
@@ -545,13 +530,13 @@
       ]
     },
     {
-      "root": "ra",
+      "root": "kalsam",
       "words": [
-        "rises",
-        "rose"
+        "bird",
+        "flies"
       ],
       "concepts": [
-        "up"
+        "bird"
       ]
     },
     {
@@ -565,17 +550,17 @@
       ]
     },
     {
-      "root": "ni",
+      "root": "tetni",
       "words": [
-        "large",
-        "tall"
+        "old tree",
+        "tree"
       ],
       "concepts": [
-        "big"
+        "tree"
       ]
     },
     {
-      "root": "nantem",
+      "root": "temnan",
       "words": [
         "door",
         "doorway"
@@ -592,26 +577,6 @@
       ],
       "concepts": [
         "wind"
-      ]
-    },
-    {
-      "root": "nek",
-      "words": [
-        "fast",
-        "high"
-      ],
-      "concepts": [
-        "fast"
-      ]
-    },
-    {
-      "root": "femgu",
-      "words": [
-        "king",
-        "strong"
-      ],
-      "concepts": [
-        "strong"
       ]
     },
     {
@@ -635,13 +600,13 @@
       ]
     },
     {
-      "root": "mo",
+      "root": "kan",
       "words": [
-        "guard",
-        "market"
+        "time",
+        "years"
       ],
       "concepts": [
-        "do"
+        "time"
       ]
     },
     {
@@ -652,16 +617,6 @@
       ],
       "concepts": [
         "doctor"
-      ]
-    },
-    {
-      "root": "bakas",
-      "words": [
-        "helps",
-        "who"
-      ],
-      "concepts": [
-        "helper"
       ]
     },
     {
@@ -735,7 +690,7 @@
     {
       "level": 1,
       "phrase": "The child runs.",
-      "roman": "re ginek",
+      "roman": "bagen ginek",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -752,7 +707,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "re ginek",
+      "expected": "bagen ginek",
       "matches_golden": true
     },
     {
@@ -781,7 +736,7 @@
     {
       "level": 1,
       "phrase": "The bird flies.",
-      "roman": "kal giges",
+      "roman": "kalsam kalsam",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -798,7 +753,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kal giges",
+      "expected": "kalsam kalsam",
       "matches_golden": true
     },
     {
@@ -896,7 +851,7 @@
     {
       "level": 1,
       "phrase": "The tree is tall.",
-      "roman": "tet ni",
+      "roman": "tetni ni",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -913,7 +868,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tet ni",
+      "expected": "tetni ni",
       "matches_golden": true
     },
     {
@@ -968,35 +923,27 @@
       "roman": "dan kel che",
       "unresolved": [],
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "interpreted": 1,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 2,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "house",
-          "kind": "semantic",
-          "concept_id": "place",
-          "fonoran": "che"
-        }
-      ],
+      "review": [],
       "gaps": [],
       "expected": "dan kel che",
-      "matches_golden": true,
-      "note": "review: house→che(semantic)"
+      "matches_golden": true
     },
     {
       "level": 2,
       "phrase": "The child sees the dog.",
-      "roman": "re wi kal",
+      "roman": "bagen wi kal",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1013,13 +960,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "re wi kal",
+      "expected": "bagen wi kal",
       "matches_golden": true
     },
     {
       "level": 2,
       "phrase": "The woman carries the baby.",
-      "roman": "ba gat re",
+      "roman": "ba gat bagen",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1036,13 +983,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba gat re",
+      "expected": "ba gat bagen",
       "matches_golden": true
     },
     {
       "level": 2,
       "phrase": "The man opens the door.",
-      "roman": "ba kelnan nantem",
+      "roman": "ba tamtem temnan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1059,13 +1006,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba kelnan nantem",
+      "expected": "ba tamtem temnan",
       "matches_golden": true
     },
     {
       "level": 2,
       "phrase": "The cat chases the bird.",
-      "roman": "kal gi kal",
+      "roman": "kal gi kalsam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1082,7 +1029,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kal gi kal",
+      "expected": "kal gi kalsam",
       "matches_golden": true
     },
     {
@@ -1226,7 +1173,7 @@
     {
       "level": 3,
       "phrase": "The small child is happy.",
-      "roman": "re yi",
+      "roman": "bagen nesgu",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -1243,13 +1190,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "re yi",
+      "expected": "bagen nesgu",
       "matches_golden": true
     },
     {
       "level": 3,
       "phrase": "The old tree is strong.",
-      "roman": "tet femgu",
+      "roman": "tetni femgu",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -1266,7 +1213,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tet femgu",
+      "expected": "tetni femgu",
       "matches_golden": true
     },
     {
@@ -1295,95 +1242,71 @@
     {
       "level": 3,
       "phrase": "The red flower grows.",
-      "roman": "datwi ba fomas",
+      "roman": "datwi tetkek fomas",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 2,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "flower",
-          "kind": "semantic",
-          "concept_id": "person",
-          "fonoran": "ba"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "datwi ba fomas",
-      "matches_golden": true,
-      "note": "review: flower→ba(semantic)"
+      "expected": "datwi tetkek fomas",
+      "matches_golden": true
     },
     {
       "level": 3,
       "phrase": "The river is wide.",
-      "roman": "yenanye melto",
+      "roman": "yenanye ni",
       "unresolved": [],
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 1,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 2,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "wide",
-          "kind": "semantic",
-          "concept_id": "whole",
-          "fonoran": "melto"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "yenanye melto",
-      "matches_golden": true,
-      "note": "review: wide→melto(semantic)"
+      "expected": "yenanye ni",
+      "matches_golden": true
     },
     {
       "level": 3,
       "phrase": "The mountain is high.",
-      "roman": "fenra nek",
+      "roman": "fenra ra",
       "unresolved": [],
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "interpreted": 0,
         "semantic": 0,
-        "alias_weak": 1,
+        "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 1,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 2,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "high",
-          "kind": "alias_weak",
-          "concept_id": "fast",
-          "fonoran": "nek"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "fenra nek",
-      "matches_golden": true,
-      "note": "review: high→nek(alias_weak)"
+      "expected": "fenra ra",
+      "matches_golden": true
     },
     {
       "level": 3,
@@ -1460,8 +1383,8 @@
       "roman": "mi ta tel di",
       "unresolved": [],
       "counts": {
-        "direct": 4,
-        "interpreted": 0,
+        "direct": 3,
+        "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -1506,30 +1429,22 @@
       "roman": "dan ta kel che",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 1,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 3,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "house",
-          "kind": "semantic",
-          "concept_id": "place",
-          "fonoran": "che"
-        }
-      ],
+      "review": [],
       "gaps": [],
       "expected": "dan ta kel che",
-      "matches_golden": true,
-      "note": "review: house→che(semantic)"
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -1557,7 +1472,7 @@
     {
       "level": 4,
       "phrase": "She came home.",
-      "roman": "ba gi chekam",
+      "roman": "ba gi nalche",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -1574,13 +1489,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba gi chekam",
+      "expected": "ba gi nalche",
       "matches_golden": true
     },
     {
       "level": 4,
       "phrase": "He will return.",
-      "roman": "ba sa gi",
+      "roman": "ba sa giyinam",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -1597,7 +1512,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba sa gi",
+      "expected": "ba sa giyinam",
       "matches_golden": true
     },
     {
@@ -1672,7 +1587,7 @@
     {
       "level": 4,
       "phrase": "The child will learn.",
-      "roman": "re sa lahu",
+      "roman": "bagen sa lahu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1689,7 +1604,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "re sa lahu",
+      "expected": "bagen sa lahu",
       "matches_golden": true
     },
     {
@@ -1764,7 +1679,7 @@
     {
       "level": 5,
       "phrase": "When will you return?",
-      "roman": "no hu kan sa be gi ?",
+      "roman": "no hu kan sa be giyinam ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -1781,39 +1696,41 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu kan sa be gi ?",
+      "expected": "no hu kan sa be giyinam ?",
       "matches_golden": true
     },
     {
       "level": 5,
       "phrase": "Is the food ready?",
-      "roman": "tel kel ?",
-      "unresolved": [],
+      "roman": "tel [ready] ?",
+      "unresolved": [
+        "ready"
+      ],
       "counts": {
         "direct": 2,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "soft",
+        "gate": "hard",
         "pass": 2,
-        "soft": 1,
-        "hard": 0
+        "soft": 0,
+        "hard": 1
       },
-      "review": [
+      "review": [],
+      "gaps": [
         {
           "english": "ready",
-          "kind": "semantic",
-          "concept_id": "make",
-          "fonoran": "kel"
+          "kind": "unknown",
+          "role": "event",
+          "reason": "no confident concept"
         }
       ],
-      "gaps": [],
-      "expected": "tel kel ?",
+      "expected": "tel [ready] ?",
       "matches_golden": true,
-      "note": "review: ready→kel(semantic)"
+      "note": "gap: ready (needs a root)"
     },
     {
       "level": 5,
@@ -1887,7 +1804,7 @@
     {
       "level": 6,
       "phrase": "I love my family.",
-      "roman": "mi san bakam",
+      "roman": "mi san sanba",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1904,7 +1821,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi san bakam",
+      "expected": "mi san sanba",
       "matches_golden": true
     },
     {
@@ -1954,7 +1871,9 @@
       "gaps": [
         {
           "english": "teaches",
-          "kind": "unknown"
+          "kind": "unknown",
+          "role": "event",
+          "reason": "no confident concept"
         }
       ],
       "expected": "kuhuba [teaches] lahuba",
@@ -1964,7 +1883,7 @@
     {
       "level": 6,
       "phrase": "Parents protect children.",
-      "roman": "so gat re",
+      "roman": "ba gat bagen",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1981,45 +1900,31 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "so gat re",
+      "expected": "ba gat bagen",
       "matches_golden": true
     },
     {
       "level": 6,
       "phrase": "The king trusts the guard.",
-      "roman": "femgu kam mo",
+      "roman": "ba kam gat",
       "unresolved": [],
       "counts": {
-        "direct": 1,
+        "direct": 3,
         "interpreted": 0,
-        "semantic": 2,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 1,
-        "soft": 2,
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "king",
-          "kind": "semantic",
-          "concept_id": "strong",
-          "fonoran": "femgu"
-        },
-        {
-          "english": "guard",
-          "kind": "semantic",
-          "concept_id": "do",
-          "fonoran": "mo"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "femgu kam mo",
-      "matches_golden": true,
-      "note": "review: king→femgu(semantic), guard→mo(semantic)"
+      "expected": "ba kam gat",
+      "matches_golden": true
     },
     {
       "level": 6,
@@ -2047,7 +1952,7 @@
     {
       "level": 6,
       "phrase": "The doctor helps sick people.",
-      "roman": "kasfemba bakas wu balek",
+      "roman": "kasfemba bakas femgam balek",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2064,7 +1969,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kasfemba bakas wu balek",
+      "expected": "kasfemba bakas femgam balek",
       "matches_golden": true
     },
     {
@@ -2096,30 +2001,22 @@
       "roman": "ba wi yenanye",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 2,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "traveler",
-          "kind": "semantic",
-          "concept_id": "person",
-          "fonoran": "ba"
-        }
-      ],
+      "review": [],
       "gaps": [],
       "expected": "ba wi yenanye",
-      "matches_golden": true,
-      "note": "review: traveler→ba(semantic)"
+      "matches_golden": true
     },
     {
       "level": 6,
@@ -2262,7 +2159,7 @@
     {
       "level": 7,
       "phrase": "The blacksmith made a knife.",
-      "roman": "jaba ta hutam jatem",
+      "roman": "fendatsasba ta dalkel fendatsastem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2279,13 +2176,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "jaba ta hutam jatem",
+      "expected": "fendatsasba ta dalkel fendatsastem",
       "matches_golden": true
     },
     {
       "level": 7,
       "phrase": "The grandmother tells stories.",
-      "roman": "diso se se",
+      "roman": "dibadi se se",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -2302,44 +2199,36 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "diso se se",
+      "expected": "dibadi se se",
       "matches_golden": true
     },
     {
       "level": 7,
       "phrase": "The doorway is open.",
-      "roman": "nantem kelnan",
+      "roman": "temnan tamtem",
       "unresolved": [],
       "counts": {
-        "direct": 1,
+        "direct": 2,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 1,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 2,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "doorway",
-          "kind": "semantic",
-          "concept_id": "door",
-          "fonoran": "nantem"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "nantem kelnan",
-      "matches_golden": true,
-      "note": "review: doorway→nantem(semantic)"
+      "expected": "temnan tamtem",
+      "matches_golden": true
     },
     {
       "level": 7,
       "phrase": "The raindrops fall quietly.",
-      "roman": "[raindrops] ju ti",
+      "roman": "[raindrops] jugi ti",
       "unresolved": [
         "raindrops"
       ],
@@ -2360,10 +2249,12 @@
       "gaps": [
         {
           "english": "raindrops",
-          "kind": "unknown"
+          "kind": "unknown",
+          "role": "subject",
+          "reason": "no confident concept"
         }
       ],
-      "expected": "[raindrops] ju ti",
+      "expected": "[raindrops] jugi ti",
       "matches_golden": true,
       "note": "gap: raindrops (needs a root)"
     },
@@ -2391,7 +2282,9 @@
       "gaps": [
         {
           "english": "birdsong",
-          "kind": "unknown"
+          "kind": "unknown",
+          "role": "subject",
+          "reason": "no confident concept"
         }
       ],
       "expected": "[birdsong] diho dan ba",
@@ -2401,7 +2294,7 @@
     {
       "level": 8,
       "phrase": "I ate because I was hungry.",
-      "roman": "mi ta sak",
+      "roman": "mi ta saklo",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -2418,7 +2311,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta sak",
+      "expected": "mi ta saklo",
       "matches_golden": true
     },
     {
@@ -2447,13 +2340,13 @@
     {
       "level": 8,
       "phrase": "The child laughed after the dog ran away.",
-      "roman": "re ta [laughed] shu kal ginek fet",
+      "roman": "bagen ta [laughed] shu kal ginek gifet",
       "unresolved": [
         "laughed"
       ],
       "counts": {
-        "direct": 6,
-        "interpreted": 0,
+        "direct": 5,
+        "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 1
@@ -2468,43 +2361,37 @@
       "gaps": [
         {
           "english": "laughed",
-          "kind": "unknown"
+          "kind": "unknown",
+          "role": "event",
+          "reason": "no confident concept"
         }
       ],
-      "expected": "re ta [laughed] shu kal ginek fet",
+      "expected": "bagen ta [laughed] shu kal ginek gifet",
       "matches_golden": true,
       "note": "gap: laughed (needs a root)"
     },
     {
       "level": 8,
       "phrase": "When the sun rose, we began walking.",
-      "roman": "[when] samdat ra dan diye gi",
-      "unresolved": [
-        "when"
-      ],
+      "roman": "gamtel samdat ra dan diye gifem",
+      "unresolved": [],
       "counts": {
-        "direct": 4,
-        "interpreted": 1,
+        "direct": 6,
+        "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 1
+        "unknown": 0
       },
       "quality": {
-        "gate": "hard",
-        "pass": 5,
+        "gate": "pass",
+        "pass": 6,
         "soft": 0,
-        "hard": 1
+        "hard": 0
       },
       "review": [],
-      "gaps": [
-        {
-          "english": "when",
-          "kind": "unknown"
-        }
-      ],
-      "expected": "[when] samdat ra dan diye gi",
-      "matches_golden": true,
-      "note": "gap: when (needs a root)"
+      "gaps": [],
+      "expected": "gamtel samdat ra dan diye gifem",
+      "matches_golden": true
     },
     {
       "level": 8,
@@ -2555,7 +2442,7 @@
     {
       "level": 8,
       "phrase": "She said she would return tomorrow.",
-      "roman": "ba se ba gi shu",
+      "roman": "ba se ba giyinam shu",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2572,7 +2459,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba se ba gi shu",
+      "expected": "ba se ba giyinam shu",
       "matches_golden": true
     },
     {
@@ -2647,34 +2534,34 @@
     {
       "level": 9,
       "phrase": "Yesterday we walked to the river. The water was cold, but the morning was beautiful. We built a small fire and cooked food. After we ate, we watched the sunrise over the mountains. Then we returned home together.",
-      "roman": "di ta dan gi nan yenanye ye kekshu ta ta mak guwi dan ta kel gen dat kel tel shu ta dan tel dan wi kekra hugatmes fen shu ta dan gi chekam dan",
+      "roman": "di ta dan gi nan yenanye ye kekshu ta ta mak guwi dan ta kel gen dat datlo shu ta dan tel dan wi kekra gamfo fen shu ta dan gi nalche dan",
       "unresolved": [],
       "counts": {
-        "direct": 30,
-        "interpreted": 4,
+        "direct": 28,
+        "interpreted": 5,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
         "gate": "pass",
-        "pass": 34,
+        "pass": 33,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "di ta dan gi nan yenanye ye kekshu ta ta mak guwi dan ta kel gen dat kel tel shu ta dan tel dan wi kekra hugatmes fen shu ta dan gi chekam dan",
+      "expected": "di ta dan gi nan yenanye ye kekshu ta ta mak guwi dan ta kel gen dat datlo shu ta dan tel dan wi kekra gamfo fen shu ta dan gi nalche dan",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "I saw the red bird.",
-      "roman": "mi ta wi datwi kal",
+      "roman": "mi ta wi datwi kalsam",
       "unresolved": [],
       "counts": {
-        "direct": 5,
-        "interpreted": 0,
+        "direct": 4,
+        "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -2687,17 +2574,17 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta wi datwi kal",
+      "expected": "mi ta wi datwi kalsam",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "The bird saw me.",
-      "roman": "kal ta wi mi",
+      "roman": "kalsam ta wi mi",
       "unresolved": [],
       "counts": {
-        "direct": 4,
-        "interpreted": 0,
+        "direct": 3,
+        "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -2710,7 +2597,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kal ta wi mi",
+      "expected": "kalsam ta wi mi",
       "matches_golden": true
     },
     {
@@ -2808,7 +2695,7 @@
     {
       "level": 10,
       "phrase": "The door opened.",
-      "roman": "nantem ta kelnan",
+      "roman": "temnan ta tamtem",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -2825,13 +2712,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nantem ta kelnan",
+      "expected": "temnan ta tamtem",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "I opened the door.",
-      "roman": "mi ta kelnan nantem",
+      "roman": "mi ta tamtem temnan",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2848,70 +2735,54 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta kelnan nantem",
+      "expected": "mi ta tamtem temnan",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "The child made the toy.",
-      "roman": "re ta hutam kel",
+      "roman": "bagen ta dalkel to",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 4,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 3,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "toy",
-          "kind": "semantic",
-          "concept_id": "make",
-          "fonoran": "kel"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "re ta hutam kel",
-      "matches_golden": true,
-      "note": "review: toy→kel(semantic)"
+      "expected": "bagen ta dalkel to",
+      "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "The toy was made by the child.",
-      "roman": "kel ta hutam re",
+      "roman": "to ta dalkel bagen",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 4,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 3,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "toy",
-          "kind": "semantic",
-          "concept_id": "make",
-          "fonoran": "kel"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "kel ta hutam re",
-      "matches_golden": true,
-      "note": "review: toy→kel(semantic)"
+      "expected": "to ta dalkel bagen",
+      "matches_golden": true
     },
     {
       "level": 10,
@@ -2939,33 +2810,25 @@
     {
       "level": 10,
       "phrase": "The old man's young son.",
-      "roman": "di ba re re",
+      "roman": "di ba bagen bagen",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
-        "alias_weak": 1,
+        "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 3,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "young",
-          "kind": "alias_weak",
-          "concept_id": "child",
-          "fonoran": "re"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "di ba re re",
-      "matches_golden": true,
-      "note": "review: young→re(alias_weak)"
+      "expected": "di ba bagen bagen",
+      "matches_golden": true
     },
     {
       "level": 10,
@@ -2993,7 +2856,7 @@
     {
       "level": 10,
       "phrase": "Time flies.",
-      "roman": "kan giges",
+      "roman": "kan kalsam",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -3010,7 +2873,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kan giges",
+      "expected": "kan kalsam",
       "matches_golden": true
     },
     {
@@ -3062,11 +2925,11 @@
     {
       "level": 11,
       "phrase": "The woman who taught me said that the river had changed.",
-      "roman": "ba ta bakas kuhu mi se yenanye diho",
+      "roman": "ba ta badi kuhu mi se yenanye diho",
       "unresolved": [],
       "counts": {
-        "direct": 8,
-        "interpreted": 0,
+        "direct": 7,
+        "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -3079,13 +2942,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba ta bakas kuhu mi se yenanye diho",
+      "expected": "ba ta badi kuhu mi se yenanye diho",
       "matches_golden": true
     },
     {
       "level": 11,
       "phrase": "The old hunter gave the child his knife.",
-      "roman": "di ta lakalba ku re jatem",
+      "roman": "di ta lakalba nesguku bagen fendatsastem",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -3102,7 +2965,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "di ta lakalba ku re jatem",
+      "expected": "di ta lakalba nesguku bagen fendatsastem",
       "matches_golden": true
     },
     {
@@ -3154,7 +3017,7 @@
     {
       "level": 12,
       "phrase": "I walk toward the city.",
-      "roman": "mi gi nan lekche",
+      "roman": "mi tigi nan lekche",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3171,7 +3034,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gi nan lekche",
+      "expected": "mi tigi nan lekche",
       "matches_golden": true
     },
     {
@@ -3246,33 +3109,25 @@
     {
       "level": 12,
       "phrase": "He went to the store.",
-      "roman": "ba ta gi nan hugatmes",
+      "roman": "ba ta gi nan che",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 2,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 4,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "store",
-          "kind": "semantic",
-          "concept_id": "memory",
-          "fonoran": "hugatmes"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "ba ta gi nan hugatmes",
-      "matches_golden": true,
-      "note": "review: store→hugatmes(semantic)"
+      "expected": "ba ta gi nan che",
+      "matches_golden": true
     },
     {
       "level": 12,
@@ -3280,8 +3135,8 @@
       "roman": "kal ta ginek fet",
       "unresolved": [],
       "counts": {
-        "direct": 3,
-        "interpreted": 1,
+        "direct": 2,
+        "interpreted": 2,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -3349,8 +3204,8 @@
       "roman": "dan ta ginek nan yenanye",
       "unresolved": [],
       "counts": {
-        "direct": 3,
-        "interpreted": 2,
+        "direct": 2,
+        "interpreted": 3,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -3369,33 +3224,25 @@
     {
       "level": 13,
       "phrase": "Are you going to the market tomorrow?",
-      "roman": "shu be gi nan mo ?",
+      "roman": "shu be gi nan che ?",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 4,
         "interpreted": 2,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 5,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 6,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "market",
-          "kind": "semantic",
-          "concept_id": "do",
-          "fonoran": "mo"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "shu be gi nan mo ?",
-      "matches_golden": true,
-      "note": "review: market→mo(semantic)"
+      "expected": "shu be gi nan che ?",
+      "matches_golden": true
     },
     {
       "level": 13,
@@ -3423,7 +3270,7 @@
     {
       "level": 13,
       "phrase": "The hunter followed the animal into the forest.",
-      "roman": "lakalba ta gi mes kal lekshe",
+      "roman": "lakalba ta sogi mes kal lektetche",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -3440,7 +3287,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "lakalba ta gi mes kal lekshe",
+      "expected": "lakalba ta sogi mes kal lektetche",
       "matches_golden": true
     },
     {
@@ -3469,33 +3316,25 @@
     {
       "level": 13,
       "phrase": "Go away and leave me alone.",
-      "roman": "gi gi fet mi [alone]",
-      "unresolved": [
-        "alone"
-      ],
+      "roman": "gi gi fet mi nesfa",
+      "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 4,
         "interpreted": 1,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 1
+        "unknown": 0
       },
       "quality": {
-        "gate": "hard",
-        "pass": 4,
+        "gate": "pass",
+        "pass": 5,
         "soft": 0,
-        "hard": 1
+        "hard": 0
       },
       "review": [],
-      "gaps": [
-        {
-          "english": "alone",
-          "kind": "unknown"
-        }
-      ],
-      "expected": "gi gi fet mi [alone]",
-      "matches_golden": true,
-      "note": "gap: alone (needs a root)"
+      "gaps": [],
+      "expected": "gi gi fet mi nesfa",
+      "matches_golden": true
     },
     {
       "level": 13,
@@ -3523,7 +3362,7 @@
     {
       "level": 13,
       "phrase": "The bird flew over the lake and landed near the trees.",
-      "roman": "kal gi ra yeti",
+      "roman": "kalsam gi ra yegat",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -3540,13 +3379,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kal gi ra yeti",
+      "expected": "kalsam gi ra yegat",
       "matches_golden": true
     },
     {
       "level": 13,
       "phrase": "He said he would return home after the sun set.",
-      "roman": "ba se ba gi chekam shu samdat ju",
+      "roman": "ba se ba giyinam nalche shu samdat ju",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -3563,7 +3402,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba se ba gi chekam shu samdat ju",
+      "expected": "ba se ba giyinam nalche shu samdat ju",
       "matches_golden": true
     },
     {
@@ -3615,7 +3454,7 @@
     {
       "level": 14,
       "phrase": "She wants to learn Fonoran.",
-      "roman": "ba sak lahu [fonoran]",
+      "roman": "ba husak lahu [fonoran]",
       "unresolved": [
         "fonoran"
       ],
@@ -3636,10 +3475,12 @@
       "gaps": [
         {
           "english": "fonoran",
-          "kind": "unknown"
+          "kind": "unknown",
+          "role": "modifier",
+          "reason": "no confident concept"
         }
       ],
-      "expected": "ba sak lahu [fonoran]",
+      "expected": "ba husak lahu [fonoran]",
       "matches_golden": true,
       "note": "gap: fonoran (needs a root)"
     },
@@ -3695,30 +3536,22 @@
       "roman": "la mi ye",
       "unresolved": [],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 0,
-        "semantic": 1,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
       },
       "quality": {
-        "gate": "soft",
-        "pass": 2,
-        "soft": 1,
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "bring",
-          "kind": "semantic",
-          "concept_id": "take",
-          "fonoran": "la"
-        }
-      ],
+      "review": [],
       "gaps": [],
       "expected": "la mi ye",
-      "matches_golden": true,
-      "note": "review: bring→la(semantic)"
+      "matches_golden": true
     },
     {
       "level": 14,
@@ -3726,8 +3559,8 @@
       "roman": "dan ta ginek nan yenanye",
       "unresolved": [],
       "counts": {
-        "direct": 3,
-        "interpreted": 2,
+        "direct": 2,
+        "interpreted": 3,
         "semantic": 0,
         "alias_weak": 0,
         "unknown": 0
@@ -3746,7 +3579,7 @@
     {
       "level": 14,
       "phrase": "Nobody went home after dark.",
-      "roman": "no ba gi chekam shu gan",
+      "roman": "no ba gi nalche shu gan",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -3763,13 +3596,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no ba gi chekam shu gan",
+      "expected": "no ba gi nalche shu gan",
       "matches_golden": true
     },
     {
       "level": 14,
       "phrase": "Tell the child a story about the sea.",
-      "roman": "se re se yemelto",
+      "roman": "se bagen se yemelto",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -3786,13 +3619,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "se re se yemelto",
+      "expected": "se bagen se yemelto",
       "matches_golden": true
     },
     {
       "level": 14,
       "phrase": "I am afraid of the dark.",
-      "roman": "mi pe gan",
+      "roman": "mi nespe gan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3809,52 +3642,41 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi pe gan",
+      "expected": "mi nespe gan",
       "matches_golden": true
     },
     {
       "level": 14,
       "phrase": "The old king ruled the city for many years.",
-      "roman": "di ta femgu [ruled] lekche lek kekdi",
+      "roman": "di ta ba [ruled] lekche lek kan",
       "unresolved": [
         "ruled"
       ],
       "counts": {
-        "direct": 4,
+        "direct": 6,
         "interpreted": 0,
-        "semantic": 2,
+        "semantic": 0,
         "alias_weak": 0,
         "unknown": 1
       },
       "quality": {
         "gate": "hard",
-        "pass": 4,
-        "soft": 2,
+        "pass": 6,
+        "soft": 0,
         "hard": 1
       },
-      "review": [
-        {
-          "english": "king",
-          "kind": "semantic",
-          "concept_id": "strong",
-          "fonoran": "femgu"
-        },
-        {
-          "english": "years",
-          "kind": "semantic",
-          "concept_id": "day",
-          "fonoran": "kekdi"
-        }
-      ],
+      "review": [],
       "gaps": [
         {
           "english": "ruled",
-          "kind": "unknown"
+          "kind": "unknown",
+          "role": "object",
+          "reason": "no confident concept"
         }
       ],
-      "expected": "di ta femgu [ruled] lekche lek kekdi",
+      "expected": "di ta ba [ruled] lekche lek kan",
       "matches_golden": true,
-      "note": "gap: ruled (needs a root) | review: king→femgu(semantic), years→kekdi(semantic)"
+      "note": "gap: ruled (needs a root)"
     }
   ]
 }
