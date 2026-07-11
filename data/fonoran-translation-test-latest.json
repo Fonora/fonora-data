@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-11T18:59:34.427Z",
+  "generated_at": "2026-07-11T19:49:52.172Z",
   "corpus": "golden",
   "corpus_version": "3.0",
   "engine": "llm",
   "cache_only": true,
   "warm_needed": [],
   "total_phrases": 1000,
-  "clean_phrases": 666,
-  "coverage_pct": 67,
-  "distinct_gaps": 123,
+  "clean_phrases": 658,
+  "coverage_pct": 66,
+  "distinct_gaps": 145,
   "quality": {
     "tokens": {
-      "pass": 4111,
-      "soft": 3,
-      "hard": 5
+      "pass": 4088,
+      "soft": 0,
+      "hard": 31
     },
-    "pass_phrases": 992,
-    "soft_phrases": 3,
-    "hard_phrases": 5
+    "pass_phrases": 972,
+    "soft_phrases": 0,
+    "hard_phrases": 28
   },
   "levels": [
     {
@@ -26,7 +26,7 @@
       "phrases": 50,
       "clean": 39,
       "coverage": 78,
-      "unresolved_words": 12
+      "unresolved_words": 15
     },
     {
       "level": 2,
@@ -40,9 +40,9 @@
       "level": 3,
       "name": "Pain & injury",
       "phrases": 50,
-      "clean": 38,
-      "coverage": 76,
-      "unresolved_words": 12
+      "clean": 37,
+      "coverage": 74,
+      "unresolved_words": 14
     },
     {
       "level": 4,
@@ -56,9 +56,9 @@
       "level": 5,
       "name": "Basic emotions",
       "phrases": 50,
-      "clean": 43,
-      "coverage": 86,
-      "unresolved_words": 7
+      "clean": 42,
+      "coverage": 84,
+      "unresolved_words": 9
     },
     {
       "level": 6,
@@ -82,15 +82,15 @@
       "phrases": 50,
       "clean": 37,
       "coverage": 74,
-      "unresolved_words": 13
+      "unresolved_words": 15
     },
     {
       "level": 9,
       "name": "Who questions",
       "phrases": 50,
-      "clean": 31,
-      "coverage": 62,
-      "unresolved_words": 21
+      "clean": 30,
+      "coverage": 60,
+      "unresolved_words": 24
     },
     {
       "level": 10,
@@ -104,9 +104,9 @@
       "level": 11,
       "name": "When questions",
       "phrases": 50,
-      "clean": 34,
-      "coverage": 68,
-      "unresolved_words": 16
+      "clean": 32,
+      "coverage": 64,
+      "unresolved_words": 18
     },
     {
       "level": 12,
@@ -114,7 +114,7 @@
       "phrases": 50,
       "clean": 32,
       "coverage": 64,
-      "unresolved_words": 19
+      "unresolved_words": 20
     },
     {
       "level": 13,
@@ -138,7 +138,7 @@
       "phrases": 50,
       "clean": 28,
       "coverage": 56,
-      "unresolved_words": 23
+      "unresolved_words": 24
     },
     {
       "level": 16,
@@ -146,7 +146,7 @@
       "phrases": 50,
       "clean": 29,
       "coverage": 58,
-      "unresolved_words": 23
+      "unresolved_words": 24
     },
     {
       "level": 17,
@@ -154,23 +154,23 @@
       "phrases": 50,
       "clean": 21,
       "coverage": 42,
-      "unresolved_words": 34
+      "unresolved_words": 37
     },
     {
       "level": 18,
       "name": "Repair & clarification",
       "phrases": 50,
-      "clean": 41,
-      "coverage": 82,
-      "unresolved_words": 9
+      "clean": 40,
+      "coverage": 80,
+      "unresolved_words": 11
     },
     {
       "level": 19,
       "name": "Plans & intent",
       "phrases": 50,
-      "clean": 19,
-      "coverage": 38,
-      "unresolved_words": 33
+      "clean": 17,
+      "coverage": 34,
+      "unresolved_words": 35
     },
     {
       "level": 20,
@@ -178,7 +178,7 @@
       "phrases": 50,
       "clean": 28,
       "coverage": 56,
-      "unresolved_words": 24
+      "unresolved_words": 26
     }
   ],
   "gaps": [
@@ -473,12 +473,31 @@
       ]
     },
     {
+      "word": "badi",
+      "count": 3,
+      "role": "subject",
+      "samples": [
+        "My mother is sick.",
+        "My mother is old and tired.",
+        "I need to find my mother."
+      ]
+    },
+    {
       "word": "both",
       "count": 2,
       "role": "concept",
       "samples": [
         "We are both strangers here.",
         "We are both alive and well."
+      ]
+    },
+    {
+      "word": "pemet",
+      "count": 2,
+      "role": "object",
+      "samples": [
+        "I feel nervous and unsure.",
+        "I feel uneasy about that person."
       ]
     },
     {
@@ -551,6 +570,15 @@
       "samples": [
         "What happened here?",
         "Something happened here."
+      ]
+    },
+    {
+      "word": "gankan",
+      "count": 2,
+      "role": "time",
+      "samples": [
+        "What happened last night?",
+        "I plan to watch through the night."
       ]
     },
     {
@@ -652,9 +680,25 @@
       ]
     },
     {
+      "word": "tes+temkan",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "I feel relieved to see you."
+      ]
+    },
+    {
       "word": "nervous",
       "count": 1,
       "role": "concept",
+      "samples": [
+        "I feel nervous and unsure."
+      ]
+    },
+    {
+      "word": "metpa",
+      "count": 1,
+      "role": "object",
       "samples": [
         "I feel nervous and unsure."
       ]
@@ -684,6 +728,22 @@
       ]
     },
     {
+      "word": "tesfem",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "I will help clean your wound."
+      ]
+    },
+    {
+      "word": "tira",
+      "count": 1,
+      "role": "event",
+      "samples": [
+        "My back hurts and I cannot stand."
+      ]
+    },
+    {
       "word": "tracks",
       "count": 1,
       "role": "concept",
@@ -705,6 +765,22 @@
       "role": "concept",
       "samples": [
         "You seem angry."
+      ]
+    },
+    {
+      "word": "gamnes",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "This makes me sad."
+      ]
+    },
+    {
+      "word": "nes+tampa",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "Do you feel relieved?"
       ]
     },
     {
@@ -820,11 +896,27 @@
       ]
     },
     {
+      "word": "tofem",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "What is this white powder?"
+      ]
+    },
+    {
       "word": "color",
       "count": 1,
       "role": "concept",
       "samples": [
         "What is that color in the sky?"
+      ]
+    },
+    {
+      "word": "kemye",
+      "count": 1,
+      "role": "event",
+      "samples": [
+        "Who is crying?"
       ]
     },
     {
@@ -900,6 +992,14 @@
       ]
     },
     {
+      "word": "nesgu",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "I feel glad you are here."
+      ]
+    },
+    {
       "word": "most",
       "count": 1,
       "role": "concept",
@@ -940,11 +1040,27 @@
       ]
     },
     {
+      "word": "gemshu",
+      "count": 1,
+      "role": "time",
+      "samples": [
+        "Not now, later."
+      ]
+    },
+    {
       "word": "burn",
       "count": 1,
       "role": "concept",
       "samples": [
         "The fire was burning before."
+      ]
+    },
+    {
+      "word": "tinal",
+      "count": 1,
+      "role": "time",
+      "samples": [
+        "After I rest, I will help."
       ]
     },
     {
@@ -967,6 +1083,14 @@
       "word": "until",
       "count": 1,
       "role": "concept",
+      "samples": [
+        "Wait here until I return."
+      ]
+    },
+    {
+      "word": "giyinam",
+      "count": 1,
+      "role": "time",
       "samples": [
         "Wait here until I return."
       ]
@@ -1028,6 +1152,14 @@
       ]
     },
     {
+      "word": "sampa",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "I do not understand the weather here."
+      ]
+    },
+    {
       "word": "sharp",
       "count": 1,
       "role": "concept",
@@ -1079,6 +1211,14 @@
       "word": "side",
       "count": 1,
       "role": "concept",
+      "samples": [
+        "I feel pain in my side."
+      ]
+    },
+    {
+      "word": "togen",
+      "count": 1,
+      "role": "path",
       "samples": [
         "I feel pain in my side."
       ]
@@ -1180,6 +1320,22 @@
       ]
     },
     {
+      "word": "tose",
+      "count": 1,
+      "role": "subject",
+      "samples": [
+        "That word is not clear to me."
+      ]
+    },
+    {
+      "word": "winat",
+      "count": 1,
+      "role": "event",
+      "samples": [
+        "That word is not clear to me."
+      ]
+    },
+    {
       "word": "mean",
       "count": 1,
       "role": "concept",
@@ -1204,6 +1360,14 @@
       ]
     },
     {
+      "word": "hudimo",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "I want to understand your plan."
+      ]
+    },
+    {
       "word": "leads",
       "count": 1,
       "role": "concept",
@@ -1225,6 +1389,22 @@
       "role": "concept",
       "samples": [
         "That was hard but we finished."
+      ]
+    },
+    {
+      "word": "moyi+gi",
+      "count": 1,
+      "role": "event",
+      "samples": [
+        "We can rest and then continue."
+      ]
+    },
+    {
+      "word": "kekdi",
+      "count": 1,
+      "role": "time",
+      "samples": [
+        "We worked well together today."
       ]
     },
     {
@@ -2098,35 +2278,35 @@
     {
       "level": 1,
       "phrase": "I feel relieved to see you.",
-      "roman": "mi nes testemkan wi be",
+      "roman": "mi nes [tes+temkan] wi be",
       "unresolved": [
-        "relieved"
+        "relieved",
+        "tes+temkan"
       ],
       "counts": {
         "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0,
-        "composed": 1
+        "unknown": 1
       },
       "quality": {
-        "gate": "soft",
+        "gate": "hard",
         "pass": 4,
-        "soft": 1,
-        "hard": 0
+        "soft": 0,
+        "hard": 1
       },
-      "review": [
+      "review": [],
+      "gaps": [
         {
           "english": "tes+temkan",
-          "kind": "composed",
-          "concept_id": "tes+temkan",
-          "fonoran": "testemkan"
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
         }
       ],
-      "gaps": [],
       "expected": "mi nes testemkan wi be",
-      "matches_golden": true,
+      "matches_golden": false,
       "note": "review: tes+temkan→testemkan(composed)"
     },
     {
@@ -2389,27 +2569,42 @@
     {
       "level": 1,
       "phrase": "I feel nervous and unsure.",
-      "roman": "mi nes pemet metpa",
+      "roman": "mi nes [pemet] [metpa]",
       "unresolved": [
-        "nervous"
+        "nervous",
+        "pemet",
+        "metpa"
       ],
       "counts": {
-        "direct": 4,
+        "direct": 2,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 2
       },
       "quality": {
-        "gate": "pass",
-        "pass": 4,
+        "gate": "hard",
+        "pass": 2,
         "soft": 0,
-        "hard": 0
+        "hard": 2
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "pemet",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        },
+        {
+          "english": "metpa",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi nes pemet metpa",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -4540,25 +4735,34 @@
     {
       "level": 3,
       "phrase": "I will help clean your wound.",
-      "roman": "mi sa kas be tesfem guye",
-      "unresolved": [],
+      "roman": "mi sa kas be [tesfem] guye",
+      "unresolved": [
+        "tesfem"
+      ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 6,
+        "gate": "hard",
+        "pass": 5,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "tesfem",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi sa kas be tesfem guye",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -4703,27 +4907,35 @@
     {
       "level": 3,
       "phrase": "My back hurts and I cannot stand.",
-      "roman": "mi tes so mi no tira",
+      "roman": "mi tes so mi no [tira]",
       "unresolved": [
-        "can"
+        "can",
+        "tira"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 6,
+        "gate": "hard",
+        "pass": 5,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "tira",
+          "kind": "unknown",
+          "role": "event",
+          "reason": null
+        }
+      ],
       "expected": "mi tes so mi no tira",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -6585,25 +6797,34 @@
     {
       "level": 5,
       "phrase": "This makes me sad.",
-      "roman": "nohu to kel mi gamnes",
-      "unresolved": [],
+      "roman": "nohu to kel mi [gamnes]",
+      "unresolved": [
+        "gamnes"
+      ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "gamnes",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "nohu to kel mi gamnes",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 5,
@@ -6911,35 +7132,35 @@
     {
       "level": 5,
       "phrase": "Do you feel relieved?",
-      "roman": "be nes nestampa ?",
+      "roman": "be nes [nes+tampa] ?",
       "unresolved": [
-        "relieved"
+        "relieved",
+        "nes+tampa"
       ],
       "counts": {
         "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0,
-        "composed": 1
+        "unknown": 1
       },
       "quality": {
-        "gate": "soft",
+        "gate": "hard",
         "pass": 3,
-        "soft": 1,
-        "hard": 0
+        "soft": 0,
+        "hard": 1
       },
-      "review": [
+      "review": [],
+      "gaps": [
         {
           "english": "nes+tampa",
-          "kind": "composed",
-          "concept_id": "nes+tampa",
-          "fonoran": "nestampa"
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
         }
       ],
-      "gaps": [],
       "expected": "be nes nestampa ?",
-      "matches_golden": true,
+      "matches_golden": false,
       "note": "review: nes+tampa→nestampa(composed)"
     },
     {
@@ -9961,27 +10182,35 @@
     {
       "level": 8,
       "phrase": "What happened last night?",
-      "roman": "nohu to ta gankan daldi gankan ?",
+      "roman": "nohu to ta [gankan] daldi gankan ?",
       "unresolved": [
-        "happened"
+        "happened",
+        "gankan"
       ],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 7,
+        "gate": "hard",
+        "pass": 6,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "gankan",
+          "kind": "unknown",
+          "role": "time",
+          "reason": null
+        }
+      ],
       "expected": "nohu to ta gankan daldi gankan ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 8,
@@ -10431,27 +10660,35 @@
     {
       "level": 8,
       "phrase": "What is this white powder?",
-      "roman": "nohu to gen tofem ?",
+      "roman": "nohu to gen [tofem] ?",
       "unresolved": [
-        "white"
+        "white",
+        "tofem"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "tofem",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "nohu to gen tofem ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 8,
@@ -10941,25 +11178,34 @@
     {
       "level": 9,
       "phrase": "Who is crying?",
-      "roman": "nohu ba kemye ?",
-      "unresolved": [],
+      "roman": "nohu ba [kemye] ?",
+      "unresolved": [
+        "kemye"
+      ],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 4,
+        "gate": "hard",
+        "pass": 3,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "kemye",
+          "kind": "unknown",
+          "role": "event",
+          "reason": null
+        }
+      ],
       "expected": "nohu ba kemye ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11445,27 +11691,35 @@
     {
       "level": 9,
       "phrase": "I feel uneasy about that person.",
-      "roman": "mi nes pemet fel ba",
+      "roman": "mi nes [pemet] fel ba",
       "unresolved": [
-        "uneasy"
+        "uneasy",
+        "pemet"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "pemet",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi nes pemet fel ba",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11660,27 +11914,35 @@
     {
       "level": 9,
       "phrase": "I feel glad you are here.",
-      "roman": "mi nes nam nesgu be",
+      "roman": "mi nes nam [nesgu] be",
       "unresolved": [
-        "glad"
+        "glad",
+        "nesgu"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "nesgu",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi nes nam nesgu be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -13331,25 +13593,34 @@
     {
       "level": 11,
       "phrase": "Not now, later.",
-      "roman": "gem gemshu no",
-      "unresolved": [],
+      "roman": "gem [gemshu] no",
+      "unresolved": [
+        "gemshu"
+      ],
       "counts": {
-        "direct": 3,
+        "direct": 2,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 3,
+        "gate": "hard",
+        "pass": 2,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "gemshu",
+          "kind": "unknown",
+          "role": "time",
+          "reason": null
+        }
+      ],
       "expected": "gem gemshu no",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14039,25 +14310,34 @@
     {
       "level": 11,
       "phrase": "After I rest, I will help.",
-      "roman": "mi sa tinal di kas",
-      "unresolved": [],
+      "roman": "mi sa [tinal] di kas",
+      "unresolved": [
+        "tinal"
+      ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "tinal",
+          "kind": "unknown",
+          "role": "time",
+          "reason": null
+        }
+      ],
       "expected": "mi sa tinal di kas",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -15058,27 +15338,35 @@
     {
       "level": 12,
       "phrase": "Wait here until I return.",
-      "roman": "be mi giyinam tikan nam",
+      "roman": "be mi [giyinam] tikan nam",
       "unresolved": [
-        "until"
+        "until",
+        "giyinam"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "giyinam",
+          "kind": "unknown",
+          "role": "time",
+          "reason": null
+        }
+      ],
       "expected": "be mi giyinam tikan nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -18494,27 +18782,35 @@
     {
       "level": 15,
       "phrase": "I do not understand the weather here.",
-      "roman": "mi no hufel nam sampa",
+      "roman": "mi no hufel nam [sampa]",
       "unresolved": [
-        "weather"
+        "weather",
+        "sampa"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "sampa",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi no hufel nam sampa",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -19880,27 +20176,35 @@
     {
       "level": 16,
       "phrase": "I feel pain in my side.",
-      "roman": "mi nes mes togen tes",
+      "roman": "mi nes mes [togen] tes",
       "unresolved": [
-        "side"
+        "side",
+        "togen"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "togen",
+          "kind": "unknown",
+          "role": "path",
+          "reason": null
+        }
+      ],
       "expected": "mi nes mes togen tes",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -20362,27 +20666,35 @@
     {
       "level": 17,
       "phrase": "My mother is sick.",
-      "roman": "badi femgam",
+      "roman": "[badi] femgam",
       "unresolved": [
-        "mother"
+        "mother",
+        "badi"
       ],
       "counts": {
-        "direct": 2,
+        "direct": 1,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 2,
+        "gate": "hard",
+        "pass": 1,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "badi",
+          "kind": "unknown",
+          "role": "subject",
+          "reason": null
+        }
+      ],
       "expected": "badi femgam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -20943,27 +21255,34 @@
     {
       "level": 17,
       "phrase": "My mother is old and tired.",
-      "roman": "badi nes femtam di [and]",
+      "roman": "[badi] nes femtam di [and]",
       "unresolved": [
         "mother",
         "old",
-        "and"
+        "and",
+        "badi"
       ],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 1
+        "unknown": 2
       },
       "quality": {
         "gate": "hard",
-        "pass": 4,
+        "pass": 3,
         "soft": 0,
-        "hard": 1
+        "hard": 2
       },
       "review": [],
       "gaps": [
+        {
+          "english": "badi",
+          "kind": "unknown",
+          "role": "subject",
+          "reason": null
+        },
         {
           "english": "and",
           "kind": "unknown",
@@ -20972,7 +21291,7 @@
         }
       ],
       "expected": "badi nes femtam di [and]",
-      "matches_golden": true,
+      "matches_golden": false,
       "note": "gap: and (needs a root)"
     },
     {
@@ -21267,28 +21586,36 @@
     {
       "level": 17,
       "phrase": "I need to find my mother.",
-      "roman": "mi les wi de badi",
+      "roman": "mi les wi de [badi]",
       "unresolved": [
         "find",
-        "mother"
+        "mother",
+        "badi"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "badi",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi les wi de badi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -21999,25 +22326,41 @@
     {
       "level": 18,
       "phrase": "That word is not clear to me.",
-      "roman": "tose no winat mi",
-      "unresolved": [],
+      "roman": "[tose] no [winat] mi",
+      "unresolved": [
+        "tose",
+        "winat"
+      ],
       "counts": {
-        "direct": 4,
+        "direct": 2,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 2
       },
       "quality": {
-        "gate": "pass",
-        "pass": 4,
+        "gate": "hard",
+        "pass": 2,
         "soft": 0,
-        "hard": 0
+        "hard": 2
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "tose",
+          "kind": "unknown",
+          "role": "subject",
+          "reason": null
+        },
+        {
+          "english": "winat",
+          "kind": "unknown",
+          "role": "event",
+          "reason": null
+        }
+      ],
       "expected": "tose no winat mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -23390,25 +23733,34 @@
     {
       "level": 19,
       "phrase": "I want to understand your plan.",
-      "roman": "mi hufel hudimo sak",
-      "unresolved": [],
+      "roman": "mi hufel [hudimo] sak",
+      "unresolved": [
+        "hudimo"
+      ],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 4,
+        "gate": "hard",
+        "pass": 3,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "hudimo",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi hufel hudimo sak",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23706,25 +24058,34 @@
     {
       "level": 19,
       "phrase": "I plan to watch through the night.",
-      "roman": "mi sa gankan hudimo wi fel",
-      "unresolved": [],
+      "roman": "mi sa [gankan] hudimo wi fel",
+      "unresolved": [
+        "gankan"
+      ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 6,
+        "gate": "hard",
+        "pass": 5,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "gankan",
+          "kind": "unknown",
+          "role": "time",
+          "reason": null
+        }
+      ],
       "expected": "mi sa gankan hudimo wi fel",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -24403,35 +24764,35 @@
     {
       "level": 20,
       "phrase": "We can rest and then continue.",
-      "roman": "dan shu tinal moyigi",
+      "roman": "dan shu tinal [moyi+gi]",
       "unresolved": [
-        "can"
+        "can",
+        "moyi+gi"
       ],
       "counts": {
         "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0,
-        "composed": 1
+        "unknown": 1
       },
       "quality": {
-        "gate": "soft",
+        "gate": "hard",
         "pass": 3,
-        "soft": 1,
-        "hard": 0
+        "soft": 0,
+        "hard": 1
       },
-      "review": [
+      "review": [],
+      "gaps": [
         {
           "english": "moyi+gi",
-          "kind": "composed",
-          "concept_id": "moyi+gi",
-          "fonoran": "moyigi"
+          "kind": "unknown",
+          "role": "event",
+          "reason": null
         }
       ],
-      "gaps": [],
       "expected": "dan shu tinal moyigi",
-      "matches_golden": true,
+      "matches_golden": false,
       "note": "review: moyi+gi→moyigi(composed)"
     },
     {
@@ -24483,27 +24844,35 @@
     {
       "level": 20,
       "phrase": "We worked well together today.",
-      "roman": "dan ta kekdi gem bakel gu dan",
+      "roman": "dan ta [kekdi] gem bakel gu dan",
       "unresolved": [
-        "together"
+        "together",
+        "kekdi"
       ],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 7,
+        "gate": "hard",
+        "pass": 6,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "kekdi",
+          "kind": "unknown",
+          "role": "time",
+          "reason": null
+        }
+      ],
       "expected": "dan ta kekdi gem bakel gu dan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,

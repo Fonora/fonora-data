@@ -1,7 +1,7 @@
 {
   "version": "1.0-llm-playtests",
   "prompt_version": "5",
-  "model": "claude-sonnet-4-6",
+  "model": "claude-fable-5",
   "rounds": [
     {
       "id": "llm-mr2wnosc-21b0me",
@@ -95793,195 +95793,2989 @@
       "grader": "claude-sonnet-4-6",
       "naturalness": 0.6,
       "vagueness": 0.5
+    },
+    {
+      "id": "llm-mrgrvvy4-tzb2n9",
+      "at": "2026-07-11T19:43:49.372Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "Descompongo la palabra en to-dak-gu-gek: 'cosa-mano-bueno-usar'. La lectura más natural es 'cosa que se usa bien con la mano', lo cual apunta claramente a una herramienta o utensilio. La composición es transparente y lógica, aunque cuatro raíces la hacen algo larga; quizá 'to-dak-gek' habría bastado para transmitir la idea de herramienta.",
+      "inferred_meaning": "Una herramienta: una cosa que se usa bien con la mano (to='cosa' + dak='mano' + gu='bueno' + gek='usar'), es decir, un objeto útil que se maneja con las manos.",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrvxc6-ptsthj",
+      "at": "2026-07-11T19:43:51.174Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "La combinación 'to-dak-gek' (cosa + tu mano + usar) se entiende bastante bien: una cosa que la mano usa. La imagen es concreta y apunta directamente a la idea de herramienta. Hay algo de vaguedad porque podría interpretarse como cualquier objeto manipulable (un vaso, una piedra, un juguete), no necesariamente algo hecho para trabajar. Quizás 'cosa + hacer + usar' (to-kel-gek) marcaría mejor el propósito funcional, pero incluir la mano hace la construcción más vívida y física. Son tres raíces, dentro del límite razonable, y la pronunciación fluye sin problemas.",
+      "inferred_meaning": "una cosa que se usa con la mano; un objeto útil que se maneja; una herramienta o utensilio",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgrvv5j-vqeuxi",
+      "at": "2026-07-11T19:43:48.343Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "我把这个词拆成 to（东西）+ dak（你的手）+ gu（好）+ gek（使用），字面意思是'用手好好使用的东西'。这很自然让我想到'工具'或'器具'的概念。四个词根组合起来意思还算清楚，但一个词里塞了四个词根，念起来有点长，如果去掉 gu（好）只说 todakgek 可能也能明白。",
+      "inferred_meaning": "工具——一种用手使用、有好用处的东西",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.7
+    },
+    {
+      "id": "llm-mrgrvwdm-gumifa",
+      "at": "2026-07-11T19:43:49.930Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "worked_well"
+      ],
+      "reasoning": "从'东西+你的手+好+使用'能比较容易推出'用手使用的好东西'，也就是工具，语义上是通顺的。但'好用'其实要拆成'好(gu)+使用(gek)'两个词根，整个词就变成四个词根（to-dak-gu-gek），说起来太长。其实'东西+手+使用'（to-dak-gek）三个词根就足够表达'工具'了，'好'是多余的。语义清晰但构造偏冗长。",
+      "inferred_meaning": "手能好好使用的东西——大概是工具或器具",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.55,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgrw7mh-z76ymv",
+      "at": "2026-07-11T19:44:04.506Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "أحلل الكلمة إلى الجذور: to (شيء) + dak (يدك) + gu (جيد) + gek (استخدام شيء). إذن المعنى الحرفي: شيء تستخدمه اليد استخداماً جيداً. هذا يشير بوضوح إلى مفهوم الأداة أو الآلة اليدوية. التركيب منطقي ومفهوم، لكنه طويل بعض الشيء بأربعة جذور.",
+      "inferred_meaning": "أداة - شيء تستخدمه اليد بشكل جيد",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrw9ay-2bhhsm",
+      "at": "2026-07-11T19:44:06.682Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب 'شيء + يدك + مفيد' (to-dak-gu) مفهوم إلى حد جيد: شيء يمسك باليد ونافع، فيقترب من معنى 'أداة'. لكن الجذر 'gu' يعني 'جيد' عموماً وليس 'مفيد' تحديداً، فقد يُفهم كـ'شيء يدوي جميل' أو 'شيء جيد لليد'. كان استخدام جذر 'استخدام' (gek) أوضح، مثل to-gek-dak أو حتى to-gek فقط. رغم ذلك التركيب قصير (ثلاثة جذور) وسهل النطق، وسياق الاستعمال سيوضح المعنى غالباً.",
+      "inferred_meaning": "شيء يُستخدم باليد لعمل ما، أي أداة",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.55,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgrw8ih-yuqmbx",
+      "at": "2026-07-11T19:44:05.657Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "शब्द को तोड़ने पर मुझे to (चीज़) + dak (तुम्हारा हाथ) + gu (अच्छा) + gek (इस्तेमाल करना) मिलता है। यानी 'चीज़-हाथ-अच्छा-इस्तेमाल' — ऐसी चीज़ जो हाथ में पकड़कर अच्छे से इस्तेमाल की जाती है। हिंदी में सोचूँ तो यह 'औज़ार' या 'उपकरण' जैसा लगता है। अर्थ काफ़ी साफ़ निकलता है, इसलिए समझ में आ जाएगा, हालाँकि चार धातुओं का शब्द थोड़ा लंबा है।",
+      "inferred_meaning": "औज़ार / उपकरण — ऐसी चीज़ जिसे हाथ से अच्छी तरह इस्तेमाल किया जाता है",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.7
+    },
+    {
+      "id": "llm-mrgrwa54-806gkc",
+      "at": "2026-07-11T19:44:07.768Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "तीन धातुओं की रचना 'चीज़ + हाथ + उपयोग' सुनते ही मन में 'हाथ से इस्तेमाल होने वाली चीज़' की छवि बनती है, जो औज़ार के अर्थ के काफ़ी करीब है। थोड़ी अस्पष्टता है क्योंकि यह किसी भी हाथ में पकड़ी जाने वाली वस्तु (जैसे कप या खिलौना) पर भी लागू हो सकती है, लेकिन 'उपयोग' धातु जुड़ने से कामकाजी वस्तु का भाव प्रबल हो जाता है। रचना छोटी और बोलने में सहज है, इसलिए मैं इसे इस्तेमाल करूँगा।",
+      "inferred_meaning": "ऐसी चीज़ जो हाथ से इस्तेमाल की जाती है — यानी औज़ार या उपकरण",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgrwmhi-ivc2zg",
+      "at": "2026-07-11T19:44:23.766Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "Naligawanya neno kuwa to-dak-gu-gek: 'to' (kitu) + 'dak' (mkono wako) + 'gu' (nzuri) + 'gek' (kutumia). Kwa hiyo ni 'kitu cha mkono ambacho ni kizuri kutumia' - hii inaelekeza kwenye maana ya zana au chombo cha kazi. Muundo wa mizizi minne unafanya neno kuwa refu kidogo, lakini maana inajitokeza wazi kabisa kutokana na mchanganyiko wa mizizi.",
+      "inferred_meaning": "Chombo au zana - kitu kinachoshikwa kwa mkono na kutumika vizuri (kitu-mkono-nzuri-tumia)",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrwodf-025rc2",
+      "at": "2026-07-11T19:44:26.211Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "hand",
+        "useful"
+      ],
+      "shown_spelling": "todakgugek",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo 'to-dak-gek' (kitu + mkono + kutumia) unaeleweka vizuri: kitu unachoshika mkononi ili kukitumia. Hii inaelekeza moja kwa moja kwenye maana ya 'zana'. Hata hivyo kuna utata kidogo — inaweza pia kumaanisha kitu chochote kinachoshikika, kama kikombe au simu. Mizizi mitatu ni urefu unaokubalika na inasemeka kwa urahisi. Labda 'to-gek' (kitu cha kutumia) pekee ingetosha, lakini kuongeza 'dak' kunabainisha kuwa ni chombo cha mkono, jambo linaloifanya maana kuwa wazi zaidi.",
+      "inferred_meaning": "kitu kinachoshikwa mkononi na kutumika — yaani chombo au zana ya kazi",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.7,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgrwnah-fh8syo",
+      "at": "2026-07-11T19:44:24.809Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Reconozco 'to' (cosa) y 'gek' (usar algo). La combinación 'cosa-usar' sugiere naturalmente un objeto que se emplea para hacer algo, es decir, una herramienta o instrumento. La composición es corta, clara y fácil de pronunciar.",
+      "inferred_meaning": "una herramienta; una cosa que se usa (objeto útil)",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.85
+    },
+    {
+      "id": "llm-mrgrwjue-pk9cno",
+      "at": "2026-07-11T19:44:20.342Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "La combinación 'cosa + usar' (to-gek) sugiere de forma bastante directa un objeto destinado a ser usado, lo que corresponde bien a 'herramienta'. Es corta, fácil de pronunciar y transparente. Queda algo de vaguedad porque casi cualquier objeto puede 'usarse', pero en contexto se entendería como instrumento o utensilio.",
+      "inferred_meaning": "una cosa que se usa; objeto para usar",
+      "composition_recovery": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgrwz7o-vvlclv",
+      "at": "2026-07-11T19:44:40.260Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "这个词可以拆分成 to（东西）+ gek（使用），组合起来就是'用来使用的东西'，也就是'工具'或'器具'。这种'名词+动词'的合成方式很直观，构词简短，发音也容易，我很快就能猜到意思。",
+      "inferred_meaning": "工具（被使用的东西）",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.85
+    },
+    {
+      "id": "llm-mrgrx0jg-as5wwl",
+      "at": "2026-07-11T19:44:41.980Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "『东西+使用』(to-gek) 很直接地表示'用来使用的东西'，两个词根简短易念。只认识词根的人很容易推断出'工具'的含义。稍有模糊之处在于几乎所有东西都可以被使用，但结合语境应能理解为专门供使用的器具。",
+      "inferred_meaning": "被使用的东西，即工具或用具",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgrx08x-u6w9gu",
+      "at": "2026-07-11T19:44:41.601Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "الكلمة مركبة من to (شيء) و gek (استخدام شيء)، أي 'شيء للاستخدام'، وهذا يدل بوضوح على أداة أو وسيلة. التركيب قصير ومنطقي وسهل الفهم.",
+      "inferred_meaning": "أداة — شيء يُستخدم (شيء للاستخدام)",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.85
+    },
+    {
+      "id": "llm-mrgrwzxe-48p6v5",
+      "at": "2026-07-11T19:44:41.186Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب \"togek\" (شيء + استخدام) قصير من جذرين وسهل النطق. عندما أسمع \"شيء للاستخدام\" أفهم مباشرة أنه شيء يُستعمل لإنجاز عمل، وهذا هو جوهر معنى الأداة. هناك غموض بسيط لأن أي شيء تقريباً يمكن استخدامه، لكن السياق يوضح المقصود، والتركيب منطقي وطبيعي جداً.",
+      "inferred_meaning": "شيء يُستخدم، أي أداة أو وسيلة لفعل شيء ما",
+      "composition_recovery": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "naturalness": 0.9,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgrxcix-wx3sdu",
+      "at": "2026-07-11T19:44:57.513Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "यह शब्द 'to' (चीज़) और 'gek' (इस्तेमाल करना) से मिलकर बना लगता है। 'इस्तेमाल की जाने वाली चीज़' का सीधा अर्थ औज़ार या उपकरण निकलता है। यह संयोजन स्वाभाविक और साफ़ है, इसलिए समझने में कोई कठिनाई नहीं हुई। बस थोड़ी अस्पष्टता है कि यह कोई खास औज़ार है या सामान्य रूप से कोई भी उपयोगी वस्तु।",
+      "inferred_meaning": "औज़ार या उपकरण — ऐसी चीज़ जिसका इस्तेमाल किया जाता है",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.85
+    },
+    {
+      "id": "llm-mrgrxcan-vlh0yf",
+      "at": "2026-07-11T19:44:57.215Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "चीज़ + इस्तेमाल करना (to-gek) से सीधा अर्थ निकलता है 'इस्तेमाल की जाने वाली चीज़', जो औज़ार का मूल भाव है। दो धातुओं की छोटी और बोलने में आसान रचना है। थोड़ी अस्पष्टता है क्योंकि लगभग हर चीज़ किसी न किसी काम में इस्तेमाल हो सकती है, पर संदर्भ में यह स्पष्ट रूप से 'औज़ार' की ओर इशारा करती है।",
+      "inferred_meaning": "ऐसी चीज़ जिसका इस्तेमाल किया जाता है — यानी औज़ार या उपकरण",
+      "composition_recovery": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "naturalness": 0.9,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgrxdk2-192sad",
+      "at": "2026-07-11T19:44:58.850Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Neno 'togek' linaonekana kuwa mchanganyiko wa 'to' (kitu) na 'gek' (kutumia). Kwa hiyo maana yake ni 'kitu cha kutumia', yaani chombo au zana. Muundo huu ni wa moja kwa moja na rahisi kuelewa: kitu ambacho kinatumiwa. Mchanganyiko huu ni mfupi, unatamkika kwa urahisi, na maana yake inajitokeza wazi kutoka kwa mizizi yake.",
+      "inferred_meaning": "Chombo au zana - kitu kinachotumiwa kufanya kazi",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.85
+    },
+    {
+      "id": "llm-mrgrxdpo-oo756v",
+      "at": "2026-07-11T19:44:59.052Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "thing",
+        "use"
+      ],
+      "shown_spelling": "togek",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo 'to-gek' (kitu + kutumia) ni mfupi, mizizi miwili tu, na rahisi kutamka. Maana yake inaeleweka moja kwa moja: kitu kinachotumiwa, ambacho ni sawa na 'zana' au 'kifaa'. Kuna utata mdogo kwa sababu vitu vingi vinaweza kutumika, lakini muktadha utasaidia. Ni njia ya asili kabisa ya kuunda neno hili.",
+      "inferred_meaning": "kitu cha kutumia; kifaa au zana inayotumika kufanya kazi",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.9,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgrxn30-i9a54b",
+      "at": "2026-07-11T19:45:11.196Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Reconozco 'dak' (tu mano) y 'to' (cosa). Una 'cosa de la mano' me sugiere naturalmente un objeto que se manipula o se sostiene con la mano, es decir, una herramienta o utensilio. La composición es corta y fácil de pronunciar, y el significado se deduce sin mucho esfuerzo.",
+      "inferred_meaning": "herramienta; una cosa que se usa con la mano",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrxp1z-9c2fal",
+      "at": "2026-07-11T19:45:13.751Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Es corto y fácil de decir (dak-to), y la asociación mano+cosa lleva bastante bien a la idea de un objeto que se maneja con la mano. Sin embargo, es algo vago: 'cosa de la mano' también podría interpretarse como un guante, un anillo o cualquier objeto sostenido. Una alternativa como 'usar+cosa' (gek-to) sería quizá más precisa, pero esta construcción funciona y en contexto se entendería.",
+      "inferred_meaning": "cosa de la mano; objeto que se sostiene o usa con la mano — probablemente una herramienta",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.7,
+      "vagueness": 0.45
+    },
+    {
+      "id": "llm-mrgrxqh7-lhsxdb",
+      "at": "2026-07-11T19:45:15.595Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "这个词可以拆成 dak（你的手）+ to（东西）。'手+东西'的组合很自然地让我联想到'手里的东西'或'手用的东西'，最合理的解释是'工具'——人用手使用的物件。构词简短、发音容易，两个词根的组合方向也符合直觉（修饰语在前，核心词在后），所以我觉得能理解。",
+      "inferred_meaning": "手的东西——大概是指用手拿着或用手操作的物件，也就是'工具'或'手持的器具'",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrxol0-1t43q2",
+      "at": "2026-07-11T19:45:13.140Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "「dak-to」（手+东西）只有两个词根，简短好念。看到这个组合，我会想到'手拿的东西'或'手用的东西'，比较容易联想到工具，因为工具正是手所使用的物品。不过它也可能被理解为'手里的任何东西'、'手持物'甚至'手套'之类，所以有一定模糊性。如果加上'使用'（gek）会更准确，但两词根版本已经够用且更简洁。",
+      "inferred_meaning": "手上的东西；手用的东西——很可能指工具或手持物品",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.7,
+      "vagueness": 0.5
+    },
+    {
+      "id": "llm-mrgry0i2-1trt6o",
+      "at": "2026-07-11T19:45:28.586Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "الكلمة مركبة من 'dak' (يدك) و'to' (شيء)، أي 'شيء اليد'. أقرب معنى منطقي هو شيء يُمسك أو يُستخدم باليد، أي أداة. التركيب قصير وواضح وسهل النطق.",
+      "inferred_meaning": "أداة — شيء تستخدمه اليد",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.8
+    },
+    {
+      "id": "llm-mrgry1vn-m1xgft",
+      "at": "2026-07-11T19:45:30.371Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب (dak + to) قصير وسهل النطق، والربط بين اليد والشيء يوحي بشيء يُمسك أو يُستعمل باليد، وهو معنى الأداة تقريباً. لكنه قد يُفهم أيضاً كشيء في اليد أو ممتلكات. تركيب بديل مثل gek+to (استخدام + شيء) قد يكون أوضح، لكن dak+to مقبول ومفهوم من السياق.",
+      "inferred_meaning": "شيء يخص اليد أو يُستعمل باليد، أي أداة",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgry1za-fjig88",
+      "at": "2026-07-11T19:45:30.502Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "यह शब्द 'dak' (तुम्हारा हाथ) और 'to' (चीज़) से बना लगता है। 'हाथ-चीज़' का सीधा अर्थ वह चीज़ होगी जो हाथ में पकड़ी या हाथ से इस्तेमाल की जाती है — जैसे औज़ार। यह संयोजन स्वाभाविक लगता है और उच्चारण में भी आसान है, इसलिए मैं इसे समझ पाऊँगा।",
+      "inferred_meaning": "हाथ से इस्तेमाल की जाने वाली चीज़ — यानी औज़ार या उपकरण",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.8
+    },
+    {
+      "id": "llm-mrgry2mj-b34wbr",
+      "at": "2026-07-11T19:45:31.339Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "दो धातुओं की छोटी और बोलने में आसान रचना है। 'हाथ की चीज़' सुनकर स्वाभाविक रूप से हाथ से पकड़ी या इस्तेमाल की जाने वाली वस्तु का ख्याल आता है, जो औज़ार के अर्थ के काफ़ी पास है। हल्की अस्पष्टता है — यह 'दस्ताना' या 'हाथ में रखी कोई भी चीज़' भी हो सकती है। 'इस्तेमाल करना + चीज़' (gek+to) शायद और सटीक होता, पर यह रचना भी संदर्भ में समझ आ जाएगी।",
+      "inferred_meaning": "हाथ से जुड़ी चीज़ — यानी वह वस्तु जो हाथ से पकड़कर इस्तेमाल की जाती है, अर्थात औज़ार",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgryehz-v0ekck",
+      "at": "2026-07-11T19:45:46.727Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Neno 'dakto' linaonekana kuundwa na mizizi miwili: 'dak' (mkono wako) na 'to' (kitu). Kwa hiyo maana yake ya moja kwa moja ni 'kitu cha mkono'. Katika lugha nyingi, mchanganyiko wa aina hii hutumika kumaanisha zana au chombo - kitu kinachoshikwa na kutumiwa kwa mkono. Muundo ni mfupi na rahisi kutamka, na maana inaeleweka kwa urahisi.",
+      "inferred_meaning": "Kitu cha mkono - yaani chombo au zana; kitu ambacho mtu hushika na kutumia kwa mkono wake",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgryfmz-4xjyk9",
+      "at": "2026-07-11T19:45:48.203Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "hand",
+        "thing"
+      ],
+      "shown_spelling": "dakto",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Mchanganyiko wa 'dak' (mkono) na 'to' (kitu) unaeleza kwa urahisi 'kitu cha mkono'. Kwa mtu anayejua mizizi tu, ni rahisi kufikia maana ya zana kwa sababu zana ni vitu vinavyoshikwa na kutumiwa kwa mkono. Kuna utata kidogo — inaweza pia kueleweka kama 'kitu chochote kilicho mkononi' au hata pambo la mkono — lakini muktadha ungeondoa mkanganyiko. Ni fupi (mizizi 2), inasemeka kwa urahisi (dak-to), na inafuata mantiki ya asili.",
+      "inferred_meaning": "kitu cha mkono; kitu kinachotumiwa kwa mkono, yaani zana au chombo",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.8,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgryd41-ii2jca",
+      "at": "2026-07-11T19:45:44.929Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Puedo descomponer la palabra en gu (bueno) + gek (usar) + to (cosa). Literalmente sería 'cosa buena para usar', lo que naturalmente interpreto como una herramienta o un objeto útil. La composición es transparente y fácil de pronunciar.",
+      "inferred_meaning": "una cosa buena de usar; una herramienta útil",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.8
+    },
+    {
+      "id": "llm-mrgryf3e-4t1p8r",
+      "at": "2026-07-11T19:45:47.498Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "La combinación 'gek-to' (usar + cosa) es corta, fácil de pronunciar y bastante transparente: una 'cosa de usar' apunta naturalmente a un instrumento o herramienta. Hay algo de vaguedad porque casi cualquier objeto puede usarse (podría entenderse como 'objeto útil' en general, o incluso un utensilio de cocina, un arma, etc.), pero en contexto la interpretación de 'herramienta' es la más probable. Es una construcción que yo mismo emplearía.",
+      "inferred_meaning": "una cosa que se usa; un objeto útil, probablemente una herramienta o utensilio",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.8,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgryptt-j08mxg",
+      "at": "2026-07-11T19:46:01.409Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "拆分成 gu（好）+ gek（使用）+ to（东西），即'好+使用+东西'。按顺序理解就是'用起来好的东西'，也就是有用的物品或工具。三个词根都很短，组合起来发音顺口，意思也一目了然。",
+      "inferred_meaning": "好用的东西——大概是指工具或有用处的物品",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.8
+    },
+    {
+      "id": "llm-mrgrysj5-n8elwd",
+      "at": "2026-07-11T19:46:04.913Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "「好用的东西」（gu-gek-to）很容易让人想到能被使用、带来好处的物品，指向工具是比较自然的。不过它也可能被理解成任何'有用之物'，比如食物或材料，所以有一定模糊性。三个词根还算简短，我会使用；如果只用「用+东西」（gek-to）两个词根可能更简洁。",
+      "inferred_meaning": "有用的东西、器具，即拿来使用的物品（工具）",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgryrof-otifc2",
+      "at": "2026-07-11T19:46:03.807Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "أستطيع تقسيم الكلمة إلى gu (جيد) + gek (استخدام شيء) + to (شيء). فالمعنى المركب يبدو: شيء استخدامه جيد، أي شيء مفيد أو أداة نافعة. التركيب واضح ومنطقي: صفة الجودة مرتبطة بالاستخدام ثم تُختم بكلمة شيء لتحويل المعنى إلى اسم. المعنى الأقرب في ذهني هو أداة أو شيء صالح للاستعمال.",
+      "inferred_meaning": "شيء جيد الاستخدام، أي أداة مفيدة أو شيء نافع يُستخدم",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrys2i-twd7am",
+      "at": "2026-07-11T19:46:04.314Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب من جذرين فقط (gek + to) قصير وسهل النطق. 'شيء الاستخدام' يوصل فكرة الأداة بشكل مباشر: الأداة هي بالتحديد شيء نستخدمه لفعل شيء آخر. هناك غموض بسيط لأن 'شيء مفيد' قد يشمل أي شيء نافع (طعام، دواء)، لكن السياق عادة يوضح المقصود، والمعنى الأقرب للذهن عند سماعه هو الأداة.",
+      "inferred_meaning": "شيء يُستخدم، شيء نافع — أي أداة أو وسيلة",
+      "composition_recovery": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgrz3us-hx4f98",
+      "at": "2026-07-11T19:46:19.588Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "शब्द को तोड़ने पर gu (अच्छा) + gek (इस्तेमाल करना) + to (चीज़) मिलता है। यानी 'अच्छा-इस्तेमाल-चीज़' — ऐसी चीज़ जिसका इस्तेमाल अच्छा हो या जो काम में आए। हिंदी में हम इसे 'उपयोगी चीज़' या 'औज़ार' कह सकते हैं। तीनों धातुएँ साफ़ पहचान में आती हैं और क्रम भी स्वाभाविक लगता है, इसलिए अर्थ समझना कठिन नहीं है।",
+      "inferred_meaning": "अच्छी तरह इस्तेमाल होने वाली चीज़ — यानी कोई उपयोगी वस्तु या औज़ार",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgrz5ce-ivvtp5",
+      "at": "2026-07-11T19:46:21.518Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "'गेक-तो' (इस्तेमाल + चीज़) सुनते ही मेरे मन में 'काम में आने वाली चीज़' का भाव आता है, जो औज़ार के बहुत करीब है। रचना छोटी है, बोलने में आसान है और दो धातुओं से बनी है। हल्की अस्पष्टता है क्योंकि कोई भी उपयोगी चीज़ (जैसे बर्तन, कपड़ा) भी 'इस्तेमाल की चीज़' हो सकती है, पर संदर्भ में यह आसानी से 'औज़ार' समझ में आ जाएगा।",
+      "inferred_meaning": "ऐसी चीज़ जिसका इस्तेमाल किया जाता है — यानी औज़ार या उपकरण",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgrz4ts-hkeu32",
+      "at": "2026-07-11T19:46:20.848Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Neno linagawanyika kwa urahisi: 'gu' (nzuri) + 'gek' (kutumia) + 'to' (kitu). Kwa hiyo maana ni 'kitu kizuri cha kutumia' — yaani kifaa au chombo chenye manufaa. Muundo ni wa moja kwa moja na rahisi kutamka, hivyo ningeelewa bila shida.",
+      "inferred_meaning": "Kitu chenye manufaa; chombo au kifaa kizuri cha kutumia (kitu kinachotumika vizuri)",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.8
+    },
+    {
+      "id": "llm-mrgrz9jo-de8ft9",
+      "at": "2026-07-11T19:46:26.964Z",
+      "concept_id": "tool",
+      "candidate_composition": [
+        "useful",
+        "thing"
+      ],
+      "shown_spelling": "gugekto",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo 'gek + to' (kutumia + kitu) unaeleweka moja kwa moja: kitu cha kutumia, yaani zana. Ni mfupi (mizizi 2) na rahisi kusemeka. Utata upo kidogo kwa sababu 'kitu kinachotumika' kinaweza kumaanisha chombo chochote, si zana pekee — kwa mfano nyenzo au rasilimali. Hata hivyo, katika muktadha wa kawaida, msikilizaji anayejua mizizi tu atakisia 'zana' kwa urahisi. Ikiwa 'rahisi' inaongezwa kama mzizi wa tatu (mfano gu-gek-to), bado ni fupi na inakubalika, lakini mizizi miwili inatosha.",
+      "inferred_meaning": "kitu kinachotumika — chombo au zana ya kufanyia kazi",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgrzljf-lpj6u1",
+      "at": "2026-07-11T19:46:42.507Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "Descompongo la palabra en kam (vínculo) + dan (unidad/colectivo) + de (uno mismo) + hu (saber). Leyéndolo en orden: 'vínculo-colectivo-yo-saber', lo interpreto como 'saber el vínculo de uno mismo con el colectivo', o sea, conocer el propio lugar en la comunidad: pertenencia o identidad grupal. La combinación tiene sentido, aunque con cuatro raíces la palabra se hace larga y hay ambigüedad sobre si 'hu' aplica a todo el compuesto o solo a una parte.",
+      "inferred_meaning": "Saber o conocer el vínculo entre uno mismo y la comunidad; es decir, algo como 'sentido de pertenencia' o 'identidad dentro del grupo'.",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgrznlt-johyub",
+      "at": "2026-07-11T19:46:45.185Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural"
+      ],
+      "reasoning": "La parte de 'grupo unido' (dan, colectivo) sí apunta bien hacia 'comunidad'. Pero el añadido de 'yo continuo' me confunde: ¿es un yo que dura en el tiempo? ¿Un colectivo hecho de yoes? Sin conocer compuestos, yo interpretaría algo como 'unidad de mí mismo a lo largo del tiempo', que suena más a identidad personal que a comunidad. La noción de continuidad temporal aplicada al 'yo' desvía el significado. Sería más natural algo como 'unidad de muchas personas' (dan + lek + ba) o simplemente 'unidad de personas'. Tal como está, la construcción es corta pero semánticamente forzada.",
+      "inferred_meaning": "Una unidad o grupo relacionado con el yo que perdura; quizás 'el grupo del que formo parte de manera continua', es decir, un colectivo al que uno pertenece",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.35,
+      "vagueness": 0.65
+    },
+    {
+      "id": "llm-mrgrzmcc-81iq75",
+      "at": "2026-07-11T19:46:43.548Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "worked_well"
+      ],
+      "reasoning": "我能拆出 kam（联系）+ dan（团结）+ de（自己）+ hu（知道）。字面是'联系-团结-自己-知道'，即通过和集体的联系与团结来认识自己。这很像'归属感'或'集体中的自我认同'的意思。四个词根拼在一起虽然能猜出大意，但词有点长，第一次听可能要想一会儿；不过每个词根都清晰可辨，构词逻辑说得通。",
+      "inferred_meaning": "归属感 / 集体认同：通过与团体的联系而知道自己是谁（自我认同）",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgrzon6-jh82bw",
+      "at": "2026-07-11T19:46:46.530Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural"
+      ],
+      "reasoning": "'众人'（lek + ba）加上'自我'（de），字面是'很多人的自己'。听者也许能猜到指一个由许多人构成的整体，但'自我'放在这里很奇怪，容易被理解成'大家各自'或'我们自己'，而不是'社群'这种有组织的群体。其实词根里有现成的'团结'（dan），用'人 + 团结'（ba dan）或'团结 + 人'两个词根就能更直接地表达'社群'，又短又清楚。这个构造需要三个词根且核心的'自我'含义偏离，不够自然。",
+      "inferred_meaning": "很多人合起来的一个'自我'，像一个整体的人群——可能猜到是'我们/大家'或某种群体",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.4,
+      "vagueness": 0.6
+    },
+    {
+      "id": "llm-mrgs00m0-28ufcd",
+      "at": "2026-07-11T19:47:02.040Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "worked_well"
+      ],
+      "reasoning": "قسّمت الكلمة إلى: kam (رابط) + dan (وحدة/جماعة) + de (النفس) + hu (يعرف). التركيب يوحي بمعرفة النفس عبر رابطها بالوحدة الجماعية، وهو ما يشبه مفهوم الهوية أو الانتماء: أن يعرف الشخص نفسه من خلال ارتباطه بجماعته. الفكرة واضحة نسبياً لكن الكلمة طويلة وتحتمل تفسيرات قريبة أخرى مثل 'الوعي الجماعي المشترك'.",
+      "inferred_meaning": "معرفة النفس من خلال الرابط مع الجماعة، أي الهوية الجماعية أو الشعور بالانتماء إلى مجموعة",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs03p7-bcw8j9",
+      "at": "2026-07-11T19:47:06.043Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural"
+      ],
+      "reasoning": "الجذر (dan) وحده يعني وحدة/جماعة وهو قريب أصلاً من معنى مجتمع. إضافة (de) بمعنى النفس تجعلني أفهم شيئاً مثل جماعة لها ذات أو هوية، وهذا ليس بعيداً عن مجتمع لكنه غير مباشر. كنت سأتوقع تركيباً مثل جماعة + أشخاص (dan ba) أو جماعة + مكان (dan che) ليكون أوضح. فكرة الذات المستمرة نفسها تحتاج شرحاً إضافياً ولا تُستنتج بسهولة من الجذرين.",
+      "inferred_meaning": "وحدة لها ذات خاصة بها — ربما كيان جماعي يتصرف كنفس واحدة",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.45,
+      "vagueness": 0.6
+    },
+    {
+      "id": "llm-mrgs076d-cpkqyl",
+      "at": "2026-07-11T19:47:10.549Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "शब्द को तोड़ने पर मुझे चार धातुएँ दिखती हैं: kam (बंधन) + dan (एकता) + de (खुद) + hu (जानना)। शाब्दिक अर्थ हुआ 'बंधन-एकता-खुद-जानना'। इसे जोड़कर सोचें तो अर्थ बनता है — खुद के उस बंधन को जानना जो एकता/समूह से जुड़ा है। हिंदी में इसे 'अपनापन' या 'सामुदायिक पहचान' कहेंगे — यह जानना कि मैं किस समुदाय का हिस्सा हूँ। अर्थ काफी हद तक समझ आता है, हालाँकि चार धातुओं वाला यह शब्द थोड़ा लंबा है और सटीक बारीकी (पहचान बनाम जुड़ाव की भावना) को लेकर थोड़ी अनिश्चितता रहती है।",
+      "inferred_meaning": "समुदाय के साथ अपने बंधन को जानना — यानी 'अपनापन' या 'सामुदायिक पहचान'। यह अहसास कि मैं किस समूह से जुड़ा हूँ और वहाँ मेरी जगह क्या है।",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.6
+    },
+    {
+      "id": "llm-mrgs04fy-47vmr8",
+      "at": "2026-07-11T19:47:07.006Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural"
+      ],
+      "reasoning": "समस्या यह है कि 'आत्मा' मेरी ज्ञात मूल धातुओं में है ही नहीं — निकटतम धातुएँ 'दिल' (pu), 'जीवित होना' (fo) या 'महसूस करना' (nes) हैं। 'समूह' के लिए 'एकता' (dan) उपलब्ध है। अगर वक्ता dan + pu जैसा कुछ कहे, तो सुनने वाला 'एकता का दिल' समझकर शायद 'समुदाय' तक पहुँच सकता है, पर यह अनुमान अस्पष्ट रहेगा — यह 'साझा भावना', 'दोस्ती' या 'परिवार' भी हो सकता है। बेहतर रचना होती: dan + ba (एकता + व्यक्ति) या lek + ba + dan (बहुत लोग + एकता), जो सीधे 'लोगों का एकजुट समूह' बताती। 'आत्मा' जैसी अमूर्त धातु पर निर्भर रचना मूल धातु-ज्ञान वाले श्रोता के लिए स्वाभाविक नहीं है।",
+      "inferred_meaning": "लोगों का एक ऐसा समूह जिसमें एक साझा भावना या एकता हो — शायद 'समुदाय' या 'एकजुट लोग'",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.35,
+      "vagueness": 0.6
+    },
+    {
+      "id": "llm-mrgs0p8g-t52kyc",
+      "at": "2026-07-11T19:47:33.952Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "Ninaligawa neno hili katika mizizi ninayoijua: 'kam' (uhusiano), 'dan' (umoja/pamoja), 'de' (mwenyewe), 'hu' (kujua). Kwa pamoja: 'kujua mwenyewe kupitia uhusiano wa umoja'. Hii inaonekana kama dhana ya utambulisho — kujitambua kwa kupitia nafasi yako ndani ya jamii au kikundi. Mpangilio wa mizizi unaleta maana ya 'ujuzi-binafsi wa uhusiano wa kijamii', yaani hisia ya kuwa na nafasi na kuijua ndani ya umoja. Nina uhakika wa wastani kwa sababu mpangilio wa mizizi minne unaweza kufasiriwa kwa njia tofauti (mfano: 'kujua uhusiano wa umoja wako mwenyewe'), lakini maana ya jumla ya utambulisho/kujitambua kijamii inaonekana kuwa sahihi zaidi. Neno lina mizizi minne, hivyo ni refu kidogo, lakini linajengeka kimantiki.",
+      "inferred_meaning": "Utambulisho wa kijamii — kujijua mwenyewe kupitia uhusiano wako na umoja/jamii; hisia ya kuelewa nafasi yako ndani ya kikundi (hali ya kuwa sehemu ya jamii)",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs0lnp-rzzobb",
+      "at": "2026-07-11T19:47:29.317Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "identity"
+      ],
+      "shown_spelling": "kamdandehu",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "unnatural"
+      ],
+      "reasoning": "Sehemu ya kwanza, 'umoja wa watu' (dan-ba), inaeleweka moja kwa moja na inatosha kabisa kubeba maana ya 'jamii'. Lakini kuongeza 'nafsi inayodumu' (de + ti/kan) kunafanya mnyororo kuwa mizizi minne au zaidi, jambo linalokiuka upendeleo wa maneno mafupi. Pia dhana ya 'nafsi inayodumu' ni ya kifalsafa mno; msikilizaji anayejua mizizi tu anaweza kudhani inahusu roho au uhai wa mtu mmoja, si mwendelezo wa kikundi. Ningetumia 'dan-ba' peke yake — fupi, rahisi kutamka, na wazi zaidi.",
+      "inferred_meaning": "Kikundi cha watu walio pamoja chenye utambulisho wake wenyewe unaodumu — yaani jamii au jumuiya",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.4,
+      "vagueness": 0.5
+    },
+    {
+      "id": "llm-mrgs0ocu-1vo81o",
+      "at": "2026-07-11T19:47:32.814Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "worked_well"
+      ],
+      "reasoning": "Descompongo la palabra en dan (unidad/colectivo) + ba (persona) + de (uno mismo) + hu (saber). 'dan-ba' sería algo como 'grupo de personas' o 'comunidad', y 'de-hu' sería 'saberse a sí mismo', es decir, autoconocimiento. Juntando todo: el conocimiento que una comunidad tiene de sí misma, su identidad o conciencia colectiva. Las raíces son claras una por una, pero cuatro raíces juntas dejan ambigüedad: ¿es 'la comunidad se conoce' o 'la persona sabe que pertenece a la unidad'? Aun así, creo que captaría la idea general en contexto.",
+      "inferred_meaning": "Algo como 'autoconocimiento colectivo' o 'conciencia de comunidad': el saber que un grupo de personas tiene de sí mismo. Podría significar 'identidad colectiva' o 'nosotros' en el sentido de reconocerse como grupo.",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.45
+    },
+    {
+      "id": "llm-mrgs0j29-lh1zgm",
+      "at": "2026-07-11T19:47:25.953Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "unnatural"
+      ],
+      "reasoning": "Las dos primeras raíces funcionan bien: 'unidad' (dan) + 'persona' (ba) ya sugiere claramente un conjunto de personas, algo muy cercano a 'comunidad'. El problema es el tercer elemento, 'yo continuo', que no corresponde a ninguna raíz primitiva que conozco; quizá intenta combinar 'de' (yo mismo) con alguna idea de duración, pero para un oyente solo aporta confusión: ¿es una comunidad de uno mismo?, ¿algo que persiste? Con solo 'dan + ba' el significado sería más claro y más corto. Tal como está, la cadena se siente inflada y el remate oscurece en vez de precisar.",
+      "inferred_meaning": "Un grupo de personas unidas; posiblemente 'grupo-persona' con algún matiz de permanencia o identidad propia",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.45,
+      "vagueness": 0.55
+    },
+    {
+      "id": "llm-mrgs134r-ush958",
+      "at": "2026-07-11T19:47:51.963Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "worked_well"
+      ],
+      "reasoning": "我把这个词拆成 dan(团结)-ba(人)-de(自己)-hu(知道)。前半 danba 应该是「团结在一起的人」，也就是一个群体或社群；后半 dehu 是「知道自己」，即自我认识。合起来就是「群体知道自己（是谁）」，我理解为集体的自我认知或身份认同。四个词根连在一起有点长，念起来要想一下才能断开，但每一段的意思都能对上，整体还是能猜出来的。",
+      "inferred_meaning": "一群人（团体、社群）对自己的认识，也就是「集体的自我认知」或「群体身份认同」——大家一起知道自己是谁。",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs10x4-wznywu",
+      "at": "2026-07-11T19:47:49.096Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural"
+      ],
+      "reasoning": "前两个词根「团结+人」(dan+ba) 已经能很好地表达'团结的人群'即社群的意思，但加上「自我」(de) 反而让人困惑：是指'团结的人自己'？还是'以自我为中心的团体'？第三个词根没有增加清晰度，反而引入歧义。我更愿意只用 dan+ba 两个词根，既简短又易懂。",
+      "inferred_meaning": "团结在一起的人们，一群互相联系的人，可能指某种集体或群体",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.5,
+      "vagueness": 0.5
+    },
+    {
+      "id": "llm-mrgs13ky-obcdrk",
+      "at": "2026-07-11T19:47:52.546Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "أستطيع تقسيم الكلمة إلى: dan (وحدة/جماعة) + ba (شخص) + de (النفس) + hu (يعرف). فيكون المعنى الحرفي: جماعة الأشخاص تعرف نفسها. أقرب تفسير هو معرفة الجماعة بذاتها، أي هوية جماعية أو وعي مشترك بين أفراد المجموعة. التركيب واضح نسبياً لكن قد يقصد أيضاً مجرد التفاهم داخل الجماعة.",
+      "inferred_meaning": "معرفة الجماعة لذاتها، أي الوعي أو الهوية الجماعية لمجموعة من الناس",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs14tw-73t6ng",
+      "at": "2026-07-11T19:47:54.164Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural",
+        "too_long"
+      ],
+      "reasoning": "الجزآن الأولان واضحان: dan (وحدة) + ba (شخص) يعطيان مباشرة معنى 'جماعة من الأشخاص'، وهذا وحده كافٍ تقريباً لفهم 'مجتمع'. المشكلة في الجزء الثالث 'الذات المستمرة': لا يوجد جذر بهذا المعنى في القائمة، فسيحتاج المتحدث لتركيب إضافي (مثل de + ti أو de + kan)، مما يجعل الكلمة أربعة جذور أو أكثر ويثقلها دون فائدة دلالية كبيرة. المستمع الذي يعرف الجذور فقط سيفهم dan-ba بسهولة، لكن الإضافة الثالثة قد تربكه: هل المقصود مجتمع أم هوية جماعية أم روح الجماعة؟ كنت سأستخدم dan-ba وحدها أو dan-ba-che (وحدة أشخاص في مكان) إذا لزم التوضيح.",
+      "inferred_meaning": "وحدة من الأشخاص لها ذات مستمرة — أي جماعة من الناس تشكل كياناً واحداً، وهو ما يقارب معنى مجتمع",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.55,
+      "vagueness": 0.45
+    },
+    {
+      "id": "llm-mrgs1ir6-a64b7c",
+      "at": "2026-07-11T19:48:12.210Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "शब्द को मैंने dan-ba-de-hu में तोड़ा: एकता + व्यक्ति + खुद + जानना। 'ba-de' मिलकर 'खुद व्यक्ति' यानी अपनी पहचान का बोध देता है, और 'dan' इसे सामूहिक बनाता है, जबकि 'hu' जानने की क्रिया जोड़ता है। इसलिए सबसे स्वाभाविक अर्थ 'सामूहिक आत्म-ज्ञान' या 'अपने समुदाय की पहचान' लगता है। चार धातुओं का जोड़ थोड़ा लंबा है, पर अर्थ का अनुमान लगाया जा सकता है।",
+      "inferred_meaning": "यह शब्द 'दान' (एकता/समूह), 'बा' (व्यक्ति), 'दे' (खुद) और 'हु' (जानना) से बना लगता है — यानी 'समूह के लोग खुद को जानते हैं'। मुझे लगता है वक्ता 'सामूहिक पहचान' या 'समुदाय की आत्म-जागरूकता' कहना चाहता है, यानी अपने समुदाय/लोगों की पहचान जानना।",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs1hwp-aqd3ii",
+      "at": "2026-07-11T19:48:11.113Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "unnatural"
+      ],
+      "reasoning": "पहले दो धातु 'एकता + व्यक्ति' (dan + ba) से ही 'समुदाय' का अर्थ काफ़ी साफ़ निकल आता है — लोगों की एकता। लेकिन तीसरी धातु 'आत्मा' ज्ञात मूल धातुओं की सूची में है ही नहीं, इसलिए सुनने वाला उसे समझ नहीं पाएगा और रचना अस्वाभाविक लगेगी। तीन धातुओं की शृंखला यहाँ बेवजह लंबी है; 'dan + ba' (एकता-व्यक्ति) छोटा, बोलने में आसान और उतना ही स्पष्ट होता। इसलिए मैं यह लंबा रूप इस्तेमाल नहीं करूँगा।",
+      "inferred_meaning": "लोगों का एक जुड़ा हुआ समूह — यानी समुदाय; एकता में बंधे व्यक्ति",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.5,
+      "vagueness": 0.45
+    },
+    {
+      "id": "llm-mrgs1nde-kaq2i6",
+      "at": "2026-07-11T19:48:18.194Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Ninavunja neno hili katika mizizi ninayoijua: 'dan' (umoja/collective) + 'ba' (mtu) + 'de' (mwenyewe) + 'hu' (kujua). Kwa hiyo linamaanisha 'watu wa umoja wanaojijua wenyewe'. 'dan-ba' inaweza kuwa 'jamii' au 'kikundi cha watu', na 'de-hu' ni 'kujijua'. Kwa pamoja, inaonekana kama dhana ya jamii kujitambua — utambulisho wa pamoja au ufahamu wa kikundi kuhusu nafsi yake. Muundo ni wa moja kwa moja na unaeleweka, ingawa maana kamili inaweza kutofautiana kidogo (labda pia 'kujitambua ndani ya jamii').",
+      "inferred_meaning": "Utambulisho wa pamoja: jamii ya watu inayojijua yenyewe — yaani ujuzi wa kikundi kuhusu nafsi yake, kama utamaduni au utambulisho wa jamii.",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs1kaz-swy4bk",
+      "at": "2026-07-11T19:48:14.219Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "collective",
+        "person",
+        "identity"
+      ],
+      "shown_spelling": "danbadehu",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "too_long",
+        "unnatural"
+      ],
+      "reasoning": "Sehemu mbili za kwanza, 'dan-ba' (umoja + mtu), tayari zinaeleza vizuri wazo la watu walio pamoja, na msikilizaji angeweza kufikia 'jamii' kwa urahisi. Tatizo ni sehemu ya tatu: 'nafsi inayodumu' si mzizi mmoja wa msingi — ingehitaji mchanganyiko kama 'de' (mwenyewe) pamoja na 'ti' (kusimama) au 'kan' (muda), jambo linalofanya mnyororo mzima kuwa mizizi 4 au zaidi. Hii inavunja kanuni ya ufupi na inaongeza utata badala ya uwazi. Ningependelea 'dan-ba' peke yake, ambayo ni fupi, rahisi kusemeka, na inaeleza maana ile ile.",
+      "inferred_meaning": "kundi la watu lenye umoja linalodumu — yaani jamii au kikundi cha kijamii",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.55,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgs21th-rj1qgm",
+      "at": "2026-07-11T19:48:36.917Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "hard_pronounce"
+      ],
+      "reasoning": "Descompongo la palabra como kam-dan-kam: 'vínculo' + 'unidad/colectivo' + 'vínculo'. La repetición de 'kam' a ambos lados de 'dan' sugiere reciprocidad o mutualidad: vínculos que van en ambas direcciones dentro de una unidad. Interpreto que se refiere a una comunidad o grupo unido por lazos mutuos. La estructura espejada me parece intencional (simetría = reciprocidad), aunque la secuencia 'mdank' me resulta un poco difícil de pronunciar como hispanohablante.",
+      "inferred_meaning": "Vínculos mutuos que forman una unidad; comunidad unida por lazos recíprocos (algo como 'unión mutua' o 'lazo comunitario')",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs1xri-wzxy7v",
+      "at": "2026-07-11T19:48:31.662Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "La combinación 'dan' (unidad/colectivo) + 'kam' (vínculo) es corta, fácil de pronunciar y transparente: un colectivo definido por sus vínculos es precisamente lo que entendemos por comunidad. Podría interpretarse también como 'alianza' o 'grupo aliado', pero el sentido central se recupera sin esfuerzo.",
+      "inferred_meaning": "un grupo de personas unidas por lazos; una comunidad",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs221p-ocwnjt",
+      "at": "2026-07-11T19:48:37.213Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "kam 是“联系”，dan 是“团结”，kam 又出现一次。前后重复 kam 可能表示“相互的、双向的联系”，中间夹着“团结”，整体像是在强调一个由互相联系构成的团结整体。虽然能猜出大意，但同一个词根出现两次显得有点冗长，如果只说 kamdan 或 dankam 我可能也能懂。发音上倒不难。",
+      "inferred_meaning": "把它拆开听是 kam-dan-kam，即“联系-团结-联系”。我猜是指人与人之间相互的联系、团结在一起的关系，大概是“社群/共同体”或者“大家彼此紧密相连”的意思，比如朋友圈子或部落那样的团体纽带。",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs1zd2-u34s8a",
+      "at": "2026-07-11T19:48:33.734Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "看到『众人+联系』很容易想到一群通过联系结合在一起的人，也就是社群。词根组合简短（三个词根：lek+ba+kam），发音顺口，含义指向清晰。稍有歧义之处在于也可能被理解为『人际关系』或『人脉』，但结合语境应该不难猜出是指人的群体。",
+      "inferred_meaning": "许多人之间有联系的群体，即社群、共同体",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs2euj-udzn2f",
+      "at": "2026-07-11T19:48:53.803Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "too_long"
+      ],
+      "reasoning": "الكلمة مكونة من كام (رابط) + دان (وحدة/جماعة) + كام (رابط). تكرار الجذر 'رابط' حول 'الوحدة' يوحي بروابط متبادلة تشدّ الجماعة من كل الجهات، فاستنتجت أنها تعني جماعة مترابطة كالعائلة أو المجتمع. التركيب المتناظر جميل ويساعد على الفهم، لكن تكرار الجذر نفسه مرتين يجعل الكلمة أطول من اللازم، إذ ربما كانت 'كامدان' كافية.",
+      "inferred_meaning": "مجتمع أو عائلة: مجموعة من الناس تربطهم روابط متبادلة (رابط + وحدة + رابط)، أي وحدة مترابطة من الداخل",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs2f9j-kqqb7e",
+      "at": "2026-07-11T19:48:54.343Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب من جذرين فقط: dan (وحدة/جماعة) + kam (رابط). عندما أسمع 'وحدة مربوطة برابط' أفهم مباشرة أنها جماعة من الناس تجمعهم روابط مشتركة، وهذا هو جوهر معنى المجتمع. الجذر dan وحده قد يعني أي تجمع، لكن إضافة kam توضح أن الرابط الاجتماعي هو الأساس. التركيب قصير وسهل النطق (dankam) والمعنى ينكشف بسهولة من الجذرين. الغموض قليل: قد يفهمه البعض على أنه 'تحالف' أو 'اتحاد'، لكن هذه معانٍ قريبة جداً من المقصود.",
+      "inferred_meaning": "وحدة من الناس يجمعها رابط، أي جماعة مترابطة - مجتمع",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs2h1y-ioom3e",
+      "at": "2026-07-11T19:48:56.662Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "unnatural"
+      ],
+      "reasoning": "शब्द kam-dan-kam में मुझे तीन धातुएँ दिखती हैं: kam (बंधन), dan (एकता), और फिर से kam (बंधन)। 'बंधन-एकता-बंधन' की संरचना से लगता है कि वक्ता किसी समूह के भीतर आपसी जुड़ाव या सामुदायिक रिश्ते की बात कर रहा है। kam का दोहराव संभवतः बंधन की पारस्परिकता (दोनों तरफ़ से) या तीव्रता दिखाता है — जैसे हिंदी में 'गहरा नाता'। अर्थ समझ में आ जाता है, पर एक ही धातु को दो बार दोहराना मुझे थोड़ा अस्वाभाविक लगता है; सिर्फ 'dankam' या 'kamdan' से भी काम चल सकता था।",
+      "inferred_meaning": "एकता का बंधन — यानी लोगों के समूह को आपस में जोड़ने वाला आपसी रिश्ता या सामुदायिक बंधन। 'kam' (बंधन) की पुनरावृत्ति से शायद बहुत मज़बूत या पारस्परिक बंधन का भाव है।",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs2dxt-tsss8g",
+      "at": "2026-07-11T19:48:52.625Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "दो धातुओं की छोटी रचना है — 'एकता' (dan) और 'बंधन' (kam)। एकता जिसमें बंधन हो, यह सुनते ही आपसी रिश्तों से जुड़े लोगों के समूह की तस्वीर बनती है, जो समुदाय के बहुत करीब है। थोड़ी अस्पष्टता है क्योंकि यह 'परिवार' या 'दोस्तों का गुट' भी हो सकता है, पर संदर्भ में 'समुदाय' सबसे स्वाभाविक अनुमान है। रचना छोटी, बोलने में आसान और सहज है।",
+      "inferred_meaning": "लोगों का एक ऐसा समूह जो आपस में बंधन से जुड़ा हो — यानी समुदाय",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.25
+    },
+    {
+      "id": "llm-mrgs2vxx-e30l2l",
+      "at": "2026-07-11T19:49:15.957Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well",
+        "unnatural"
+      ],
+      "reasoning": "Neno limeundwa kwa kam (uhusiano) + dan (umoja) + kam (uhusiano). Kurudiwa kwa 'kam' pande zote mbili za 'dan' kunaonyesha uhusiano wa kuheshimiana au wa pande mbili unaozunguka umoja. Hivyo nadhani maana yake ni mshikamano au uhusiano wa pamoja unaounganisha watu katika jamii moja — kama 'udugu' au 'jumuiya'. Kurudiwa kwa mzizi si kawaida kwangu, lakini muundo unaeleweka.",
+      "inferred_meaning": "Mshikamano wa jamii — uhusiano wa pande zote ndani ya umoja; yaani 'jumuiya' au 'udugu wa kikundi'",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs2vcl-y3q6wf",
+      "at": "2026-07-11T19:49:15.189Z",
+      "concept_id": "tribe",
+      "candidate_composition": [
+        "community",
+        "bond"
+      ],
+      "shown_spelling": "kamdankam",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo ni 'dan-ba-kam' (umoja + mtu + uhusiano), mizizi mitatu tu, hivyo ni fupi na inasemeka kwa urahisi. Nikiisikia bila kujua msamiati wa mchanganyiko, ningeelewa kuwa ni watu waliounganishwa pamoja kwa mahusiano — hilo linakaribia sana maana ya 'jamii'. 'Umoja wa watu' pekee lingeweza kumaanisha kundi tu au umati, lakini kuongeza 'uhusiano' kunabainisha kuwa kuna mafungamano ya kudumu, si mkusanyiko wa bahati mbaya. Utata mdogo unabaki (ingeweza kudhaniwa kuwa 'familia' au 'kabila'), lakini kwa jumla ni muundo wa asili na wa kueleweka.",
+      "inferred_meaning": "Kundi la watu wenye umoja na uhusiano baina yao — yaani jamii au jumuiya",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.25
+    },
+    {
+      "id": "llm-mrgs2sib-v35kpk",
+      "at": "2026-07-11T19:49:11.507Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Descompongo la palabra en dak (mano) + to (cosa) + pa (conflicto). Una 'cosa de la mano para el conflicto' me sugiere claramente un arma manual, como un cuchillo, palo o algo similar que se usa para luchar. La composición me parece bastante transparente y lógica.",
+      "inferred_meaning": "Una 'cosa de mano para el conflicto', es decir, un arma o herramienta que se sostiene en la mano para pelear",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.7
+    },
+    {
+      "id": "llm-mrgs2u29-aphty5",
+      "at": "2026-07-11T19:49:13.521Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "El concepto 'herramienta' no es una raíz primitiva que yo conozca (tendría que ser algo como gek+to, 'cosa de usar'), pero si entiendo esa parte como 'objeto que se usa', combinarla con 'pa' (conflicto) me lleva casi directamente a 'arma'. Es corta, fácil de decir y bastante transparente. Queda una leve ambigüedad: podría interpretarse como cualquier instrumento relacionado con el conflicto (¿un escudo?, ¿una trampa?), pero el sentido más natural es 'arma'.",
+      "inferred_meaning": "una cosa que se usa para el conflicto; un objeto de lucha, es decir, un arma",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgs37or-xj2dz1",
+      "at": "2026-07-11T19:49:31.179Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "我把这个词拆成 dak（你的手）+ to（东西）+ pa（冲突）。字面意思是'手-东西-冲突'，也就是'用手使用的、和冲突有关的东西'。最自然的理解就是武器，比如刀、棍子这类手持的打斗工具。三个词根拼起来逻辑清楚，我觉得在对话中我能猜到意思，不过第一次听到时可能会犹豫一下，因为也可能指'用手打架'这个动作本身。",
+      "inferred_meaning": "武器——用手拿着、用于冲突的东西",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.7
+    },
+    {
+      "id": "llm-mrgs39qq-ub8bsu",
+      "at": "2026-07-11T19:49:33.842Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "「冲突用的工具」这个思路很直观，听到后容易推出是打斗用的器具，即武器。不过词根表里没有「工具」这个词根，我得先用『使用+东西』(gek-to)之类的组合来表达工具，这样整个词就变成三个词根（如 gek-to-pa），略长但还可以接受。语义上稍有模糊：也可能被理解为『引起冲突的东西』，但结合语境基本能猜到是武器。",
+      "inferred_meaning": "用于冲突的东西/器具，即打斗、战斗时使用的物品——武器",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.75,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs35qy-66sieq",
+      "at": "2026-07-11T19:49:28.666Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "الكلمة تتكون من dak (يدك) + to (شيء) + pa (صراع)، أي 'شيء اليد للصراع'. أقرب معنى منطقي هو أداة تُمسك باليد وتُستخدم في القتال أو الصراع، أي سلاح. التركيب واضح ومنطقي وسهل الاستنتاج.",
+      "inferred_meaning": "سلاح - شيء لليد يُستخدم في الصراع",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs39e0-o7e85v",
+      "at": "2026-07-11T19:49:33.384Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب منطقي جداً: أداة مخصصة للصراع تعني السلاح مباشرة، وهذا استنتاج طبيعي لمن يعرف الجذور فقط. لكن هناك ملاحظة: 'أداة' ليست جذراً أساسياً في القائمة، فسيُبنى غالباً من 'شيء + استخدام' (to gek)، وعندها يصبح التركيب الكامل 'to gek pa' أي ثلاثة جذور، وهو ضمن الحد المقبول. الغموض قليل لأن السياق يوجّه المعنى بوضوح نحو السلاح، وإن كان قد يُفهم أحياناً كأي وسيلة تُستخدم في نزاع (كحجة أو تكتيك).",
+      "inferred_meaning": "شيء يُستخدم في الصراع أو القتال — أي سلاح",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs3kg9-sy5hmd",
+      "at": "2026-07-11T19:49:47.721Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "शब्द को तोड़ने पर dak (तुम्हारा हाथ), to (चीज़) और pa (लड़ाई) मिलते हैं। 'हाथ की चीज़ जो लड़ाई में इस्तेमाल हो' — यह स्वाभाविक रूप से हथियार का अर्थ देता है। संयोजन साफ़ और समझने योग्य है, इसलिए अर्थ का अनुमान लगाना आसान रहा।",
+      "inferred_meaning": "हथियार — हाथ की चीज़ जो लड़ाई के लिए हो (dak=हाथ + to=चीज़ + pa=लड़ाई)",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs3mjg-jl45sm",
+      "at": "2026-07-11T19:49:50.428Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "unnatural"
+      ],
+      "reasoning": "अर्थ की दृष्टि से 'लड़ाई का औज़ार' = हथियार समझ में आ जाता है, लेकिन समस्या यह है कि 'औज़ार' मेरी ज्ञात मूल धातुओं में है ही नहीं। मैं केवल 'इस्तेमाल करना' (gek) या 'चीज़' (to) जानता हूँ। इसलिए यह रचना खुद एक अज्ञात संयुक्त शब्द पर टिकी है, जो मूल धातुएँ जानने वाले के लिए स्वाभाविक नहीं। बेहतर होता 'pa-to' (लड़ाई-चीज़) या 'pa-gek-to' जैसा कुछ, जो सीधे ज्ञात धातुओं से बने। अर्थ का अनुमान फिर भी हो सकता है, इसलिए अस्पष्टता मध्यम-कम है।",
+      "inferred_meaning": "लड़ाई में इस्तेमाल होने वाली चीज़, यानी हथियार",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.55,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgs3lcm-so8xtx",
+      "at": "2026-07-11T19:49:48.886Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Ninaligawa neno 'daktopa' kuwa dak (mkono wako) + to (kitu) + pa (mapigano). Kwa hiyo ni 'kitu cha mkono cha mapigano', yaani kitu kinachoshikwa mkononi na kutumika kwenye vita au ugomvi — silaha. Mchanganyiko huu ni wa moja kwa moja na unaeleweka vizuri.",
+      "inferred_meaning": "silaha au chombo cha vita — kitu cha mkononi kinachotumika katika mapigano",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs3my5-3ju6du",
+      "at": "2026-07-11T19:49:50.957Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "tool",
+        "conflict"
+      ],
+      "shown_spelling": "daktopa",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo wa 'zana + mapigano' (kwa mizizi: kitu/kutumia + pa) unaeleweka moja kwa moja: kitu kinachotumiwa kwenye mapigano ni silaha. Ni mfupi (mizizi 2-3), rahisi kutamka, na maana yake haipotoshi sana. Utata mdogo upo — inaweza kudhaniwa kuwa ngao au vifaa vya vita kwa ujumla — lakini muktadha ungeondoa hilo. Ningeutumia muundo huu bila tatizo.",
+      "inferred_meaning": "kitu/zana inayotumika katika mapigano — yaani silaha",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.25
+    },
+    {
+      "id": "llm-mrgs3xvi-te6ypw",
+      "at": "2026-07-11T19:50:05.118Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Reconozco 'to' (cosa) y 'pa' (conflicto). La combinación literal sería 'cosa de conflicto', lo que en español entendería naturalmente como 'un problema' o 'una disputa'. La palabra es corta y fácil de pronunciar, y la composición me parece bastante transparente, aunque no estoy seguro de si se refiere al conflicto en sí o al objeto que lo provoca.",
+      "inferred_meaning": "Un 'cosa-conflicto': algo que causa conflicto o problemas, es decir, un problema u obstáculo",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.7
+    },
+    {
+      "id": "llm-mrgs3y7v-q242wr",
+      "at": "2026-07-11T19:50:05.563Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Es un compuesto corto y fácil de pronunciar (to-pa). 'Cosa de conflicto' apunta bastante bien a un objeto que sirve para luchar, aunque podría interpretarse también como cualquier objeto relacionado con una disputa (p. ej., el motivo de una pelea). Aun así, en contexto lo más probable es entender 'arma'.",
+      "inferred_meaning": "cosa de conflicto; objeto usado para pelear (un arma)",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.8,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgs3zz4-y5y0lq",
+      "at": "2026-07-11T19:50:07.840Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "我把 topa 拆分为 to（东西）+ pa（冲突），字面意思是'冲突的东西'。最自然的理解是用于冲突的物品，即'武器'；也可能指'引发争执的问题'。两个词根都很短，组合发音顺口，结构清晰，虽然具体所指有歧义，但大方向能猜到。",
+      "inferred_meaning": "冲突之物——可能指引起冲突的东西，比如'武器'或'争端的原因/问题'",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs3xc8-9xe9gk",
+      "at": "2026-07-11T19:50:04.424Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "「东西+冲突」很容易理解为『冲突中使用的物品』，最直接的联想就是武器。只有两个词根，简短好说。稍有模糊：也可能被理解为『引起冲突的东西』（争端的起因）或战场上的其他物品，但在具体语境中指武器是最自然的解读。",
+      "inferred_meaning": "冲突用的东西——用来打斗、战斗的物品，即武器",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.8,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgs4c15-wps8gf",
+      "at": "2026-07-11T19:50:23.465Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "الكلمة تتكون من 'to' (شيء) و 'pa' (صراع). فالمعنى الحرفي هو 'شيء الصراع' أو 'شيء متصارع'. أستنتج أنها تعني مشكلة أو عائقاً، أي شيء يخلق صراعاً أو خلافاً. التركيب قصير وواضح نسبياً.",
+      "inferred_meaning": "شيء + صراع: أي شيء يسبب صراعاً أو مشكلة — عائق أو مشكلة",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs4aq7-9vw6t7",
+      "at": "2026-07-11T19:50:21.775Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب 'topa' (شيء + صراع) قصير من جذرين وسهل النطق. عند سماعه سأفهم أنه شيء مرتبط بالصراع، وأقرب تفسير هو أداة القتال أي السلاح. هناك غموض بسيط لأنه قد يعني أيضاً سبب الصراع أو موضوع النزاع، لكن السياق عادةً يوضح المقصود. تركيب طبيعي ومباشر.",
+      "inferred_meaning": "شيء الصراع - أداة تُستخدم في القتال، أي سلاح",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.35
+    },
+    {
+      "id": "llm-mrgs4dbl-95lx0u",
+      "at": "2026-07-11T19:50:25.137Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "शब्द 'topa' को मैं 'to' (चीज़) + 'pa' (लड़ाई) के रूप में देख सकता हूँ। इस तरह इसका अर्थ बनता है 'लड़ाई वाली चीज़'। सबसे स्वाभाविक अर्थ हथियार लगता है, क्योंकि लड़ाई से जुड़ी मुख्य वस्तु हथियार ही होती है। शब्द छोटा है, उच्चारण में आसान है और धातुओं का जोड़ सीधा और समझने योग्य है। हालाँकि यह 'झगड़े का कारण बनने वाली चीज़' भी हो सकता है, इसलिए पूरी निश्चितता नहीं है।",
+      "inferred_meaning": "लड़ाई की चीज़ — यानी हथियार, या कोई ऐसी वस्तु जो लड़ाई/संघर्ष में इस्तेमाल होती है",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs4bhx-j03ltk",
+      "at": "2026-07-11T19:50:22.773Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "केवल दो धातुओं से बनी छोटी और बोलने में आसान रचना है। 'चीज़ + लड़ाई' सुनते ही मन में सीधे यही आता है कि यह लड़ाई से जुड़ी कोई वस्तु है, और वस्तु के रूप में सबसे स्वाभाविक अर्थ हथियार ही बनता है। थोड़ी-सी अस्पष्टता है क्योंकि यह 'ढाल' या 'लड़ाई का कारण बनने वाली चीज़' भी हो सकती है, पर संदर्भ में हथियार ही सबसे संभावित अर्थ है।",
+      "inferred_meaning": "लड़ाई की चीज़ — यानी लड़ाई में इस्तेमाल होने वाली वस्तु, हथियार",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.9,
+      "vagueness": 0.25
+    },
+    {
+      "id": "llm-mrgs4qj4-tl8q75",
+      "at": "2026-07-11T19:50:42.256Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Neno 'topa' linaonekana kuundwa na mizizi miwili: 'to' (kitu) na 'pa' (mapigano). Kwa hiyo maana yake ya moja kwa moja ni 'kitu cha mapigano'. Katika muktadha wa kawaida, kitu kinachohusiana moja kwa moja na mapigano huwa ni silaha au chombo cha vita. Muundo huu ni mfupi na rahisi kutamka, na maana inaeleweka bila shida kubwa, ingawa inaweza pia kumaanisha kwa upana 'jambo la mgogoro' au 'suala la ugomvi'.",
+      "inferred_meaning": "Kitu cha mapigano — yaani chombo au kifaa kinachotumika katika mapigano, kama vile silaha",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs4qr6-llhv3h",
+      "at": "2026-07-11T19:50:42.546Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "thing",
+        "conflict"
+      ],
+      "shown_spelling": "topa",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo 'topa' (kitu + mapigano) ni mfupi na rahisi kutamka, mizizi miwili tu. Mtu anayejua mizizi pekee ataelewa kwa urahisi kuwa ni 'kitu kinachohusiana na mapigano', na tafsiri ya karibu zaidi ni silaha. Kuna uwezekano mdogo wa kuchanganywa (mfano: ngao au uwanja wa vita pia ni 'vitu vya mapigano'), lakini silaha ndiyo maana ya kwanza inayokuja akilini. Muundo huu ni wa asili na ninaweza kuutumia.",
+      "inferred_meaning": "kitu cha mapigano; chombo kinachotumika katika vita au pambano — silaha",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs4oz6-bi5q2i",
+      "at": "2026-07-11T19:50:40.242Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "es_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Descompongo la palabra en 'pa' (conflicto) + 'to' (cosa). Literalmente sería 'cosa de conflicto', lo que interpreto como un problema, una dificultad, o tal vez un objeto usado en conflictos como un arma. Lo más natural en español me parece 'problema'. Es curioso que suena igual que 'pato' en español, pero eso es coincidencia y no debo dejarme llevar por ello.",
+      "inferred_meaning": "una cosa de conflicto; un problema u obstáculo (quizás un arma)",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.6
+    },
+    {
+      "id": "llm-mrgs4nls-zfacni",
+      "at": "2026-07-11T19:50:38.464Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "es_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "La combinación 'conflicto + cosa' (pa-to) se entiende bastante bien: una cosa asociada al conflicto es muy probablemente un instrumento para luchar, o sea, un arma. Es corta, fácil de pronunciar y transparente. Queda algo de vaguedad porque podría interpretarse como 'motivo de conflicto' o 'cosa problemática', pero en contexto el significado de arma es la lectura más natural.",
+      "inferred_meaning": "una cosa de conflicto; objeto usado para pelear, es decir, un arma",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs51fs-cz95iy",
+      "at": "2026-07-11T19:50:56.392Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "zh_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "pato 可以拆成 pa（冲突）+ to（东西），字面意思是'冲突之物'。我猜对方想表达一个带来冲突或麻烦的具体事物，最可能是'问题/麻烦'，也可能是打斗用的'武器'。构词简短好发音，但具体指哪种'冲突的东西'有些含糊，需要上下文确认。",
+      "inferred_meaning": "冲突的东西——引起冲突或麻烦的事物，可能指'问题'、'麻烦'或'武器'",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs50n2-l5b53a",
+      "at": "2026-07-11T19:50:55.358Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "zh_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "『冲突+东西』(pa-to) 只有两个词根，简短好念。听到这个组合，很容易想到『用在冲突中的东西』，最典型的就是武器。不过它也可能被理解成『引起冲突的东西』（比如争端的起因），所以有一定模糊性，但在具体语境中应该能明白。",
+      "inferred_meaning": "用于冲突的东西，即武器或打斗用具",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.8,
+      "vagueness": 0.4
+    },
+    {
+      "id": "llm-mrgs52av-gcddjw",
+      "at": "2026-07-11T19:50:57.511Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "ar_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "الكلمة تبدو مركبة من 'pa' (صراع) و'to' (شيء). إذن المعنى الحرفي هو 'شيء الصراع'. أقرب تفسير عندي أنه أداة تُستخدم في الصراع أي سلاح، أو ربما يقصد مشكلة أو خلاف كشيء مجرد. المعنى العام واضح لكن التحديد الدقيق (سلاح أم مشكلة) يحتاج سياقاً.",
+      "inferred_meaning": "شيء الصراع — أي شيء يُستخدم أو يرتبط بالصراع، مثل سلاح أو مشكلة/نزاع",
+      "recovered": false,
+      "match_grade": "partial",
+      "grade_score": 0.5,
+      "grader": "claude-fable-5",
+      "confidence": 0.55
+    },
+    {
+      "id": "llm-mrgs52az-p9h8ol",
+      "at": "2026-07-11T19:50:57.515Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "ar_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "التركيب 'pa-to' (صراع + شيء) قصير من جذرين وسهل النطق. عند سماعه سأفهم أنه 'شيء متعلق بالصراع'، وأقرب تفسير طبيعي هو الأداة المستخدمة في القتال، أي السلاح. هناك غموض بسيط لأنه قد يعني أيضاً 'موضوع الخلاف' أو 'سبب النزاع'، لكن السياق عادة يوضح ذلك، والتفسير الأول (أداة الصراع) هو الأكثر بداهة.",
+      "inferred_meaning": "شيء يُستخدم في الصراع، أي أداة قتال أو سلاح",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs5f4g-6yglyh",
+      "at": "2026-07-11T19:51:14.128Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "hi_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "शब्द 'pato' दो धातुओं से बना लगता है: 'pa' (लड़ाई) और 'to' (चीज़)। इसका सीधा अर्थ 'लड़ाई की चीज़' निकलता है, जो हिंदी में 'हथियार' के सबसे करीब है। यह संयोजन छोटा, स्पष्ट और उच्चारण में आसान है, इसलिए संदर्भ मिलने पर मैं इसे आसानी से समझ जाऊँगा। हालाँकि यह 'झगड़े का मुद्दा' जैसी कोई अमूर्त चीज़ भी हो सकती है, पर सबसे स्वाभाविक अर्थ हथियार ही लगता है।",
+      "inferred_meaning": "लड़ाई की चीज़ — यानी हथियार, कोई ऐसी वस्तु जो लड़ाई में इस्तेमाल होती है",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs5dqm-0cxlga",
+      "at": "2026-07-11T19:51:12.334Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "hi_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "केवल दो धातुओं से बनी छोटी और बोलने में आसान रचना है। 'लड़ाई + चीज़' सुनते ही मन में सबसे पहले वही वस्तु आती है जो लड़ाई में काम आती है — यानी हथियार। थोड़ी अस्पष्टता है क्योंकि यह 'ढाल' या 'कवच' जैसी लड़ाई की अन्य चीज़ें भी हो सकती है, पर सबसे स्वाभाविक अर्थ हथियार ही निकलता है।",
+      "inferred_meaning": "लड़ाई की चीज़ — यानी लड़ाई में इस्तेमाल होने वाली वस्तु, हथियार",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
+    },
+    {
+      "id": "llm-mrgs5f3v-2okpdp",
+      "at": "2026-07-11T19:51:14.107Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "sw_native",
+      "task": "A",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Neno 'pato' linaonekana kuundwa na mizizi miwili: 'pa' (mapigano) na 'to' (kitu). Kwa hiyo maana yake ya moja kwa moja ni 'kitu cha mapigano'. Katika muktadha wa kawaida, kitu kinachohusiana na mapigano huwa ni silaha au chombo cha vita. Mchanganyiko huu ni mfupi na rahisi kutamka, hivyo naelewa maana yake bila shida kubwa, ingawa inaweza pia kumaanisha kitu chochote kinachohusiana na mzozo.",
+      "inferred_meaning": "kitu cha mapigano — yaani silaha au chombo kinachotumika katika vita",
+      "recovered": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "confidence": 0.75
+    },
+    {
+      "id": "llm-mrgs5e0h-5j818h",
+      "at": "2026-07-11T19:51:12.689Z",
+      "concept_id": "weapon",
+      "candidate_composition": [
+        "conflict",
+        "thing"
+      ],
+      "shown_spelling": "pato",
+      "persona": "sw_native",
+      "task": "B",
+      "pair": null,
+      "source": "llm_intuition",
+      "prompt_version": "5",
+      "battery": "cib-v4",
+      "model": "claude-fable-5",
+      "tags": [
+        "worked_well"
+      ],
+      "reasoning": "Muundo 'pa-to' (mapigano + kitu) ni mfupi na wa moja kwa moja. Mtu anayejua mizizi tu ataelewa kwa urahisi kuwa ni 'kitu cha mapigano', ambacho kwa kawaida ni silaha. Kuna utata mdogo tu (kingeweza kuwa kifaa chochote cha vita kama ngao), lakini maana ya silaha ndiyo ya kwanza kuja akilini. Mizizi miwili tu, rahisi kutamka.",
+      "inferred_meaning": "kitu cha mapigano; chombo kinachotumika vitani, yaani silaha",
+      "composition_recovery": true,
+      "match_grade": "match",
+      "grade_score": 1,
+      "grader": "claude-fable-5",
+      "naturalness": 0.85,
+      "vagueness": 0.3
     }
   ],
   "aggregates": {
     "tool": {
       "thing+hand+useful": {
-        "cold_recovery_rate": 0.65,
-        "mean_confidence": 0.611,
-        "mean_naturalness": 0.6320000000000001,
-        "mean_vagueness": 0.40750000000000003,
-        "composition_recovery_rate": 0.95,
+        "cold_recovery_rate": 0.72,
+        "mean_confidence": 0.6347999999999999,
+        "mean_naturalness": 0.6376000000000002,
+        "mean_vagueness": 0.4,
+        "composition_recovery_rate": 0.96,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 20,
-        "n": 40,
+        "cold_n": 25,
+        "naturalness_n": 25,
+        "n": 50,
         "tags": {
-          "worked_well": 23,
-          "too_long": 21,
+          "worked_well": 33,
+          "too_long": 27,
           "hard_pronounce": 10,
           "unnatural": 8
         },
-        "recovery_rate": 0.65,
-        "intuition_weight": 0.4636035714285716
+        "recovery_rate": 0.72,
+        "intuition_weight": 0.4984685714285717
       },
       "thing+use": {
-        "cold_recovery_rate": 0.6052631578947368,
-        "mean_confidence": 0.7694736842105263,
-        "mean_naturalness": 0.8370000000000001,
-        "mean_vagueness": 0.31999999999999995,
+        "cold_recovery_rate": 0.6875,
+        "mean_confidence": 0.7862500000000002,
+        "mean_naturalness": 0.8456,
+        "mean_vagueness": 0.31799999999999995,
         "composition_recovery_rate": 0.7,
         "pairwise_score": null,
-        "cold_n": 19,
-        "naturalness_n": 20,
-        "n": 39,
+        "cold_n": 24,
+        "naturalness_n": 25,
+        "n": 49,
         "tags": {
-          "worked_well": 38
+          "worked_well": 48
         },
-        "recovery_rate": 0.6052631578947368,
-        "intuition_weight": 0.6527999999999999
+        "recovery_rate": 0.6875,
+        "intuition_weight": 0.6912507142857144
       },
       "hand+thing": {
-        "cold_recovery_rate": 0.775,
-        "mean_confidence": 0.6805,
-        "mean_naturalness": 0.7,
-        "mean_vagueness": 0.4315789473684211,
-        "composition_recovery_rate": 0.868421052631579,
+        "cold_recovery_rate": 0.82,
+        "mean_confidence": 0.6984,
+        "mean_naturalness": 0.7083333333333331,
+        "mean_vagueness": 0.4270833333333333,
+        "composition_recovery_rate": 0.8958333333333334,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 19,
-        "n": 39,
+        "cold_n": 25,
+        "naturalness_n": 24,
+        "n": 49,
         "tags": {
-          "worked_well": 38,
+          "worked_well": 48,
           "hard_pronounce": 1,
           "unnatural": 1
         },
-        "recovery_rate": 0.775,
-        "intuition_weight": 0.628747590129169
+        "recovery_rate": 0.82,
+        "intuition_weight": 0.6526857993197277
       },
       "useful+thing": {
-        "cold_recovery_rate": 0.575,
-        "mean_confidence": 0.6514999999999999,
-        "mean_naturalness": 0.7110000000000001,
-        "mean_vagueness": 0.475,
-        "composition_recovery_rate": 0.675,
+        "cold_recovery_rate": 0.58,
+        "mean_confidence": 0.6772,
+        "mean_naturalness": 0.7288000000000002,
+        "mean_vagueness": 0.456,
+        "composition_recovery_rate": 0.72,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 20,
-        "n": 40,
+        "cold_n": 25,
+        "naturalness_n": 25,
+        "n": 50,
         "tags": {
-          "worked_well": 30,
+          "worked_well": 40,
           "unnatural": 8,
           "hard_pronounce": 6
         },
-        "recovery_rate": 0.575,
-        "intuition_weight": 0.5368285714285714
+        "recovery_rate": 0.58,
+        "intuition_weight": 0.553777142857143
       }
     },
     "tribe": {
       "community+identity": {
-        "cold_recovery_rate": 0.575,
-        "mean_confidence": 0.5165,
-        "mean_naturalness": 0.5026315789473684,
-        "mean_vagueness": 0.531578947368421,
-        "composition_recovery_rate": 0.868421052631579,
+        "cold_recovery_rate": 0.6,
+        "mean_confidence": 0.5252,
+        "mean_naturalness": 0.4791666666666667,
+        "mean_vagueness": 0.54375,
+        "composition_recovery_rate": 0.8958333333333334,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 19,
-        "n": 39,
+        "cold_n": 25,
+        "naturalness_n": 24,
+        "n": 49,
         "tags": {
-          "worked_well": 12,
-          "too_long": 19,
-          "unnatural": 20,
+          "worked_well": 17,
+          "too_long": 25,
+          "unnatural": 25,
           "hard_pronounce": 9
         },
-        "recovery_rate": 0.575,
-        "intuition_weight": 0.35030436668594567
+        "recovery_rate": 0.6,
+        "intuition_weight": 0.34692389455782324
       },
       "collective+person+identity": {
-        "cold_recovery_rate": 0.725,
-        "mean_confidence": 0.47050000000000003,
-        "mean_naturalness": 0.48199999999999993,
-        "mean_vagueness": 0.49250000000000005,
-        "composition_recovery_rate": 0.95,
+        "cold_recovery_rate": 0.76,
+        "mean_confidence": 0.4824000000000001,
+        "mean_naturalness": 0.4876,
+        "mean_vagueness": 0.48800000000000004,
+        "composition_recovery_rate": 0.96,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 20,
-        "n": 40,
+        "cold_n": 25,
+        "naturalness_n": 25,
+        "n": 50,
         "tags": {
-          "worked_well": 15,
-          "unnatural": 21,
-          "too_long": 22,
+          "worked_well": 20,
+          "unnatural": 26,
+          "too_long": 29,
           "hard_pronounce": 10
         },
-        "recovery_rate": 0.725,
-        "intuition_weight": 0.3969607142857143
+        "recovery_rate": 0.76,
+        "intuition_weight": 0.4153257142857142
       },
       "community+bond": {
-        "cold_recovery_rate": 0.7105263157894737,
-        "mean_confidence": 0.5252631578947368,
-        "mean_naturalness": 0.7829999999999999,
-        "mean_vagueness": 0.31249999999999994,
-        "composition_recovery_rate": 0.925,
+        "cold_recovery_rate": 0.75,
+        "mean_confidence": 0.5304166666666668,
+        "mean_naturalness": 0.7964000000000001,
+        "mean_vagueness": 0.30599999999999994,
+        "composition_recovery_rate": 0.94,
         "pairwise_score": null,
-        "cold_n": 19,
-        "naturalness_n": 20,
-        "n": 39,
+        "cold_n": 24,
+        "naturalness_n": 25,
+        "n": 49,
         "tags": {
-          "worked_well": 28,
-          "unnatural": 14,
-          "too_long": 6,
-          "hard_pronounce": 8
+          "worked_well": 38,
+          "unnatural": 16,
+          "too_long": 8,
+          "hard_pronounce": 9
         },
-        "recovery_rate": 0.7105263157894737,
-        "intuition_weight": 0.6325960622710624
+        "recovery_rate": 0.75,
+        "intuition_weight": 0.6575028571428573
       }
     },
     "weapon": {
       "tool+conflict": {
-        "cold_recovery_rate": 0.55,
-        "mean_confidence": 0.614,
-        "mean_naturalness": 0.7110000000000001,
-        "mean_vagueness": 0.36249999999999993,
+        "cold_recovery_rate": 0.64,
+        "mean_confidence": 0.6371999999999999,
+        "mean_naturalness": 0.7188000000000002,
+        "mean_vagueness": 0.35199999999999987,
         "composition_recovery_rate": 1,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 20,
-        "n": 40,
+        "cold_n": 25,
+        "naturalness_n": 25,
+        "n": 50,
         "tags": {
-          "worked_well": 31,
-          "unnatural": 8,
+          "worked_well": 40,
+          "unnatural": 9,
           "hard_pronounce": 5
         },
-        "recovery_rate": 0.55,
-        "intuition_weight": 0.5455250000000001
+        "recovery_rate": 0.64,
+        "intuition_weight": 0.5899771428571431
       },
       "thing+conflict": {
-        "cold_recovery_rate": 0.4166666666666667,
-        "mean_confidence": 0.47500000000000003,
-        "mean_naturalness": 0.7015,
-        "mean_vagueness": 0.4375,
-        "composition_recovery_rate": 0.95,
+        "cold_recovery_rate": 0.4782608695652174,
+        "mean_confidence": 0.5152173913043478,
+        "mean_naturalness": 0.7292000000000002,
+        "mean_vagueness": 0.41600000000000004,
+        "composition_recovery_rate": 0.96,
         "pairwise_score": null,
-        "cold_n": 18,
-        "naturalness_n": 20,
-        "n": 38,
+        "cold_n": 23,
+        "naturalness_n": 25,
+        "n": 48,
         "tags": {
-          "worked_well": 28,
+          "worked_well": 38,
           "hard_pronounce": 8,
           "unnatural": 3
         },
-        "recovery_rate": 0.4166666666666667,
-        "intuition_weight": 0.467990037593985
+        "recovery_rate": 0.4782608695652174,
+        "intuition_weight": 0.5148385921325054
       },
       "conflict+thing": {
-        "cold_recovery_rate": 0.5,
-        "mean_confidence": 0.46499999999999997,
-        "mean_naturalness": 0.75,
-        "mean_vagueness": 0.38999999999999996,
+        "cold_recovery_rate": 0.54,
+        "mean_confidence": 0.5,
+        "mean_naturalness": 0.7680000000000001,
+        "mean_vagueness": 0.3760000000000001,
         "composition_recovery_rate": 1,
         "pairwise_score": null,
-        "cold_n": 20,
-        "naturalness_n": 20,
-        "n": 40,
+        "cold_n": 25,
+        "naturalness_n": 25,
+        "n": 50,
         "tags": {
-          "worked_well": 30,
+          "worked_well": 40,
           "hard_pronounce": 8,
           "unnatural": 6
         },
-        "recovery_rate": 0.5,
-        "intuition_weight": 0.5362142857142859
+        "recovery_rate": 0.54,
+        "intuition_weight": 0.5675714285714286
       }
     },
     "community": {
