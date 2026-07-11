@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-08T08:55:45.561Z",
+  "generated_at": "2026-07-11T18:59:34.427Z",
   "corpus": "golden",
   "corpus_version": "3.0",
   "engine": "llm",
   "cache_only": true,
   "warm_needed": [],
   "total_phrases": 1000,
-  "clean_phrases": 665,
+  "clean_phrases": 666,
   "coverage_pct": 67,
-  "distinct_gaps": 120,
+  "distinct_gaps": 123,
   "quality": {
     "tokens": {
-      "pass": 4196,
-      "soft": 4,
-      "hard": 2
+      "pass": 4111,
+      "soft": 3,
+      "hard": 5
     },
-    "pass_phrases": 994,
-    "soft_phrases": 4,
-    "hard_phrases": 2
+    "pass_phrases": 992,
+    "soft_phrases": 3,
+    "hard_phrases": 5
   },
   "levels": [
     {
@@ -32,33 +32,33 @@
       "level": 2,
       "name": "Immediate needs",
       "phrases": 50,
-      "clean": 38,
-      "coverage": 76,
-      "unresolved_words": 12
-    },
-    {
-      "level": 3,
-      "name": "Pain & injury",
-      "phrases": 50,
       "clean": 37,
       "coverage": 74,
       "unresolved_words": 13
     },
     {
+      "level": 3,
+      "name": "Pain & injury",
+      "phrases": 50,
+      "clean": 38,
+      "coverage": 76,
+      "unresolved_words": 12
+    },
+    {
       "level": 4,
       "name": "Fear & danger",
       "phrases": 50,
-      "clean": 33,
-      "coverage": 66,
-      "unresolved_words": 17
+      "clean": 34,
+      "coverage": 68,
+      "unresolved_words": 16
     },
     {
       "level": 5,
       "name": "Basic emotions",
       "phrases": 50,
-      "clean": 41,
-      "coverage": 82,
-      "unresolved_words": 9
+      "clean": 43,
+      "coverage": 86,
+      "unresolved_words": 7
     },
     {
       "level": 6,
@@ -88,9 +88,9 @@
       "level": 9,
       "name": "Who questions",
       "phrases": 50,
-      "clean": 32,
-      "coverage": 64,
-      "unresolved_words": 19
+      "clean": 31,
+      "coverage": 62,
+      "unresolved_words": 21
     },
     {
       "level": 10,
@@ -120,9 +120,9 @@
       "level": 13,
       "name": "Possession & trade",
       "phrases": 50,
-      "clean": 32,
-      "coverage": 64,
-      "unresolved_words": 20
+      "clean": 33,
+      "coverage": 66,
+      "unresolved_words": 19
     },
     {
       "level": 14,
@@ -136,9 +136,9 @@
       "level": 15,
       "name": "Weather & environment",
       "phrases": 50,
-      "clean": 29,
-      "coverage": 58,
-      "unresolved_words": 22
+      "clean": 28,
+      "coverage": 56,
+      "unresolved_words": 23
     },
     {
       "level": 16,
@@ -168,9 +168,9 @@
       "level": 19,
       "name": "Plans & intent",
       "phrases": 50,
-      "clean": 20,
-      "coverage": 40,
-      "unresolved_words": 32
+      "clean": 19,
+      "coverage": 38,
+      "unresolved_words": 33
     },
     {
       "level": 20,
@@ -233,6 +233,16 @@
       ]
     },
     {
+      "word": "together",
+      "count": 9,
+      "role": "concept",
+      "samples": [
+        "Can we sit together?",
+        "Let us stay together.",
+        "We are stronger together."
+      ]
+    },
+    {
       "word": "or",
       "count": 9,
       "role": "concept",
@@ -240,16 +250,6 @@
         "Is the pain here or there?",
         "Is this yours or mine?",
         "That person is a friend or an enemy."
-      ]
-    },
-    {
-      "word": "together",
-      "count": 8,
-      "role": "concept",
-      "samples": [
-        "Can we sit together?",
-        "Let us stay together.",
-        "We are stronger together."
       ]
     },
     {
@@ -293,16 +293,6 @@
       ]
     },
     {
-      "word": "leave",
-      "count": 7,
-      "role": "concept",
-      "samples": [
-        "We need to leave this area.",
-        "I am afraid and I want to leave.",
-        "I will not leave you alone."
-      ]
-    },
-    {
       "word": "mother",
       "count": 7,
       "role": "concept",
@@ -320,6 +310,16 @@
         "Do you feel sick today?",
         "The sun is warm today.",
         "I feel strong today."
+      ]
+    },
+    {
+      "word": "leave",
+      "count": 6,
+      "role": "concept",
+      "samples": [
+        "We need to leave this area.",
+        "I will not leave you alone.",
+        "I promise I will not leave you."
       ]
     },
     {
@@ -360,16 +360,6 @@
         "I meant that, not this.",
         "This makes me angry.",
         "We can do this together."
-      ]
-    },
-    {
-      "word": "but",
-      "count": 4,
-      "role": "concept",
-      "samples": [
-        "I was worried, but I am calm now.",
-        "I was angry, but I am calm now.",
-        "I feel tired but I must keep moving."
       ]
     },
     {
@@ -519,15 +509,6 @@
       ]
     },
     {
-      "word": "mean",
-      "count": 2,
-      "role": "concept",
-      "samples": [
-        "Did you mean this place hurts?",
-        "Did you mean the small one?"
-      ]
-    },
-    {
       "word": "shaking",
       "count": 2,
       "role": "concept",
@@ -600,6 +581,15 @@
       ]
     },
     {
+      "word": "honen",
+      "count": 2,
+      "role": "path",
+      "samples": [
+        "I meant to go the other way.",
+        "I want to try a different path."
+      ]
+    },
+    {
       "word": "yet",
       "count": 2,
       "role": "concept",
@@ -667,6 +657,14 @@
       "role": "concept",
       "samples": [
         "I feel nervous and unsure."
+      ]
+    },
+    {
+      "word": "tetsas",
+      "count": 1,
+      "role": "object",
+      "samples": [
+        "We need more wood."
       ]
     },
     {
@@ -846,6 +844,22 @@
       ]
     },
     {
+      "word": "seems",
+      "count": 1,
+      "role": "concept",
+      "samples": [
+        "That person is alone and looks lost."
+      ]
+    },
+    {
+      "word": "he/she/it",
+      "count": 1,
+      "role": "concept",
+      "samples": [
+        "That person is alone and looks lost."
+      ]
+    },
+    {
       "word": "woman",
       "count": 1,
       "role": "concept",
@@ -966,14 +980,6 @@
       ]
     },
     {
-      "word": "have",
-      "count": 1,
-      "role": "concept",
-      "samples": [
-        "I have water and you have food."
-      ]
-    },
-    {
       "word": "yours",
       "count": 1,
       "role": "concept",
@@ -1086,6 +1092,14 @@
       ]
     },
     {
+      "word": "but",
+      "count": 1,
+      "role": "concept",
+      "samples": [
+        "I am tired but not sick."
+      ]
+    },
+    {
       "word": "normally",
       "count": 1,
       "role": "concept",
@@ -1163,6 +1177,14 @@
       "role": "concept",
       "samples": [
         "Please point to it slowly."
+      ]
+    },
+    {
+      "word": "mean",
+      "count": 1,
+      "role": "concept",
+      "samples": [
+        "Did you mean the small one?"
       ]
     },
     {
@@ -1365,10 +1387,10 @@
     {
       "level": 1,
       "phrase": "What is your name?",
-      "roman": "no hu to mal ?",
+      "roman": "nohu to mal ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -1376,13 +1398,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to mal ?",
+      "expected": "nohu to mal ?",
       "matches_golden": true
     },
     {
@@ -1490,7 +1512,7 @@
     {
       "level": 1,
       "phrase": "I mean no harm.",
-      "roman": "mi sak no gam",
+      "roman": "mi no sak gam",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -1507,7 +1529,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sak no gam",
+      "expected": "mi no sak gam",
       "matches_golden": true
     },
     {
@@ -1958,7 +1980,30 @@
     {
       "level": 1,
       "phrase": "I am a stranger and I need help.",
-      "roman": "mi bafet les kas",
+      "roman": "mi bafet mi les kas",
+      "unresolved": [],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "mi bafet mi les kas",
+      "matches_golden": true
+    },
+    {
+      "level": 1,
+      "phrase": "I am lost and I am alone.",
+      "roman": "mi nantam mi nesfa",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -1975,30 +2020,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi bafet les kas",
-      "matches_golden": true
-    },
-    {
-      "level": 1,
-      "phrase": "I am lost and I am alone.",
-      "roman": "mi nantam nesfa",
-      "unresolved": [],
-      "counts": {
-        "direct": 3,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 3,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "mi nantam nesfa",
+      "expected": "mi nantam mi nesfa",
       "matches_golden": true
     },
     {
@@ -2275,7 +2297,7 @@
     {
       "level": 1,
       "phrase": "Are there other people near you?",
-      "roman": "honen balek dal be ?",
+      "roman": "fel balek dal be ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -2292,13 +2314,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "honen balek dal be ?",
+      "expected": "fel balek dal be ?",
       "matches_golden": true
     },
     {
       "level": 1,
       "phrase": "I have no weapon.",
-      "roman": "mi gat no daktopa",
+      "roman": "mi no gat daktopa",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2315,7 +2337,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gat no daktopa",
+      "expected": "mi no gat daktopa",
       "matches_golden": true
     },
     {
@@ -3232,25 +3254,35 @@
     {
       "level": 2,
       "phrase": "We need more wood.",
-      "roman": "dan les mas tetsas",
-      "unresolved": [],
+      "roman": "dan les mas [tetsas]",
+      "unresolved": [
+        "tetsas"
+      ],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 4,
+        "gate": "hard",
+        "pass": 3,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
-      "expected": "dan les mas tetsas",
-      "matches_golden": true
+      "gaps": [
+        {
+          "english": "tetsas",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
+      "expected": "dan les mas [tetsas]",
+      "matches_golden": true,
+      "note": "gap: tetsas (needs a root)"
     },
     {
       "level": 2,
@@ -3351,7 +3383,7 @@
     {
       "level": 2,
       "phrase": "This food is not good.",
-      "roman": "lo gu no",
+      "roman": "lo no gu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3368,7 +3400,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "lo gu no",
+      "expected": "lo no gu",
       "matches_golden": true
     },
     {
@@ -4316,7 +4348,7 @@
     {
       "level": 3,
       "phrase": "The pain is very strong.",
-      "roman": "tes ni femsas",
+      "roman": "tes ni femgu",
       "unresolved": [
         "very"
       ],
@@ -4335,16 +4367,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tes ni femsas",
+      "expected": "tes ni femgu",
       "matches_golden": true
     },
     {
       "level": 3,
       "phrase": "I am cold and I feel sick.",
-      "roman": "mi mak nes femgam",
+      "roman": "mi nes mak mi nes femgam",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -4352,13 +4384,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi mak nes femgam",
+      "expected": "mi nes mak mi nes femgam",
       "matches_golden": true
     },
     {
@@ -4578,9 +4610,7 @@
       "level": 3,
       "phrase": "Did you mean this place hurts?",
       "roman": "be ta kuwimalhu che tes ?",
-      "unresolved": [
-        "mean"
-      ],
+      "unresolved": [],
       "counts": {
         "direct": 6,
         "interpreted": 0,
@@ -4602,10 +4632,10 @@
     {
       "level": 3,
       "phrase": "Show me where the pain is.",
-      "roman": "giwi no hu che mi tes ?",
+      "roman": "giwi tes che",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -4613,13 +4643,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "giwi no hu che mi tes ?",
+      "expected": "giwi tes che",
       "matches_golden": true
     },
     {
@@ -4673,12 +4703,12 @@
     {
       "level": 3,
       "phrase": "My back hurts and I cannot stand.",
-      "roman": "mi tes no tira so",
+      "roman": "mi tes so mi no tira",
       "unresolved": [
         "can"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -4686,13 +4716,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi tes no tira so",
+      "expected": "mi tes so mi no tira",
       "matches_golden": true
     },
     {
@@ -4721,7 +4751,7 @@
     {
       "level": 3,
       "phrase": "Are you feeling better now?",
-      "roman": "be nes gu gem mas ?",
+      "roman": "be nes gu mas gem ?",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -4738,7 +4768,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be nes gu gem mas ?",
+      "expected": "be nes gu mas gem ?",
       "matches_golden": true
     },
     {
@@ -4907,7 +4937,7 @@
     {
       "level": 4,
       "phrase": "This place is not safe.",
-      "roman": "che tampe no",
+      "roman": "che no tampe",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -4924,7 +4954,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "che tampe no",
+      "expected": "che no tampe",
       "matches_golden": true
     },
     {
@@ -5304,7 +5334,7 @@
     {
       "level": 4,
       "phrase": "I feel very unsafe here.",
-      "roman": "mi nes nam no tampe ni",
+      "roman": "mi no nes nam tampe ni",
       "unresolved": [
         "very"
       ],
@@ -5323,7 +5353,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nam no tampe ni",
+      "expected": "mi no nes nam tampe ni",
       "matches_golden": true
     },
     {
@@ -5400,7 +5430,7 @@
     {
       "level": 4,
       "phrase": "I am shaking with fear.",
-      "roman": "mi nes nespe femsas",
+      "roman": "mi nes nespe femgu",
       "unresolved": [
         "shaking"
       ],
@@ -5419,7 +5449,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nespe femsas",
+      "expected": "mi nes nespe femgu",
       "matches_golden": true
     },
     {
@@ -5498,10 +5528,10 @@
     {
       "level": 4,
       "phrase": "I see something in the dark.",
-      "roman": "mi wi mes gan no hu to",
+      "roman": "mi wi mes gan nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -5509,13 +5539,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi wi mes gan no hu to",
+      "expected": "mi wi mes gan nohu to",
       "matches_golden": true
     },
     {
@@ -5590,7 +5620,7 @@
     {
       "level": 4,
       "phrase": "That path is not safe.",
-      "roman": "nan tampe no",
+      "roman": "nan no tampe",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -5607,7 +5637,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nan tampe no",
+      "expected": "nan no tampe",
       "matches_golden": true
     },
     {
@@ -5757,12 +5787,10 @@
     {
       "level": 4,
       "phrase": "I am afraid and I want to leave.",
-      "roman": "mi nes sak nespe fet",
-      "unresolved": [
-        "leave"
-      ],
+      "roman": "mi nes nespe mi sak gi fet",
+      "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -5770,13 +5798,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes sak nespe fet",
+      "expected": "mi nes nespe mi sak gi fet",
       "matches_golden": true
     },
     {
@@ -5832,7 +5860,7 @@
     {
       "level": 4,
       "phrase": "I meant that, not this.",
-      "roman": "mi ta kuwimalhu tak no",
+      "roman": "mi ta no kuwimalhu tak",
       "unresolved": [
         "this"
       ],
@@ -5851,7 +5879,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta kuwimalhu tak no",
+      "expected": "mi ta no kuwimalhu tak",
       "matches_golden": true
     },
     {
@@ -6323,7 +6351,7 @@
     {
       "level": 5,
       "phrase": "I am not angry now.",
-      "roman": "mi nes nesgam no gem",
+      "roman": "mi no nes nesgam gem",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -6340,7 +6368,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nesgam no gem",
+      "expected": "mi no nes nesgam gem",
       "matches_golden": true
     },
     {
@@ -6369,7 +6397,7 @@
     {
       "level": 5,
       "phrase": "I am calm and relieved.",
-      "roman": "mi nes nesti no nespe",
+      "roman": "mi no nes nesti nespe",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -6386,7 +6414,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nesti no nespe",
+      "expected": "mi no nes nesti nespe",
       "matches_golden": true
     },
     {
@@ -6415,12 +6443,10 @@
     {
       "level": 5,
       "phrase": "I was worried, but I am calm now.",
-      "roman": "mi ta nes pemet nesti gem",
-      "unresolved": [
-        "but"
-      ],
+      "roman": "mi ta nes pemet mi nes nesti gem",
+      "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 8,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -6428,13 +6454,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 8,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta nes pemet nesti gem",
+      "expected": "mi ta nes pemet mi nes nesti gem",
       "matches_golden": true
     },
     {
@@ -6536,56 +6562,8 @@
     {
       "level": 5,
       "phrase": "This makes me happy.",
-      "roman": "no hu to kel mi nesgu",
+      "roman": "nohu to kel mi nesgu",
       "unresolved": [],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to kel mi nesgu",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "This makes me sad.",
-      "roman": "no hu to kel mi gamnes",
-      "unresolved": [],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to kel mi gamnes",
-      "matches_golden": true
-    },
-    {
-      "level": 5,
-      "phrase": "This makes me angry.",
-      "roman": "no hu to nes nesgam",
-      "unresolved": [
-        "this"
-      ],
       "counts": {
         "direct": 5,
         "interpreted": 0,
@@ -6601,7 +6579,55 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to nes nesgam",
+      "expected": "nohu to kel mi nesgu",
+      "matches_golden": true
+    },
+    {
+      "level": 5,
+      "phrase": "This makes me sad.",
+      "roman": "nohu to kel mi gamnes",
+      "unresolved": [],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to kel mi gamnes",
+      "matches_golden": true
+    },
+    {
+      "level": 5,
+      "phrase": "This makes me angry.",
+      "roman": "nohu to nes nesgam",
+      "unresolved": [
+        "this"
+      ],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to nes nesgam",
       "matches_golden": true
     },
     {
@@ -6839,12 +6865,10 @@
     {
       "level": 5,
       "phrase": "I was angry, but I am calm now.",
-      "roman": "mi ta nes nesgam nesti gem",
-      "unresolved": [
-        "but"
-      ],
+      "roman": "mi ta nes nesgam mi nes nesti gem",
+      "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 8,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -6852,13 +6876,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 8,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta nes nesgam nesti gem",
+      "expected": "mi ta nes nesgam mi nes nesti gem",
       "matches_golden": true
     },
     {
@@ -6921,10 +6945,10 @@
     {
       "level": 5,
       "phrase": "I do not want to be alone.",
-      "roman": "mi no sak no nesfa",
+      "roman": "mi no sak nesfa",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -6932,13 +6956,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no sak no nesfa",
+      "expected": "mi no sak nesfa",
       "matches_golden": true
     },
     {
@@ -6967,7 +6991,7 @@
     {
       "level": 5,
       "phrase": "I am not sad anymore.",
-      "roman": "mi nes gamnes no moyi",
+      "roman": "mi no nes gamnes moyi",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -6984,7 +7008,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes gamnes no moyi",
+      "expected": "mi no nes gamnes moyi",
       "matches_golden": true
     },
     {
@@ -7105,7 +7129,7 @@
     {
       "level": 5,
       "phrase": "I am angry but not at you.",
-      "roman": "mi nes nesgam no be",
+      "roman": "mi no nes nesgam be",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -7122,7 +7146,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nesgam no be",
+      "expected": "mi no nes nesgam be",
       "matches_golden": true
     },
     {
@@ -7339,12 +7363,12 @@
     {
       "level": 6,
       "phrase": "I did not mean to hurt you.",
-      "roman": "mi ta no sakdi no tes be",
+      "roman": "mi ta no tes be sakdi",
       "unresolved": [
         "intend"
       ],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -7352,13 +7376,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no sakdi no tes be",
+      "expected": "mi ta no tes be sakdi",
       "matches_golden": true
     },
     {
@@ -7716,7 +7740,7 @@
     {
       "level": 6,
       "phrase": "We are stronger together.",
-      "roman": "dan femsas dan",
+      "roman": "dan femgu dan",
       "unresolved": [
         "together"
       ],
@@ -7735,7 +7759,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan femsas dan",
+      "expected": "dan femgu dan",
       "matches_golden": true
     },
     {
@@ -8149,10 +8173,10 @@
     {
       "level": 6,
       "phrase": "I am cold and I need help.",
-      "roman": "mi nes les mak kas",
+      "roman": "mi nes mak mi les kas",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -8160,19 +8184,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes les mak kas",
+      "expected": "mi nes mak mi les kas",
       "matches_golden": true
     },
     {
       "level": 6,
       "phrase": "We survived and I am grateful.",
-      "roman": "dan mi ta fo nes nesguku ti",
+      "roman": "dan ta gat fo mi nes nesguku",
       "unresolved": [
         "survived"
       ],
@@ -8191,7 +8215,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan mi ta fo nes nesguku ti",
+      "expected": "dan ta gat fo mi nes nesguku",
       "matches_golden": true
     },
     {
@@ -8274,12 +8298,12 @@
     {
       "level": 6,
       "phrase": "I promise I will not leave you.",
-      "roman": "mi sekam",
+      "roman": "mi no sekam",
       "unresolved": [
         "leave"
       ],
       "counts": {
-        "direct": 2,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -8287,13 +8311,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 2,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sekam",
+      "expected": "mi no sekam",
       "matches_golden": true
     },
     {
@@ -8577,7 +8601,7 @@
     {
       "level": 7,
       "phrase": "I said no.",
-      "roman": "mi ta se no",
+      "roman": "mi ta no se",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -8594,7 +8618,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta se no",
+      "expected": "mi ta no se",
       "matches_golden": true
     },
     {
@@ -8738,7 +8762,7 @@
     {
       "level": 7,
       "phrase": "Do not open that bag.",
-      "roman": "no tamtem tamgat",
+      "roman": "no tamtem tomes",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -8755,7 +8779,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no tamtem tamgat",
+      "expected": "no tamtem tomes",
       "matches_golden": true
     },
     {
@@ -8972,12 +8996,12 @@
     {
       "level": 7,
       "phrase": "Do not wake me.",
-      "roman": "no no hu de mi",
+      "roman": "no hu de mi",
       "unresolved": [
         "wake"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -8985,13 +9009,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no no hu de mi",
+      "expected": "no hu de mi",
       "matches_golden": true
     },
     {
@@ -9022,10 +9046,10 @@
     {
       "level": 7,
       "phrase": "I am angry and I need quiet.",
-      "roman": "mi nes les nesgam nesti",
+      "roman": "mi nes nesgam mi les nesti",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9033,13 +9057,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes les nesgam nesti",
+      "expected": "mi nes nesgam mi les nesti",
       "matches_golden": true
     },
     {
@@ -9070,7 +9094,7 @@
     {
       "level": 7,
       "phrase": "This side is mine and that side is yours.",
-      "roman": "tem honen tem kamche mi be honen",
+      "roman": "tem fel tem kamche mi be fel",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -9087,7 +9111,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tem honen tem kamche mi be honen",
+      "expected": "tem fel tem kamche mi be fel",
       "matches_golden": true
     },
     {
@@ -9162,7 +9186,7 @@
     {
       "level": 7,
       "phrase": "That is not yours.",
-      "roman": "tak kamche be no",
+      "roman": "tak no kamche be",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -9179,7 +9203,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tak kamche be no",
+      "expected": "tak no kamche be",
       "matches_golden": true
     },
     {
@@ -9371,7 +9395,7 @@
     {
       "level": 7,
       "phrase": "I am tired and I need rest.",
-      "roman": "mi nes femtam les tinal",
+      "roman": "mi femtam mi les tinal",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -9388,7 +9412,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes femtam les tinal",
+      "expected": "mi femtam mi les tinal",
       "matches_golden": true
     },
     {
@@ -9488,10 +9512,10 @@
     {
       "level": 8,
       "phrase": "What is this?",
-      "roman": "no hu to ?",
+      "roman": "nohu to ?",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9499,19 +9523,138 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to ?",
+      "expected": "nohu to ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that?",
-      "roman": "no hu to ?",
+      "roman": "nohu to ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 3,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What happened here?",
+      "roman": "nohu to ta nam ?",
+      "unresolved": [
+        "happen"
+      ],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to ta nam ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What do you want?",
+      "roman": "be sak nohu to ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "be sak nohu to ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What is in there?",
+      "roman": "nohu to mes tak ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to mes tak ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What is that sound?",
+      "roman": "nohu to base ?",
+      "unresolved": [
+        "sound"
+      ],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to base ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What is that smell?",
+      "roman": "nohu to tek ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -9528,135 +9671,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What happened here?",
-      "roman": "no hu to ta nam ?",
-      "unresolved": [
-        "happen"
-      ],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to ta nam ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What do you want?",
-      "roman": "be sak no hu to ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "be sak no hu to ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What is in there?",
-      "roman": "no hu to mes tak ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to mes tak ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What is that sound?",
-      "roman": "no hu to base ?",
-      "unresolved": [
-        "sound"
-      ],
-      "counts": {
-        "direct": 5,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 5,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to base ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What is that smell?",
-      "roman": "no hu to tek ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 5,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 5,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to tek ?",
+      "expected": "nohu to tek ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What do you need?",
-      "roman": "no hu to les be ?",
+      "roman": "nohu to les be ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9664,22 +9688,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to les be ?",
+      "expected": "nohu to les be ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is happening?",
-      "roman": "no hu to mo ?",
+      "roman": "nohu to mo ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9687,22 +9711,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to mo ?",
+      "expected": "nohu to mo ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that animal?",
-      "roman": "no hu to kal ?",
+      "roman": "nohu to kal ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9710,22 +9734,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to kal ?",
+      "expected": "nohu to kal ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that plant?",
-      "roman": "no hu to tet ?",
+      "roman": "nohu to tet ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9733,24 +9757,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to tet ?",
+      "expected": "nohu to tet ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that noise at night?",
-      "roman": "no hu to gankan len ?",
+      "roman": "nohu to gankan len ?",
       "unresolved": [
         "noise"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9758,22 +9782,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to gankan len ?",
+      "expected": "nohu to gankan len ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What do you have there?",
-      "roman": "be gat tak no hu to ?",
+      "roman": "be gat tak nohu to ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9781,22 +9805,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be gat tak no hu to ?",
+      "expected": "be gat tak nohu to ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is this food?",
-      "roman": "no hu to lo ?",
+      "roman": "nohu to lo ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9804,24 +9828,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to lo ?",
+      "expected": "nohu to lo ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that mark on your arm?",
-      "roman": "no hu to dakfem wimal be ?",
+      "roman": "nohu to dakfem wimal be ?",
       "unresolved": [
         "on"
       ],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9829,22 +9853,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to dakfem wimal be ?",
+      "expected": "nohu to dakfem wimal be ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "I do not know what this is.",
-      "roman": "mi no hu no hu to",
+      "roman": "mi no hu nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9852,22 +9876,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no hu no hu to",
+      "expected": "mi no hu nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "I do not know what that is.",
-      "roman": "mi no hu no hu to",
+      "roman": "mi no hu nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9875,24 +9899,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no hu no hu to",
+      "expected": "mi no hu nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is this liquid?",
-      "roman": "no hu to tofem ?",
+      "roman": "nohu to tofem ?",
       "unresolved": [
         "liquid"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9900,24 +9924,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to tofem ?",
+      "expected": "nohu to tofem ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What happened to your hand?",
-      "roman": "no hu to ta be dak ?",
+      "roman": "nohu to ta be dak ?",
       "unresolved": [
         "happened_to"
       ],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -9925,91 +9949,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to ta be dak ?",
+      "expected": "nohu to ta be dak ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What happened last night?",
-      "roman": "no hu to ta gankan daldi gankan ?",
+      "roman": "nohu to ta gankan daldi gankan ?",
       "unresolved": [
         "happened"
       ],
-      "counts": {
-        "direct": 8,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 8,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to ta gankan daldi gankan ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What is that thing called?",
-      "roman": "no hu to mal to ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to mal to ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What is the name of this?",
-      "roman": "no hu to mal ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 5,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 5,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu to mal ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What do you see over there?",
-      "roman": "no hu to wi tak be ?",
-      "unresolved": [],
       "counts": {
         "direct": 7,
         "interpreted": 0,
@@ -10025,16 +9980,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to wi tak be ?",
+      "expected": "nohu to ta gankan daldi gankan ?",
       "matches_golden": true
     },
     {
       "level": 8,
-      "phrase": "What is that light?",
-      "roman": "no hu to kek ?",
+      "phrase": "What is that thing called?",
+      "roman": "nohu to semal ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10042,22 +9997,43 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to kek ?",
+      "expected": "nohu to semal ?",
       "matches_golden": true
     },
     {
       "level": 8,
-      "phrase": "What is this tool for?",
-      "roman": "no hu to gek dakto ?",
-      "unresolved": [
-        "for"
-      ],
+      "phrase": "What is the name of this?",
+      "roman": "nohu to mal ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to mal ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What do you see over there?",
+      "roman": "nohu to wi tak be ?",
+      "unresolved": [],
       "counts": {
         "direct": 6,
         "interpreted": 0,
@@ -10073,7 +10049,55 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to gek dakto ?",
+      "expected": "nohu to wi tak be ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What is that light?",
+      "roman": "nohu to kek ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to kek ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "What is this tool for?",
+      "roman": "nohu to gek dakto ?",
+      "unresolved": [
+        "for"
+      ],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu to gek dakto ?",
       "matches_golden": true
     },
     {
@@ -10104,10 +10128,10 @@
     {
       "level": 8,
       "phrase": "I want to know what this is.",
-      "roman": "mi sak hu no hu to",
+      "roman": "mi sak hu nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10115,22 +10139,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sak hu no hu to",
+      "expected": "mi sak hu nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is wrong with you?",
-      "roman": "no hu to gam be ?",
+      "roman": "nohu to gam be ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10138,24 +10162,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to gam be ?",
+      "expected": "nohu to gam be ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is wrong with this?",
-      "roman": "no hu to gam ?",
+      "roman": "nohu to gam ?",
       "unresolved": [
         "with"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10163,22 +10187,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to gam ?",
+      "expected": "nohu to gam ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What do you want me to do?",
-      "roman": "be sak mi no hu to mo ?",
+      "roman": "be sak mi nohu to mo ?",
       "unresolved": [],
       "counts": {
-        "direct": 8,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10186,22 +10210,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 8,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be sak mi no hu to mo ?",
+      "expected": "be sak mi nohu to mo ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "I do not understand what you want.",
-      "roman": "mi no hufel no hu to be sak",
+      "roman": "mi no hufel nohu to be sak",
       "unresolved": [],
       "counts": {
-        "direct": 8,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10209,22 +10233,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 8,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no hufel no hu to be sak",
+      "expected": "mi no hufel nohu to be sak",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that over the water?",
-      "roman": "no hu to ra ye ?",
+      "roman": "nohu to ra ye ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10232,22 +10256,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to ra ye ?",
+      "expected": "nohu to ra ye ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What did you find?",
-      "roman": "be ta lanek no hu to ?",
+      "roman": "be ta lanek nohu to ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10255,22 +10279,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta lanek no hu to ?",
+      "expected": "be ta lanek nohu to ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What did you eat?",
-      "roman": "be ta tel no hu to ?",
+      "roman": "be ta tel nohu to ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10278,22 +10302,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta tel no hu to ?",
+      "expected": "be ta tel nohu to ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is safe to eat here?",
-      "roman": "no hu to tel nam tampe ?",
+      "roman": "nohu to tel nam tampe ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10301,22 +10325,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to tel nam tampe ?",
+      "expected": "nohu to tel nam tampe ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "I am not sure what that is.",
-      "roman": "mi no nathu no hu to",
+      "roman": "mi no nathu nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10324,22 +10348,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nathu no hu to",
+      "expected": "mi no nathu nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that on the ground?",
-      "roman": "no hu to fen ?",
+      "roman": "nohu to fen ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10347,24 +10371,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to fen ?",
+      "expected": "nohu to fen ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that dark shape?",
-      "roman": "no hu to gan tonen ?",
+      "roman": "nohu to gan tonen ?",
       "unresolved": [
         "shape"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10372,22 +10396,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to gan tonen ?",
+      "expected": "nohu to gan tonen ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "I want to know what happened.",
-      "roman": "mi ta sak hu no hu to",
+      "roman": "mi ta sak hu nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10395,24 +10419,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta sak hu no hu to",
+      "expected": "mi ta sak hu nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is this white powder?",
-      "roman": "no hu to gen tofem ?",
+      "roman": "nohu to gen tofem ?",
       "unresolved": [
         "white"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10420,22 +10444,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to gen tofem ?",
+      "expected": "nohu to gen tofem ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that structure?",
-      "roman": "no hu to tonen ?",
+      "roman": "nohu to tonen ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10443,22 +10467,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to tonen ?",
+      "expected": "nohu to tonen ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is in this bag?",
-      "roman": "no hu to mes tamgat ?",
+      "roman": "nohu to mes tomes ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10466,19 +10490,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to mes tamgat ?",
+      "expected": "nohu to mes tomes ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "I feel afraid and I do not know what is there.",
-      "roman": "mi no nes hu tak nespe no hu to",
+      "roman": "mi nes nespe mi no hu tak nohu to",
       "unresolved": [],
       "counts": {
         "direct": 9,
@@ -10495,73 +10519,41 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes hu tak nespe no hu to",
+      "expected": "mi nes nespe mi no hu tak nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What do you want to show me?",
-      "roman": "be giwi mi no hu to ?",
+      "roman": "be giwi mi nohu to ?",
       "unresolved": [],
-      "counts": {
-        "direct": 7,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 7,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "be giwi mi no hu to ?",
-      "matches_golden": true
-    },
-    {
-      "level": 8,
-      "phrase": "What is that color in the sky?",
-      "roman": "no hu to mes sam kekwimal ?",
-      "unresolved": [
-        "color"
-      ],
       "counts": {
         "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0,
-        "composed": 1
+        "unknown": 0
       },
       "quality": {
-        "gate": "soft",
+        "gate": "pass",
         "pass": 6,
-        "soft": 1,
+        "soft": 0,
         "hard": 0
       },
-      "review": [
-        {
-          "english": "kek+wimal",
-          "kind": "composed",
-          "concept_id": "kek+wimal",
-          "fonoran": "kekwimal"
-        }
-      ],
+      "review": [],
       "gaps": [],
-      "expected": "no hu to mes sam kekwimal ?",
-      "matches_golden": true,
-      "note": "review: kek+wimal→kekwimal(composed)"
+      "expected": "be giwi mi nohu to ?",
+      "matches_golden": true
     },
     {
       "level": 8,
-      "phrase": "Please show me what you mean.",
-      "roman": "be giwi mi kugu no hu to kuwimalhu be ?",
-      "unresolved": [],
+      "phrase": "What is that color in the sky?",
+      "roman": "nohu to sam ?",
+      "unresolved": [
+        "color"
+      ],
       "counts": {
-        "direct": 10,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10569,19 +10561,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 10,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be giwi mi kugu no hu to kuwimalhu be ?",
+      "expected": "nohu to sam ?",
       "matches_golden": true
     },
     {
       "level": 8,
-      "phrase": "I see something and I do not know what it is.",
-      "roman": "mi wi no hu ket to no hu to",
+      "phrase": "Please show me what you mean.",
+      "roman": "be giwi mi kugu nohu to kuwimalhu be ?",
       "unresolved": [],
       "counts": {
         "direct": 9,
@@ -10598,16 +10590,39 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi wi no hu ket to no hu to",
+      "expected": "be giwi mi kugu nohu to kuwimalhu be ?",
+      "matches_golden": true
+    },
+    {
+      "level": 8,
+      "phrase": "I see something and I do not know what it is.",
+      "roman": "mi wi ket to mi no hu nohu to",
+      "unresolved": [],
+      "counts": {
+        "direct": 9,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 9,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "mi wi ket to mi no hu nohu to",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is this word?",
-      "roman": "no hu to tose ?",
+      "roman": "nohu to tose ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10615,22 +10630,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to tose ?",
+      "expected": "nohu to tose ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What do you call this thing?",
-      "roman": "be semal no hu to ?",
+      "roman": "be semal nohu to ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10638,22 +10653,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be semal no hu to ?",
+      "expected": "be semal nohu to ?",
       "matches_golden": true
     },
     {
       "level": 8,
       "phrase": "What is that thing over there?",
-      "roman": "no hu to tak ?",
+      "roman": "nohu to tak ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10661,22 +10676,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu to tak ?",
+      "expected": "nohu to tak ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who are you?",
-      "roman": "no hu ba ?",
+      "roman": "nohu ba ?",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10684,19 +10699,42 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba ?",
+      "expected": "nohu ba ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who is that person?",
-      "roman": "no hu ba ?",
+      "roman": "nohu ba ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 3,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba ?",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Who is hurt?",
+      "roman": "nohu ba tes ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -10713,13 +10751,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba ?",
+      "expected": "nohu ba tes ?",
       "matches_golden": true
     },
     {
       "level": 9,
-      "phrase": "Who is hurt?",
-      "roman": "no hu ba tes ?",
+      "phrase": "Who needs water?",
+      "roman": "nohu ba les ye ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -10736,30 +10774,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba tes ?",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Who needs water?",
-      "roman": "no hu ba les ye ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba les ye ?",
+      "expected": "nohu ba les ye ?",
       "matches_golden": true
     },
     {
@@ -10788,10 +10803,10 @@
     {
       "level": 9,
       "phrase": "Who is the child?",
-      "roman": "no hu ba bagen ?",
+      "roman": "nohu ba bagen ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10799,13 +10814,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba bagen ?",
+      "expected": "nohu ba bagen ?",
       "matches_golden": true
     },
     {
@@ -10834,10 +10849,10 @@
     {
       "level": 9,
       "phrase": "Who is sleeping over there?",
-      "roman": "no hu ba nal tak ?",
+      "roman": "nohu ba nal tak ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10845,13 +10860,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba nal tak ?",
+      "expected": "nohu ba nal tak ?",
       "matches_golden": true
     },
     {
@@ -10880,30 +10895,7 @@
     {
       "level": 9,
       "phrase": "Who needs food now?",
-      "roman": "no hu ba les lo gem ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 7,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 7,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba les lo gem ?",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Who is the old person?",
-      "roman": "no hu ba ni kanfem ?",
+      "roman": "nohu ba les lo gem ?",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -10920,13 +10912,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba ni kanfem ?",
+      "expected": "nohu ba les lo gem ?",
       "matches_golden": true
     },
     {
       "level": 9,
-      "phrase": "Who is crying?",
-      "roman": "no hu ba kemye ?",
+      "phrase": "Who is the old person?",
+      "roman": "nohu ba ni kanfem ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -10943,18 +10935,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba kemye ?",
+      "expected": "nohu ba ni kanfem ?",
       "matches_golden": true
     },
     {
       "level": 9,
-      "phrase": "Who is with you?",
-      "roman": "no hu ba dal be ?",
-      "unresolved": [
-        "with"
-      ],
+      "phrase": "Who is crying?",
+      "roman": "nohu ba kemye ?",
+      "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -10962,13 +10952,38 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba dal be ?",
+      "expected": "nohu ba kemye ?",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Who is with you?",
+      "roman": "nohu ba dal be ?",
+      "unresolved": [
+        "with"
+      ],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba dal be ?",
       "matches_golden": true
     },
     {
@@ -10999,8 +11014,33 @@
     {
       "level": 9,
       "phrase": "Who is sick?",
-      "roman": "no hu ba femgam ?",
+      "roman": "nohu ba femgam ?",
       "unresolved": [],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba femgam ?",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Who can carry this?",
+      "roman": "nohu ba gigat to ?",
+      "unresolved": [
+        "can"
+      ],
       "counts": {
         "direct": 5,
         "interpreted": 0,
@@ -11016,32 +11056,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba femgam ?",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Who can carry this?",
-      "roman": "no hu ba gigat to ?",
-      "unresolved": [
-        "can"
-      ],
-      "counts": {
-        "direct": 6,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 6,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba gigat to ?",
+      "expected": "nohu ba gigat to ?",
       "matches_golden": true
     },
     {
@@ -11072,10 +11087,10 @@
     {
       "level": 9,
       "phrase": "Who is making that sound?",
-      "roman": "no hu ba kel base ?",
+      "roman": "nohu ba kel base ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11083,20 +11098,23 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba kel base ?",
+      "expected": "nohu ba kel base ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "That person is alone and looks lost.",
       "roman": "ba nesfa nantam",
-      "unresolved": [],
+      "unresolved": [
+        "seems",
+        "he/she/it"
+      ],
       "counts": {
         "direct": 3,
         "interpreted": 0,
@@ -11118,10 +11136,10 @@
     {
       "level": 9,
       "phrase": "Who is in danger?",
-      "roman": "no hu ba mes pedal ?",
+      "roman": "nohu ba mes pedal ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11129,22 +11147,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba mes pedal ?",
+      "expected": "nohu ba mes pedal ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who is the leader here?",
-      "roman": "no hu ba kesba nam ?",
+      "roman": "nohu ba kesba nam ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11152,19 +11170,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba kesba nam ?",
+      "expected": "nohu ba kesba nam ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Please tell me who you are.",
-      "roman": "se mi no hu ba be kugu",
+      "roman": "be se mi kugu nohu ba ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -11181,16 +11199,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "se mi no hu ba be kugu",
+      "expected": "be se mi kugu nohu ba ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who is bleeding?",
-      "roman": "no hu ba gites ?",
+      "roman": "nohu ba gites ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11198,143 +11216,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba gites ?",
+      "expected": "nohu ba gites ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "I am confused about who is here.",
-      "roman": "mi nes nam metgan no hu ba",
+      "roman": "mi nes nam metgan nohu ba",
       "unresolved": [
         "about"
       ],
-      "counts": {
-        "direct": 7,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 7,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "mi nes nam metgan no hu ba",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Who is that woman?",
-      "roman": "no hu ba ?",
-      "unresolved": [
-        "woman"
-      ],
-      "counts": {
-        "direct": 4,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 4,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba ?",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Who is that man?",
-      "roman": "no hu ba ?",
-      "unresolved": [
-        "man"
-      ],
-      "counts": {
-        "direct": 4,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 4,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba ?",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Point to who needs help.",
-      "roman": "no hu ba les kas",
-      "unresolved": [
-        "point_to"
-      ],
-      "counts": {
-        "direct": 5,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 5,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba les kas",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "Who was here before us?",
-      "roman": "no hu ba ta nam di dan ?",
-      "unresolved": [],
-      "counts": {
-        "direct": 8,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 8,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "no hu ba ta nam di dan ?",
-      "matches_golden": true
-    },
-    {
-      "level": 9,
-      "phrase": "I do not understand who that is.",
-      "roman": "mi no hufel no hu ba",
-      "unresolved": [],
       "counts": {
         "direct": 6,
         "interpreted": 0,
@@ -11350,7 +11247,128 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no hufel no hu ba",
+      "expected": "mi nes nam metgan nohu ba",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Who is that woman?",
+      "roman": "nohu ba ?",
+      "unresolved": [
+        "woman"
+      ],
+      "counts": {
+        "direct": 3,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba ?",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Who is that man?",
+      "roman": "nohu ba ?",
+      "unresolved": [
+        "man"
+      ],
+      "counts": {
+        "direct": 3,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 3,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba ?",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Point to who needs help.",
+      "roman": "nohu ba les kas",
+      "unresolved": [
+        "point_to"
+      ],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba les kas",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "Who was here before us?",
+      "roman": "nohu ba ta nam di dan ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 7,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 7,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu ba ta nam di dan ?",
+      "matches_golden": true
+    },
+    {
+      "level": 9,
+      "phrase": "I do not understand who that is.",
+      "roman": "mi no hufel nohu ba",
+      "unresolved": [],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "mi no hufel nohu ba",
       "matches_golden": true
     },
     {
@@ -11381,10 +11399,10 @@
     {
       "level": 9,
       "phrase": "Who is coming toward us?",
-      "roman": "no hu ba ginam nan dan ?",
+      "roman": "nohu ba ginam nan dan ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11392,22 +11410,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba ginam nan dan ?",
+      "expected": "nohu ba ginam nan dan ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Show me who needs medicine.",
-      "roman": "giwi mi no hu ba les tetkas",
+      "roman": "giwi mi nohu ba les tetkas",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11415,19 +11433,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "giwi mi no hu ba les tetkas",
+      "expected": "giwi mi nohu ba les tetkas",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "I feel uneasy about that person.",
-      "roman": "mi nes pemet honen ba",
+      "roman": "mi nes pemet fel ba",
       "unresolved": [
         "uneasy"
       ],
@@ -11446,16 +11464,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes pemet honen ba",
+      "expected": "mi nes pemet fel ba",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who is the youngest person here?",
-      "roman": "no hu ba nam gen kanfem ?",
+      "roman": "nohu ba nam gen kanfem ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11463,13 +11481,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba nam gen kanfem ?",
+      "expected": "nohu ba nam gen kanfem ?",
       "matches_golden": true
     },
     {
@@ -11500,10 +11518,10 @@
     {
       "level": 9,
       "phrase": "Who is not eating?",
-      "roman": "no hu ba tel no ?",
+      "roman": "nohu ba no tel ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11511,19 +11529,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba tel no ?",
+      "expected": "nohu ba no tel ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "I want to know who you are.",
-      "roman": "mi sak no hu ba be",
+      "roman": "mi sak hu nohu ba be",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -11540,16 +11558,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sak no hu ba be",
+      "expected": "mi sak hu nohu ba be",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who is standing guard tonight?",
-      "roman": "gem gankan no hu ba tira wi tampe ?",
+      "roman": "gem gankan nohu ba tira wi tampe ?",
       "unresolved": [],
       "counts": {
-        "direct": 9,
+        "direct": 8,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11557,13 +11575,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 9,
+        "pass": 8,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "gem gankan no hu ba tira wi tampe ?",
+      "expected": "gem gankan nohu ba tira wi tampe ?",
       "matches_golden": true
     },
     {
@@ -11592,12 +11610,12 @@
     {
       "level": 9,
       "phrase": "Who is missing?",
-      "roman": "no hu ba nantam ?",
+      "roman": "nohu ba nantam ?",
       "unresolved": [
         "missing"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11605,13 +11623,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba nantam ?",
+      "expected": "nohu ba nantam ?",
       "matches_golden": true
     },
     {
@@ -11667,13 +11685,13 @@
     {
       "level": 9,
       "phrase": "Who is the strongest person here?",
-      "roman": "no hu ba nam femsas daldi ?",
+      "roman": "nohu ba nam femgu daldi ?",
       "unresolved": [
         "most",
         "strongest"
       ],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11681,13 +11699,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba nam femsas daldi ?",
+      "expected": "nohu ba nam femgu daldi ?",
       "matches_golden": true
     },
     {
@@ -11718,10 +11736,10 @@
     {
       "level": 9,
       "phrase": "Show me who you are.",
-      "roman": "be giwi mi no hu ba ?",
+      "roman": "be giwi mi nohu ba ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11729,24 +11747,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be giwi mi no hu ba ?",
+      "expected": "be giwi mi nohu ba ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "I did not understand who you meant.",
-      "roman": "mi ta no hufel no hu ba be giwi",
+      "roman": "mi ta no hufel nohu ba be giwi",
       "unresolved": [
         "meant"
       ],
       "counts": {
-        "direct": 9,
+        "direct": 8,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11754,24 +11772,24 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 9,
+        "pass": 8,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no hufel no hu ba be giwi",
+      "expected": "mi ta no hufel nohu ba be giwi",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who is able to walk?",
-      "roman": "no hu ba tigi ?",
+      "roman": "nohu ba tigi ?",
       "unresolved": [
         "able"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11779,13 +11797,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba tigi ?",
+      "expected": "nohu ba tigi ?",
       "matches_golden": true
     },
     {
@@ -11814,10 +11832,10 @@
     {
       "level": 9,
       "phrase": "Who is that person over there?",
-      "roman": "no hu ba tak ?",
+      "roman": "nohu ba tak ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11825,22 +11843,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba tak ?",
+      "expected": "nohu ba tak ?",
       "matches_golden": true
     },
     {
       "level": 9,
       "phrase": "Who needs help right now?",
-      "roman": "no hu ba les kas gem ?",
+      "roman": "nohu ba les kas gem ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11848,22 +11866,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu ba les kas gem ?",
+      "expected": "nohu ba les kas gem ?",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "Where is the water?",
-      "roman": "no hu che ye ?",
+      "roman": "nohu che ye ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11871,22 +11889,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che ye ?",
+      "expected": "nohu che ye ?",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "Where are we?",
-      "roman": "dan no hu che ?",
+      "roman": "dan nohu che ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11894,22 +11912,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "dan no hu che ?",
+      "expected": "dan nohu che ?",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "Where is the food?",
-      "roman": "no hu che lo ?",
+      "roman": "nohu che lo ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -11917,13 +11935,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che lo ?",
+      "expected": "nohu che lo ?",
       "matches_golden": true
     },
     {
@@ -11998,30 +12016,7 @@
     {
       "level": 10,
       "phrase": "I do not know where we are.",
-      "roman": "mi no hu nam dan no hu che",
-      "unresolved": [],
-      "counts": {
-        "direct": 8,
-        "interpreted": 0,
-        "semantic": 0,
-        "alias_weak": 0,
-        "unknown": 0
-      },
-      "quality": {
-        "gate": "pass",
-        "pass": 8,
-        "soft": 0,
-        "hard": 0
-      },
-      "review": [],
-      "gaps": [],
-      "expected": "mi no hu nam dan no hu che",
-      "matches_golden": true
-    },
-    {
-      "level": 10,
-      "phrase": "Where is the shelter?",
-      "roman": "no hu che temche ?",
+      "roman": "mi no hu dan che",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -12038,7 +12033,30 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che temche ?",
+      "expected": "mi no hu dan che",
+      "matches_golden": true
+    },
+    {
+      "level": 10,
+      "phrase": "Where is the shelter?",
+      "roman": "nohu che temche ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 4,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 4,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "nohu che temche ?",
       "matches_golden": true
     },
     {
@@ -12090,10 +12108,10 @@
     {
       "level": 10,
       "phrase": "Where is the other person?",
-      "roman": "no hu che honen ba ?",
+      "roman": "nohu che fel ba ?",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12101,13 +12119,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che honen ba ?",
+      "expected": "nohu che fel ba ?",
       "matches_golden": true
     },
     {
@@ -12182,10 +12200,10 @@
     {
       "level": 10,
       "phrase": "Where is the fire?",
-      "roman": "no hu che dat ?",
+      "roman": "nohu che dat ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12193,13 +12211,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che dat ?",
+      "expected": "nohu che dat ?",
       "matches_golden": true
     },
     {
@@ -12276,10 +12294,10 @@
     {
       "level": 10,
       "phrase": "Where did you sleep?",
-      "roman": "be ta nal no hu che ?",
+      "roman": "be ta nal nohu che ?",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12287,13 +12305,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta nal no hu che ?",
+      "expected": "be ta nal nohu che ?",
       "matches_golden": true
     },
     {
@@ -12416,10 +12434,10 @@
     {
       "level": 10,
       "phrase": "Where is the path?",
-      "roman": "no hu che nan ?",
+      "roman": "nohu che nan ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12427,13 +12445,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che nan ?",
+      "expected": "nohu che nan ?",
       "matches_golden": true
     },
     {
@@ -12462,10 +12480,10 @@
     {
       "level": 10,
       "phrase": "Show me where the food is.",
-      "roman": "giwi mi no hu che lo ?",
+      "roman": "giwi lo che",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12473,13 +12491,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "giwi mi no hu che lo ?",
+      "expected": "giwi lo che",
       "matches_golden": true
     },
     {
@@ -12531,10 +12549,10 @@
     {
       "level": 10,
       "phrase": "Where is the high ground?",
-      "roman": "no hu che rafen ?",
+      "roman": "nohu che rafen ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12542,13 +12560,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che rafen ?",
+      "expected": "nohu che rafen ?",
       "matches_golden": true
     },
     {
@@ -12671,10 +12689,10 @@
     {
       "level": 10,
       "phrase": "Where is the old person?",
-      "roman": "no hu che baso ?",
+      "roman": "nohu che baso ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12682,13 +12700,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che baso ?",
+      "expected": "nohu che baso ?",
       "matches_golden": true
     },
     {
@@ -12861,10 +12879,10 @@
     {
       "level": 10,
       "phrase": "Where is the child?",
-      "roman": "no hu che bagen ?",
+      "roman": "nohu che bagen ?",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12872,13 +12890,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "no hu che bagen ?",
+      "expected": "nohu che bagen ?",
       "matches_golden": true
     },
     {
@@ -12907,10 +12925,10 @@
     {
       "level": 10,
       "phrase": "Come here and look at this.",
-      "roman": "ginam wi nam",
+      "roman": "ginam nam wi to",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12918,19 +12936,19 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 3,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "ginam wi nam",
+      "expected": "ginam nam wi to",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "I meant that place, not this one.",
-      "roman": "mi ta chadak tak no dal",
+      "roman": "mi ta no chadak tak dal",
       "unresolved": [
         "meant",
         "this"
@@ -12950,16 +12968,16 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta chadak tak no dal",
+      "expected": "mi ta no chadak tak dal",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "I am worried and I feel lost.",
-      "roman": "mi nes pemet nantam",
+      "roman": "mi nes pemet mi nes nantam",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -12967,13 +12985,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes pemet nantam",
+      "expected": "mi nes pemet mi nes nantam",
       "matches_golden": true
     },
     {
@@ -13077,7 +13095,7 @@
     {
       "level": 11,
       "phrase": "When do we go?",
-      "roman": "dan no hu kan gi ?",
+      "roman": "dan hu kan no gi ?",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -13094,7 +13112,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan no hu kan gi ?",
+      "expected": "dan hu kan no gi ?",
       "matches_golden": true
     },
     {
@@ -13290,7 +13308,7 @@
     {
       "level": 11,
       "phrase": "When will the rain stop?",
-      "roman": "yeju no hu kan sa giti ?",
+      "roman": "yeju hu kan sa no giti ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13307,13 +13325,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "yeju no hu kan sa giti ?",
+      "expected": "yeju hu kan sa no giti ?",
       "matches_golden": true
     },
     {
       "level": 11,
       "phrase": "Not now, later.",
-      "roman": "no gem gemshu",
+      "roman": "gem gemshu no",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -13330,13 +13348,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no gem gemshu",
+      "expected": "gem gemshu no",
       "matches_golden": true
     },
     {
       "level": 11,
       "phrase": "We should rest before we walk.",
-      "roman": "dan di tigi tinal",
+      "roman": "dan tinal di tigi",
       "unresolved": [
         "should"
       ],
@@ -13355,7 +13373,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan di tigi tinal",
+      "expected": "dan tinal di tigi",
       "matches_golden": true
     },
     {
@@ -13455,7 +13473,7 @@
     {
       "level": 11,
       "phrase": "When does the sun rise here?",
-      "roman": "samdat no hu kan kekra nam ?",
+      "roman": "samdat hu kan no kekra nam ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13472,7 +13490,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samdat no hu kan kekra nam ?",
+      "expected": "samdat hu kan no kekra nam ?",
       "matches_golden": true
     },
     {
@@ -13501,7 +13519,7 @@
     {
       "level": 11,
       "phrase": "I was afraid before, not now.",
-      "roman": "mi ta di no gem nes nespe",
+      "roman": "mi ta di gem no nes nespe",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13518,7 +13536,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta di no gem nes nespe",
+      "expected": "mi ta di gem no nes nespe",
       "matches_golden": true
     },
     {
@@ -13599,7 +13617,7 @@
     {
       "level": 11,
       "phrase": "When did you last drink water?",
-      "roman": "be no hu kan ta daldi ko ye ?",
+      "roman": "be hu kan ta daldi no ko ye ?",
       "unresolved": [],
       "counts": {
         "direct": 9,
@@ -13616,7 +13634,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be no hu kan ta daldi ko ye ?",
+      "expected": "be hu kan ta daldi no ko ye ?",
       "matches_golden": true
     },
     {
@@ -13720,7 +13738,7 @@
     {
       "level": 11,
       "phrase": "Not yet, wait a little more.",
-      "roman": "be no digem tikan gen mas",
+      "roman": "be digem no tikan gen mas",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -13737,7 +13755,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be no digem tikan gen mas",
+      "expected": "be digem no tikan gen mas",
       "matches_golden": true
     },
     {
@@ -13789,7 +13807,7 @@
     {
       "level": 11,
       "phrase": "When will it be light again?",
-      "roman": "sa no hu kan kek moyi ?",
+      "roman": "sa hu kan no kek moyi ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13806,7 +13824,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "sa no hu kan kek moyi ?",
+      "expected": "sa hu kan no kek moyi ?",
       "matches_golden": true
     },
     {
@@ -13998,7 +14016,7 @@
     {
       "level": 11,
       "phrase": "I mean later, not right now.",
-      "roman": "mi kuwimalhu shu no gem",
+      "roman": "mi no kuwimal shu gem",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14015,7 +14033,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi kuwimalhu shu no gem",
+      "expected": "mi no kuwimal shu gem",
       "matches_golden": true
     },
     {
@@ -14044,7 +14062,7 @@
     {
       "level": 11,
       "phrase": "When will the water come back?",
-      "roman": "ye no hu kan sa giyinam ?",
+      "roman": "ye hu kan sa no giyinam ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -14061,13 +14079,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ye no hu kan sa giyinam ?",
+      "expected": "ye hu kan sa no giyinam ?",
       "matches_golden": true
     },
     {
       "level": 11,
       "phrase": "I felt safe before, not now.",
-      "roman": "gem ta no mi nes tampe di",
+      "roman": "gem ta mi no nes tampe di",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -14084,13 +14102,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gem ta no mi nes tampe di",
+      "expected": "gem ta mi no nes tampe di",
       "matches_golden": true
     },
     {
       "level": 11,
       "phrase": "Let us decide later, not now.",
-      "roman": "gem shu no dan hudimo",
+      "roman": "gem shu dan no hudimo",
       "unresolved": [
         "decide"
       ],
@@ -14109,7 +14127,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gem shu no dan hudimo",
+      "expected": "gem shu dan no hudimo",
       "matches_golden": true
     },
     {
@@ -14349,7 +14367,7 @@
     {
       "level": 12,
       "phrase": "You must stay here.",
-      "roman": "be ti nam",
+      "roman": "be tiche nam",
       "unresolved": [
         "must"
       ],
@@ -14368,7 +14386,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ti nam",
+      "expected": "be tiche nam",
       "matches_golden": true
     },
     {
@@ -14875,10 +14893,10 @@
     {
       "level": 12,
       "phrase": "I am scared and I want to stay.",
-      "roman": "mi nes sak nespe tiche",
+      "roman": "mi nes nespe mi sak tiche",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -14886,13 +14904,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes sak nespe tiche",
+      "expected": "mi nes nespe mi sak tiche",
       "matches_golden": true
     },
     {
@@ -14948,7 +14966,7 @@
     {
       "level": 12,
       "phrase": "I will go and you stay.",
-      "roman": "mi be sa gi ti",
+      "roman": "mi sa gi be tiche",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14965,7 +14983,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi be sa gi ti",
+      "expected": "mi sa gi be tiche",
       "matches_golden": true
     },
     {
@@ -15136,10 +15154,10 @@
     {
       "level": 12,
       "phrase": "You left and I was alone.",
-      "roman": "be mi ta gi nesfa fet",
+      "roman": "be ta gi fet mi ta nesfa",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -15147,13 +15165,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be mi ta gi nesfa fet",
+      "expected": "be ta gi fet mi ta nesfa",
       "matches_golden": true
     },
     {
@@ -15184,27 +15202,36 @@
     {
       "level": 12,
       "phrase": "I meant to go the other way.",
-      "roman": "mi ta gi honen nan hudimo",
+      "roman": "mi ta gi [honen] nan hudimo",
       "unresolved": [
-        "meant_to"
+        "meant_to",
+        "honen"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 6,
+        "gate": "hard",
+        "pass": 5,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
-      "expected": "mi ta gi honen nan hudimo",
-      "matches_golden": true
+      "gaps": [
+        {
+          "english": "honen",
+          "kind": "unknown",
+          "role": "path",
+          "reason": null
+        }
+      ],
+      "expected": "mi ta gi [honen] nan hudimo",
+      "matches_golden": true,
+      "note": "gap: honen (needs a root)"
     },
     {
       "level": 12,
@@ -15257,13 +15284,12 @@
     {
       "level": 12,
       "phrase": "I feel tired but I must keep moving.",
-      "roman": "mi nes femtam les ti gi",
+      "roman": "mi nes femtam mi gi les ti",
       "unresolved": [
-        "but",
         "must"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -15271,13 +15297,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes femtam les ti gi",
+      "expected": "mi nes femtam mi gi les ti",
       "matches_golden": true
     },
     {
@@ -15916,12 +15942,10 @@
     {
       "level": 13,
       "phrase": "I have water and you have food.",
-      "roman": "mi be kamche ye lo",
-      "unresolved": [
-        "have"
-      ],
+      "roman": "mi gat ye be gat lo",
+      "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -15929,13 +15953,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi be kamche ye lo",
+      "expected": "mi gat ye be gat lo",
       "matches_golden": true
     },
     {
@@ -16083,10 +16107,10 @@
     {
       "level": 13,
       "phrase": "Give me the large piece and take the small one.",
-      "roman": "be ku la mi ni togen gen togen ni gen",
+      "roman": "ku mi togen ni la gen fa",
       "unresolved": [],
       "counts": {
-        "direct": 10,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -16094,13 +16118,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 10,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be ku la mi ni togen gen togen ni gen",
+      "expected": "ku mi togen ni la gen fa",
       "matches_golden": true
     },
     {
@@ -16152,7 +16176,7 @@
     {
       "level": 13,
       "phrase": "This is not mine.",
-      "roman": "nan kamche mi no",
+      "roman": "nan no kamche mi",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -16169,7 +16193,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nan kamche mi no",
+      "expected": "nan no kamche mi",
       "matches_golden": true
     },
     {
@@ -16249,10 +16273,10 @@
     {
       "level": 13,
       "phrase": "Take this and give me that one.",
-      "roman": "la ku mi",
+      "roman": "la to ku mi fa",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -16260,13 +16284,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 3,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "la ku mi",
+      "expected": "la to ku mi fa",
       "matches_golden": true
     },
     {
@@ -16467,7 +16491,7 @@
     {
       "level": 13,
       "phrase": "I have fire and wood.",
-      "roman": "mi gat dat tetsas",
+      "roman": "mi gat dat nitet",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -16484,7 +16508,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gat dat tetsas",
+      "expected": "mi gat dat nitet",
       "matches_golden": true
     },
     {
@@ -16827,7 +16851,7 @@
     {
       "level": 14,
       "phrase": "That fruit is not safe.",
-      "roman": "tetlo tampe no",
+      "roman": "tetlo no tampe",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -16844,7 +16868,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tetlo tampe no",
+      "expected": "tetlo no tampe",
       "matches_golden": true
     },
     {
@@ -17015,7 +17039,7 @@
     {
       "level": 14,
       "phrase": "I am not full yet.",
-      "roman": "mi nes no saklo ti",
+      "roman": "mi no nes saklo ti",
       "unresolved": [
         "full",
         "yet"
@@ -17035,7 +17059,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes no saklo ti",
+      "expected": "mi no nes saklo ti",
       "matches_golden": true
     },
     {
@@ -17302,7 +17326,7 @@
     {
       "level": 14,
       "phrase": "This has a strange taste.",
-      "roman": "to tal honen",
+      "roman": "to tal fel",
       "unresolved": [
         "strange"
       ],
@@ -17321,7 +17345,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "to tal honen",
+      "expected": "to tal fel",
       "matches_golden": true
     },
     {
@@ -17444,10 +17468,10 @@
     {
       "level": 14,
       "phrase": "I tasted it and it is safe.",
-      "roman": "mi ta tal tampe",
+      "roman": "mi ta tal to tampe",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -17455,13 +17479,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta tal tampe",
+      "expected": "mi ta tal to tampe",
       "matches_golden": true
     },
     {
@@ -17851,7 +17875,7 @@
     {
       "level": 15,
       "phrase": "The wind is strong.",
-      "roman": "gesgi femsas",
+      "roman": "gesgi femgu",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -17868,7 +17892,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gesgi femsas",
+      "expected": "gesgi femgu",
       "matches_golden": true
     },
     {
@@ -18064,7 +18088,7 @@
     {
       "level": 15,
       "phrase": "The wind is getting stronger.",
-      "roman": "gesgi fomas femsas",
+      "roman": "gesgi fomas femgu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -18081,7 +18105,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gesgi fomas femsas",
+      "expected": "gesgi fomas femgu",
       "matches_golden": true
     },
     {
@@ -18229,7 +18253,7 @@
     {
       "level": 15,
       "phrase": "It is too dark to move.",
-      "roman": "gi gan mas no",
+      "roman": "no gi gan mas",
       "unresolved": [
         "too"
       ],
@@ -18248,7 +18272,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gi gan mas no",
+      "expected": "no gi gan mas",
       "matches_golden": true
     },
     {
@@ -18350,7 +18374,7 @@
     {
       "level": 15,
       "phrase": "The storm is loud and strong.",
-      "roman": "sampa nes ni femsas",
+      "roman": "sampa nes ni femgu",
       "unresolved": [
         "loud"
       ],
@@ -18369,7 +18393,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "sampa nes ni femsas",
+      "expected": "sampa nes ni femgu",
       "matches_golden": true
     },
     {
@@ -18829,7 +18853,7 @@
     {
       "level": 15,
       "phrase": "Give me wood for the fire.",
-      "roman": "ku mi tetsas dat",
+      "roman": "ku mi nitet dat",
       "unresolved": [
         "wood"
       ],
@@ -18848,7 +18872,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ku mi tetsas dat",
+      "expected": "ku mi nitet dat",
       "matches_golden": true
     },
     {
@@ -18901,7 +18925,9 @@
       "level": 15,
       "phrase": "The rain and wind came together.",
       "roman": "yeju gesgi ta ginam dan",
-      "unresolved": [],
+      "unresolved": [
+        "together"
+      ],
       "counts": {
         "direct": 5,
         "interpreted": 0,
@@ -18998,7 +19024,7 @@
     {
       "level": 16,
       "phrase": "I feel strong today.",
-      "roman": "mi nes femsas kekdi",
+      "roman": "mi nes femgu kekdi",
       "unresolved": [
         "today"
       ],
@@ -19017,7 +19043,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes femsas kekdi",
+      "expected": "mi nes femgu kekdi",
       "matches_golden": true
     },
     {
@@ -19092,7 +19118,7 @@
     {
       "level": 16,
       "phrase": "I cannot breathe well.",
-      "roman": "mi gesmes no gu",
+      "roman": "mi no gesmes gu",
       "unresolved": [
         "can"
       ],
@@ -19111,7 +19137,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gesmes no gu",
+      "expected": "mi no gesmes gu",
       "matches_golden": true
     },
     {
@@ -19399,7 +19425,7 @@
     {
       "level": 16,
       "phrase": "I am strong enough.",
-      "roman": "mi femsas lemgu",
+      "roman": "mi femgu lemgu",
       "unresolved": [
         "enough"
       ],
@@ -19418,7 +19444,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi femsas lemgu",
+      "expected": "mi femgu lemgu",
       "matches_golden": true
     },
     {
@@ -19589,10 +19615,10 @@
     {
       "level": 16,
       "phrase": "I slept and feel better.",
-      "roman": "mi ta nal nes gu mas",
+      "roman": "mi ta nal nes gu",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -19600,13 +19626,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta nal nes gu mas",
+      "expected": "mi ta nal nes gu",
       "matches_golden": true
     },
     {
@@ -19660,7 +19686,7 @@
     {
       "level": 16,
       "phrase": "My chest feels tight.",
-      "roman": "mi nes punen femsas",
+      "roman": "mi nes punen femgu",
       "unresolved": [
         "tight"
       ],
@@ -19679,13 +19705,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes punen femsas",
+      "expected": "mi nes punen femgu",
       "matches_golden": true
     },
     {
       "level": 16,
       "phrase": "I am not strong today.",
-      "roman": "mi femsas no kekdi gem",
+      "roman": "mi no femgu kekdi gem",
       "unresolved": [
         "today"
       ],
@@ -19704,7 +19730,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi femsas no kekdi gem",
+      "expected": "mi no femgu kekdi gem",
       "matches_golden": true
     },
     {
@@ -19806,7 +19832,7 @@
     {
       "level": 16,
       "phrase": "I said sick, not tired.",
-      "roman": "mi ta se femgam no femtam",
+      "roman": "mi ta no se femgam femtam",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -19823,7 +19849,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta se femgam no femtam",
+      "expected": "mi ta no se femgam femtam",
       "matches_golden": true
     },
     {
@@ -19902,7 +19928,7 @@
     {
       "level": 16,
       "phrase": "I am well and strong.",
-      "roman": "mi nes gu femsas",
+      "roman": "mi nes gu femgu",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -19919,7 +19945,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes gu femsas",
+      "expected": "mi nes gu femgu",
       "matches_golden": true
     },
     {
@@ -20142,7 +20168,7 @@
     {
       "level": 16,
       "phrase": "I could not sleep last night.",
-      "roman": "mi ta no gankan nal",
+      "roman": "mi ta gankan no nal",
       "unresolved": [
         "could"
       ],
@@ -20161,7 +20187,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no gankan nal",
+      "expected": "mi ta gankan no nal",
       "matches_golden": true
     },
     {
@@ -21048,7 +21074,7 @@
     {
       "level": 17,
       "phrase": "I feel sad without my family.",
-      "roman": "mi nes gamnes no sanba",
+      "roman": "mi no nes gamnes sanba",
       "unresolved": [
         "without"
       ],
@@ -21067,7 +21093,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes gamnes no sanba",
+      "expected": "mi no nes gamnes sanba",
       "matches_golden": true
     },
     {
@@ -21267,7 +21293,7 @@
     {
       "level": 17,
       "phrase": "I feel alone without my child.",
-      "roman": "mi nes nesfa no bagen",
+      "roman": "mi no nes nesfa bagen",
       "unresolved": [
         "without"
       ],
@@ -21286,7 +21312,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nesfa no bagen",
+      "expected": "mi no nes nesfa bagen",
       "matches_golden": true
     },
     {
@@ -22157,7 +22183,7 @@
     {
       "level": 18,
       "phrase": "I feel unsure and uncertain.",
-      "roman": "mi nes no nathu",
+      "roman": "mi no nes nathu",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -22174,7 +22200,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes no nathu",
+      "expected": "mi no nes nathu",
       "matches_golden": true
     },
     {
@@ -22368,10 +22394,10 @@
     {
       "level": 18,
       "phrase": "I do not understand and I am sorry.",
-      "roman": "mi no hufel tesku",
+      "roman": "mi no hufel mi nes tesku",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -22379,13 +22405,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no hufel tesku",
+      "expected": "mi no hufel mi nes tesku",
       "matches_golden": true
     },
     {
@@ -22414,10 +22440,10 @@
     {
       "level": 18,
       "phrase": "I was wrong and I will try again.",
-      "roman": "mi ta sa mogam sakmo moyi",
+      "roman": "mi ta mo gam mi sa sakmo moyi",
       "unresolved": [],
       "counts": {
-        "direct": 6,
+        "direct": 8,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -22425,13 +22451,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 8,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta sa mogam sakmo moyi",
+      "expected": "mi ta mo gam mi sa sakmo moyi",
       "matches_golden": true
     },
     {
@@ -22485,10 +22511,10 @@
     {
       "level": 18,
       "phrase": "I did not understand that.",
-      "roman": "mi ta no hufel no hu to",
+      "roman": "mi ta no hufel nohu to",
       "unresolved": [],
       "counts": {
-        "direct": 7,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -22496,13 +22522,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 7,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no hufel no hu to",
+      "expected": "mi ta no hufel nohu to",
       "matches_golden": true
     },
     {
@@ -22723,12 +22749,12 @@
     {
       "level": 19,
       "phrase": "We can sleep here and leave at light.",
-      "roman": "dan kekra nal felnen nam",
+      "roman": "dan nal nam mi kek felnen",
       "unresolved": [
         "can"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -22736,13 +22762,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "dan kekra nal felnen nam",
+      "expected": "dan nal nam mi kek felnen",
       "matches_golden": true
     },
     {
@@ -22821,10 +22847,10 @@
     {
       "level": 19,
       "phrase": "I want food and I want rest.",
-      "roman": "mi sak lo tinal",
+      "roman": "mi sak lo mi sak tinal",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -22832,13 +22858,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sak lo tinal",
+      "expected": "mi sak lo mi sak tinal",
       "matches_golden": true
     },
     {
@@ -23109,7 +23135,7 @@
     {
       "level": 19,
       "phrase": "We will need more wood for the fire.",
-      "roman": "dan sa les mas tetsas dat",
+      "roman": "dan sa les mas nitet dat",
       "unresolved": [
         "for"
       ],
@@ -23128,7 +23154,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa les mas tetsas dat",
+      "expected": "dan sa les mas nitet dat",
       "matches_golden": true
     },
     {
@@ -23207,25 +23233,35 @@
     {
       "level": 19,
       "phrase": "I want to try a different path.",
-      "roman": "mi sak nan honen sakmo",
-      "unresolved": [],
+      "roman": "mi sak nan [honen] sakmo",
+      "unresolved": [
+        "honen"
+      ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
-      "expected": "mi sak nan honen sakmo",
-      "matches_golden": true
+      "gaps": [
+        {
+          "english": "honen",
+          "kind": "unknown",
+          "role": "path",
+          "reason": null
+        }
+      ],
+      "expected": "mi sak nan [honen] sakmo",
+      "matches_golden": true,
+      "note": "gap: honen (needs a root)"
     },
     {
       "level": 19,
@@ -23280,12 +23316,12 @@
     {
       "level": 19,
       "phrase": "Can you show me what you plan?",
-      "roman": "be giwi no hu to hudimo mi ?",
+      "roman": "be giwi nohu to hudimo mi ?",
       "unresolved": [
         "can"
       ],
       "counts": {
-        "direct": 8,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -23293,22 +23329,22 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 8,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be giwi no hu to hudimo mi ?",
+      "expected": "be giwi nohu to hudimo mi ?",
       "matches_golden": true
     },
     {
       "level": 19,
       "phrase": "I will try and I will not stop.",
-      "roman": "mi sa sakmo no giti",
+      "roman": "mi sa sakmo mi sa no giti",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 7,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -23316,13 +23352,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 7,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa sakmo no giti",
+      "expected": "mi sa sakmo mi sa no giti",
       "matches_golden": true
     },
     {
@@ -23693,7 +23729,7 @@
     {
       "level": 19,
       "phrase": "Maybe we can try a different way.",
-      "roman": "dan sakmo nan ketnat honen",
+      "roman": "dan sakmo nan ketnat fel",
       "unresolved": [
         "can"
       ],
@@ -23712,7 +23748,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sakmo nan ketnat honen",
+      "expected": "dan sakmo nan ketnat fel",
       "matches_golden": true
     },
     {
@@ -24200,7 +24236,7 @@
     {
       "level": 20,
       "phrase": "We survived another day.",
-      "roman": "dan ta gat fo honen kekdi",
+      "roman": "dan ta gat fo fel kekdi",
       "unresolved": [
         "survived"
       ],
@@ -24219,7 +24255,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ta gat fo honen kekdi",
+      "expected": "dan ta gat fo fel kekdi",
       "matches_golden": true
     },
     {
@@ -24319,12 +24355,12 @@
     {
       "level": 20,
       "phrase": "That was hard but we finished.",
-      "roman": "dan ta temkan",
+      "roman": "ta gam ni dan ta temkan",
       "unresolved": [
         "hard"
       ],
       "counts": {
-        "direct": 3,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -24332,13 +24368,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 3,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ta temkan",
+      "expected": "ta gam ni dan ta temkan",
       "matches_golden": true
     },
     {
@@ -24522,7 +24558,7 @@
     {
       "level": 20,
       "phrase": "Let us not speak now.",
-      "roman": "dan no gem se",
+      "roman": "dan gem no se",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -24539,7 +24575,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan no gem se",
+      "expected": "dan gem no se",
       "matches_golden": true
     },
     {
@@ -24735,10 +24771,10 @@
     {
       "level": 20,
       "phrase": "I see you and I am grateful.",
-      "roman": "mi wi nes be nesguku",
+      "roman": "mi wi be mi nes nesguku",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 6,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -24746,13 +24782,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 6,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi wi nes be nesguku",
+      "expected": "mi wi be mi nes nesguku",
       "matches_golden": true
     },
     {

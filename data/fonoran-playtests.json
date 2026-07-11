@@ -2242,6 +2242,2708 @@
       "core_only": false,
       "difficulty_mode": "normal",
       "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2a8ii-gyodjm",
+      "at": "2026-07-11T07:47:08.826Z",
+      "concept_id": "rash",
+      "shown_spelling": "tatgam",
+      "shown_composition": [
+        "tat",
+        "gam"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "rash",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2f6vz-t6k041",
+      "at": "2026-07-11T07:50:59.999Z",
+      "concept_id": "knee",
+      "shown_spelling": "gije",
+      "shown_composition": [
+        "gi",
+        "je"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "knee",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2fbie-kqr7wa",
+      "at": "2026-07-11T07:51:05.990Z",
+      "concept_id": "hip",
+      "shown_spelling": "femyi",
+      "shown_composition": [
+        "fem",
+        "yi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "hip",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2fjbj-0om6mc",
+      "at": "2026-07-11T07:51:16.111Z",
+      "concept_id": "elder",
+      "shown_spelling": "baso",
+      "shown_composition": [
+        "ba",
+        "so"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "elder",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2fq8h-98dsf8",
+      "at": "2026-07-11T07:51:25.073Z",
+      "concept_id": "dizzy",
+      "shown_spelling": "kesyi",
+      "shown_composition": [
+        "kes",
+        "yi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "dizzy",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2g2oa-hf7lqi",
+      "at": "2026-07-11T07:51:41.194Z",
+      "concept_id": "belong",
+      "shown_spelling": "kamche",
+      "shown_composition": [
+        "kam",
+        "che"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "belong",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2g611-aalqtz",
+      "at": "2026-07-11T07:51:45.542Z",
+      "concept_id": "again",
+      "shown_spelling": "moyi",
+      "shown_composition": [
+        "mo",
+        "yi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "again",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2gh42-eoduuy",
+      "at": "2026-07-11T07:51:59.906Z",
+      "concept_id": "storm",
+      "shown_spelling": "sampa",
+      "shown_composition": [
+        "sam",
+        "pa"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "storm",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2gpuz-89l94v",
+      "at": "2026-07-11T07:52:11.243Z",
+      "concept_id": "refuse",
+      "shown_spelling": "laso",
+      "shown_composition": [
+        "la",
+        "so"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "refuse",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2gsnv-d3vs7g",
+      "at": "2026-07-11T07:52:14.875Z",
+      "concept_id": "again",
+      "shown_spelling": "moyi",
+      "shown_composition": [
+        "mo",
+        "yi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "again",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2h03y-7w1aln",
+      "at": "2026-07-11T07:52:24.526Z",
+      "concept_id": "ripen",
+      "shown_spelling": "gutet",
+      "shown_composition": [
+        "gu",
+        "tet"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "ripen",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2h4kg-4fb2pe",
+      "at": "2026-07-11T07:52:30.304Z",
+      "concept_id": "agent",
+      "shown_spelling": "bamo",
+      "shown_composition": [
+        "ba",
+        "mo"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "agent",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2hc05-d7pya9",
+      "at": "2026-07-11T07:52:39.941Z",
+      "concept_id": "log",
+      "shown_spelling": "tetsas",
+      "shown_composition": [
+        "tet",
+        "sas"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "cliff",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2jl5r-h9y2dr",
+      "at": "2026-07-11T07:54:25.119Z",
+      "concept_id": "calm",
+      "shown_spelling": "nesti",
+      "shown_composition": [
+        "nes",
+        "ti"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "calm",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2jnl8-89dbdp",
+      "at": "2026-07-11T07:54:28.268Z",
+      "concept_id": "birthplace",
+      "shown_spelling": "fodiche",
+      "shown_composition": [
+        "fo",
+        "di",
+        "che"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "birthplace",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2jsok-9f1gn2",
+      "at": "2026-07-11T07:54:34.868Z",
+      "concept_id": "road",
+      "shown_spelling": "nangi",
+      "shown_composition": [
+        "nan",
+        "gi"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "road",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2jxyt-rq3gsi",
+      "at": "2026-07-11T07:54:41.717Z",
+      "concept_id": "cowardice",
+      "shown_spelling": "peti",
+      "shown_composition": [
+        "pe",
+        "ti"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "cowardice",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2k5pl-tgxowr",
+      "at": "2026-07-11T07:54:51.753Z",
+      "concept_id": "return_path",
+      "shown_spelling": "nanso",
+      "shown_composition": [
+        "nan",
+        "so"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "return path",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2kac6-y3zghu",
+      "at": "2026-07-11T07:54:57.750Z",
+      "concept_id": "teacher",
+      "shown_spelling": "kuhuba",
+      "shown_composition": [
+        "ku",
+        "hu",
+        "ba"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "teacher",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2kdt7-l7w3ja",
+      "at": "2026-07-11T07:55:02.251Z",
+      "concept_id": "nostalgia",
+      "shown_spelling": "nesgudi",
+      "shown_composition": [
+        "nes",
+        "gu",
+        "di"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "nostalgia",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2oajk-fy6piw",
+      "at": "2026-07-11T07:58:04.640Z",
+      "concept_id": "maybe",
+      "shown_spelling": "ketnat",
+      "shown_composition": [
+        "ket",
+        "nat"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "maybe",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2ojue-zwpa5c",
+      "at": "2026-07-11T07:58:16.694Z",
+      "concept_id": "memory",
+      "shown_spelling": "hugatmes",
+      "shown_composition": [
+        "hu",
+        "gat",
+        "mes"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "memory",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2oxqu-ufhkll",
+      "at": "2026-07-11T07:58:34.710Z",
+      "concept_id": "needle",
+      "shown_spelling": "genfel",
+      "shown_composition": [
+        "gen",
+        "fel"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "needle",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2p1lm-w86dbm",
+      "at": "2026-07-11T07:58:39.706Z",
+      "concept_id": "fly",
+      "shown_spelling": "giges",
+      "shown_composition": [
+        "gi",
+        "ges"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fly",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2p9ni-2ug2wh",
+      "at": "2026-07-11T07:58:50.142Z",
+      "concept_id": "close",
+      "shown_spelling": "meskel",
+      "shown_composition": [
+        "mes",
+        "kel"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "close",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2pelr-d0h1po",
+      "at": "2026-07-11T07:58:56.559Z",
+      "concept_id": "flood",
+      "shown_spelling": "lekye",
+      "shown_composition": [
+        "lek",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "flood",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2pif9-zrq868",
+      "at": "2026-07-11T07:59:01.509Z",
+      "concept_id": "foot",
+      "shown_spelling": "gifem",
+      "shown_composition": [
+        "gi",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "foot",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2ps8x-ktwsz4",
+      "at": "2026-07-11T07:59:14.242Z",
+      "concept_id": "never",
+      "shown_spelling": "tamkan",
+      "shown_composition": [
+        "tam",
+        "kan"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "never",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2q3yp-ja8nlz",
+      "at": "2026-07-11T07:59:29.425Z",
+      "concept_id": "bellows",
+      "shown_spelling": "gesdat",
+      "shown_composition": [
+        "ges",
+        "dat"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "bellows",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2qe7k-et3au6",
+      "at": "2026-07-11T07:59:42.704Z",
+      "concept_id": "dead_end",
+      "shown_spelling": "nantem",
+      "shown_composition": [
+        "nan",
+        "tem"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "dead end",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2qpza-01gk0u",
+      "at": "2026-07-11T07:59:57.958Z",
+      "concept_id": "peg",
+      "shown_spelling": "gengat",
+      "shown_composition": [
+        "gen",
+        "gat"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "cowardice",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2r03l-86apao",
+      "at": "2026-07-11T08:00:11.073Z",
+      "concept_id": "ladder",
+      "shown_spelling": "ranan",
+      "shown_composition": [
+        "ra",
+        "nan"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "ladder",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2r7yi-rpw747",
+      "at": "2026-07-11T08:00:21.258Z",
+      "concept_id": "axe",
+      "shown_spelling": "sastet",
+      "shown_composition": [
+        "sas",
+        "tet"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "axe",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2uz4y-hgqb41",
+      "at": "2026-07-11T08:03:16.450Z",
+      "concept_id": "smoke",
+      "shown_spelling": "ganges",
+      "shown_composition": [
+        "gan",
+        "ges"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "smoke",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2v2tn-qz9jkp",
+      "at": "2026-07-11T08:03:21.227Z",
+      "concept_id": "hungry",
+      "shown_spelling": "saklo",
+      "shown_composition": [
+        "sak",
+        "lo"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "hungry",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2v6yr-mo7mp3",
+      "at": "2026-07-11T08:03:26.595Z",
+      "concept_id": "rationing",
+      "shown_spelling": "shatel",
+      "shown_composition": [
+        "sha",
+        "tel"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "rationing",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2vcxq-ccayqc",
+      "at": "2026-07-11T08:03:34.334Z",
+      "concept_id": "fonoran",
+      "shown_spelling": "maldanse",
+      "shown_composition": [
+        "mal",
+        "dan",
+        "se"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fonoran",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2vrtr-ew0znu",
+      "at": "2026-07-11T08:03:53.631Z",
+      "concept_id": "swamp",
+      "shown_spelling": "fenye",
+      "shown_composition": [
+        "fen",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "swamp",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2vx6b-t8osrb",
+      "at": "2026-07-11T08:04:00.563Z",
+      "concept_id": "try",
+      "shown_spelling": "sakmo",
+      "shown_composition": [
+        "sak",
+        "mo"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "try",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2w26u-d4dade",
+      "at": "2026-07-11T08:04:07.062Z",
+      "concept_id": "early",
+      "shown_spelling": "digu",
+      "shown_composition": [
+        "di",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "early",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2w7ij-zwdlrn",
+      "at": "2026-07-11T08:04:13.963Z",
+      "concept_id": "mark",
+      "shown_spelling": "wimal",
+      "shown_composition": [
+        "wi",
+        "mal"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "mark",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2wedp-qd087b",
+      "at": "2026-07-11T08:04:22.861Z",
+      "concept_id": "break",
+      "shown_spelling": "pato",
+      "shown_composition": [
+        "pa",
+        "to"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "break",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2wk1w-dgvkw7",
+      "at": "2026-07-11T08:04:30.212Z",
+      "concept_id": "pour",
+      "shown_spelling": "kuye",
+      "shown_composition": [
+        "ku",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "pour",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2wr7r-5yyiza",
+      "at": "2026-07-11T08:04:39.495Z",
+      "concept_id": "return_path",
+      "shown_spelling": "nanso",
+      "shown_composition": [
+        "nan",
+        "so"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "return path",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2wu04-od4s4z",
+      "at": "2026-07-11T08:04:43.108Z",
+      "concept_id": "tired",
+      "shown_spelling": "femtam",
+      "shown_composition": [
+        "fem",
+        "tam"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "tired",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2wx3r-nojnw7",
+      "at": "2026-07-11T08:04:47.127Z",
+      "concept_id": "government",
+      "shown_spelling": "kamdanfemgu",
+      "shown_composition": [
+        "kam",
+        "dan",
+        "fem",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "government",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2x7en-bbenv7",
+      "at": "2026-07-11T08:05:00.479Z",
+      "concept_id": "heal",
+      "shown_spelling": "kasfem",
+      "shown_composition": [
+        "kas",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "heal",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2xewi-5s1ra3",
+      "at": "2026-07-11T08:05:10.194Z",
+      "concept_id": "courage",
+      "shown_spelling": "mope",
+      "shown_composition": [
+        "mo",
+        "pe"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "courage",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2xqux-kedjg6",
+      "at": "2026-07-11T08:05:25.689Z",
+      "concept_id": "fruit",
+      "shown_spelling": "tetlo",
+      "shown_composition": [
+        "tet",
+        "lo"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fruit",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2xuqu-hm50fn",
+      "at": "2026-07-11T08:05:30.726Z",
+      "concept_id": "thirsty",
+      "shown_spelling": "lesye",
+      "shown_composition": [
+        "les",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "thirsty",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2xyym-eta1ic",
+      "at": "2026-07-11T08:05:36.190Z",
+      "concept_id": "apprentice",
+      "shown_spelling": "bahula",
+      "shown_composition": [
+        "ba",
+        "hu",
+        "la"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "apprentice",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2y4j5-r9sz4v",
+      "at": "2026-07-11T08:05:43.409Z",
+      "concept_id": "surprise",
+      "shown_spelling": "nesnekhu",
+      "shown_composition": [
+        "nes",
+        "nek",
+        "hu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "surprise",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2y6tj-zk84av",
+      "at": "2026-07-11T08:05:46.375Z",
+      "concept_id": "thirsty",
+      "shown_spelling": "lesye",
+      "shown_composition": [
+        "les",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "thirsty",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2y9dn-wwqpnp",
+      "at": "2026-07-11T08:05:49.691Z",
+      "concept_id": "teacher",
+      "shown_spelling": "kuhuba",
+      "shown_composition": [
+        "ku",
+        "hu",
+        "ba"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "teacher",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2ybs8-rj2b39",
+      "at": "2026-07-11T08:05:52.808Z",
+      "concept_id": "rain",
+      "shown_spelling": "yeju",
+      "shown_composition": [
+        "ye",
+        "ju"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "rain",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2yevt-7673og",
+      "at": "2026-07-11T08:05:56.825Z",
+      "concept_id": "grandparent",
+      "shown_spelling": "dibadi",
+      "shown_composition": [
+        "di",
+        "ba",
+        "di"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "grandparent",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2ylgv-2y57t6",
+      "at": "2026-07-11T08:06:05.359Z",
+      "concept_id": "request",
+      "shown_spelling": "sesak",
+      "shown_composition": [
+        "se",
+        "sak"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "request",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2ypjg-ee5grb",
+      "at": "2026-07-11T08:06:10.636Z",
+      "concept_id": "turn",
+      "shown_spelling": "yicha",
+      "shown_composition": [
+        "yi",
+        "cha"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "turn",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2yrz3-h98fnp",
+      "at": "2026-07-11T08:06:13.791Z",
+      "concept_id": "swim",
+      "shown_spelling": "giye",
+      "shown_composition": [
+        "gi",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "swim",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2yyd7-4ogymz",
+      "at": "2026-07-11T08:06:22.075Z",
+      "concept_id": "death",
+      "shown_spelling": "temfo",
+      "shown_composition": [
+        "tem",
+        "fo"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "death",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2z11w-7brd8t",
+      "at": "2026-07-11T08:06:25.556Z",
+      "concept_id": "overhead",
+      "shown_spelling": "radal",
+      "shown_composition": [
+        "ra",
+        "dal"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "overhead",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg34wcm-o6l036",
+      "at": "2026-07-11T08:10:59.398Z",
+      "concept_id": "fever",
+      "shown_spelling": "lemfem",
+      "shown_composition": [
+        "lem",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fever",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg354an-evsd3u",
+      "at": "2026-07-11T08:11:09.695Z",
+      "concept_id": "form",
+      "shown_spelling": "tonen",
+      "shown_composition": [
+        "to",
+        "nen"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "form",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg35888-hmx2c1",
+      "at": "2026-07-11T08:11:14.792Z",
+      "concept_id": "raft",
+      "shown_spelling": "tetye",
+      "shown_composition": [
+        "tet",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "raft",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg35bjr-0m2czl",
+      "at": "2026-07-11T08:11:19.095Z",
+      "concept_id": "hungry",
+      "shown_spelling": "saklo",
+      "shown_composition": [
+        "sak",
+        "lo"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "hungry",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg35jct-czuo6f",
+      "at": "2026-07-11T08:11:29.213Z",
+      "concept_id": "part",
+      "shown_spelling": "togen",
+      "shown_composition": [
+        "to",
+        "gen"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "part",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg35pu4-i0tgpl",
+      "at": "2026-07-11T08:11:37.612Z",
+      "concept_id": "memory",
+      "shown_spelling": "hugatmes",
+      "shown_composition": [
+        "hu",
+        "gat",
+        "mes"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "memory",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg35wue-3d3y5f",
+      "at": "2026-07-11T08:11:46.694Z",
+      "concept_id": "insect",
+      "shown_spelling": "kalgen",
+      "shown_composition": [
+        "kal",
+        "gen"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "insect",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg36321-klxo7n",
+      "at": "2026-07-11T08:11:54.745Z",
+      "concept_id": "outward",
+      "shown_spelling": "ginen",
+      "shown_composition": [
+        "gi",
+        "nen"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "outward",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3694z-5bwkaz",
+      "at": "2026-07-11T08:12:02.627Z",
+      "concept_id": "sick",
+      "shown_spelling": "femgam",
+      "shown_composition": [
+        "fem",
+        "gam"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "sick",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg36xd6-at9ku9",
+      "at": "2026-07-11T08:12:34.026Z",
+      "concept_id": "exhaustion",
+      "shown_spelling": "lesnal",
+      "shown_composition": [
+        "les",
+        "nal"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "exhaustion",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg372zz-r04jym",
+      "at": "2026-07-11T08:12:41.327Z",
+      "concept_id": "cold_exposure",
+      "shown_spelling": "makfem",
+      "shown_composition": [
+        "mak",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "cold exposure",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg37bhw-g623fk",
+      "at": "2026-07-11T08:12:52.340Z",
+      "concept_id": "away",
+      "shown_spelling": "gifet",
+      "shown_composition": [
+        "gi",
+        "fet"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "away",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg37ehc-5xwd89",
+      "at": "2026-07-11T08:12:56.208Z",
+      "concept_id": "shoulder",
+      "shown_spelling": "gatfem",
+      "shown_composition": [
+        "gat",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "shoulder",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3akdd-2sa2pr",
+      "at": "2026-07-11T08:15:23.809Z",
+      "concept_id": "afraid",
+      "shown_spelling": "nespe",
+      "shown_composition": [
+        "nes",
+        "pe"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "afraid",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ao2i-f03eds",
+      "at": "2026-07-11T08:15:28.602Z",
+      "concept_id": "cold_exposure",
+      "shown_spelling": "makfem",
+      "shown_composition": [
+        "mak",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "cold exposure",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3aujd-yodtxa",
+      "at": "2026-07-11T08:15:36.985Z",
+      "concept_id": "already",
+      "shown_spelling": "digem",
+      "shown_composition": [
+        "di",
+        "gem"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "already",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ayfs-tnm57p",
+      "at": "2026-07-11T08:15:42.040Z",
+      "concept_id": "swamp",
+      "shown_spelling": "fenye",
+      "shown_composition": [
+        "fen",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "swamp",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3b27o-3haf51",
+      "at": "2026-07-11T08:15:46.932Z",
+      "concept_id": "beautiful",
+      "shown_spelling": "guwi",
+      "shown_composition": [
+        "gu",
+        "wi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "beautiful",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3b6w5-fhjthj",
+      "at": "2026-07-11T08:15:52.997Z",
+      "concept_id": "toward",
+      "shown_spelling": "gidal",
+      "shown_composition": [
+        "gi",
+        "dal"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "toward",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3b95n-xulc0e",
+      "at": "2026-07-11T08:15:55.931Z",
+      "concept_id": "knowledge",
+      "shown_spelling": "hugat",
+      "shown_composition": [
+        "hu",
+        "gat"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "knowledge",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3bbal-pu4xym",
+      "at": "2026-07-11T08:15:58.701Z",
+      "concept_id": "peace",
+      "shown_spelling": "tampa",
+      "shown_composition": [
+        "tam",
+        "pa"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "peace",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3bhb6-hs9hzd",
+      "at": "2026-07-11T08:16:06.498Z",
+      "concept_id": "inspiration",
+      "shown_spelling": "kekmet",
+      "shown_composition": [
+        "kek",
+        "met"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "inspiration",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3bm9y-ntluye",
+      "at": "2026-07-11T08:16:12.934Z",
+      "concept_id": "tie",
+      "shown_spelling": "kamdak",
+      "shown_composition": [
+        "kam",
+        "dak"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "hidden place",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3cl4k-8xur8w",
+      "at": "2026-07-11T08:16:58.100Z",
+      "concept_id": "plank",
+      "shown_spelling": "keltet",
+      "shown_composition": [
+        "kel",
+        "tet"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "plank",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3cnon-g3u07y",
+      "at": "2026-07-11T08:17:01.415Z",
+      "concept_id": "village",
+      "shown_spelling": "chekamdan",
+      "shown_composition": [
+        "che",
+        "kam",
+        "dan"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "village",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ct1p-jk4p1x",
+      "at": "2026-07-11T08:17:08.365Z",
+      "concept_id": "surface",
+      "shown_spelling": "nentem",
+      "shown_composition": [
+        "nen",
+        "tem"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "surface",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3cvwg-7kfnse",
+      "at": "2026-07-11T08:17:12.064Z",
+      "concept_id": "farmer",
+      "shown_spelling": "tetba",
+      "shown_composition": [
+        "tet",
+        "ba"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "farmer",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3d1m1-1ldbe3",
+      "at": "2026-07-11T08:17:19.465Z",
+      "concept_id": "ignorance",
+      "shown_spelling": "tamhu",
+      "shown_composition": [
+        "tam",
+        "hu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "ignorance",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3d5gg-j7nmco",
+      "at": "2026-07-11T08:17:24.448Z",
+      "concept_id": "city",
+      "shown_spelling": "lekche",
+      "shown_composition": [
+        "lek",
+        "che"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "city",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3dcwi-htwhyh",
+      "at": "2026-07-11T08:17:34.098Z",
+      "concept_id": "mountain",
+      "shown_spelling": "fenra",
+      "shown_composition": [
+        "fen",
+        "ra"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "mountain",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3dniv-yvt2p5",
+      "at": "2026-07-11T08:17:47.863Z",
+      "concept_id": "thirsty",
+      "shown_spelling": "lesye",
+      "shown_composition": [
+        "les",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "thirsty",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3dw7r-8cknkg",
+      "at": "2026-07-11T08:17:59.127Z",
+      "concept_id": "shared_meaning",
+      "shown_spelling": "seho",
+      "shown_composition": [
+        "se",
+        "ho"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "shared meaning",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3dyzt-ew6cih",
+      "at": "2026-07-11T08:18:02.729Z",
+      "concept_id": "outer_area",
+      "shown_spelling": "nenche",
+      "shown_composition": [
+        "nen",
+        "che"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "outer area",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3edu0-ulaq20",
+      "at": "2026-07-11T08:18:21.960Z",
+      "concept_id": "other",
+      "shown_spelling": "honen",
+      "shown_composition": [
+        "ho",
+        "nen"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "storm",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3emlt-liyqih",
+      "at": "2026-07-11T08:18:33.329Z",
+      "concept_id": "happy",
+      "shown_spelling": "nesgu",
+      "shown_composition": [
+        "nes",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "happy",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3et95-8nsv43",
+      "at": "2026-07-11T08:18:41.945Z",
+      "concept_id": "last",
+      "shown_spelling": "daldi",
+      "shown_composition": [
+        "dal",
+        "di"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "last",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ewr1-u1is11",
+      "at": "2026-07-11T08:18:46.477Z",
+      "concept_id": "fresh",
+      "shown_spelling": "dalkel",
+      "shown_composition": [
+        "dal",
+        "kel"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fresh",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ezru-00k8ht",
+      "at": "2026-07-11T08:18:50.394Z",
+      "concept_id": "wound",
+      "shown_spelling": "tesfem",
+      "shown_composition": [
+        "tes",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "wound",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3f2nz-tnh19x",
+      "at": "2026-07-11T08:18:54.143Z",
+      "concept_id": "please",
+      "shown_spelling": "kugu",
+      "shown_composition": [
+        "ku",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "please",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3f6r8-lz7rga",
+      "at": "2026-07-11T08:18:59.444Z",
+      "concept_id": "already",
+      "shown_spelling": "digem",
+      "shown_composition": [
+        "di",
+        "gem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "already",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3f8wy-06pllj",
+      "at": "2026-07-11T08:19:02.242Z",
+      "concept_id": "thirsty",
+      "shown_spelling": "lesye",
+      "shown_composition": [
+        "les",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "thirsty",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3fbgn-hd4t62",
+      "at": "2026-07-11T08:19:05.543Z",
+      "concept_id": "language",
+      "shown_spelling": "danse",
+      "shown_composition": [
+        "dan",
+        "se"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "language",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3fdwl-8oue85",
+      "at": "2026-07-11T08:19:08.709Z",
+      "concept_id": "rain",
+      "shown_spelling": "yeju",
+      "shown_composition": [
+        "ye",
+        "ju"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "rain",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3fz1p-590mee",
+      "at": "2026-07-11T08:19:36.109Z",
+      "concept_id": "angry",
+      "shown_spelling": "nesgam",
+      "shown_composition": [
+        "nes",
+        "gam"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "angry",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3g6yb-x3rcbl",
+      "at": "2026-07-11T08:19:46.355Z",
+      "concept_id": "throat",
+      "shown_spelling": "semes",
+      "shown_composition": [
+        "se",
+        "mes"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "throat",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3gf9h-qh8xzl",
+      "at": "2026-07-11T08:19:57.125Z",
+      "concept_id": "envy",
+      "shown_spelling": "sakho",
+      "shown_composition": [
+        "sak",
+        "ho"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "own",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3gwaf-zqvwm9",
+      "at": "2026-07-11T08:20:19.191Z",
+      "concept_id": "transform",
+      "shown_spelling": "kelho",
+      "shown_composition": [
+        "kel",
+        "ho"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "transform",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3h2wu-p9wm7l",
+      "at": "2026-07-11T08:20:27.774Z",
+      "concept_id": "request",
+      "shown_spelling": "sesak",
+      "shown_composition": [
+        "se",
+        "sak"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "request",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3h6sm-yzgmmw",
+      "at": "2026-07-11T08:20:32.806Z",
+      "concept_id": "source",
+      "shown_spelling": "diye",
+      "shown_composition": [
+        "di",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "source",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3hqdp-wexe43",
+      "at": "2026-07-11T08:20:58.189Z",
+      "concept_id": "cause",
+      "shown_spelling": "dikel",
+      "shown_composition": [
+        "di",
+        "kel"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "cause",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3hugw-bdov7u",
+      "at": "2026-07-11T08:21:03.488Z",
+      "concept_id": "sad",
+      "shown_spelling": "gamnes",
+      "shown_composition": [
+        "gam",
+        "nes"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "sad",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3hxno-flqdn8",
+      "at": "2026-07-11T08:21:07.620Z",
+      "concept_id": "shame",
+      "shown_spelling": "gamde",
+      "shown_composition": [
+        "gam",
+        "de"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "shame",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3i3ot-12uj56",
+      "at": "2026-07-11T08:21:15.437Z",
+      "concept_id": "climb",
+      "shown_spelling": "ragi",
+      "shown_composition": [
+        "ra",
+        "gi"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "climb",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3i8eq-l2j1xk",
+      "at": "2026-07-11T08:21:21.554Z",
+      "concept_id": "guest",
+      "shown_spelling": "bames",
+      "shown_composition": [
+        "ba",
+        "mes"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "guest",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ido4-5qs2yo",
+      "at": "2026-07-11T08:21:28.372Z",
+      "concept_id": "sweat",
+      "shown_spelling": "lemye",
+      "shown_composition": [
+        "lem",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "sweat",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3iurt-4tb91g",
+      "at": "2026-07-11T08:21:50.537Z",
+      "concept_id": "question",
+      "shown_spelling": "sakhu",
+      "shown_composition": [
+        "sak",
+        "hu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "question",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3j19m-khl82r",
+      "at": "2026-07-11T08:21:58.954Z",
+      "concept_id": "hungry",
+      "shown_spelling": "saklo",
+      "shown_composition": [
+        "sak",
+        "lo"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "hungry",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3j752-nzchsn",
+      "at": "2026-07-11T08:22:06.566Z",
+      "concept_id": "upward",
+      "shown_spelling": "gira",
+      "shown_composition": [
+        "gi",
+        "ra"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "upward",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3je8q-xb0xql",
+      "at": "2026-07-11T08:22:15.770Z",
+      "concept_id": "mark",
+      "shown_spelling": "wimal",
+      "shown_composition": [
+        "wi",
+        "mal"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "mark",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3jik9-f6qbz5",
+      "at": "2026-07-11T08:22:21.369Z",
+      "concept_id": "safe_ground",
+      "shown_spelling": "chegu",
+      "shown_composition": [
+        "che",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "safe ground",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3jm3k-f6ueqh",
+      "at": "2026-07-11T08:22:25.952Z",
+      "concept_id": "nearby",
+      "shown_spelling": "chedal",
+      "shown_composition": [
+        "che",
+        "dal"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "nearby",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3jtk2-b4lf9t",
+      "at": "2026-07-11T08:22:35.618Z",
+      "concept_id": "other",
+      "shown_spelling": "honen",
+      "shown_composition": [
+        "ho",
+        "nen"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "other",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3jzbx-nl72qc",
+      "at": "2026-07-11T08:22:43.101Z",
+      "concept_id": "beautiful",
+      "shown_spelling": "guwi",
+      "shown_composition": [
+        "gu",
+        "wi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "beautiful",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3k4bh-xt0pnu",
+      "at": "2026-07-11T08:22:49.565Z",
+      "concept_id": "mentor",
+      "shown_spelling": "bahuku",
+      "shown_composition": [
+        "ba",
+        "hu",
+        "ku"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "mentor",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3k7ek-2apglo",
+      "at": "2026-07-11T08:22:53.564Z",
+      "concept_id": "island",
+      "shown_spelling": "cheye",
+      "shown_composition": [
+        "che",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "island",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3kc50-y804g4",
+      "at": "2026-07-11T08:22:59.700Z",
+      "concept_id": "hope",
+      "shown_spelling": "gusak",
+      "shown_composition": [
+        "gu",
+        "sak"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "hope",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ki4s-4dx7qn",
+      "at": "2026-07-11T08:23:07.468Z",
+      "concept_id": "kin",
+      "shown_spelling": "baho",
+      "shown_composition": [
+        "ba",
+        "ho"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "kin",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3kme0-jbddjf",
+      "at": "2026-07-11T08:23:12.984Z",
+      "concept_id": "happy",
+      "shown_spelling": "nesgu",
+      "shown_composition": [
+        "nes",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "happy",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ksvd-n22qg6",
+      "at": "2026-07-11T08:23:21.385Z",
+      "concept_id": "please",
+      "shown_spelling": "kugu",
+      "shown_composition": [
+        "ku",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "please",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3l0q6-q2yzvg",
+      "at": "2026-07-11T08:23:31.566Z",
+      "concept_id": "downward",
+      "shown_spelling": "giju",
+      "shown_composition": [
+        "gi",
+        "ju"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "underfoot",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3lac0-h643ls",
+      "at": "2026-07-11T08:23:44.016Z",
+      "concept_id": "dig",
+      "shown_spelling": "jukel",
+      "shown_composition": [
+        "ju",
+        "kel"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "dig",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3llj7-73imdd",
+      "at": "2026-07-11T08:23:58.531Z",
+      "concept_id": "boat",
+      "shown_spelling": "toye",
+      "shown_composition": [
+        "to",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "boat",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3ls03-7uo768",
+      "at": "2026-07-11T08:24:06.915Z",
+      "concept_id": "heal",
+      "shown_spelling": "kasfem",
+      "shown_composition": [
+        "kas",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "heal",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3lx05-xfg3y4",
+      "at": "2026-07-11T08:24:13.398Z",
+      "concept_id": "show",
+      "shown_spelling": "giwi",
+      "shown_composition": [
+        "gi",
+        "wi"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "show",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3m1wx-3dwrcj",
+      "at": "2026-07-11T08:24:19.761Z",
+      "concept_id": "flow",
+      "shown_spelling": "yenan",
+      "shown_composition": [
+        "ye",
+        "nan"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "flow",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3m7ka-kgn8uw",
+      "at": "2026-07-11T08:24:27.082Z",
+      "concept_id": "fresh_water_source",
+      "shown_spelling": "guye",
+      "shown_composition": [
+        "gu",
+        "ye"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "fresh water source",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3mfg1-lqloez",
+      "at": "2026-07-11T08:24:37.297Z",
+      "concept_id": "trade",
+      "shown_spelling": "kulaba",
+      "shown_composition": [
+        "ku",
+        "la",
+        "ba"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "trade",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3molm-4vbpli",
+      "at": "2026-07-11T08:24:49.162Z",
+      "concept_id": "dangerous_ground",
+      "shown_spelling": "chegam",
+      "shown_composition": [
+        "che",
+        "gam"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "dangerous ground",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3mto0-4abjv4",
+      "at": "2026-07-11T08:24:55.728Z",
+      "concept_id": "strong",
+      "shown_spelling": "femgu",
+      "shown_composition": [
+        "fem",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "strong",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3n3cp-5rcbd5",
+      "at": "2026-07-11T08:25:08.281Z",
+      "concept_id": "transform",
+      "shown_spelling": "kelho",
+      "shown_composition": [
+        "kel",
+        "ho"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "transform",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3na6h-x592bn",
+      "at": "2026-07-11T08:25:17.129Z",
+      "concept_id": "center",
+      "shown_spelling": "mesho",
+      "shown_composition": [
+        "mes",
+        "ho"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "center",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3nduv-jqmdzz",
+      "at": "2026-07-11T08:25:21.895Z",
+      "concept_id": "wound",
+      "shown_spelling": "tesfem",
+      "shown_composition": [
+        "tes",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "wound",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3nhs2-icp4gx",
+      "at": "2026-07-11T08:25:26.978Z",
+      "concept_id": "warmth",
+      "shown_spelling": "lemgu",
+      "shown_composition": [
+        "lem",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "warmth",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg3nqif-g2zn4k",
+      "at": "2026-07-11T08:25:38.295Z",
+      "concept_id": "exchange",
+      "shown_spelling": "kula",
+      "shown_composition": [
+        "ku",
+        "la"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "exchange",
+      "confusions": [],
+      "core_only": true,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk3lzl-394p6j",
+      "at": "2026-07-11T16:05:52.785Z",
+      "concept_id": "sequence",
+      "shown_spelling": "nankan",
+      "shown_composition": [
+        "nan",
+        "kan"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "sequence",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk3qjh-37ew1z",
+      "at": "2026-07-11T16:05:58.685Z",
+      "concept_id": "ocean",
+      "shown_spelling": "yeni",
+      "shown_composition": [
+        "ye",
+        "ni"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "ocean",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk3xf7-0hjsrt",
+      "at": "2026-07-11T16:06:07.603Z",
+      "concept_id": "bag",
+      "shown_spelling": "tamgat",
+      "shown_composition": [
+        "tam",
+        "gat"
+      ],
+      "recovered": false,
+      "repair_turns": 1,
+      "guess": "door",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk4m7b-9gw0fk",
+      "at": "2026-07-11T16:06:39.719Z",
+      "concept_id": "road",
+      "shown_spelling": "nangi",
+      "shown_composition": [
+        "nan",
+        "gi"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "road",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk4w2e-q7rx0b",
+      "at": "2026-07-11T16:06:52.502Z",
+      "concept_id": "farmer",
+      "shown_spelling": "tetba",
+      "shown_composition": [
+        "tet",
+        "ba"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "farmer",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk4ysj-wlmcvg",
+      "at": "2026-07-11T16:06:56.035Z",
+      "concept_id": "agent",
+      "shown_spelling": "bamo",
+      "shown_composition": [
+        "ba",
+        "mo"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "agent",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk56d7-t0puqn",
+      "at": "2026-07-11T16:07:05.851Z",
+      "concept_id": "boast",
+      "shown_spelling": "sedegu",
+      "shown_composition": [
+        "se",
+        "de",
+        "gu"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "boast",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk597i-druir5",
+      "at": "2026-07-11T16:07:09.534Z",
+      "concept_id": "wound",
+      "shown_spelling": "tesfem",
+      "shown_composition": [
+        "tes",
+        "fem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "wound",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk5dq1-c3t9n8",
+      "at": "2026-07-11T16:07:15.385Z",
+      "concept_id": "beach",
+      "shown_spelling": "yetem",
+      "shown_composition": [
+        "ye",
+        "tem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "beach",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk5n3i-ed3e2h",
+      "at": "2026-07-11T16:07:27.534Z",
+      "concept_id": "rescue",
+      "shown_spelling": "kasfet",
+      "shown_composition": [
+        "kas",
+        "fet"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "rescue",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk6hof-b1xn4f",
+      "at": "2026-07-11T16:08:07.167Z",
+      "concept_id": "lean",
+      "shown_spelling": "chati",
+      "shown_composition": [
+        "cha",
+        "ti"
+      ],
+      "recovered": true,
+      "repair_turns": 1,
+      "guess": "lean",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk75mk-lxynr4",
+      "at": "2026-07-11T16:08:38.204Z",
+      "concept_id": "thumb",
+      "shown_spelling": "dakni",
+      "shown_composition": [
+        "dak",
+        "ni"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "thumb",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrgk8g5b-qzfrrj",
+      "at": "2026-07-11T16:09:38.495Z",
+      "concept_id": "warmth_sharing",
+      "shown_spelling": "danlem",
+      "shown_composition": [
+        "dan",
+        "lem"
+      ],
+      "recovered": true,
+      "repair_turns": 0,
+      "guess": "warmth sharing",
+      "confusions": [],
+      "core_only": false,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
     }
   ],
   "feedback": [
@@ -2305,6 +5007,19 @@
       "round_id": "pt-mr2uvi70-31gtsi",
       "tags": [
         "hard_pronounce"
+      ],
+      "note": null,
+      "difficulty_mode": "normal",
+      "source": "puzzle"
+    },
+    {
+      "id": "pt-mrg2x3cp-9a8mad",
+      "at": "2026-07-11T08:04:55.225Z",
+      "concept_id": "government",
+      "shown_spelling": "kamdanfemgu",
+      "round_id": "pt-mrg2wx3r-nojnw7",
+      "tags": [
+        "unnatural"
       ],
       "note": null,
       "difficulty_mode": "normal",
