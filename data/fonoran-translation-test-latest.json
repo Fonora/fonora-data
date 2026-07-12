@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-11T19:49:52.172Z",
+  "generated_at": "2026-07-12T03:04:15.154Z",
   "corpus": "golden",
   "corpus_version": "3.0",
   "engine": "llm",
   "cache_only": true,
   "warm_needed": [],
   "total_phrases": 1000,
-  "clean_phrases": 658,
+  "clean_phrases": 657,
   "coverage_pct": 66,
-  "distinct_gaps": 145,
+  "distinct_gaps": 146,
   "quality": {
     "tokens": {
-      "pass": 4088,
+      "pass": 4086,
       "soft": 0,
-      "hard": 31
+      "hard": 33
     },
-    "pass_phrases": 972,
+    "pass_phrases": 970,
     "soft_phrases": 0,
-    "hard_phrases": 28
+    "hard_phrases": 30
   },
   "levels": [
     {
@@ -42,7 +42,7 @@
       "phrases": 50,
       "clean": 37,
       "coverage": 74,
-      "unresolved_words": 14
+      "unresolved_words": 15
     },
     {
       "level": 4,
@@ -120,9 +120,9 @@
       "level": 13,
       "name": "Possession & trade",
       "phrases": 50,
-      "clean": 33,
-      "coverage": 66,
-      "unresolved_words": 19
+      "clean": 32,
+      "coverage": 64,
+      "unresolved_words": 20
     },
     {
       "level": 14,
@@ -507,6 +507,15 @@
       "samples": [
         "Please say that again.",
         "I feel worried that I have too little."
+      ]
+    },
+    {
+      "word": "cloth",
+      "count": 2,
+      "role": "object",
+      "samples": [
+        "Do you have cloth for the wound?",
+        "I give you this cloth."
       ]
     },
     {
@@ -1521,7 +1530,7 @@
     {
       "level": 1,
       "phrase": "You are safe here.",
-      "roman": "be tampe nam",
+      "roman": "be kamgu nam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1539,7 +1548,7 @@
       "review": [],
       "gaps": [],
       "expected": "be tampe nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -1761,7 +1770,7 @@
     {
       "level": 1,
       "phrase": "I feel afraid right now.",
-      "roman": "mi nes nespe gem",
+      "roman": "mi nes pefem gem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -1779,12 +1788,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
       "phrase": "Do you feel afraid?",
-      "roman": "be nes nespe ?",
+      "roman": "be nes pefem ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -1802,12 +1811,12 @@
       "review": [],
       "gaps": [],
       "expected": "be nes nespe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
       "phrase": "I am not your enemy.",
-      "roman": "mi no paba be",
+      "roman": "mi no gamba be",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -1825,7 +1834,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi no paba be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2043,7 +2052,7 @@
     {
       "level": 1,
       "phrase": "We are both strangers here.",
-      "roman": "dan bafet nam",
+      "roman": "dan banen nam",
       "unresolved": [
         "both"
       ],
@@ -2063,7 +2072,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan bafet nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2114,7 +2123,7 @@
     {
       "level": 1,
       "phrase": "I will say my name slowly.",
-      "roman": "mi sa se mi mal gishanek",
+      "roman": "mi sa se mi mal shanek",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -2132,7 +2141,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa se mi mal gishanek",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2160,7 +2169,7 @@
     {
       "level": 1,
       "phrase": "I am a stranger and I need help.",
-      "roman": "mi bafet mi les kas",
+      "roman": "mi banen mi les kas",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -2178,12 +2187,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi bafet mi les kas",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
       "phrase": "I am lost and I am alone.",
-      "roman": "mi nantam mi nesfa",
+      "roman": "mi hufet mi nesfa",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2201,12 +2210,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nantam mi nesfa",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
       "phrase": "Can we sit together?",
-      "roman": "dan tiju dan ?",
+      "roman": "dan femfenti dan ?",
       "unresolved": [
         "can",
         "together"
@@ -2227,12 +2236,12 @@
       "review": [],
       "gaps": [],
       "expected": "dan tiju dan ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
       "phrase": "I will sit down now.",
-      "roman": "mi sa tiju ju gem",
+      "roman": "mi sa femfenti do gem",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -2250,7 +2259,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa tiju ju gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2312,7 +2321,7 @@
     {
       "level": 1,
       "phrase": "You do not need to be afraid.",
-      "roman": "be no les nespe",
+      "roman": "be no les pefem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2330,7 +2339,7 @@
       "review": [],
       "gaps": [],
       "expected": "be no les nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2406,7 +2415,7 @@
     {
       "level": 1,
       "phrase": "Can we try to understand each other?",
-      "roman": "dan sakmo hufel ho ?",
+      "roman": "dan gisak hufel ho ?",
       "unresolved": [
         "can"
       ],
@@ -2426,7 +2435,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan sakmo hufel ho ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2477,7 +2486,7 @@
     {
       "level": 1,
       "phrase": "Are there other people near you?",
-      "roman": "fel balek dal be ?",
+      "roman": "fetho balek dal be ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -2495,7 +2504,7 @@
       "review": [],
       "gaps": [],
       "expected": "fel balek dal be ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 1,
@@ -2795,7 +2804,7 @@
     {
       "level": 2,
       "phrase": "Is that water safe?",
-      "roman": "be tampe ye ?",
+      "roman": "be kamgu ye ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -2813,7 +2822,7 @@
       "review": [],
       "gaps": [],
       "expected": "be tampe ye ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -2912,7 +2921,7 @@
     {
       "level": 2,
       "phrase": "This food is safe.",
-      "roman": "lo tampe",
+      "roman": "lo kamgu",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -2930,7 +2939,7 @@
       "review": [],
       "gaps": [],
       "expected": "lo tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -3125,7 +3134,7 @@
     {
       "level": 2,
       "phrase": "We can stay here.",
-      "roman": "dan tiche nam",
+      "roman": "dan times nam",
       "unresolved": [
         "can"
       ],
@@ -3145,7 +3154,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan tiche nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -3219,7 +3228,7 @@
     {
       "level": 2,
       "phrase": "The rain is coming.",
-      "roman": "yeju ginam",
+      "roman": "samye ginam",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -3237,7 +3246,7 @@
       "review": [],
       "gaps": [],
       "expected": "yeju ginam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -3334,7 +3343,7 @@
     {
       "level": 2,
       "phrase": "Come and sit here.",
-      "roman": "ginam tiju nam",
+      "roman": "ginam femfenti nam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3352,7 +3361,7 @@
       "review": [],
       "gaps": [],
       "expected": "ginam tiju nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -3380,7 +3389,7 @@
     {
       "level": 2,
       "phrase": "Sit near the fire.",
-      "roman": "tiju dal dat",
+      "roman": "femfenti dal dat",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3398,12 +3407,12 @@
       "review": [],
       "gaps": [],
       "expected": "tiju dal dat",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
       "phrase": "This water is not safe.",
-      "roman": "be no tampe",
+      "roman": "be no kamgu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3421,7 +3430,7 @@
       "review": [],
       "gaps": [],
       "expected": "be no tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -3553,7 +3562,7 @@
     {
       "level": 2,
       "phrase": "We must boil the water.",
-      "roman": "dan yedatgi ye",
+      "roman": "dan yelem ye",
       "unresolved": [
         "must"
       ],
@@ -3573,7 +3582,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan yedatgi ye",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 2,
@@ -3841,7 +3850,7 @@
     {
       "level": 3,
       "phrase": "My leg is broken.",
-      "roman": "mi gamje nanfem",
+      "roman": "mi femtesgam femnan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -3859,7 +3868,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi gamje nanfem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -3933,7 +3942,7 @@
     {
       "level": 3,
       "phrase": "This wound is very deep.",
-      "roman": "tesfem ni ju",
+      "roman": "tesfem ni do",
       "unresolved": [
         "deep"
       ],
@@ -3953,7 +3962,7 @@
       "review": [],
       "gaps": [],
       "expected": "tesfem ni ju",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -4100,7 +4109,7 @@
     {
       "level": 3,
       "phrase": "Is your leg broken?",
-      "roman": "be pato nanfem ?",
+      "roman": "be pato femnan ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -4118,7 +4127,7 @@
       "review": [],
       "gaps": [],
       "expected": "be pato nanfem ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -4169,7 +4178,7 @@
     {
       "level": 3,
       "phrase": "This bone is broken.",
-      "roman": "je ta pato",
+      "roman": "bu ta pato",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -4187,7 +4196,7 @@
       "review": [],
       "gaps": [],
       "expected": "je ta pato",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -4401,27 +4410,35 @@
     {
       "level": 3,
       "phrase": "Do you have cloth for the wound?",
-      "roman": "be gat tatkel tesfem ?",
+      "roman": "be gat [cloth] tesfem ?",
       "unresolved": [
-        "for"
+        "for",
+        "cloth"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 5,
+        "gate": "hard",
+        "pass": 4,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "cloth",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "be gat tatkel tesfem ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -4474,7 +4491,7 @@
     {
       "level": 3,
       "phrase": "I fell and hit my head.",
-      "roman": "mi ta jugi nekmam ju kes de",
+      "roman": "mi ta gifen nekmam do kes de",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -4492,7 +4509,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta jugi nekmam ju kes de",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -4767,7 +4784,7 @@
     {
       "level": 3,
       "phrase": "This area is red and swollen.",
-      "roman": "mesche datwi tatni",
+      "roman": "chemes datwi tatni",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -4785,12 +4802,12 @@
       "review": [],
       "gaps": [],
       "expected": "mesche datwi tatni",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
       "phrase": "I am getting better slowly.",
-      "roman": "mi kasfem gishanek",
+      "roman": "mi kasfem shanek",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -4808,7 +4825,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi kasfem gishanek",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 3,
@@ -5009,7 +5026,7 @@
     {
       "level": 4,
       "phrase": "I am afraid.",
-      "roman": "mi nes nespe",
+      "roman": "mi nes pefem",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -5027,7 +5044,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5149,7 +5166,7 @@
     {
       "level": 4,
       "phrase": "This place is not safe.",
-      "roman": "che no tampe",
+      "roman": "che no kamgu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -5167,7 +5184,7 @@
       "review": [],
       "gaps": [],
       "expected": "che no tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5195,7 +5212,7 @@
     {
       "level": 4,
       "phrase": "Are you afraid?",
-      "roman": "be nespe ?",
+      "roman": "be pefem ?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -5213,12 +5230,12 @@
       "review": [],
       "gaps": [],
       "expected": "be nespe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
       "phrase": "We are safe here.",
-      "roman": "dan tampe nam",
+      "roman": "dan kamgu nam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -5236,7 +5253,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan tampe nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5289,7 +5306,7 @@
     {
       "level": 4,
       "phrase": "I am very afraid right now.",
-      "roman": "mi nes nespe ni gem",
+      "roman": "mi nes pefem ni gem",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -5307,7 +5324,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe ni gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5358,7 +5375,7 @@
     {
       "level": 4,
       "phrase": "Is it safe to go there?",
-      "roman": "gi tak tampe ?",
+      "roman": "gi tak kamgu ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -5376,7 +5393,7 @@
       "review": [],
       "gaps": [],
       "expected": "gi tak tampe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5546,7 +5563,7 @@
     {
       "level": 4,
       "phrase": "I feel very unsafe here.",
-      "roman": "mi no nes nam tampe ni",
+      "roman": "mi no nes nam kamgu ni",
       "unresolved": [
         "very"
       ],
@@ -5566,12 +5583,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi no nes nam tampe ni",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
       "phrase": "Stay low and do not speak.",
-      "roman": "ti no se ju",
+      "roman": "ti no se do",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -5589,7 +5606,7 @@
       "review": [],
       "gaps": [],
       "expected": "ti no se ju",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5642,7 +5659,7 @@
     {
       "level": 4,
       "phrase": "I am shaking with fear.",
-      "roman": "mi nes nespe femgu",
+      "roman": "mi nes pefem femgu",
       "unresolved": [
         "shaking"
       ],
@@ -5662,7 +5679,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe femgu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5715,7 +5732,7 @@
     {
       "level": 4,
       "phrase": "Come with me to safety.",
-      "roman": "be ginam nan tampe mi",
+      "roman": "be ginam nan kamgu mi",
       "unresolved": [
         "with"
       ],
@@ -5735,7 +5752,7 @@
       "review": [],
       "gaps": [],
       "expected": "be ginam nan tampe mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5763,7 +5780,7 @@
     {
       "level": 4,
       "phrase": "Are we safe now?",
-      "roman": "dan tampe gem ?",
+      "roman": "dan kamgu gem ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -5781,7 +5798,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan tampe gem ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5809,7 +5826,7 @@
     {
       "level": 4,
       "phrase": "I do not feel safe here.",
-      "roman": "mi no nes nam tampe",
+      "roman": "mi no nes nam kamgu",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -5827,12 +5844,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi no nes nam tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
       "phrase": "That path is not safe.",
-      "roman": "nan no tampe",
+      "roman": "nan no kamgu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -5850,7 +5867,7 @@
       "review": [],
       "gaps": [],
       "expected": "nan no tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5878,7 +5895,7 @@
     {
       "level": 4,
       "phrase": "We can rest here, it is safe.",
-      "roman": "dan tinal nam tampe",
+      "roman": "dan tinal nam kamgu",
       "unresolved": [
         "can"
       ],
@@ -5898,7 +5915,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan tinal nam tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -5999,7 +6016,7 @@
     {
       "level": 4,
       "phrase": "I am afraid and I want to leave.",
-      "roman": "mi nes nespe mi sak gi fet",
+      "roman": "mi nes pefem mi sak gi fet",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -6017,7 +6034,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe mi sak gi fet",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
@@ -6120,7 +6137,7 @@
     {
       "level": 4,
       "phrase": "Can we go somewhere safer?",
-      "roman": "dan gi ket che mas tampe ?",
+      "roman": "dan gi ket che mas kamgu ?",
       "unresolved": [
         "can"
       ],
@@ -6140,12 +6157,12 @@
       "review": [],
       "gaps": [],
       "expected": "dan gi ket che mas tampe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
       "phrase": "I am cold and afraid.",
-      "roman": "mi nes mak nespe",
+      "roman": "mi nes mak pefem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -6163,12 +6180,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes mak nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 4,
       "phrase": "We ran and now we are safe.",
-      "roman": "dan ta gem ginek tampe",
+      "roman": "dan ta gem ginek kamgu",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -6186,7 +6203,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan ta gem ginek tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 5,
@@ -6306,7 +6323,7 @@
     {
       "level": 5,
       "phrase": "I feel relieved.",
-      "roman": "mi nes tines",
+      "roman": "mi nes guti",
       "unresolved": [
         "relieved"
       ],
@@ -6326,7 +6343,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes tines",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 5,
@@ -6609,7 +6626,7 @@
     {
       "level": 5,
       "phrase": "I am calm and relieved.",
-      "roman": "mi no nes nesti nespe",
+      "roman": "mi no nes nesti pefem",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -6627,7 +6644,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi no nes nesti nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 5,
@@ -6749,7 +6766,7 @@
     {
       "level": 5,
       "phrase": "I am very relieved.",
-      "roman": "mi nes tampe ni",
+      "roman": "mi nes kamgu ni",
       "unresolved": [
         "relieved"
       ],
@@ -6769,7 +6786,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes tampe ni",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 5,
@@ -6877,7 +6894,7 @@
     {
       "level": 5,
       "phrase": "You are safe now.",
-      "roman": "be tampe gem",
+      "roman": "be kamgu gem",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -6895,7 +6912,7 @@
       "review": [],
       "gaps": [],
       "expected": "be tampe gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 5,
@@ -7584,7 +7601,7 @@
     {
       "level": 6,
       "phrase": "I did not mean to hurt you.",
-      "roman": "mi ta no tes be sakdi",
+      "roman": "mi ta no tes be desak",
       "unresolved": [
         "intend"
       ],
@@ -7604,7 +7621,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta no tes be sakdi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
@@ -7703,7 +7720,7 @@
     {
       "level": 6,
       "phrase": "That was my mistake.",
-      "roman": "mi ta mogam",
+      "roman": "mi ta hugam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -7721,12 +7738,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta mogam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
       "phrase": "I feel safe with you.",
-      "roman": "mi nes dal be tampe",
+      "roman": "mi nes dal be kamgu",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -7744,7 +7761,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes dal be tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
@@ -7795,7 +7812,7 @@
     {
       "level": 6,
       "phrase": "Let us stay together.",
-      "roman": "dan tiche dan",
+      "roman": "dan times dan",
       "unresolved": [
         "let",
         "together"
@@ -7816,7 +7833,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan tiche dan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
@@ -7844,7 +7861,7 @@
     {
       "level": 6,
       "phrase": "Did I do something wrong?",
-      "roman": "mi ta mo mogam ?",
+      "roman": "mi ta mo hugam ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -7862,7 +7879,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta mo mogam ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
@@ -8226,7 +8243,7 @@
     {
       "level": 6,
       "phrase": "I made a mistake.",
-      "roman": "mi ta kel mogam",
+      "roman": "mi ta kel hugam",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -8244,7 +8261,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta kel mogam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
@@ -8371,7 +8388,7 @@
     {
       "level": 6,
       "phrase": "I feel lonely and scared.",
-      "roman": "mi nes nesfa nespe",
+      "roman": "mi nes nesfa pefem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -8389,7 +8406,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nesfa nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 6,
@@ -8868,7 +8885,7 @@
     {
       "level": 7,
       "phrase": "That belongs to me.",
-      "roman": "nan kamche mi",
+      "roman": "nan meskam mi",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -8886,7 +8903,7 @@
       "review": [],
       "gaps": [],
       "expected": "nan kamche mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -8937,7 +8954,7 @@
     {
       "level": 7,
       "phrase": "I am not ready.",
-      "roman": "mi no gatdimo",
+      "roman": "mi no gudi",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -8955,7 +8972,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi no gatdimo",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -8983,7 +9000,7 @@
     {
       "level": 7,
       "phrase": "Do not open that bag.",
-      "roman": "no tamtem tomes",
+      "roman": "no tamtem gatmes",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -9001,7 +9018,7 @@
       "review": [],
       "gaps": [],
       "expected": "no tamtem tomes",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9031,7 +9048,7 @@
     {
       "level": 7,
       "phrase": "Stay on your side.",
-      "roman": "be tiche be dela che",
+      "roman": "be times be dela che",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -9049,7 +9066,7 @@
       "review": [],
       "gaps": [],
       "expected": "be tiche be dela che",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9077,7 +9094,7 @@
     {
       "level": 7,
       "phrase": "That water is mine.",
-      "roman": "be kamche mi",
+      "roman": "be meskam mi",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -9095,7 +9112,7 @@
       "review": [],
       "gaps": [],
       "expected": "be kamche mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9146,7 +9163,7 @@
     {
       "level": 7,
       "phrase": "Is this yours or mine?",
-      "roman": "to kamche be mi ?",
+      "roman": "to meskam be mi ?",
       "unresolved": [
         "or"
       ],
@@ -9166,7 +9183,7 @@
       "review": [],
       "gaps": [],
       "expected": "to kamche be mi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9315,7 +9332,7 @@
     {
       "level": 7,
       "phrase": "This side is mine and that side is yours.",
-      "roman": "tem fel tem kamche mi be fel",
+      "roman": "tem fetho tem meskam mi be fetho",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -9333,7 +9350,7 @@
       "review": [],
       "gaps": [],
       "expected": "tem fel tem kamche mi be fel",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9407,7 +9424,7 @@
     {
       "level": 7,
       "phrase": "That is not yours.",
-      "roman": "tak no kamche be",
+      "roman": "tak no meskam be",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -9425,7 +9442,7 @@
       "review": [],
       "gaps": [],
       "expected": "tak no kamche be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9476,7 +9493,7 @@
     {
       "level": 7,
       "phrase": "I feel scared when you come close.",
-      "roman": "mi nes dal nespe be ginam",
+      "roman": "mi nes dal pefem be ginam",
       "unresolved": [
         "when"
       ],
@@ -9496,7 +9513,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes dal nespe be ginam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -9593,7 +9610,7 @@
     {
       "level": 7,
       "phrase": "That is not acceptable.",
-      "roman": "no tines",
+      "roman": "no guti",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -9611,7 +9628,7 @@
       "review": [],
       "gaps": [],
       "expected": "no tines",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 7,
@@ -10474,7 +10491,7 @@
     {
       "level": 8,
       "phrase": "What is that over the water?",
-      "roman": "nohu to ra ye ?",
+      "roman": "nohu to wa ye ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -10492,7 +10509,7 @@
       "review": [],
       "gaps": [],
       "expected": "nohu to ra ye ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 8,
@@ -10543,7 +10560,7 @@
     {
       "level": 8,
       "phrase": "What is safe to eat here?",
-      "roman": "nohu to tel nam tampe ?",
+      "roman": "nohu to tel nam kamgu ?",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -10561,7 +10578,7 @@
       "review": [],
       "gaps": [],
       "expected": "nohu to tel nam tampe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 8,
@@ -10716,7 +10733,7 @@
     {
       "level": 8,
       "phrase": "What is in this bag?",
-      "roman": "nohu to mes tomes ?",
+      "roman": "nohu to mes gatmes ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -10734,12 +10751,12 @@
       "review": [],
       "gaps": [],
       "expected": "nohu to mes tomes ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 8,
       "phrase": "I feel afraid and I do not know what is there.",
-      "roman": "mi nes nespe mi no hu tak nohu to",
+      "roman": "mi nes pefem mi no hu tak nohu to",
       "unresolved": [],
       "counts": {
         "direct": 9,
@@ -10757,7 +10774,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe mi no hu tak nohu to",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 8,
@@ -11063,7 +11080,7 @@
     {
       "level": 9,
       "phrase": "That person is a stranger to me.",
-      "roman": "ba bafet mi",
+      "roman": "ba banen mi",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -11081,7 +11098,7 @@
       "review": [],
       "gaps": [],
       "expected": "ba bafet mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11109,7 +11126,7 @@
     {
       "level": 9,
       "phrase": "I am a stranger here.",
-      "roman": "mi bafet nam",
+      "roman": "mi banen nam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -11127,7 +11144,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi bafet nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11308,7 +11325,7 @@
     {
       "level": 9,
       "phrase": "I feel afraid of that person.",
-      "roman": "mi nes nespe ba",
+      "roman": "mi nes pefem ba",
       "unresolved": [
         "of"
       ],
@@ -11328,7 +11345,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe ba",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11356,7 +11373,7 @@
     {
       "level": 9,
       "phrase": "That person is alone and looks lost.",
-      "roman": "ba nesfa nantam",
+      "roman": "ba nesfa hufet",
       "unresolved": [
         "seems",
         "he/she/it"
@@ -11377,7 +11394,7 @@
       "review": [],
       "gaps": [],
       "expected": "ba nesfa nantam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11691,7 +11708,7 @@
     {
       "level": 9,
       "phrase": "I feel uneasy about that person.",
-      "roman": "mi nes [pemet] fel ba",
+      "roman": "mi nes [pemet] fetho ba",
       "unresolved": [
         "uneasy",
         "pemet"
@@ -11818,7 +11835,7 @@
     {
       "level": 9,
       "phrase": "Who is standing guard tonight?",
-      "roman": "gem gankan nohu ba tira wi tampe ?",
+      "roman": "gem gankan nohu ba femtini wi kamgu ?",
       "unresolved": [],
       "counts": {
         "direct": 8,
@@ -11836,7 +11853,7 @@
       "review": [],
       "gaps": [],
       "expected": "gem gankan nohu ba tira wi tampe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11864,7 +11881,7 @@
     {
       "level": 9,
       "phrase": "Who is missing?",
-      "roman": "nohu ba nantam ?",
+      "roman": "nohu ba hufet ?",
       "unresolved": [
         "missing"
       ],
@@ -11884,7 +11901,7 @@
       "review": [],
       "gaps": [],
       "expected": "nohu ba nantam ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -11973,7 +11990,7 @@
     {
       "level": 9,
       "phrase": "That person is a friend or an enemy.",
-      "roman": "ba guba paba",
+      "roman": "ba guba gamba",
       "unresolved": [
         "or"
       ],
@@ -11993,7 +12010,7 @@
       "review": [],
       "gaps": [],
       "expected": "ba guba paba",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 9,
@@ -12255,7 +12272,7 @@
     {
       "level": 10,
       "phrase": "Which way do we go?",
-      "roman": "sakhuto nan dan gi ?",
+      "roman": "tohutam nan dan gi ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -12273,7 +12290,7 @@
       "review": [],
       "gaps": [],
       "expected": "sakhuto nan dan gi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
@@ -12370,7 +12387,7 @@
     {
       "level": 10,
       "phrase": "Where is the other person?",
-      "roman": "nohu che fel ba ?",
+      "roman": "nohu che fetho ba ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -12388,7 +12405,7 @@
       "review": [],
       "gaps": [],
       "expected": "nohu che fel ba ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
@@ -12508,7 +12525,7 @@
     {
       "level": 10,
       "phrase": "The river is below us.",
-      "roman": "yenanye ju dan",
+      "roman": "yenanye do dan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -12526,7 +12543,7 @@
       "review": [],
       "gaps": [],
       "expected": "yenanye ju dan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
@@ -12673,7 +12690,7 @@
     {
       "level": 10,
       "phrase": "I feel lost.",
-      "roman": "mi nes nantam",
+      "roman": "mi nes hufet",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -12691,7 +12708,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nantam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
@@ -12788,7 +12805,7 @@
     {
       "level": 10,
       "phrase": "I am scared of this place.",
-      "roman": "mi nes nam nespe",
+      "roman": "mi nes nam pefem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -12806,12 +12823,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nam nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
       "phrase": "Where is the high ground?",
-      "roman": "nohu che rafen ?",
+      "roman": "nohu che fensam ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -12829,12 +12846,12 @@
       "review": [],
       "gaps": [],
       "expected": "nohu che rafen ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
       "phrase": "The high ground is that way.",
-      "roman": "rafen tak",
+      "roman": "fensam tak",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -12852,7 +12869,7 @@
       "review": [],
       "gaps": [],
       "expected": "rafen tak",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
@@ -13236,7 +13253,7 @@
     {
       "level": 10,
       "phrase": "I am worried and I feel lost.",
-      "roman": "mi nes pemet mi nes nantam",
+      "roman": "mi nes pemet mi nes hufet",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -13254,7 +13271,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes pemet mi nes nantam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 10,
@@ -13284,7 +13301,7 @@
     {
       "level": 10,
       "phrase": "We go left and then up.",
-      "roman": "dan gi ra",
+      "roman": "dan gi wa",
       "unresolved": [
         "left"
       ],
@@ -13304,7 +13321,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan gi ra",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13380,7 +13397,7 @@
     {
       "level": 11,
       "phrase": "I am ready now.",
-      "roman": "mi gatdimo gem",
+      "roman": "mi gudi gem",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -13398,12 +13415,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi gatdimo gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
       "phrase": "We will eat later.",
-      "roman": "dan sa gemshu tel",
+      "roman": "dan sa shukan tel",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -13421,7 +13438,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan sa gemshu tel",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13497,7 +13514,7 @@
     {
       "level": 11,
       "phrase": "After the rain, we can move.",
-      "roman": "dan shu yeju gi",
+      "roman": "dan shu samye gi",
       "unresolved": [
         "can"
       ],
@@ -13517,7 +13534,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan shu yeju gi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13570,7 +13587,7 @@
     {
       "level": 11,
       "phrase": "When will the rain stop?",
-      "roman": "yeju hu kan sa no giti ?",
+      "roman": "samye hu kan sa no giti ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13588,7 +13605,7 @@
       "review": [],
       "gaps": [],
       "expected": "yeju hu kan sa no giti ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13696,7 +13713,7 @@
     {
       "level": 11,
       "phrase": "We can talk later.",
-      "roman": "dan gemshu se",
+      "roman": "dan shukan se",
       "unresolved": [
         "can"
       ],
@@ -13716,7 +13733,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan gemshu se",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13744,7 +13761,7 @@
     {
       "level": 11,
       "phrase": "When does the sun rise here?",
-      "roman": "samdat hu kan no kekra nam ?",
+      "roman": "samdat hu kan no samdatdi nam ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13762,7 +13779,7 @@
       "review": [],
       "gaps": [],
       "expected": "samdat hu kan no kekra nam ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13790,7 +13807,7 @@
     {
       "level": 11,
       "phrase": "I was afraid before, not now.",
-      "roman": "mi ta di gem no nes nespe",
+      "roman": "mi ta di gem no nes pefem",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -13808,7 +13825,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta di gem no nes nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13838,7 +13855,7 @@
     {
       "level": 11,
       "phrase": "Is it too late to move?",
-      "roman": "shugu gi ?",
+      "roman": "gushu gi ?",
       "unresolved": [
         "too"
       ],
@@ -13858,7 +13875,7 @@
       "review": [],
       "gaps": [],
       "expected": "shugu gi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -13984,7 +14001,7 @@
     {
       "level": 11,
       "phrase": "Can we leave after the rain?",
-      "roman": "dan sa shu yeju felnen ?",
+      "roman": "dan sa shu samye felnen ?",
       "unresolved": [
         "can"
       ],
@@ -14004,12 +14021,12 @@
       "review": [],
       "gaps": [],
       "expected": "dan sa shu yeju felnen ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
       "phrase": "Not yet, wait a little more.",
-      "roman": "be digem no tikan gen mas",
+      "roman": "be gemdi no tikan gen mas",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -14027,7 +14044,7 @@
       "review": [],
       "gaps": [],
       "expected": "be digem no tikan gen mas",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14055,7 +14072,7 @@
     {
       "level": 11,
       "phrase": "I will help you later.",
-      "roman": "mi sa gemshu kas be",
+      "roman": "mi sa shukan kas be",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14073,7 +14090,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa gemshu kas be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14101,7 +14118,7 @@
     {
       "level": 11,
       "phrase": "We move now and rest later.",
-      "roman": "dan fagem gemshu gi tinal",
+      "roman": "dan fagem shukan gi tinal",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14119,7 +14136,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan fagem gemshu gi tinal",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14147,7 +14164,7 @@
     {
       "level": 11,
       "phrase": "I was not ready before.",
-      "roman": "mi ta no gatdimo di",
+      "roman": "mi ta no gudi di",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14165,12 +14182,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta no gatdimo di",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
       "phrase": "Is it safe to go now?",
-      "roman": "gem gi tampe ?",
+      "roman": "gem gi kamgu ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -14188,7 +14205,7 @@
       "review": [],
       "gaps": [],
       "expected": "gem gi tampe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14241,7 +14258,7 @@
     {
       "level": 11,
       "phrase": "Soon the sun will go down.",
-      "roman": "samdat sa dalshu gi ju",
+      "roman": "samdat sa dalshu gi do",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14259,7 +14276,7 @@
       "review": [],
       "gaps": [],
       "expected": "samdat sa dalshu gi ju",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14365,7 +14382,7 @@
     {
       "level": 11,
       "phrase": "I felt safe before, not now.",
-      "roman": "gem ta mi no nes tampe di",
+      "roman": "gem ta mi no nes kamgu di",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -14383,12 +14400,12 @@
       "review": [],
       "gaps": [],
       "expected": "gem ta mi no nes tampe di",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
       "phrase": "Let us decide later, not now.",
-      "roman": "gem shu dan no hudimo",
+      "roman": "gem shu dan no dimet",
       "unresolved": [
         "decide"
       ],
@@ -14408,7 +14425,7 @@
       "review": [],
       "gaps": [],
       "expected": "gem shu dan no hudimo",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14461,7 +14478,7 @@
     {
       "level": 11,
       "phrase": "We can try again soon.",
-      "roman": "dan sakmo moyi dalshu",
+      "roman": "dan gisak moyi dalshu",
       "unresolved": [
         "can"
       ],
@@ -14481,7 +14498,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan sakmo moyi dalshu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 11,
@@ -14647,7 +14664,7 @@
     {
       "level": 12,
       "phrase": "You must stay here.",
-      "roman": "be tiche nam",
+      "roman": "be times nam",
       "unresolved": [
         "must"
       ],
@@ -14667,7 +14684,7 @@
       "review": [],
       "gaps": [],
       "expected": "be tiche nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -14885,7 +14902,7 @@
     {
       "level": 12,
       "phrase": "I feel afraid to go there.",
-      "roman": "mi nes tak nespe gi",
+      "roman": "mi nes tak pefem gi",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -14903,12 +14920,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes tak nespe gi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
       "phrase": "Are you staying or leaving?",
-      "roman": "be tiche gi fet ?",
+      "roman": "be times gi fet ?",
       "unresolved": [
         "or"
       ],
@@ -14928,12 +14945,12 @@
       "review": [],
       "gaps": [],
       "expected": "be tiche gi fet ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
       "phrase": "Move slowly and carefully.",
-      "roman": "gi gishanek nathu",
+      "roman": "gi shanek nathu",
       "unresolved": [
         "carefully"
       ],
@@ -14953,7 +14970,7 @@
       "review": [],
       "gaps": [],
       "expected": "gi gishanek nathu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -15100,7 +15117,7 @@
     {
       "level": 12,
       "phrase": "I will stay and wait here.",
-      "roman": "mi sa tiche tikan nam",
+      "roman": "mi sa times tikan nam",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -15118,7 +15135,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa tiche tikan nam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -15148,7 +15165,7 @@
     {
       "level": 12,
       "phrase": "That direction is not safe.",
-      "roman": "no tampe",
+      "roman": "no kamgu",
       "unresolved": [
         "direction"
       ],
@@ -15168,12 +15185,12 @@
       "review": [],
       "gaps": [],
       "expected": "no tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
       "phrase": "I am scared and I want to stay.",
-      "roman": "mi nes nespe mi sak tiche",
+      "roman": "mi nes pefem mi sak times",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -15191,7 +15208,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe mi sak tiche",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -15246,7 +15263,7 @@
     {
       "level": 12,
       "phrase": "I will go and you stay.",
-      "roman": "mi sa gi be tiche",
+      "roman": "mi sa gi be times",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -15264,7 +15281,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa gi be tiche",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -15490,7 +15507,7 @@
     {
       "level": 12,
       "phrase": "I meant to go the other way.",
-      "roman": "mi ta gi [honen] nan hudimo",
+      "roman": "mi ta gi [honen] nan dimet",
       "unresolved": [
         "meant_to",
         "honen"
@@ -15518,7 +15535,7 @@
         }
       ],
       "expected": "mi ta gi [honen] nan hudimo",
-      "matches_golden": true,
+      "matches_golden": false,
       "note": "gap: honen (needs a root)"
     },
     {
@@ -15666,7 +15683,7 @@
     {
       "level": 12,
       "phrase": "I stayed and waited for a long time.",
-      "roman": "mi ta tiche tikan ninan kan",
+      "roman": "mi ta times tikan ninan kan",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -15684,7 +15701,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta tiche tikan ninan kan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 12,
@@ -15852,7 +15869,7 @@
     {
       "level": 13,
       "phrase": "This belongs to me.",
-      "roman": "nan kamche mi",
+      "roman": "nan meskam mi",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -15870,30 +15887,39 @@
       "review": [],
       "gaps": [],
       "expected": "nan kamche mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
       "phrase": "I give you this cloth.",
-      "roman": "mi ku tatkel be",
-      "unresolved": [],
+      "roman": "mi ku [cloth] be",
+      "unresolved": [
+        "cloth"
+      ],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 0
+        "unknown": 1
       },
       "quality": {
-        "gate": "pass",
-        "pass": 4,
+        "gate": "hard",
+        "pass": 3,
         "soft": 0,
-        "hard": 0
+        "hard": 1
       },
       "review": [],
-      "gaps": [],
+      "gaps": [
+        {
+          "english": "cloth",
+          "kind": "unknown",
+          "role": "object",
+          "reason": null
+        }
+      ],
       "expected": "mi ku tatkel be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
@@ -15992,7 +16018,7 @@
     {
       "level": 13,
       "phrase": "This is yours now.",
-      "roman": "nan kamche be gem",
+      "roman": "nan meskam be gem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -16010,7 +16036,7 @@
       "review": [],
       "gaps": [],
       "expected": "nan kamche be gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
@@ -16040,7 +16066,7 @@
     {
       "level": 13,
       "phrase": "I will give you this rope.",
-      "roman": "mi sa ku be tetkam",
+      "roman": "mi sa ku be temtet",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -16058,12 +16084,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa ku be tetkam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
       "phrase": "I have a knife and a rope.",
-      "roman": "mi gat fendatsastem tetkam",
+      "roman": "mi gat fendatsastem temtet",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -16081,7 +16107,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi gat fendatsastem tetkam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
@@ -16464,7 +16490,7 @@
     {
       "level": 13,
       "phrase": "This is not mine.",
-      "roman": "nan no kamche mi",
+      "roman": "nan no meskam mi",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -16482,7 +16508,7 @@
       "review": [],
       "gaps": [],
       "expected": "nan no kamche mi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
@@ -16584,7 +16610,7 @@
     {
       "level": 13,
       "phrase": "I gave you that already.",
-      "roman": "mi ta ku be digem",
+      "roman": "mi ta ku be gemdi",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -16602,7 +16628,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta ku be digem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
@@ -16731,7 +16757,7 @@
     {
       "level": 13,
       "phrase": "I think I took yours by mistake.",
-      "roman": "mi ta met la be to mogam",
+      "roman": "mi ta met la be to hugam",
       "unresolved": [
         "yours"
       ],
@@ -16751,7 +16777,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta met la be to mogam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 13,
@@ -17018,7 +17044,7 @@
     {
       "level": 14,
       "phrase": "This meat is raw.",
-      "roman": "lo lodidat",
+      "roman": "lo femti",
       "unresolved": [
         "meat"
       ],
@@ -17038,7 +17064,7 @@
       "review": [],
       "gaps": [],
       "expected": "lo lodidat",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17139,7 +17165,7 @@
     {
       "level": 14,
       "phrase": "That fruit is not safe.",
-      "roman": "tetlo no tampe",
+      "roman": "tetlo no kamgu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -17157,7 +17183,7 @@
       "review": [],
       "gaps": [],
       "expected": "tetlo no tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17256,7 +17282,7 @@
     {
       "level": 14,
       "phrase": "I cannot eat raw fish.",
-      "roman": "mi no tel lodidat kalye",
+      "roman": "mi no tel femti kalye",
       "unresolved": [
         "can"
       ],
@@ -17276,7 +17302,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi no tel lodidat kalye",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17376,7 +17402,7 @@
     {
       "level": 14,
       "phrase": "Cook it over the fire.",
-      "roman": "kel ra dat to",
+      "roman": "kel wa dat to",
       "unresolved": [
         "cook"
       ],
@@ -17396,12 +17422,12 @@
       "review": [],
       "gaps": [],
       "expected": "kel ra dat to",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
       "phrase": "This food is still raw.",
-      "roman": "lo lodidat",
+      "roman": "lo femti",
       "unresolved": [],
       "counts": {
         "direct": 2,
@@ -17419,7 +17445,7 @@
       "review": [],
       "gaps": [],
       "expected": "lo lodidat",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17591,7 +17617,7 @@
     {
       "level": 14,
       "phrase": "I will boil the water.",
-      "roman": "mi sa yedatgi ye",
+      "roman": "mi sa yelem ye",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -17609,12 +17635,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa yedatgi ye",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
       "phrase": "This has a strange taste.",
-      "roman": "to tal fel",
+      "roman": "to tal fetho",
       "unresolved": [
         "strange"
       ],
@@ -17634,7 +17660,7 @@
       "review": [],
       "gaps": [],
       "expected": "to tal fel",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17756,7 +17782,7 @@
     {
       "level": 14,
       "phrase": "I tasted it and it is safe.",
-      "roman": "mi ta tal to tampe",
+      "roman": "mi ta tal to kamgu",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -17774,7 +17800,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta tal to tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17804,7 +17830,7 @@
     {
       "level": 14,
       "phrase": "This root is good to eat.",
-      "roman": "tetju gutel gu",
+      "roman": "fentet gutel gu",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -17822,12 +17848,12 @@
       "review": [],
       "gaps": [],
       "expected": "tetju gutel gu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
       "phrase": "Can we cook this together?",
-      "roman": "dan yedatgi dan ?",
+      "roman": "dan yelem dan ?",
       "unresolved": [
         "can"
       ],
@@ -17847,7 +17873,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan yedatgi dan ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -17971,7 +17997,7 @@
     {
       "level": 14,
       "phrase": "This meat is still raw.",
-      "roman": "lo lodidat",
+      "roman": "lo femti",
       "unresolved": [
         "meat"
       ],
@@ -17991,7 +18017,7 @@
       "review": [],
       "gaps": [],
       "expected": "lo lodidat",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 14,
@@ -18092,7 +18118,7 @@
     {
       "level": 15,
       "phrase": "It is raining.",
-      "roman": "yeju",
+      "roman": "samye",
       "unresolved": [],
       "counts": {
         "direct": 1,
@@ -18110,7 +18136,7 @@
       "review": [],
       "gaps": [],
       "expected": "yeju",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18209,7 +18235,7 @@
     {
       "level": 15,
       "phrase": "Is it going to rain more?",
-      "roman": "sa yeju mas ?",
+      "roman": "sa samye mas ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -18227,7 +18253,7 @@
       "review": [],
       "gaps": [],
       "expected": "sa yeju mas ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18303,7 +18329,7 @@
     {
       "level": 15,
       "phrase": "The rain is very heavy.",
-      "roman": "yeju ni",
+      "roman": "samye ni",
       "unresolved": [
         "very"
       ],
@@ -18323,7 +18349,7 @@
       "review": [],
       "gaps": [],
       "expected": "yeju ni",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18399,7 +18425,7 @@
     {
       "level": 15,
       "phrase": "Do you see the dark clouds?",
-      "roman": "be wi gan yera ?",
+      "roman": "be wi gan samyeti ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -18417,7 +18443,7 @@
       "review": [],
       "gaps": [],
       "expected": "be wi gan yera ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18445,7 +18471,7 @@
     {
       "level": 15,
       "phrase": "I am afraid of the storm.",
-      "roman": "mi nes nespe sampa",
+      "roman": "mi nes pefem sampa",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -18463,7 +18489,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe sampa",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18518,7 +18544,7 @@
     {
       "level": 15,
       "phrase": "Is the rain stopping?",
-      "roman": "yeju giti ?",
+      "roman": "samye giti ?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -18536,7 +18562,7 @@
       "review": [],
       "gaps": [],
       "expected": "yeju giti ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18736,7 +18762,7 @@
     {
       "level": 15,
       "phrase": "The rain stopped.",
-      "roman": "yeju ta giti",
+      "roman": "samye ta giti",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -18754,12 +18780,12 @@
       "review": [],
       "gaps": [],
       "expected": "yeju ta giti",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
       "phrase": "Is the sun coming up?",
-      "roman": "samdat gi ra ?",
+      "roman": "samdat gi wa ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -18777,7 +18803,7 @@
       "review": [],
       "gaps": [],
       "expected": "samdat gi ra ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -18886,7 +18912,7 @@
     {
       "level": 15,
       "phrase": "Is it safe to go outside now?",
-      "roman": "tampe nen gi gem ?",
+      "roman": "kamgu nen gi gem ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -18904,7 +18930,7 @@
       "review": [],
       "gaps": [],
       "expected": "tampe nen gi gem ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -19007,7 +19033,7 @@
     {
       "level": 15,
       "phrase": "We need shelter from the rain.",
-      "roman": "dan les diye yeju temche",
+      "roman": "dan les diye samye temche",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -19025,7 +19051,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan les diye yeju temche",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -19174,7 +19200,7 @@
     {
       "level": 15,
       "phrase": "Are those storm clouds?",
-      "roman": "sampa yera ?",
+      "roman": "sampa samyeti ?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -19192,12 +19218,12 @@
       "review": [],
       "gaps": [],
       "expected": "sampa yera ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
       "phrase": "The darkness is frightening to me.",
-      "roman": "gan nes mi nespe",
+      "roman": "gan nes mi pefem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -19215,12 +19241,12 @@
       "review": [],
       "gaps": [],
       "expected": "gan nes mi nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
       "phrase": "The rain and wind came together.",
-      "roman": "yeju gesgi ta ginam dan",
+      "roman": "samye gesgi ta ginam dan",
       "unresolved": [
         "together"
       ],
@@ -19240,12 +19266,12 @@
       "review": [],
       "gaps": [],
       "expected": "yeju gesgi ta ginam dan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
       "phrase": "It is raining very hard now.",
-      "roman": "gem yeju ni",
+      "roman": "gem samye ni",
       "unresolved": [
         "very"
       ],
@@ -19265,7 +19291,7 @@
       "review": [],
       "gaps": [],
       "expected": "gem yeju ni",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 15,
@@ -19368,7 +19394,7 @@
     {
       "level": 16,
       "phrase": "My leg hurts.",
-      "roman": "mi tes nanfem",
+      "roman": "mi tes femnan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -19386,12 +19412,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi tes nanfem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
       "phrase": "Please breathe slowly.",
-      "roman": "gesmes kugu gishanek",
+      "roman": "gesyenan kugu shanek",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -19409,12 +19435,12 @@
       "review": [],
       "gaps": [],
       "expected": "gesmes kugu gishanek",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
       "phrase": "I cannot breathe well.",
-      "roman": "mi no gesmes gu",
+      "roman": "mi no gesyenan gu",
       "unresolved": [
         "can"
       ],
@@ -19434,7 +19460,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi no gesmes gu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -19746,7 +19772,7 @@
     {
       "level": 16,
       "phrase": "I need to breathe fresh air.",
-      "roman": "mi les gesmes dalkel ges dalkel",
+      "roman": "mi les gesyenan dalkel ges dalkel",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -19764,7 +19790,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi les gesmes dalkel ges dalkel",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -19794,7 +19820,7 @@
     {
       "level": 16,
       "phrase": "I cannot stand up.",
-      "roman": "mi no tira ra",
+      "roman": "mi no femtini wa",
       "unresolved": [
         "can"
       ],
@@ -19814,12 +19840,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi no tira ra",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
       "phrase": "Are you breathing well?",
-      "roman": "be gesmes gu ?",
+      "roman": "be gesyenan gu ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -19837,7 +19863,7 @@
       "review": [],
       "gaps": [],
       "expected": "be gesmes gu ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -20032,7 +20058,7 @@
     {
       "level": 16,
       "phrase": "Can you breathe deeply?",
-      "roman": "be gesmes ni ?",
+      "roman": "be gesyenan ni ?",
       "unresolved": [
         "can"
       ],
@@ -20052,7 +20078,7 @@
       "review": [],
       "gaps": [],
       "expected": "be gesmes ni ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -20255,7 +20281,7 @@
     {
       "level": 16,
       "phrase": "My knee cannot bend.",
-      "roman": "mi gije no diho",
+      "roman": "mi femtemgi no diho",
       "unresolved": [
         "bend",
         "cannot"
@@ -20276,7 +20302,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi gije no diho",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -20375,7 +20401,7 @@
     {
       "level": 16,
       "phrase": "My leg is hurting.",
-      "roman": "mi tes nanfem",
+      "roman": "mi tes femnan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -20393,7 +20419,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi tes nanfem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -20421,7 +20447,7 @@
     {
       "level": 16,
       "phrase": "Can you breathe normally?",
-      "roman": "be gesmes gu ?",
+      "roman": "be gesyenan gu ?",
       "unresolved": [
         "can",
         "normally"
@@ -20442,7 +20468,7 @@
       "review": [],
       "gaps": [],
       "expected": "be gesmes gu ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 16,
@@ -20522,7 +20548,7 @@
     {
       "level": 17,
       "phrase": "My child is missing.",
-      "roman": "mi bagen nantam",
+      "roman": "mi bagen hufet",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -20540,7 +20566,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi bagen nantam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -20618,7 +20644,7 @@
     {
       "level": 17,
       "phrase": "Is the child safe?",
-      "roman": "bagen tampe ?",
+      "roman": "bagen kamgu ?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -20636,7 +20662,7 @@
       "review": [],
       "gaps": [],
       "expected": "bagen tampe ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -20935,7 +20961,7 @@
     {
       "level": 17,
       "phrase": "The child is cold and scared.",
-      "roman": "bagen nes mak nespe",
+      "roman": "bagen nes mak pefem",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -20953,7 +20979,7 @@
       "review": [],
       "gaps": [],
       "expected": "bagen nes mak nespe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -20983,7 +21009,7 @@
     {
       "level": 17,
       "phrase": "The baby is not breathing well.",
-      "roman": "bagen no gesmes gu",
+      "roman": "bagen no gesyenan gu",
       "unresolved": [
         "baby",
         "well"
@@ -21004,7 +21030,7 @@
       "review": [],
       "gaps": [],
       "expected": "bagen no gesmes gu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -21084,7 +21110,7 @@
     {
       "level": 17,
       "phrase": "I feel afraid for my baby.",
-      "roman": "mi nes nespe de bagen",
+      "roman": "mi nes pefem de bagen",
       "unresolved": [
         "for"
       ],
@@ -21104,12 +21130,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe de bagen",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
       "phrase": "Do you have a mother here?",
-      "roman": "be kamche nam badi ?",
+      "roman": "be meskam nam badi ?",
       "unresolved": [
         "mother"
       ],
@@ -21129,7 +21155,7 @@
       "review": [],
       "gaps": [],
       "expected": "be kamche nam badi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -21232,7 +21258,7 @@
     {
       "level": 17,
       "phrase": "Is this child your child?",
-      "roman": "bagen kamche be ?",
+      "roman": "bagen meskam be ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -21250,12 +21276,12 @@
       "review": [],
       "gaps": [],
       "expected": "bagen kamche be ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
       "phrase": "My mother is old and tired.",
-      "roman": "[badi] nes femtam di [and]",
+      "roman": "[badi] nes femtam femdi [and]",
       "unresolved": [
         "mother",
         "old",
@@ -21297,7 +21323,7 @@
     {
       "level": 17,
       "phrase": "Please stay near the child.",
-      "roman": "tiche dal bagen kugu",
+      "roman": "times dal bagen kugu",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -21315,7 +21341,7 @@
       "review": [],
       "gaps": [],
       "expected": "tiche dal bagen kugu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -21489,7 +21515,7 @@
     {
       "level": 17,
       "phrase": "Please say that again slowly.",
-      "roman": "se moyi kugu gishanek",
+      "roman": "se moyi kugu shanek",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -21507,7 +21533,7 @@
       "review": [],
       "gaps": [],
       "expected": "se moyi kugu gishanek",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -21691,7 +21717,7 @@
     {
       "level": 17,
       "phrase": "I am frightened for my family.",
-      "roman": "mi nes nespe sanba",
+      "roman": "mi nes pefem sanba",
       "unresolved": [
         "for"
       ],
@@ -21711,7 +21737,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi nes nespe sanba",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 17,
@@ -21787,7 +21813,7 @@
     {
       "level": 18,
       "phrase": "Please speak more slowly.",
-      "roman": "se kugu gishanek mas",
+      "roman": "se kugu shanek mas",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -21805,7 +21831,7 @@
       "review": [],
       "gaps": [],
       "expected": "se kugu gishanek mas",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -22182,7 +22208,7 @@
     {
       "level": 18,
       "phrase": "Please speak slowly and clearly.",
-      "roman": "kugu se gishanek winat",
+      "roman": "kugu se shanek winat",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -22200,7 +22226,7 @@
       "review": [],
       "gaps": [],
       "expected": "kugu se gishanek winat",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -22253,7 +22279,7 @@
     {
       "level": 18,
       "phrase": "I am lost and confused.",
-      "roman": "mi nantam metgan",
+      "roman": "mi hufet metgan",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -22271,12 +22297,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi nantam metgan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
       "phrase": "Please point to it slowly.",
-      "roman": "chadak kugu gishanek",
+      "roman": "chadak kugu shanek",
       "unresolved": [
         "it"
       ],
@@ -22296,7 +22322,7 @@
       "review": [],
       "gaps": [],
       "expected": "chadak kugu gishanek",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -22388,7 +22414,7 @@
     {
       "level": 18,
       "phrase": "Let me try again.",
-      "roman": "mi sakmo moyi",
+      "roman": "mi gisak moyi",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -22406,7 +22432,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sakmo moyi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -22480,7 +22506,7 @@
     {
       "level": 18,
       "phrase": "I was wrong about that.",
-      "roman": "mi ta mogam",
+      "roman": "mi ta hugam",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -22498,7 +22524,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta mogam",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -22760,7 +22786,7 @@
     {
       "level": 18,
       "phrase": "Please slow down and repeat.",
-      "roman": "gi yimo kugu gishanek",
+      "roman": "gi yimo kugu shanek",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -22778,12 +22804,12 @@
       "review": [],
       "gaps": [],
       "expected": "gi yimo kugu gishanek",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
       "phrase": "I was wrong and I will try again.",
-      "roman": "mi ta mo gam mi sa sakmo moyi",
+      "roman": "mi ta mo gam mi sa gisak moyi",
       "unresolved": [],
       "counts": {
         "direct": 8,
@@ -22801,7 +22827,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi ta mo gam mi sa sakmo moyi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 18,
@@ -23023,7 +23049,7 @@
     {
       "level": 19,
       "phrase": "I will try to start a fire.",
-      "roman": "mi sa sakmo kel dat",
+      "roman": "mi sa gisak kel dat",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -23041,7 +23067,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa sakmo kel dat",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23117,7 +23143,7 @@
     {
       "level": 19,
       "phrase": "I plan to go up that hill.",
-      "roman": "mi sa hudimo ra fengen",
+      "roman": "mi sa dimet wa fengen",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -23135,12 +23161,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa hudimo ra fengen",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "Can you try to climb that tree?",
-      "roman": "be sakmo ragi tetni ?",
+      "roman": "be gisak femsamgi tetni ?",
       "unresolved": [
         "can"
       ],
@@ -23160,7 +23186,7 @@
       "review": [],
       "gaps": [],
       "expected": "be sakmo ragi tetni ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23213,7 +23239,7 @@
     {
       "level": 19,
       "phrase": "Will you stay here with me?",
-      "roman": "be sa tiche nam mi ?",
+      "roman": "be sa times nam mi ?",
       "unresolved": [
         "with"
       ],
@@ -23233,7 +23259,7 @@
       "review": [],
       "gaps": [],
       "expected": "be sa tiche nam mi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23263,7 +23289,7 @@
     {
       "level": 19,
       "phrase": "We will try to find the path.",
-      "roman": "dan sa sakmo hunan nan",
+      "roman": "dan sa gisak hunan nan",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -23281,12 +23307,12 @@
       "review": [],
       "gaps": [],
       "expected": "dan sa sakmo hunan nan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "Do you plan to go that way?",
-      "roman": "be hudimo tak gi ?",
+      "roman": "be dimet tak gi ?",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -23304,7 +23330,7 @@
       "review": [],
       "gaps": [],
       "expected": "be hudimo tak gi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23453,7 +23479,7 @@
     {
       "level": 19,
       "phrase": "I think I can fix this.",
-      "roman": "mi met mi kelgu",
+      "roman": "mi met mi gukel",
       "unresolved": [
         "can"
       ],
@@ -23473,7 +23499,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi met mi kelgu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23503,7 +23529,7 @@
     {
       "level": 19,
       "phrase": "Can you try to signal for help?",
-      "roman": "be sakmo kuwimal kas ?",
+      "roman": "be gisak kuwimal kas ?",
       "unresolved": [
         "can"
       ],
@@ -23523,12 +23549,12 @@
       "review": [],
       "gaps": [],
       "expected": "be sakmo kuwimal kas ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "I hope the rain stops soon.",
-      "roman": "mi gusak yeju giti dalshu",
+      "roman": "mi gusak samye giti dalshu",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -23546,7 +23572,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi gusak yeju giti dalshu",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23576,7 +23602,7 @@
     {
       "level": 19,
       "phrase": "I want to try a different path.",
-      "roman": "mi sak nan [honen] sakmo",
+      "roman": "mi sak nan [honen] gisak",
       "unresolved": [
         "honen"
       ],
@@ -23603,7 +23629,7 @@
         }
       ],
       "expected": "mi sak nan [honen] sakmo",
-      "matches_golden": true,
+      "matches_golden": false,
       "note": "gap: honen (needs a root)"
     },
     {
@@ -23634,7 +23660,7 @@
     {
       "level": 19,
       "phrase": "I plan to gather food in the morning.",
-      "roman": "mi sa kekshu hudimo lo",
+      "roman": "mi sa kekshu dimet lo",
       "unresolved": [
         "gather"
       ],
@@ -23654,12 +23680,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa kekshu hudimo lo",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "Can you show me what you plan?",
-      "roman": "be giwi nohu to hudimo mi ?",
+      "roman": "be giwi nohu to dimet mi ?",
       "unresolved": [
         "can"
       ],
@@ -23679,12 +23705,12 @@
       "review": [],
       "gaps": [],
       "expected": "be giwi nohu to hudimo mi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "I will try and I will not stop.",
-      "roman": "mi sa sakmo mi sa no giti",
+      "roman": "mi sa gisak mi sa no giti",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -23702,12 +23728,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa sakmo mi sa no giti",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "We can go together or stay here.",
-      "roman": "dan gi tiche nam ho",
+      "roman": "dan gi times nam ho",
       "unresolved": [
         "can",
         "or"
@@ -23728,7 +23754,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan gi tiche nam ho",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23790,7 +23816,7 @@
     {
       "level": 19,
       "phrase": "Can we make a plan together?",
-      "roman": "dan kel hudimo dan ?",
+      "roman": "dan kel dimet dan ?",
       "unresolved": [
         "can",
         "together"
@@ -23811,7 +23837,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan kel hudimo dan ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23841,7 +23867,7 @@
     {
       "level": 19,
       "phrase": "Will you try to find more food?",
-      "roman": "be sa sakmo hunan mas lo ?",
+      "roman": "be sa gisak hunan mas lo ?",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -23859,7 +23885,7 @@
       "review": [],
       "gaps": [],
       "expected": "be sa sakmo hunan mas lo ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23912,7 +23938,7 @@
     {
       "level": 19,
       "phrase": "I can try to make a signal.",
-      "roman": "mi sakmo kel kuwimal",
+      "roman": "mi gisak kel kuwimal",
       "unresolved": [
         "can"
       ],
@@ -23932,12 +23958,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sakmo kel kuwimal",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
       "phrase": "Do you want to stay or go?",
-      "roman": "be sak tiche gi ?",
+      "roman": "be sak times gi ?",
       "unresolved": [
         "or"
       ],
@@ -23957,7 +23983,7 @@
       "review": [],
       "gaps": [],
       "expected": "be sak tiche gi ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -23985,7 +24011,7 @@
     {
       "level": 19,
       "phrase": "We can try again tomorrow.",
-      "roman": "dan sa kekdi shu sakmo moyi",
+      "roman": "dan sa kekdi shu gisak moyi",
       "unresolved": [
         "can"
       ],
@@ -24005,7 +24031,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan sa kekdi shu sakmo moyi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -24058,7 +24084,7 @@
     {
       "level": 19,
       "phrase": "I plan to watch through the night.",
-      "roman": "mi sa [gankan] hudimo wi fel",
+      "roman": "mi sa [gankan] dimet wi fel",
       "unresolved": [
         "gankan"
       ],
@@ -24090,7 +24116,7 @@
     {
       "level": 19,
       "phrase": "Maybe we can try a different way.",
-      "roman": "dan sakmo nan ketnat fel",
+      "roman": "dan gisak nan ketnat fetho",
       "unresolved": [
         "can"
       ],
@@ -24110,7 +24136,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan sakmo nan ketnat fel",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 19,
@@ -24140,7 +24166,7 @@
     {
       "level": 19,
       "phrase": "I want to find higher ground.",
-      "roman": "mi sak rafen",
+      "roman": "mi sak fensam",
       "unresolved": [
         "find"
       ],
@@ -24160,12 +24186,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi sak rafen",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
       "phrase": "We are safe now.",
-      "roman": "dan tampe gem",
+      "roman": "dan kamgu gem",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -24183,7 +24209,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan tampe gem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -24526,7 +24552,7 @@
     {
       "level": 20,
       "phrase": "Are you ready to stop?",
-      "roman": "be gatdimo giti ?",
+      "roman": "be gudi giti ?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -24544,7 +24570,7 @@
       "review": [],
       "gaps": [],
       "expected": "be gatdimo giti ?",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -24572,7 +24598,7 @@
     {
       "level": 20,
       "phrase": "Thank you for staying with me.",
-      "roman": "mi seguku be tiche dan",
+      "roman": "mi seguku be times dan",
       "unresolved": [
         "for"
       ],
@@ -24592,12 +24618,12 @@
       "review": [],
       "gaps": [],
       "expected": "mi seguku be tiche dan",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
       "phrase": "We survived another day.",
-      "roman": "dan ta gat fo fel kekdi",
+      "roman": "dan ta gat fo fetho kekdi",
       "unresolved": [
         "survived"
       ],
@@ -24617,7 +24643,7 @@
       "review": [],
       "gaps": [],
       "expected": "dan ta gat fo fel kekdi",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -24693,7 +24719,7 @@
     {
       "level": 20,
       "phrase": "I am no longer afraid.",
-      "roman": "mi no nes nespe digem",
+      "roman": "mi no nes pefem gemdi",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -24711,7 +24737,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi no nes nespe digem",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -24741,7 +24767,7 @@
     {
       "level": 20,
       "phrase": "I will not forget your help.",
-      "roman": "mi sa no hutam kas be",
+      "roman": "mi sa no tamhu kas be",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -24759,7 +24785,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa no hutam kas be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -24950,7 +24976,7 @@
     {
       "level": 20,
       "phrase": "You kept me warm and safe.",
-      "roman": "be ta gat mi lemgu tampe",
+      "roman": "be ta gat mi lemgu kamgu",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -24968,7 +24994,7 @@
       "review": [],
       "gaps": [],
       "expected": "be ta gat mi lemgu tampe",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -24996,7 +25022,7 @@
     {
       "level": 20,
       "phrase": "I will stay near you tonight.",
-      "roman": "mi sa gankan tiche dal be",
+      "roman": "mi sa gankan times dal be",
       "unresolved": [
         "tonight"
       ],
@@ -25016,7 +25042,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi sa gankan tiche dal be",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
@@ -25117,7 +25143,7 @@
     {
       "level": 20,
       "phrase": "I am ready to sleep.",
-      "roman": "mi gatdimo nal",
+      "roman": "mi gudi nal",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -25135,7 +25161,7 @@
       "review": [],
       "gaps": [],
       "expected": "mi gatdimo nal",
-      "matches_golden": true
+      "matches_golden": false
     },
     {
       "level": 20,
