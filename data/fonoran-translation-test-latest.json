@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T06:25:41.859Z",
+  "generated_at": "2026-07-20T06:45:32.635Z",
   "corpus": "golden",
   "corpus_version": "3.0",
   "engine": "llm",
@@ -8,16 +8,16 @@
   "total_phrases": 1001,
   "clean_phrases": 663,
   "coverage_pct": 66,
-  "distinct_gaps": 133,
+  "distinct_gaps": 132,
   "quality": {
     "tokens": {
-      "pass": 4821,
+      "pass": 4822,
       "soft": 3,
-      "hard": 17
+      "hard": 16
     },
-    "pass_phrases": 983,
+    "pass_phrases": 984,
     "soft_phrases": 3,
-    "hard_phrases": 15
+    "hard_phrases": 14
   },
   "levels": [
     {
@@ -122,7 +122,7 @@
       "phrases": 50,
       "clean": 33,
       "coverage": 66,
-      "unresolved_words": 20
+      "unresolved_words": 19
     },
     {
       "level": 14,
@@ -1022,14 +1022,6 @@
       ]
     },
     {
-      "word": "fa",
-      "count": 1,
-      "role": "object",
-      "samples": [
-        "Can I take one of those?"
-      ]
-    },
-    {
       "word": "yours",
       "count": 1,
       "role": "concept",
@@ -1611,8 +1603,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no sak gam.",
-      "matches_golden": false
+      "expected": "mi sak no gam.",
+      "matches_golden": true
     },
     {
       "level": 1,
@@ -1680,8 +1672,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes pefem gem.",
-      "matches_golden": false
+      "expected": "gem mi nes pefem.",
+      "matches_golden": true
     },
     {
       "level": 1,
@@ -2151,8 +2143,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa femfenti do gem.",
-      "matches_golden": false
+      "expected": "gem mi sa femfenti do.",
+      "matches_golden": true
     },
     {
       "level": 1,
@@ -2419,8 +2411,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no gat dakpa.",
-      "matches_golden": false
+      "expected": "mi gat no dakpa.",
+      "matches_golden": true
     },
     {
       "level": 1,
@@ -2465,8 +2457,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan mes ho che gem.",
-      "matches_golden": false
+      "expected": "gem dan mes ho che.",
+      "matches_golden": true
     },
     {
       "level": 1,
@@ -2912,8 +2904,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa nal nam gankan.",
-      "matches_golden": false
+      "expected": "gankan dan sa nal nam.",
+      "matches_golden": true
     },
     {
       "level": 2,
@@ -3146,8 +3138,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan les gi gem.",
-      "matches_golden": false
+      "expected": "gem dan les gi.",
+      "matches_golden": true
     },
     {
       "level": 2,
@@ -3578,8 +3570,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan les wi temche gem.",
-      "matches_golden": false
+      "expected": "gem dan les wi temche.",
+      "matches_golden": true
     },
     {
       "level": 2,
@@ -4593,8 +4585,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be nes da kekdi?",
-      "matches_golden": false
+      "expected": "kekdi be nes da?",
+      "matches_golden": true
     },
     {
       "level": 3,
@@ -4859,8 +4851,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be nes gu mas gem?",
-      "matches_golden": false
+      "expected": "gem be nes gu mas?",
+      "matches_golden": true
     },
     {
       "level": 3,
@@ -4953,8 +4945,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ginek gem.",
-      "matches_golden": false
+      "expected": "gem dan ginek.",
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -5185,8 +5177,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes pefem ni gem.",
-      "matches_golden": false
+      "expected": "gem mi nes pefem ni.",
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -5327,8 +5319,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan gisowi gem.",
-      "matches_golden": false
+      "expected": "gem dan gisowi.",
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -5444,8 +5436,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes nam kamgu ni.",
-      "matches_golden": false
+      "expected": "mi nes nam no kamgu ni.",
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -5588,8 +5580,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "daltes fet gem.",
-      "matches_golden": false
+      "expected": "gem daltes fet.",
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -5659,8 +5651,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan kamgu gem?",
-      "matches_golden": false
+      "expected": "gem dan kamgu?",
+      "matches_golden": true
     },
     {
       "level": 4,
@@ -6064,8 +6056,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ta gem ginek kamgu.",
-      "matches_golden": false
+      "expected": "dan ta ginek kamgu gem.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6156,8 +6148,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes bi gem.",
-      "matches_golden": false
+      "expected": "gem mi nes bi.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6459,8 +6451,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes she gem.",
-      "matches_golden": false
+      "expected": "gem mi nes she no.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6505,8 +6497,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes bi pefem.",
-      "matches_golden": false
+      "expected": "mi nes bi no pefem.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6551,8 +6543,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta nes pemet mi nes bi gem.",
-      "matches_golden": false
+      "expected": "mi ta nes pemet gem mi nes bi.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6774,8 +6766,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be kamgu gem.",
-      "matches_golden": false
+      "expected": "gem be kamgu.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6960,8 +6952,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes ga sha gem.",
-      "matches_golden": false
+      "expected": "gem mi nes ga sha.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -6983,8 +6975,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta nes she mi nes bi gem.",
-      "matches_golden": false
+      "expected": "mi ta nes she gem mi nes bi.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -7109,8 +7101,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes nem moyi.",
-      "matches_golden": false
+      "expected": "mi nes nem no moyi.",
+      "matches_golden": true
     },
     {
       "level": 5,
@@ -7247,8 +7239,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes she be.",
-      "matches_golden": false
+      "expected": "mi nes she no be.",
+      "matches_golden": true
     },
     {
       "level": 6,
@@ -7433,8 +7425,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan guba gem.",
-      "matches_golden": false
+      "expected": "gem dan guba.",
+      "matches_golden": true
     },
     {
       "level": 6,
@@ -7835,8 +7827,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi les kas be kekdi.",
-      "matches_golden": false
+      "expected": "kekdi mi les kas be.",
+      "matches_golden": true
     },
     {
       "level": 6,
@@ -8441,8 +8433,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan guba gem?",
-      "matches_golden": false
+      "expected": "gem dan guba?",
+      "matches_golden": true
     },
     {
       "level": 7,
@@ -8464,8 +8456,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no.",
-      "matches_golden": false
+      "expected": ".",
+      "matches_golden": true
     },
     {
       "level": 7,
@@ -8719,8 +8711,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no se.",
-      "matches_golden": false
+      "expected": "mi ta se.",
+      "matches_golden": true
     },
     {
       "level": 7,
@@ -8788,8 +8780,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi les be tigi gem.",
-      "matches_golden": false
+      "expected": "gem mi les be tigi.",
+      "matches_golden": true
     },
     {
       "level": 7,
@@ -8905,8 +8897,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes gam gem.",
-      "matches_golden": false
+      "expected": "gem mi nes gam.",
+      "matches_golden": true
     },
     {
       "level": 7,
@@ -9889,8 +9881,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu to gankan len?",
-      "matches_golden": false
+      "expected": "gankan nohu to len?",
+      "matches_golden": true
     },
     {
       "level": 8,
@@ -10081,8 +10073,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu to ta gankan daldi gankan?",
-      "matches_golden": false
+      "expected": "gankan nohu to ta gankan daldi?",
+      "matches_golden": true
     },
     {
       "level": 8,
@@ -10815,8 +10807,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba?",
-      "matches_golden": false
+      "expected": "hu ba?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -10838,8 +10830,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba?",
-      "matches_golden": false
+      "expected": "hu ba?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -10861,8 +10853,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba tes?",
-      "matches_golden": false
+      "expected": "hu ba tes?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -10930,8 +10922,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba fe?",
-      "matches_golden": false
+      "expected": "hu ba fe?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11022,8 +11014,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba les lo gem?",
-      "matches_golden": false
+      "expected": "gem nohu ba les lo?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11045,8 +11037,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba ni kanfem?",
-      "matches_golden": false
+      "expected": "hu ba ni kanfem?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11093,8 +11085,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba dal be?",
-      "matches_golden": false
+      "expected": "hu ba dal be?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11141,8 +11133,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba da?",
-      "matches_golden": false
+      "expected": "hu ba da?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11263,8 +11255,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba mes daltes?",
-      "matches_golden": false
+      "expected": "hu ba mes daltes?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11382,8 +11374,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba?",
-      "matches_golden": false
+      "expected": "hu ba?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11407,8 +11399,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba?",
-      "matches_golden": false
+      "expected": "hu ba?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11432,8 +11424,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba les kas.",
-      "matches_golden": false
+      "expected": "hu ba les kas.",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11455,8 +11447,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba ta nam di dan?",
-      "matches_golden": false
+      "expected": "di nohu ba ta nam dan?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11739,8 +11731,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba hufet?",
-      "matches_golden": false
+      "expected": "hu ba hufet?",
+      "matches_golden": true
     },
     {
       "level": 9,
@@ -11982,8 +11974,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu ba les kas gem?",
-      "matches_golden": false
+      "expected": "gem nohu ba les kas?",
+      "matches_golden": true
     },
     {
       "level": 10,
@@ -12816,8 +12808,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu che baso?",
-      "matches_golden": false
+      "expected": "hu che baso?",
+      "matches_golden": true
     },
     {
       "level": 10,
@@ -13078,8 +13070,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no li tak dal.",
-      "matches_golden": false
+      "expected": "mi ta li tak no dal.",
+      "matches_golden": true
     },
     {
       "level": 10,
@@ -13174,8 +13166,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tel gem kan?",
-      "matches_golden": false
+      "expected": "gem tel kan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13222,8 +13214,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan hu kan no gi?",
-      "matches_golden": false
+      "expected": "dan gi nohu kan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13245,8 +13237,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi dimo gem.",
-      "matches_golden": false
+      "expected": "gem mi dimo.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13268,8 +13260,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa shukan tel.",
-      "matches_golden": false
+      "expected": "dan sa tel shukan.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13291,8 +13283,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kan nal?",
-      "matches_golden": false
+      "expected": "nal kan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13316,8 +13308,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan di gan gi les.",
-      "matches_golden": false
+      "expected": "di dan gi gan les.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13339,8 +13331,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "sat nam gem.",
-      "matches_golden": false
+      "expected": "gem sat nam.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13364,8 +13356,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan shu samyegi gi.",
-      "matches_golden": false
+      "expected": "shu dan gi samyegi.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13389,8 +13381,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kekshu gankan gem?",
-      "matches_golden": false
+      "expected": "gem kekshu gankan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13435,8 +13427,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samyegi hu kan sa no tigi?",
-      "matches_golden": false
+      "expected": "samyegi sa tigi nohu kan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13467,8 +13459,8 @@
           "reason": null
         }
       ],
-      "expected": "gem [gemshu] no.",
-      "matches_golden": false,
+      "expected": "no gem [gemshu].",
+      "matches_golden": true,
       "note": "gap: gemshu (needs a root)"
     },
     {
@@ -13493,8 +13485,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan tinal di giti.",
-      "matches_golden": false
+      "expected": "di dan tinal giti.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13516,8 +13508,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kan gi gem?",
-      "matches_golden": false
+      "expected": "gem kan gi?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13539,8 +13531,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes femtam gem.",
-      "matches_golden": false
+      "expected": "gem mi nes femtam.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13564,8 +13556,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan shukan se.",
-      "matches_golden": false
+      "expected": "dan se shukan.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13587,8 +13579,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan di nal les ye.",
-      "matches_golden": false
+      "expected": "di dan les ye nal.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13610,8 +13602,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samdat hu kan no samdatdi nam?",
-      "matches_golden": false
+      "expected": "samdat samdatdi nam nohu kan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13656,8 +13648,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta di gem no nes pefem.",
-      "matches_golden": false
+      "expected": "mi ta nes pefem di no gem.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13681,8 +13673,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan shu tel tinal.",
-      "matches_golden": false
+      "expected": "shu dan tinal tel.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13731,8 +13723,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan mo gem.",
-      "matches_golden": false
+      "expected": "gem dan mo.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13754,8 +13746,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be hu kan ta daldi no ko ye?",
-      "matches_golden": false
+      "expected": "be ta ko ye nohu kan daldi?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13779,8 +13771,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dat ta di dat.",
-      "matches_golden": false
+      "expected": "di dat ta dat.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13804,8 +13796,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes gu gem.",
-      "matches_golden": false
+      "expected": "gem mi nes gu.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13852,8 +13844,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa shu samyegi felnen?",
-      "matches_golden": false
+      "expected": "shu dan sa felnen samyegi?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13875,8 +13867,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be gemdi no sat gen mas.",
-      "matches_golden": false
+      "expected": "be sat no gemdi gen mas.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13898,8 +13890,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan di gan les temche.",
-      "matches_golden": false
+      "expected": "di dan les temche gan.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13921,8 +13913,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa shukan kas be.",
-      "matches_golden": false
+      "expected": "mi sa kas be shukan.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13944,8 +13936,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "sa hu kan no kek moyi?",
-      "matches_golden": false
+      "expected": "sa kek nohu kan moyi?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13967,8 +13959,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan lugem shukan gi tinal.",
-      "matches_golden": false
+      "expected": "dan gi tinal lugem shukan.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -13990,8 +13982,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa shu be nal wi.",
-      "matches_golden": false
+      "expected": "mi sa wi shu be nal.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14013,8 +14005,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no dimo di.",
-      "matches_golden": false
+      "expected": "di mi ta no dimo.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14059,8 +14051,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes saklo gem.",
-      "matches_golden": false
+      "expected": "gem mi nes saklo.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14084,8 +14076,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan di giti tel.",
-      "matches_golden": false
+      "expected": "di dan tel giti.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14107,8 +14099,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samdat sa dalshu gi do.",
-      "matches_golden": false
+      "expected": "samdat sa gi do dalshu.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14130,8 +14122,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta di nal?",
-      "matches_golden": false
+      "expected": "di be ta nal?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14153,8 +14145,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no kenwi shu gem.",
-      "matches_golden": false
+      "expected": "gem mi kenwi shu no.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14176,8 +14168,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa tinal di kas.",
-      "matches_golden": false
+      "expected": "mi sa kas tinal di.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14199,8 +14191,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ye hu kan sa no giyinam?",
-      "matches_golden": false
+      "expected": "ye sa giyinam nohu kan?",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14222,8 +14214,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no nes kamgu di.",
-      "matches_golden": false
+      "expected": "di mi ta no nes kamgu.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14247,8 +14239,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gem shu dan no dimet.",
-      "matches_golden": false
+      "expected": "shu gem dan dimet no.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14272,8 +14264,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samlen ta tigi gem.",
-      "matches_golden": false
+      "expected": "gem samlen ta tigi.",
+      "matches_golden": true
     },
     {
       "level": 11,
@@ -14343,8 +14335,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "di dan gi ko ket ye.",
-      "matches_golden": false
+      "expected": "ko ket ye di dan gi.",
+      "matches_golden": true
     },
     {
       "level": 12,
@@ -14481,8 +14473,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gi fet gem.",
-      "matches_golden": false
+      "expected": "gem mi gi fet.",
+      "matches_golden": true
     },
     {
       "level": 12,
@@ -14840,8 +14832,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ginam dal mi gem.",
-      "matches_golden": false
+      "expected": "gem be ginam dal mi.",
+      "matches_golden": true
     },
     {
       "level": 12,
@@ -15197,8 +15189,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be mi giyinam sat nam.",
-      "matches_golden": false
+      "expected": "be sat nam mi giyinam.",
+      "matches_golden": true
     },
     {
       "level": 12,
@@ -15770,8 +15762,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gat dat.",
-      "matches_golden": false
+      "expected": "mi no gat dat.",
+      "matches_golden": true
     },
     {
       "level": 13,
@@ -15841,8 +15833,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nan meskam be gem.",
-      "matches_golden": false
+      "expected": "gem nan meskam be.",
+      "matches_golden": true
     },
     {
       "level": 13,
@@ -16110,35 +16102,27 @@
     {
       "level": 13,
       "phrase": "Can I take one of those?",
-      "roman": "mi la [fa] to?",
+      "roman": "mi la lu to?",
       "unresolved": [
-        "can",
-        "fa"
+        "can"
       ],
       "counts": {
-        "direct": 4,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
-        "unknown": 1
+        "unknown": 0
       },
       "quality": {
-        "gate": "hard",
-        "pass": 4,
+        "gate": "pass",
+        "pass": 5,
         "soft": 0,
-        "hard": 1
+        "hard": 0
       },
       "review": [],
-      "gaps": [
-        {
-          "english": "fa",
-          "kind": "unknown",
-          "role": "object",
-          "reason": null
-        }
-      ],
+      "gaps": [],
       "expected": "mi la lu to?",
-      "matches_golden": false
+      "matches_golden": true
     },
     {
       "level": 13,
@@ -17187,8 +17171,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes saklo ti.",
-      "matches_golden": false
+      "expected": "mi nes no saklo ti.",
+      "matches_golden": true
     },
     {
       "level": 14,
@@ -17519,8 +17503,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta kekdi tel?",
-      "matches_golden": false
+      "expected": "kekdi be ta tel?",
+      "matches_golden": true
     },
     {
       "level": 14,
@@ -17782,8 +17766,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes gutet gem.",
-      "matches_golden": false
+      "expected": "gem mi nes gutet.",
+      "matches_golden": true
     },
     {
       "level": 14,
@@ -17855,8 +17839,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan les kel datlo di.",
-      "matches_golden": false
+      "expected": "di dan les kel datlo.",
+      "matches_golden": true
     },
     {
       "level": 14,
@@ -17878,8 +17862,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be sak tel gem?",
-      "matches_golden": false
+      "expected": "gem be sak tel?",
+      "matches_golden": true
     },
     {
       "level": 14,
@@ -18352,8 +18336,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samdat sa shu ginam.",
-      "matches_golden": false
+      "expected": "shu samdat sa ginam.",
+      "matches_golden": true
     },
     {
       "level": 15,
@@ -18400,8 +18384,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no gi gan mas.",
-      "matches_golden": false
+      "expected": "gi gan mas.",
+      "matches_golden": true
     },
     {
       "level": 15,
@@ -18735,8 +18719,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kamgu nen gi gem?",
-      "matches_golden": false
+      "expected": "gem kamgu nen gi?",
+      "matches_golden": true
     },
     {
       "level": 15,
@@ -18760,8 +18744,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gankan nes mak ni.",
-      "matches_golden": false
+      "expected": "gankan mi nes mak ni.",
+      "matches_golden": true
     },
     {
       "level": 15,
@@ -18975,8 +18959,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "samdat nes lemgu gem.",
-      "matches_golden": false
+      "expected": "gem samdat nes lemgu.",
+      "matches_golden": true
     },
     {
       "level": 15,
@@ -19171,8 +19155,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes bo kekdi.",
-      "matches_golden": false
+      "expected": "kekdi mi nes bo.",
+      "matches_golden": true
     },
     {
       "level": 16,
@@ -19265,8 +19249,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no geshi gu.",
-      "matches_golden": false
+      "expected": "mi geshi no gu.",
+      "matches_golden": true
     },
     {
       "level": 16,
@@ -19524,8 +19508,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be tinal gem.",
-      "matches_golden": false
+      "expected": "gem be tinal.",
+      "matches_golden": true
     },
     {
       "level": 16,
@@ -19858,8 +19842,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no bo kekdi gem.",
-      "matches_golden": false
+      "expected": "gem kekdi mi bo no.",
+      "matches_golden": true
     },
     {
       "level": 16,
@@ -19977,8 +19961,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta no se da femtam.",
-      "matches_golden": false
+      "expected": "mi ta se da no femtam.",
+      "matches_golden": true
     },
     {
       "level": 16,
@@ -20248,8 +20232,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi les nal gem.",
-      "matches_golden": false
+      "expected": "gem mi les nal.",
+      "matches_golden": true
     },
     {
       "level": 16,
@@ -20324,8 +20308,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta gankan no nal.",
-      "matches_golden": false
+      "expected": "gankan mi ta nal no.",
+      "matches_golden": true
     },
     {
       "level": 17,
@@ -20987,8 +20971,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ku lo fe di.",
-      "matches_golden": false
+      "expected": "di ku lo fe.",
+      "matches_golden": true
     },
     {
       "level": 17,
@@ -21037,8 +21021,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe nal gem.",
-      "matches_golden": false
+      "expected": "gem fe nal.",
+      "matches_golden": true
     },
     {
       "level": 17,
@@ -21246,8 +21230,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes nem sanba.",
-      "matches_golden": false
+      "expected": "mi nes nem no sanba.",
+      "matches_golden": true
     },
     {
       "level": 17,
@@ -21474,8 +21458,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes ga fe.",
-      "matches_golden": false
+      "expected": "mi nes ga no fe.",
+      "matches_golden": true
     },
     {
       "level": 17,
@@ -22287,8 +22271,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi met chu gem.",
-      "matches_golden": false
+      "expected": "gem mi met chu.",
+      "matches_golden": true
     },
     {
       "level": 18,
@@ -22379,8 +22363,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no nes nathu.",
-      "matches_golden": false
+      "expected": "mi nes no nathu.",
+      "matches_golden": true
     },
     {
       "level": 18,
@@ -22496,8 +22480,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "se mem lukan moyi.",
-      "matches_golden": false
+      "expected": "lukan se mem moyi.",
+      "matches_golden": true
     },
     {
       "level": 18,
@@ -22544,8 +22528,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi chu gen gem.",
-      "matches_golden": false
+      "expected": "gem mi chu gen.",
+      "matches_golden": true
     },
     {
       "level": 18,
@@ -22661,8 +22645,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan no chu ho di.",
-      "matches_golden": false
+      "expected": "di dan no chu ho.",
+      "matches_golden": true
     },
     {
       "level": 18,
@@ -22803,8 +22787,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa gankan tinal nam.",
-      "matches_golden": false
+      "expected": "gankan dan sa tinal nam.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -22853,8 +22837,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa kekdi hunan ye ketnat.",
-      "matches_golden": false
+      "expected": "kekdi dan sa hunan ye ketnat.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -22899,8 +22883,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be sak gi gem?",
-      "matches_golden": false
+      "expected": "gem be sak gi?",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -22947,8 +22931,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan nal nam mi kek felnen.",
-      "matches_golden": false
+      "expected": "dan nal nam mi felnen kek.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -23162,8 +23146,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi di gan we dan lanek temche.",
-      "matches_golden": false
+      "expected": "di mi we dan lanek temche gan.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -23487,8 +23471,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be sa mi nal wi?",
-      "matches_golden": false
+      "expected": "be sa wi mi nal?",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -23512,8 +23496,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa kekshu dimet lo.",
-      "matches_golden": false
+      "expected": "kekshu mi sa dimet lo.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -23644,8 +23628,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan kekdi kel temche ketnat.",
-      "matches_golden": false
+      "expected": "kekdi dan kel temche ketnat.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -23864,8 +23848,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan sa kekdi shu gisak moyi.",
-      "matches_golden": false
+      "expected": "shu kekdi dan sa gisak moyi.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -23935,8 +23919,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa gankan dimet wi fel.",
-      "matches_golden": false
+      "expected": "mi sa dimet wi gankan fel.",
+      "matches_golden": true
     },
     {
       "level": 19,
@@ -24033,8 +24017,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan kamgu gem.",
-      "matches_golden": false
+      "expected": "gem dan kamgu.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24131,8 +24115,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ta mo lemgu kekdi.",
-      "matches_golden": false
+      "expected": "kekdi dan ta mo lemgu.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24154,8 +24138,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa gi gem.",
-      "matches_golden": false
+      "expected": "gem mi sa gi.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24179,8 +24163,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "sa nal gu gankan.",
-      "matches_golden": false
+      "expected": "gankan sa nal gu.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24204,8 +24188,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta kekdi kas mi.",
-      "matches_golden": false
+      "expected": "kekdi be ta kas mi.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24229,8 +24213,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan tigi gem.",
-      "matches_golden": false
+      "expected": "gem dan tigi.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24277,8 +24261,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be sa nam shu kekdi?",
-      "matches_golden": false
+      "expected": "shu kekdi be sa nam?",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24323,8 +24307,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tinal kugu gem.",
-      "matches_golden": false
+      "expected": "gem tinal kugu.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24417,8 +24401,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes tampa gem.",
-      "matches_golden": false
+      "expected": "gem mi nes tampa.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24467,8 +24451,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ta gat fo fetho kekdi.",
-      "matches_golden": false
+      "expected": "kekdi dan ta gat fo fetho.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24490,8 +24474,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa nal gem.",
-      "matches_golden": false
+      "expected": "gem mi sa nal.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24515,8 +24499,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan no les lo ye.",
-      "matches_golden": false
+      "expected": "dan les lo ye.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24642,8 +24626,8 @@
         }
       ],
       "gaps": [],
-      "expected": "dan shu tinal moyigi.",
-      "matches_golden": false,
+      "expected": "shu dan tinal moyigi.",
+      "matches_golden": true,
       "note": "review: moyi+gi→moyigi(composed)"
     },
     {
@@ -24714,8 +24698,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan ta kekdi gem mu gu dan.",
-      "matches_golden": false
+      "expected": "dan ta mu kekdi gem gu dan.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24764,8 +24748,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes tu kekdi temkan.",
-      "matches_golden": false
+      "expected": "kekdi mi nes tu temkan.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24787,8 +24771,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan gem no se.",
-      "matches_golden": false
+      "expected": "dan se no gem.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24833,8 +24817,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "dan kekdi temkan?",
-      "matches_golden": false
+      "expected": "kekdi dan temkan?",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24858,8 +24842,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa gankan times dal be.",
-      "matches_golden": false
+      "expected": "gankan mi sa times dal be.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24931,8 +24915,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi seguku be lo kekdi.",
-      "matches_golden": false
+      "expected": "kekdi mi seguku be lo.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -24954,8 +24938,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mo mas gem?",
-      "matches_golden": false
+      "expected": "gem mo mas?",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -25050,8 +25034,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta gu mi kekdi.",
-      "matches_golden": false
+      "expected": "kekdi be ta gu mi.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -25121,8 +25105,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no les gem.",
-      "matches_golden": false
+      "expected": "gem les.",
+      "matches_golden": true
     },
     {
       "level": 20,
@@ -25169,8 +25153,8 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be sa nal gem?",
-      "matches_golden": false
+      "expected": "gem be sa nal?",
+      "matches_golden": true
     },
     {
       "level": 20,
