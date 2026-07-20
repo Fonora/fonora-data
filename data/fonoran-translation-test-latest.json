@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T08:11:37.388Z",
+  "generated_at": "2026-07-20T20:26:34.438Z",
   "corpus": "golden",
   "corpus_version": "3.0",
   "engine": "llm",
@@ -1484,7 +1484,7 @@
     {
       "level": 1,
       "phrase": "Are you alone?",
-      "roman": "be ga?",
+      "roman": "be wo?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -1501,13 +1501,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ga?",
+      "expected": "be wo?",
       "matches_golden": true
     },
     {
       "level": 1,
       "phrase": "I am alone too.",
-      "roman": "mi ga [also].",
+      "roman": "mi wo [also].",
       "unresolved": [
         "also"
       ],
@@ -1533,7 +1533,7 @@
           "reason": null
         }
       ],
-      "expected": "mi ga [also].",
+      "expected": "mi wo [also].",
       "matches_golden": true,
       "note": "gap: also (needs a root)"
     },
@@ -2077,7 +2077,7 @@
     {
       "level": 1,
       "phrase": "I am lost and I am alone.",
-      "roman": "mi hufet mi ga.",
+      "roman": "mi hufet mi wo.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -2094,7 +2094,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi hufet mi ga.",
+      "expected": "mi hufet mi wo.",
       "matches_golden": true
     },
     {
@@ -3743,7 +3743,7 @@
     {
       "level": 3,
       "phrase": "I feel sick.",
-      "roman": "mi nes da.",
+      "roman": "mi nes du.",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -3760,7 +3760,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes da.",
+      "expected": "mi nes du.",
       "matches_golden": true
     },
     {
@@ -4071,7 +4071,7 @@
     {
       "level": 3,
       "phrase": "I am sick and very tired.",
-      "roman": "mi nes da femtam ni.",
+      "roman": "mi nes du femtam ni.",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -4088,7 +4088,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes da femtam ni.",
+      "expected": "mi nes du femtam ni.",
       "matches_golden": true
     },
     {
@@ -4257,7 +4257,7 @@
     {
       "level": 3,
       "phrase": "I feel hot and sick.",
-      "roman": "mi nes lem da.",
+      "roman": "mi nes lem du.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -4274,7 +4274,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes lem da.",
+      "expected": "mi nes lem du.",
       "matches_golden": true
     },
     {
@@ -4447,7 +4447,7 @@
     {
       "level": 3,
       "phrase": "I am cold and I feel sick.",
-      "roman": "mi nes mak mi nes da.",
+      "roman": "mi nes mak mi nes du.",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -4464,7 +4464,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes mak mi nes da.",
+      "expected": "mi nes mak mi nes du.",
       "matches_golden": true
     },
     {
@@ -4566,7 +4566,7 @@
     {
       "level": 3,
       "phrase": "Do you feel sick today?",
-      "roman": "kekdi be nes da?",
+      "roman": "kekdi be nes du?",
       "unresolved": [
         "today"
       ],
@@ -4585,7 +4585,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kekdi be nes da?",
+      "expected": "kekdi be nes du?",
       "matches_golden": true
     },
     {
@@ -4857,7 +4857,7 @@
     {
       "level": 3,
       "phrase": "I feel very sick.",
-      "roman": "mi nes da ni.",
+      "roman": "mi nes du ni.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -4874,7 +4874,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes da ni.",
+      "expected": "mi nes du ni.",
       "matches_golden": true
     },
     {
@@ -6154,7 +6154,7 @@
     {
       "level": 5,
       "phrase": "I am lonely.",
-      "roman": "mi nes ga.",
+      "roman": "mi nes wo.",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -6171,7 +6171,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes ga.",
+      "expected": "mi nes wo.",
       "matches_golden": true
     },
     {
@@ -6388,7 +6388,7 @@
     {
       "level": 5,
       "phrase": "Are you lonely?",
-      "roman": "be ga?",
+      "roman": "be wo?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -6405,7 +6405,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ga?",
+      "expected": "be wo?",
       "matches_golden": true
     },
     {
@@ -6457,7 +6457,7 @@
     {
       "level": 5,
       "phrase": "I am sad and lonely.",
-      "roman": "mi nes nem ga.",
+      "roman": "mi nes nem wo.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -6474,7 +6474,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes nem ga.",
+      "expected": "mi nes nem wo.",
       "matches_golden": true
     },
     {
@@ -6887,7 +6887,7 @@
     {
       "level": 5,
       "phrase": "You are not alone.",
-      "roman": "be no ga.",
+      "roman": "be no wo.",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -6904,7 +6904,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be no ga.",
+      "expected": "be no wo.",
       "matches_golden": true
     },
     {
@@ -6935,7 +6935,7 @@
     {
       "level": 5,
       "phrase": "I feel less lonely now.",
-      "roman": "gem mi nes ga sha.",
+      "roman": "gem mi nes wo sha.",
       "unresolved": [],
       "counts": {
         "direct": 6,
@@ -6952,7 +6952,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gem mi nes ga sha.",
+      "expected": "gem mi nes wo sha.",
       "matches_golden": true
     },
     {
@@ -6981,7 +6981,7 @@
     {
       "level": 5,
       "phrase": "Do you feel lonely?",
-      "roman": "be nes ga?",
+      "roman": "be nes wo?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -6998,7 +6998,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be nes ga?",
+      "expected": "be nes wo?",
       "matches_golden": true
     },
     {
@@ -7038,7 +7038,7 @@
     {
       "level": 5,
       "phrase": "I do not want to be alone.",
-      "roman": "mi no sak ga.",
+      "roman": "mi no sak wo.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -7055,7 +7055,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no sak ga.",
+      "expected": "mi no sak wo.",
       "matches_golden": true
     },
     {
@@ -7550,7 +7550,7 @@
     {
       "level": 6,
       "phrase": "I will not leave you alone.",
-      "roman": "mi sa no gi fet be ga.",
+      "roman": "mi sa no gi fet be wo.",
       "unresolved": [
         "leave"
       ],
@@ -7569,7 +7569,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa no gi fet be ga.",
+      "expected": "mi sa no gi fet be wo.",
       "matches_golden": true
     },
     {
@@ -8243,7 +8243,7 @@
     {
       "level": 6,
       "phrase": "I feel lonely and scared.",
-      "roman": "mi nes ga pefem.",
+      "roman": "mi nes wo pefem.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -8260,7 +8260,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes ga pefem.",
+      "expected": "mi nes wo pefem.",
       "matches_golden": true
     },
     {
@@ -10905,7 +10905,7 @@
     {
       "level": 9,
       "phrase": "Who is the child?",
-      "roman": "hu ba fe?",
+      "roman": "hu ba fa?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -10922,7 +10922,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "hu ba fe?",
+      "expected": "hu ba fa?",
       "matches_golden": true
     },
     {
@@ -11116,7 +11116,7 @@
     {
       "level": 9,
       "phrase": "Who is sick?",
-      "roman": "hu ba da?",
+      "roman": "hu ba du?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -11133,7 +11133,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "hu ba da?",
+      "expected": "hu ba du?",
       "matches_golden": true
     },
     {
@@ -11212,7 +11212,7 @@
     {
       "level": 9,
       "phrase": "That person is alone and looks lost.",
-      "roman": "ba ga hufet.",
+      "roman": "ba wo hufet.",
       "unresolved": [
         "seems",
         "he/she/it"
@@ -11232,7 +11232,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "ba ga hufet.",
+      "expected": "ba wo hufet.",
       "matches_golden": true
     },
     {
@@ -12981,7 +12981,7 @@
     {
       "level": 10,
       "phrase": "Where is the child?",
-      "roman": "nohu che fe?",
+      "roman": "nohu che fa?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -12998,13 +12998,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "nohu che fe?",
+      "expected": "nohu che fa?",
       "matches_golden": true
     },
     {
       "level": 10,
       "phrase": "The child is near the big tree.",
-      "roman": "fe dal nu ni.",
+      "roman": "fa dal nu ni.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -13021,7 +13021,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe dal nu ni.",
+      "expected": "fa dal nu ni.",
       "matches_golden": true
     },
     {
@@ -15053,7 +15053,7 @@
     {
       "level": 12,
       "phrase": "Do not leave me alone.",
-      "roman": "no gi fet mi ga.",
+      "roman": "no gi fet mi wo.",
       "unresolved": [
         "leave"
       ],
@@ -15072,7 +15072,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "no gi fet mi ga.",
+      "expected": "no gi fet mi wo.",
       "matches_golden": true
     },
     {
@@ -15266,7 +15266,7 @@
     {
       "level": 12,
       "phrase": "You left and I was alone.",
-      "roman": "be ta gi fet mi ta ga.",
+      "roman": "be ta gi fet mi ta wo.",
       "unresolved": [],
       "counts": {
         "direct": 8,
@@ -15283,7 +15283,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta gi fet mi ta ga.",
+      "expected": "be ta gi fet mi ta wo.",
       "matches_golden": true
     },
     {
@@ -15887,7 +15887,7 @@
     {
       "level": 13,
       "phrase": "I have a knife and a rope.",
-      "roman": "mi gat getem daktet.",
+      "roman": "mi gat sutem daktet.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -15904,7 +15904,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gat getem daktet.",
+      "expected": "mi gat sutem daktet.",
       "matches_golden": true
     },
     {
@@ -16102,7 +16102,7 @@
     {
       "level": 13,
       "phrase": "Can I take one of those?",
-      "roman": "mi la lu to?",
+      "roman": "mi la fa to?",
       "unresolved": [
         "can"
       ],
@@ -16121,7 +16121,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi la lu to?",
+      "expected": "mi la fa to?",
       "matches_golden": true
     },
     {
@@ -17271,7 +17271,7 @@
     {
       "level": 14,
       "phrase": "That berry made me sick.",
-      "roman": "tetlo ta gak mi da.",
+      "roman": "tetlo ta gak mi du.",
       "unresolved": [
         "berry"
       ],
@@ -17290,7 +17290,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "tetlo ta gak mi da.",
+      "expected": "tetlo ta gak mi du.",
       "matches_golden": true
     },
     {
@@ -19161,7 +19161,7 @@
     {
       "level": 16,
       "phrase": "Are you sick?",
-      "roman": "be da?",
+      "roman": "be du?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -19178,7 +19178,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be da?",
+      "expected": "be du?",
       "matches_golden": true
     },
     {
@@ -19466,7 +19466,7 @@
     {
       "level": 16,
       "phrase": "I am not sick.",
-      "roman": "mi no da.",
+      "roman": "mi no du.",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -19483,7 +19483,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi no da.",
+      "expected": "mi no du.",
       "matches_golden": true
     },
     {
@@ -19681,7 +19681,7 @@
     {
       "level": 16,
       "phrase": "I feel weak and sick.",
-      "roman": "mi nes femsha da.",
+      "roman": "mi nes femsha du.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -19698,7 +19698,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes femsha da.",
+      "expected": "mi nes femsha du.",
       "matches_golden": true
     },
     {
@@ -19773,7 +19773,7 @@
     {
       "level": 16,
       "phrase": "I mean I am unwell.",
-      "roman": "mi da.",
+      "roman": "mi du.",
       "unresolved": [
         "i mean"
       ],
@@ -19792,7 +19792,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi da.",
+      "expected": "mi du.",
       "matches_golden": true
     },
     {
@@ -19921,7 +19921,7 @@
     {
       "level": 16,
       "phrase": "The old person is sick.",
-      "roman": "baso da.",
+      "roman": "baso du.",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -19938,13 +19938,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "baso da.",
+      "expected": "baso du.",
       "matches_golden": true
     },
     {
       "level": 16,
       "phrase": "I said sick, not tired.",
-      "roman": "mi ta se da no femtam.",
+      "roman": "mi ta se du no femtam.",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -19961,13 +19961,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi ta se da no femtam.",
+      "expected": "mi ta se du no femtam.",
       "matches_golden": true
     },
     {
       "level": 16,
       "phrase": "Are you tired or sick?",
-      "roman": "be nes femtam da?",
+      "roman": "be nes femtam du?",
       "unresolved": [
         "or"
       ],
@@ -19986,7 +19986,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be nes femtam da?",
+      "expected": "be nes femtam du?",
       "matches_golden": true
     },
     {
@@ -20098,7 +20098,7 @@
     {
       "level": 16,
       "phrase": "Is the child well?",
-      "roman": "fe gu?",
+      "roman": "fa gu?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -20115,13 +20115,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe gu?",
+      "expected": "fa gu?",
       "matches_golden": true
     },
     {
       "level": 16,
       "phrase": "I am tired but not sick.",
-      "roman": "mi femtam no da.",
+      "roman": "mi femtam no du.",
       "unresolved": [
         "but"
       ],
@@ -20140,7 +20140,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi femtam no da.",
+      "expected": "mi femtam no du.",
       "matches_golden": true
     },
     {
@@ -20314,7 +20314,7 @@
     {
       "level": 17,
       "phrase": "The baby is crying.",
-      "roman": "fe nes tes gen.",
+      "roman": "fa nes tes gen.",
       "unresolved": [
         "cry"
       ],
@@ -20333,13 +20333,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe nes tes gen.",
+      "expected": "fa nes tes gen.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "My child is missing.",
-      "roman": "mi fe hufet.",
+      "roman": "mi fa hufet.",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -20356,7 +20356,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi fe hufet.",
+      "expected": "mi fa hufet.",
       "matches_golden": true
     },
     {
@@ -20410,7 +20410,7 @@
     {
       "level": 17,
       "phrase": "My baby is very hungry.",
-      "roman": "mi fe saklo ni.",
+      "roman": "mi fa saklo ni.",
       "unresolved": [
         "baby"
       ],
@@ -20429,13 +20429,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi fe saklo ni.",
+      "expected": "mi fa saklo ni.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "Is the child safe?",
-      "roman": "fe kamgu?",
+      "roman": "fa kamgu?",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -20452,7 +20452,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe kamgu?",
+      "expected": "fa kamgu?",
       "matches_golden": true
     },
     {
@@ -20483,7 +20483,7 @@
     {
       "level": 17,
       "phrase": "My mother is sick.",
-      "roman": "[badi] da.",
+      "roman": "[badi] du.",
       "unresolved": [
         "mother",
         "badi"
@@ -20510,14 +20510,14 @@
           "reason": null
         }
       ],
-      "expected": "[badi] da.",
+      "expected": "[badi] du.",
       "matches_golden": true,
       "note": "gap: badi (needs a root)"
     },
     {
       "level": 17,
       "phrase": "Please hold the baby.",
-      "roman": "gat fe kugu.",
+      "roman": "gat fa kugu.",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -20534,13 +20534,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gat fe kugu.",
+      "expected": "gat fa kugu.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "I am worried about my child.",
-      "roman": "mi nes pemet dela fe.",
+      "roman": "mi nes pemet dela fa.",
       "unresolved": [
         "about"
       ],
@@ -20559,13 +20559,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes pemet dela fe.",
+      "expected": "mi nes pemet dela fa.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "The child is sleeping.",
-      "roman": "fe nal.",
+      "roman": "fa nal.",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -20582,13 +20582,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe nal.",
+      "expected": "fa nal.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "Do you have children?",
-      "roman": "be gat fe?",
+      "roman": "be gat fa?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -20605,7 +20605,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be gat fe?",
+      "expected": "be gat fa?",
       "matches_golden": true
     },
     {
@@ -20634,7 +20634,7 @@
     {
       "level": 17,
       "phrase": "The baby needs water.",
-      "roman": "fe les ye.",
+      "roman": "fa les ye.",
       "unresolved": [
         "baby"
       ],
@@ -20653,7 +20653,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe les ye.",
+      "expected": "fa les ye.",
       "matches_golden": true
     },
     {
@@ -20705,7 +20705,7 @@
     {
       "level": 17,
       "phrase": "Please watch the child.",
-      "roman": "kugu wi fe.",
+      "roman": "kugu wi fa.",
       "unresolved": [
         "watch"
       ],
@@ -20724,7 +20724,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "kugu wi fe.",
+      "expected": "kugu wi fa.",
       "matches_golden": true
     },
     {
@@ -20753,7 +20753,7 @@
     {
       "level": 17,
       "phrase": "The child is cold and scared.",
-      "roman": "fe nes mak pefem.",
+      "roman": "fa nes mak pefem.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -20770,7 +20770,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe nes mak pefem.",
+      "expected": "fa nes mak pefem.",
       "matches_golden": true
     },
     {
@@ -20801,7 +20801,7 @@
     {
       "level": 17,
       "phrase": "The baby is not breathing well.",
-      "roman": "fe no geshi gu.",
+      "roman": "fa no geshi gu.",
       "unresolved": [
         "baby",
         "well"
@@ -20821,7 +20821,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe no geshi gu.",
+      "expected": "fa no geshi gu.",
       "matches_golden": true
     },
     {
@@ -20852,7 +20852,7 @@
     {
       "level": 17,
       "phrase": "I am the mother of this child.",
-      "roman": "mi fes fe.",
+      "roman": "mi fes fa.",
       "unresolved": [
         "mother"
       ],
@@ -20871,7 +20871,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi fes fe.",
+      "expected": "mi fes fa.",
       "matches_golden": true
     },
     {
@@ -20902,7 +20902,7 @@
     {
       "level": 17,
       "phrase": "I feel afraid for my baby.",
-      "roman": "mi nes pefem de fe.",
+      "roman": "mi nes pefem de fa.",
       "unresolved": [
         "for"
       ],
@@ -20921,7 +20921,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes pefem de fe.",
+      "expected": "mi nes pefem de fa.",
       "matches_golden": true
     },
     {
@@ -20952,7 +20952,7 @@
     {
       "level": 17,
       "phrase": "Give food to the child first.",
-      "roman": "di ku lo fe.",
+      "roman": "di ku lo fa.",
       "unresolved": [
         "first"
       ],
@@ -20971,13 +20971,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "di ku lo fe.",
+      "expected": "di ku lo fa.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "My child is very small.",
-      "roman": "mi fe lek gen.",
+      "roman": "mi fa lek gen.",
       "unresolved": [
         "very"
       ],
@@ -20996,13 +20996,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi fe lek gen.",
+      "expected": "mi fa lek gen.",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "The baby is sleeping now.",
-      "roman": "gem fe nal.",
+      "roman": "gem fa nal.",
       "unresolved": [
         "baby"
       ],
@@ -21021,7 +21021,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "gem fe nal.",
+      "expected": "gem fa nal.",
       "matches_golden": true
     },
     {
@@ -21050,7 +21050,7 @@
     {
       "level": 17,
       "phrase": "Is this child your child?",
-      "roman": "fe meskam be?",
+      "roman": "fa meskam be?",
       "unresolved": [],
       "counts": {
         "direct": 4,
@@ -21067,7 +21067,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe meskam be?",
+      "expected": "fa meskam be?",
       "matches_golden": true
     },
     {
@@ -21115,7 +21115,7 @@
     {
       "level": 17,
       "phrase": "Please stay near the child.",
-      "roman": "times dal fe kugu.",
+      "roman": "times dal fa kugu.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -21132,7 +21132,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "times dal fe kugu.",
+      "expected": "times dal fa kugu.",
       "matches_golden": true
     },
     {
@@ -21163,7 +21163,7 @@
     {
       "level": 17,
       "phrase": "The child is hurt.",
-      "roman": "fe tes.",
+      "roman": "fa tes.",
       "unresolved": [],
       "counts": {
         "direct": 3,
@@ -21180,7 +21180,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe tes.",
+      "expected": "fa tes.",
       "matches_golden": true
     },
     {
@@ -21259,7 +21259,7 @@
     {
       "level": 17,
       "phrase": "Can I carry the baby?",
-      "roman": "mi gigat fe?",
+      "roman": "mi gigat fa?",
       "unresolved": [
         "can"
       ],
@@ -21278,13 +21278,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gigat fe?",
+      "expected": "mi gigat fa?",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "My child is not eating.",
-      "roman": "mi fe no tel.",
+      "roman": "mi fa no tel.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -21301,7 +21301,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi fe no tel.",
+      "expected": "mi fa no tel.",
       "matches_golden": true
     },
     {
@@ -21355,7 +21355,7 @@
     {
       "level": 17,
       "phrase": "Is the baby a girl or boy?",
-      "roman": "fe dehu?",
+      "roman": "fa dehu?",
       "unresolved": [
         "girl",
         "boy"
@@ -21375,13 +21375,13 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe dehu?",
+      "expected": "fa dehu?",
       "matches_golden": true
     },
     {
       "level": 17,
       "phrase": "The child is tired and hungry.",
-      "roman": "fe nes femtam saklo.",
+      "roman": "fa nes femtam saklo.",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -21398,7 +21398,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe nes femtam saklo.",
+      "expected": "fa nes femtam saklo.",
       "matches_golden": true
     },
     {
@@ -21439,7 +21439,7 @@
     {
       "level": 17,
       "phrase": "I feel alone without my child.",
-      "roman": "mi nes ga no fe.",
+      "roman": "mi nes wo no fa.",
       "unresolved": [
         "without"
       ],
@@ -21458,7 +21458,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes ga no fe.",
+      "expected": "mi nes wo no fa.",
       "matches_golden": true
     },
     {
@@ -21535,7 +21535,7 @@
     {
       "level": 17,
       "phrase": "The child needs warmth and food.",
-      "roman": "fe les lemgu lo.",
+      "roman": "fa les lemgu lo.",
       "unresolved": [
         "and"
       ],
@@ -21554,7 +21554,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "fe les lemgu lo.",
+      "expected": "fa les lemgu lo.",
       "matches_golden": true
     },
     {
@@ -23248,7 +23248,7 @@
     {
       "level": 19,
       "phrase": "I will not go there alone.",
-      "roman": "mi sa no gi tak ga.",
+      "roman": "mi sa no gi tak wo.",
       "unresolved": [],
       "counts": {
         "direct": 7,
@@ -23265,7 +23265,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa no gi tak ga.",
+      "expected": "mi sa no gi tak wo.",
       "matches_golden": true
     },
     {
@@ -25111,7 +25111,7 @@
     {
       "level": 20,
       "phrase": "You did not leave me alone.",
-      "roman": "be ta no gi fet mi ga.",
+      "roman": "be ta no gi fet mi wo.",
       "unresolved": [
         "leave"
       ],
@@ -25130,7 +25130,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta no gi fet mi ga.",
+      "expected": "be ta no gi fet mi wo.",
       "matches_golden": true
     },
     {
