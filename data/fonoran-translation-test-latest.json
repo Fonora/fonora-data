@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-19T06:25:51.852Z",
+  "generated_at": "2026-07-20T01:19:50.990Z",
   "corpus": "golden",
   "corpus_version": "3.0",
   "engine": "llm",
-  "cache_only": false,
+  "cache_only": true,
   "warm_needed": [],
-  "total_phrases": 1000,
-  "clean_phrases": 662,
+  "total_phrases": 1001,
+  "clean_phrases": 663,
   "coverage_pct": 66,
   "distinct_gaps": 132,
   "quality": {
     "tokens": {
-      "pass": 4098,
+      "pass": 4095,
       "soft": 3,
       "hard": 16
     },
-    "pass_phrases": 983,
+    "pass_phrases": 984,
     "soft_phrases": 3,
     "hard_phrases": 14
   },
@@ -167,9 +167,9 @@
     {
       "level": 19,
       "name": "Plans & intent",
-      "phrases": 50,
-      "clean": 18,
-      "coverage": 36,
+      "phrases": 51,
+      "clean": 19,
+      "coverage": 37,
       "unresolved_words": 34
     },
     {
@@ -190,43 +190,6 @@
         "We can help each other.",
         "You can come closer.",
         "Can you hear me?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "metal",
-          "fonoran": "ge",
-          "gloss": "a hard shiny material you can shape, like iron",
-          "reason": "weak alias:can",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "hold",
-          "fonoran": "gat",
-          "gloss": "to keep something in your grasp",
-          "reason": "hypernym:hold",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "floor",
-          "fonoran": "gatfenmes",
-          "gloss": "floor",
-          "reason": "synonym:bottom",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "behind",
-          "fonoran": "nenso",
-          "gloss": "behind",
-          "reason": "synonym:behind",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "pot",
-          "fonoran": "lemgat",
-          "gloss": "pot",
-          "reason": "synonym:pot",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -237,15 +200,6 @@
         "The pain is very strong.",
         "That animal is very large.",
         "I feel very unsafe here."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "same",
-          "fonoran": "ho",
-          "gloss": "the same; not different",
-          "reason": "synonym:identical",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -256,15 +210,6 @@
         "We must boil the water.",
         "We must run now.",
         "We must hide now."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "rule",
-          "fonoran": "ha",
-          "gloss": "a pattern to follow; how things must be done",
-          "reason": "weak alias:must",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -275,8 +220,7 @@
         "I will find food for us.",
         "I need clean water for this wound.",
         "Do you have cloth for the wound?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "with",
@@ -286,8 +230,7 @@
         "Come with me to safety.",
         "I am here with you.",
         "Are you angry with me?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "together",
@@ -297,8 +240,7 @@
         "Can we sit together?",
         "Let us stay together.",
         "We are stronger together."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "or",
@@ -308,8 +250,7 @@
         "Is the pain here or there?",
         "Is this yours or mine?",
         "That person is a friend or an enemy."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "enough",
@@ -319,8 +260,7 @@
         "That is enough.",
         "I do not have enough water.",
         "We each have enough food now."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "should",
@@ -330,8 +270,7 @@
         "We should go that way.",
         "We should leave soon.",
         "We should rest before we walk."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "relieved",
@@ -341,8 +280,7 @@
         "I feel relieved to see you.",
         "I feel relieved.",
         "I am very relieved."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "let",
@@ -352,8 +290,7 @@
         "Let us rest here.",
         "Let me look at your injury.",
         "Let us stay together."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "mother",
@@ -363,15 +300,6 @@
         "Is your mother here?",
         "My mother is sick.",
         "I am the mother of this child."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "parent",
-          "fonoran": "fes",
-          "gloss": "a mother or father",
-          "reason": "weak alias:mother",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -382,8 +310,7 @@
         "Do you feel sick today?",
         "The sun is warm today.",
         "I feel strong today."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "leave",
@@ -393,43 +320,6 @@
         "We need to leave this area.",
         "I will not leave you alone.",
         "I promise I will not leave you."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "farewell",
-          "fonoran": "sefet",
-          "gloss": "farewell",
-          "reason": "synonym:farewell",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "exit",
-          "fonoran": "felnen",
-          "gloss": "exit",
-          "reason": "synonym:exit",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "will",
-          "fonoran": "gal",
-          "gloss": "will",
-          "reason": "synonym:will",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "give",
-          "fonoran": "ku",
-          "gloss": "to give something to someone",
-          "reason": "synonym:give",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "forget",
-          "fonoran": "tamhu",
-          "gloss": "forget",
-          "reason": "synonym:forget",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -440,8 +330,7 @@
         "That is too much.",
         "Is it too late to move?",
         "You are moving too fast."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "find",
@@ -451,43 +340,6 @@
         "We need to find shelter now.",
         "I need to find my mother.",
         "Will we find people near the water?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "do",
-          "fonoran": "mo",
-          "gloss": "to do something",
-          "reason": "hypernym:do",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "think",
-          "fonoran": "met",
-          "gloss": "to use your mind",
-          "reason": "hypernym:think",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "disgust",
-          "fonoran": "nesgamtel",
-          "gloss": "disgust",
-          "reason": "synonym:encounter",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "rest",
-          "fonoran": "tinal",
-          "gloss": "rest",
-          "reason": "synonym:regain",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "feel",
-          "fonoran": "nes",
-          "gloss": "to feel something inside",
-          "reason": "synonym:feel",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -498,8 +350,7 @@
         "I heard a loud noise nearby.",
         "The noise stopped.",
         "What is that noise at night?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "this",
@@ -509,8 +360,7 @@
         "I meant that, not this.",
         "This makes me angry.",
         "We can do this together."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "meat",
@@ -520,43 +370,6 @@
         "We must cook this meat.",
         "This meat is raw.",
         "This meat smells bad."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "food",
-          "fonoran": "lo",
-          "gloss": "food; something to eat",
-          "reason": "hypernym:food",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "eat",
-          "fonoran": "tel",
-          "gloss": "to eat",
-          "reason": "hypernym:eat",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "substance",
-          "fonoran": "get",
-          "gloss": "substance",
-          "reason": "synonym:substance",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "center",
-          "fonoran": "he",
-          "gloss": "the middle",
-          "reason": "synonym:center",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "heart",
-          "fonoran": "pu",
-          "gloss": "your heart",
-          "reason": "synonym:heart",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -567,8 +380,7 @@
         "The sun will come tomorrow.",
         "Maybe tomorrow will be better.",
         "Will you be here tomorrow?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "baby",
@@ -578,22 +390,6 @@
         "My baby is very hungry.",
         "The baby needs water.",
         "The baby is not breathing well."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "person",
-          "fonoran": "ba",
-          "gloss": "a person; someone",
-          "reason": "hypernym:person",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "child",
-          "fonoran": "fe",
-          "gloss": "a child; a young person",
-          "reason": "synonym:child",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -604,8 +400,7 @@
         "This place is dry.",
         "I see a dry place.",
         "We need dry wood for fire."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "about",
@@ -615,8 +410,7 @@
         "I feel worried about you.",
         "I am confused about who is here.",
         "I am worried about my child."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "better",
@@ -626,15 +420,6 @@
         "I feel better near you.",
         "I feel better now.",
         "I feel better near the fire."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "break",
-          "fonoran": "pato",
-          "gloss": "break",
-          "reason": "synonym:break",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -645,15 +430,6 @@
         "I feel glad you are here.",
         "I feel glad to share.",
         "I am glad this day is over."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "happy",
-          "fonoran": "tu",
-          "gloss": "feeling glad and content",
-          "reason": "synonym:happy",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -664,8 +440,7 @@
         "I did not understand who you meant.",
         "I meant that place, not this one.",
         "That is not what I meant."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "full",
@@ -675,36 +450,6 @@
         "I am full.",
         "I am not full yet.",
         "I am full now."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "whole",
-          "fonoran": "lekmel",
-          "gloss": "whole",
-          "reason": "synonym:entire",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "collective",
-          "fonoran": "dan",
-          "gloss": "a group seen as one; togetherness",
-          "reason": "synonym:total",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "good",
-          "fonoran": "gu",
-          "gloss": "good; works well or is wanted",
-          "reason": "synonym:good",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "big",
-          "fonoran": "ni",
-          "gloss": "big; large in size",
-          "reason": "synonym:wide",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -715,8 +460,7 @@
         "I am cold and wet.",
         "The ground is wet and cold.",
         "The air is cold and wet."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "father",
@@ -726,8 +470,7 @@
         "I am looking for my father.",
         "Is your father alive?",
         "I am the father."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "badi",
@@ -737,8 +480,7 @@
         "My mother is sick.",
         "My mother is old and tired.",
         "I need to find my mother."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "both",
@@ -747,8 +489,7 @@
       "samples": [
         "We are both strangers here.",
         "We are both alive and well."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "that",
@@ -757,8 +498,7 @@
       "samples": [
         "Please say that again.",
         "I feel worried that I have too little."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "injured",
@@ -767,15 +507,6 @@
       "samples": [
         "My foot is injured.",
         "My arm is injured."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "pain",
-          "fonoran": "tes",
-          "gloss": "hurting; physical or emotional hurt",
-          "reason": "synonym:pained",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -785,8 +516,7 @@
       "samples": [
         "I cannot carry that, I am hurt.",
         "My knee cannot bend."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "shaking",
@@ -795,15 +525,6 @@
       "samples": [
         "I am shaking with fear.",
         "That person is cold and shaking."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "move",
-          "fonoran": "gi",
-          "gloss": "to go from one place to another",
-          "reason": "hypernym:move",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -813,8 +534,7 @@
       "samples": [
         "I think I said danger wrong.",
         "I am sorry, I took the wrong thing."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "sound",
@@ -823,29 +543,6 @@
       "samples": [
         "Do not make that sound.",
         "What is that sound?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "move",
-          "fonoran": "gi",
-          "gloss": "to go from one place to another",
-          "reason": "synonym:go",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "voice",
-          "fonoran": "base",
-          "gloss": "voice",
-          "reason": "synonym:voice",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "good",
-          "fonoran": "gu",
-          "gloss": "good; works well or is wanted",
-          "reason": "synonym:good",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -855,8 +552,7 @@
       "samples": [
         "We survived and I am grateful.",
         "We survived another day."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "happen",
@@ -865,29 +561,6 @@
       "samples": [
         "What happened here?",
         "Something happened here."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "pass",
-          "fonoran": "felgi",
-          "gloss": "pass",
-          "reason": "synonym:pass",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "see",
-          "fonoran": "wi",
-          "gloss": "to see",
-          "reason": "synonym:find",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "disgust",
-          "fonoran": "nesgamtel",
-          "gloss": "disgust",
-          "reason": "synonym:encounter",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -897,8 +570,7 @@
       "samples": [
         "I feel uneasy about that person.",
         "I feel uneasy taking your food."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "left",
@@ -907,8 +579,7 @@
       "samples": [
         "The path goes to the left.",
         "We go left and then up."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "direction",
@@ -917,29 +588,6 @@
       "samples": [
         "The sun is in that direction.",
         "That direction is not safe."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "thing",
-          "fonoran": "to",
-          "gloss": "any object or item",
-          "reason": "hypernym:thing",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "path",
-          "fonoran": "nan",
-          "gloss": "a way or route to travel along",
-          "reason": "synonym:way",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "focus",
-          "fonoran": "gatmet",
-          "gloss": "focus",
-          "reason": "synonym:focus",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -949,8 +597,7 @@
       "samples": [
         "I meant to go the other way.",
         "I want to try a different path."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "yet",
@@ -959,8 +606,7 @@
       "samples": [
         "I am not full yet.",
         "We do not understand each other yet."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "berry",
@@ -969,8 +615,7 @@
       "samples": [
         "That berry made me sick.",
         "Do not eat that red berry."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "tonight",
@@ -979,8 +624,7 @@
       "samples": [
         "I am very cold tonight.",
         "I will stay near you tonight."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "well",
@@ -989,15 +633,6 @@
       "samples": [
         "The baby is not breathing well.",
         "Sleep well tonight."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "good",
-          "fonoran": "gu",
-          "gloss": "good; works well or is wanted",
-          "reason": "synonym:good",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1007,8 +642,7 @@
       "samples": [
         "My mother is old and tired.",
         "The child needs warmth and food."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "without",
@@ -1017,15 +651,6 @@
       "samples": [
         "I feel sad without my family.",
         "I feel alone without my child."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "straight",
-          "fonoran": "wu",
-          "gloss": "a direct line without bend",
-          "reason": "weak alias:without",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1034,8 +659,7 @@
       "role": "modifier",
       "samples": [
         "I am alone too."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "nervous",
@@ -1043,8 +667,7 @@
       "role": "concept",
       "samples": [
         "I feel nervous and unsure."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "tetsas",
@@ -1052,8 +675,7 @@
       "role": "object",
       "samples": [
         "We need more wood."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "burning",
@@ -1061,15 +683,6 @@
       "role": "concept",
       "samples": [
         "I will keep the fire burning."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "fire",
-          "fonoran": "dat",
-          "gloss": "fire; a hot burning flame",
-          "reason": "synonym:burn",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1078,15 +691,6 @@
       "role": "concept",
       "samples": [
         "This wound is very deep."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "joy",
-          "fonoran": "lel",
-          "gloss": "deep gladness; joyful feeling",
-          "reason": "weak alias:deep",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1095,8 +699,7 @@
       "role": "event",
       "samples": [
         "My back hurts and I cannot stand."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "tracks",
@@ -1104,8 +707,7 @@
       "role": "concept",
       "samples": [
         "I see tracks on the ground."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "gone",
@@ -1113,15 +715,6 @@
       "role": "concept",
       "samples": [
         "The danger is gone now."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "water",
-          "fonoran": "ye",
-          "gloss": "water",
-          "reason": "synonym:drunk",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1130,15 +723,6 @@
       "role": "concept",
       "samples": [
         "You seem angry."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "see",
-          "fonoran": "wi",
-          "gloss": "to see",
-          "reason": "synonym:look",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1147,8 +731,7 @@
       "role": "object",
       "samples": [
         "This makes me sad."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "intend",
@@ -1156,22 +739,6 @@
       "role": "concept",
       "samples": [
         "I did not mean to hurt you."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "meaning",
-          "fonoran": "kenwihu",
-          "gloss": "meaning",
-          "reason": "synonym:mean",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "think",
-          "fonoran": "met",
-          "gloss": "to use your mind",
-          "reason": "synonym:think",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1180,29 +747,6 @@
       "role": "concept",
       "samples": [
         "That was not your fault."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "mistake",
-          "fonoran": "mogam",
-          "gloss": "mistake",
-          "reason": "synonym:mistake",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "break",
-          "fonoran": "pato",
-          "gloss": "break",
-          "reason": "synonym:fracture",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "blame",
-          "fonoran": "segamba",
-          "gloss": "blame",
-          "reason": "synonym:blame",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1211,8 +755,7 @@
       "role": "concept",
       "samples": [
         "I am sorry for that."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "uncomfortable",
@@ -1220,8 +763,7 @@
       "role": "concept",
       "samples": [
         "I feel uncomfortable right now."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "wake",
@@ -1229,22 +771,6 @@
       "role": "concept",
       "samples": [
         "Do not wake me."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "unconscious",
-          "fonoran": "nalgam",
-          "gloss": "unconscious",
-          "reason": "synonym:awake",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "hot",
-          "fonoran": "lem",
-          "gloss": "hot; warm to burning",
-          "reason": "synonym:heat",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1253,15 +779,6 @@
       "role": "concept",
       "samples": [
         "Please do not shout."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "call",
-          "fonoran": "semal",
-          "gloss": "call",
-          "reason": "synonym:call",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1270,8 +787,7 @@
       "role": "concept",
       "samples": [
         "I feel scared when you come close."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "closer",
@@ -1279,15 +795,6 @@
       "role": "concept",
       "samples": [
         "Please do not come closer."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "person",
-          "fonoran": "ba",
-          "gloss": "a person; someone",
-          "reason": "hypernym:person",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1296,8 +803,7 @@
       "role": "concept",
       "samples": [
         "What is that mark on your arm?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "liquid",
@@ -1305,22 +811,6 @@
       "role": "concept",
       "samples": [
         "What is this liquid?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "swim",
-          "fonoran": "giye",
-          "gloss": "swim",
-          "reason": "synonym:swimming",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "blood",
-          "fonoran": "fofem",
-          "gloss": "blood",
-          "reason": "synonym:fluid",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1329,8 +819,7 @@
       "role": "concept",
       "samples": [
         "What happened to your hand?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "happened",
@@ -1338,8 +827,7 @@
       "role": "concept",
       "samples": [
         "What happened last night?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "shape",
@@ -1347,43 +835,6 @@
       "role": "concept",
       "samples": [
         "What is that dark shape?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "form",
-          "fonoran": "yu",
-          "gloss": "form",
-          "reason": "synonym:form",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "make",
-          "fonoran": "kel",
-          "gloss": "to make something",
-          "reason": "synonym:build",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "body",
-          "fonoran": "fem",
-          "gloss": "your body",
-          "reason": "synonym:physique",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "exile",
-          "fonoran": "banentem",
-          "gloss": "exile",
-          "reason": "synonym:cast",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "work",
-          "fonoran": "mu",
-          "gloss": "effort done toward a goal",
-          "reason": "synonym:work",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1392,29 +843,6 @@
       "role": "concept",
       "samples": [
         "What is this white powder?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "person",
-          "fonoran": "ba",
-          "gloss": "a person; someone",
-          "reason": "hypernym:person",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "fresh_water_source",
-          "fonoran": "guye",
-          "gloss": "fresh water source",
-          "reason": "synonym:clean",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "ash",
-          "fonoran": "datfen",
-          "gloss": "ash",
-          "reason": "synonym:ashen",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1423,8 +851,7 @@
       "role": "object",
       "samples": [
         "What is this white powder?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "color",
@@ -1432,8 +859,7 @@
       "role": "concept",
       "samples": [
         "What is that color in the sky?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "recognize",
@@ -1441,22 +867,6 @@
       "role": "concept",
       "samples": [
         "I do not recognize that person."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "know",
-          "fonoran": "hu",
-          "gloss": "to know something",
-          "reason": "synonym:know",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "place",
-          "fonoran": "che",
-          "gloss": "a spot or location",
-          "reason": "synonym:spot",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1465,8 +875,7 @@
       "role": "concept",
       "samples": [
         "I feel afraid of that person."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "seems",
@@ -1474,8 +883,7 @@
       "role": "concept",
       "samples": [
         "That person is alone and looks lost."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "he/she/it",
@@ -1483,8 +891,7 @@
       "role": "concept",
       "samples": [
         "That person is alone and looks lost."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "woman",
@@ -1492,8 +899,7 @@
       "role": "concept",
       "samples": [
         "Who is that woman?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "man",
@@ -1501,29 +907,6 @@
       "role": "concept",
       "samples": [
         "Who is that man?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "person",
-          "fonoran": "ba",
-          "gloss": "a person; someone",
-          "reason": "hypernym:person",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "part",
-          "fonoran": "mem",
-          "gloss": "part",
-          "reason": "synonym:piece",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "world",
-          "fonoran": "fenfo",
-          "gloss": "world",
-          "reason": "synonym:world",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1532,8 +915,7 @@
       "role": "concept",
       "samples": [
         "Point to who needs help."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "watching",
@@ -1541,8 +923,7 @@
       "role": "concept",
       "samples": [
         "That person is watching us."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "missing",
@@ -1550,22 +931,6 @@
       "role": "concept",
       "samples": [
         "Who is missing?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "gossip",
-          "fonoran": "sebafet",
-          "gloss": "gossip",
-          "reason": "synonym:absent",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "want",
-          "fonoran": "sak",
-          "gloss": "to wish for something",
-          "reason": "synonym:wanting",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1574,8 +939,7 @@
       "role": "concept",
       "samples": [
         "Who is the strongest person here?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "strongest",
@@ -1583,8 +947,7 @@
       "role": "concept",
       "samples": [
         "Who is the strongest person here?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "able",
@@ -1592,8 +955,7 @@
       "role": "concept",
       "samples": [
         "Who is able to walk?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "that direction",
@@ -1601,8 +963,7 @@
       "role": "concept",
       "samples": [
         "Is there water in that direction?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "right",
@@ -1610,22 +971,6 @@
       "role": "concept",
       "samples": [
         "The dry land is to the right."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "true",
-          "fonoran": "nat",
-          "gloss": "true; matches what's real",
-          "reason": "synonym:correct",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "good",
-          "fonoran": "gu",
-          "gloss": "good; works well or is wanted",
-          "reason": "synonym:good",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1634,8 +979,7 @@
       "role": "time",
       "samples": [
         "Not now, later."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "burn",
@@ -1643,22 +987,6 @@
       "role": "concept",
       "samples": [
         "The fire was burning before."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "fire",
-          "fonoran": "dat",
-          "gloss": "fire; a hot burning flame",
-          "reason": "synonym:burning",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "cut",
-          "fonoran": "gektem",
-          "gloss": "cut",
-          "reason": "synonym:cut",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1667,15 +995,6 @@
       "role": "concept",
       "samples": [
         "Let us decide later, not now."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "mediator",
-          "fonoran": "bapakas",
-          "gloss": "mediator",
-          "reason": "synonym:resolve",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1684,8 +1003,7 @@
       "role": "concept",
       "samples": [
         "Move slowly and carefully."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "until",
@@ -1693,15 +1011,6 @@
       "role": "concept",
       "samples": [
         "Wait here until I return."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "wait",
-          "fonoran": "sat",
-          "gloss": "to wait; to stay until later",
-          "reason": "weak alias:until",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1710,8 +1019,7 @@
       "role": "concept",
       "samples": [
         "I meant to go the other way."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "yours",
@@ -1719,8 +1027,7 @@
       "role": "concept",
       "samples": [
         "I think I took yours by mistake."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "cook",
@@ -1728,29 +1035,6 @@
       "role": "concept",
       "samples": [
         "Cook it over the fire."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "fix",
-          "fonoran": "gukel",
-          "gloss": "fix",
-          "reason": "synonym:fix",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "ready",
-          "fonoran": "dimo",
-          "gloss": "ready",
-          "reason": "synonym:ready",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "make",
-          "fonoran": "kel",
-          "gloss": "to make something",
-          "reason": "synonym:make",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1759,8 +1043,7 @@
       "role": "concept",
       "samples": [
         "This has a strange taste."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "satisfied",
@@ -1768,8 +1051,7 @@
       "role": "concept",
       "samples": [
         "I am full and satisfied."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "loud",
@@ -1777,15 +1059,6 @@
       "role": "concept",
       "samples": [
         "The storm is loud and strong."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "lightning",
-          "fonoran": "datsam",
-          "gloss": "lightning",
-          "reason": "synonym:flash",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1794,8 +1067,7 @@
       "role": "concept",
       "samples": [
         "I do not understand the weather here."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "sharp",
@@ -1803,22 +1075,6 @@
       "role": "concept",
       "samples": [
         "The wind is cold and sharp."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "point",
-          "fonoran": "li",
-          "gloss": "a sharp aim or exact spot",
-          "reason": "weak alias:sharp",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "sudden",
-          "fonoran": "nekgem",
-          "gloss": "sudden",
-          "reason": "synonym:abrupt",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1827,36 +1083,6 @@
       "role": "concept",
       "samples": [
         "Give me wood for the fire."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "live",
-          "fonoran": "fo",
-          "gloss": "life",
-          "reason": "hypernym:live",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "grow",
-          "fonoran": "fomas",
-          "gloss": "grow",
-          "reason": "hypernym:grow",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "forest",
-          "fonoran": "leknu",
-          "gloss": "forest",
-          "reason": "synonym:forest",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "tree",
-          "fonoran": "nu",
-          "gloss": "a tree",
-          "reason": "synonym:woods",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1865,8 +1091,7 @@
       "role": "concept",
       "samples": [
         "My eyes are very heavy."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "i mean",
@@ -1874,8 +1099,7 @@
       "role": "concept",
       "samples": [
         "I mean I am unwell."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "tight",
@@ -1883,29 +1107,6 @@
       "role": "concept",
       "samples": [
         "My chest feels tight."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "meaning",
-          "fonoran": "kenwihu",
-          "gloss": "meaning",
-          "reason": "synonym:mean",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "close",
-          "fonoran": "meskel",
-          "gloss": "close",
-          "reason": "synonym:close",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "clay",
-          "fonoran": "fenye",
-          "gloss": "clay",
-          "reason": "synonym:wet",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1914,22 +1115,6 @@
       "role": "concept",
       "samples": [
         "My body is very sore."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "still_raw",
-          "fonoran": "femti",
-          "gloss": "still raw",
-          "reason": "synonym:raw",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "angry",
-          "fonoran": "she",
-          "gloss": "feeling mad or hostile",
-          "reason": "synonym:mad",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1938,36 +1123,6 @@
       "role": "concept",
       "samples": [
         "I feel pain in my side."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "front",
-          "fonoran": "cha",
-          "gloss": "forward; the front side; ahead",
-          "reason": "weak alias:side",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "place",
-          "fonoran": "che",
-          "gloss": "a spot or location",
-          "reason": "hypernym:place",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "cliff",
-          "fonoran": "sasninen",
-          "gloss": "cliff",
-          "reason": "synonym:face",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "below",
-          "fonoran": "dalfen",
-          "gloss": "below",
-          "reason": "synonym:position",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -1976,8 +1131,7 @@
       "role": "path",
       "samples": [
         "I feel pain in my side."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "bend",
@@ -1985,29 +1139,6 @@
       "role": "concept",
       "samples": [
         "My knee cannot bend."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "straight",
-          "fonoran": "wu",
-          "gloss": "a direct line without bend",
-          "reason": "weak alias:bend",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "move",
-          "fonoran": "gi",
-          "gloss": "to go from one place to another",
-          "reason": "hypernym:move",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "turn",
-          "fonoran": "yicha",
-          "gloss": "turn",
-          "reason": "synonym:turn",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2016,8 +1147,7 @@
       "role": "concept",
       "samples": [
         "I am tired but not sick."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "normally",
@@ -2025,8 +1155,7 @@
       "role": "concept",
       "samples": [
         "Can you breathe normally?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "could",
@@ -2034,8 +1163,7 @@
       "role": "concept",
       "samples": [
         "I could not sleep last night."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "cry",
@@ -2043,15 +1171,6 @@
       "role": "concept",
       "samples": [
         "The baby is crying."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "call",
-          "fonoran": "semal",
-          "gloss": "call",
-          "reason": "synonym:call",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2060,43 +1179,6 @@
       "role": "concept",
       "samples": [
         "Please watch the child."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "follow",
-          "fonoran": "sogi",
-          "gloss": "follow",
-          "reason": "synonym:follow",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "hidden",
-          "fonoran": "tigan",
-          "gloss": "hidden",
-          "reason": "synonym:view",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "see",
-          "fonoran": "wi",
-          "gloss": "to see",
-          "reason": "synonym:see",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "catch",
-          "fonoran": "lanek",
-          "gloss": "catch",
-          "reason": "synonym:catch",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "learn",
-          "fonoran": "lahu",
-          "gloss": "learn",
-          "reason": "synonym:learn",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2105,29 +1187,6 @@
       "role": "concept",
       "samples": [
         "Give food to the child first."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "beginning",
-          "fonoran": "fakan",
-          "gloss": "beginning",
-          "reason": "synonym:beginning",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "source",
-          "fonoran": "ki",
-          "gloss": "source",
-          "reason": "synonym:start",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "valley",
-          "fonoran": "mesfen",
-          "gloss": "valley",
-          "reason": "synonym:low",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2136,15 +1195,6 @@
       "role": "concept",
       "samples": [
         "My mother is old and tired."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "before",
-          "fonoran": "di",
-          "gloss": "earlier; in the past",
-          "reason": "synonym:older",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2153,15 +1203,6 @@
       "role": "concept",
       "samples": [
         "The family is separated."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "guest",
-          "fonoran": "bames",
-          "gloss": "guest",
-          "reason": "synonym:spaced",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2170,15 +1211,6 @@
       "role": "concept",
       "samples": [
         "Is the baby a girl or boy?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "child",
-          "fonoran": "fe",
-          "gloss": "a child; a young person",
-          "reason": "synonym:daughter",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2187,15 +1219,6 @@
       "role": "concept",
       "samples": [
         "Is the baby a girl or boy?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "child",
-          "fonoran": "fe",
-          "gloss": "a child; a young person",
-          "reason": "synonym:son",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2204,8 +1227,7 @@
       "role": "concept",
       "samples": [
         "Please point to it slowly."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "tose",
@@ -2213,8 +1235,7 @@
       "role": "subject",
       "samples": [
         "That word is not clear to me."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "winat",
@@ -2222,8 +1243,7 @@
       "role": "event",
       "samples": [
         "That word is not clear to me."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "mean",
@@ -2231,22 +1251,6 @@
       "role": "concept",
       "samples": [
         "Did you mean the small one?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "think",
-          "fonoran": "met",
-          "gloss": "to use your mind",
-          "reason": "synonym:think",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "foot",
-          "fonoran": "gifem",
-          "gloss": "foot",
-          "reason": "synonym:base",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2255,15 +1259,6 @@
       "role": "concept",
       "samples": [
         "Will you watch while I sleep?"
-      ],
-      "suggestions": [
-        {
-          "concept_id": "part",
-          "fonoran": "mem",
-          "gloss": "part",
-          "reason": "synonym:piece",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2272,29 +1267,6 @@
       "role": "concept",
       "samples": [
         "I plan to gather food in the morning."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "think",
-          "fonoran": "met",
-          "gloss": "to use your mind",
-          "reason": "hypernym:think",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "gather",
-          "fonoran": "lalek",
-          "gloss": "gather",
-          "reason": "synonym:collect",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "junction",
-          "fonoran": "nanlek",
-          "gloss": "junction",
-          "reason": "synonym:meet",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2303,8 +1275,7 @@
       "role": "object",
       "samples": [
         "I want to understand your plan."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "leads",
@@ -2312,15 +1283,6 @@
       "role": "concept",
       "samples": [
         "Maybe that path leads to people."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "front",
-          "fonoran": "cha",
-          "gloss": "forward; the front side; ahead",
-          "reason": "weak alias:leads",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2329,8 +1291,7 @@
       "role": "concept",
       "samples": [
         "The work is done."
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "hard",
@@ -2338,22 +1299,6 @@
       "role": "concept",
       "samples": [
         "That was hard but we finished."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "starvation",
-          "fonoran": "leslo",
-          "gloss": "starvation",
-          "reason": "synonym:severe",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "strong",
-          "fonoran": "bo",
-          "gloss": "strong",
-          "reason": "synonym:strong",
-          "kind": "wordnet"
-        }
       ]
     },
     {
@@ -2362,8 +1307,7 @@
       "role": "concept",
       "samples": [
         "Did I understand you correctly?"
-      ],
-      "suggestions": []
+      ]
     },
     {
       "word": "continue",
@@ -2371,43 +1315,6 @@
       "role": "concept",
       "samples": [
         "Tomorrow we continue together."
-      ],
-      "suggestions": [
-        {
-          "concept_id": "do",
-          "fonoran": "mo",
-          "gloss": "to do something",
-          "reason": "hypernym:do",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "move",
-          "fonoran": "gi",
-          "gloss": "to go from one place to another",
-          "reason": "hypernym:move",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "far",
-          "fonoran": "fet",
-          "gloss": "a long way off",
-          "reason": "hypernym:far",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "hold",
-          "fonoran": "gat",
-          "gloss": "to keep something in your grasp",
-          "reason": "synonym:keep",
-          "kind": "wordnet"
-        },
-        {
-          "concept_id": "still",
-          "fonoran": "ti",
-          "gloss": "not moving; staying put",
-          "reason": "synonym:stay",
-          "kind": "wordnet"
-        }
       ]
     }
   ],
@@ -6276,10 +5183,10 @@
     {
       "level": 4,
       "phrase": "Run to the trees.",
-      "roman": "ginek nan nu",
+      "roman": "ginek nu",
       "unresolved": [],
       "counts": {
-        "direct": 3,
+        "direct": 2,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -6287,13 +5194,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 3,
+        "pass": 2,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "ginek nan nu",
+      "expected": "ginek nu",
       "matches_golden": true
     },
     {
@@ -6679,12 +5586,12 @@
     {
       "level": 4,
       "phrase": "Come with me to safety.",
-      "roman": "be ginam nan kamgu mi",
+      "roman": "be ginam kamgu mi",
       "unresolved": [
         "with"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -6692,13 +5599,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be ginam nan kamgu mi",
+      "expected": "be ginam kamgu mi",
       "matches_golden": true
     },
     {
@@ -13558,12 +12465,12 @@
     {
       "level": 10,
       "phrase": "The path goes to the left.",
-      "roman": "nan gi nan go",
+      "roman": "nan gi go",
       "unresolved": [
         "left"
       ],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -13571,13 +12478,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "nan gi nan go",
+      "expected": "nan gi go",
       "matches_golden": true
     },
     {
@@ -15668,10 +14575,10 @@
     {
       "level": 12,
       "phrase": "I am going to the water.",
-      "roman": "mi gi nan ye",
+      "roman": "mi gi ye",
       "unresolved": [],
       "counts": {
-        "direct": 4,
+        "direct": 3,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -15679,13 +14586,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 4,
+        "pass": 3,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi gi nan ye",
+      "expected": "mi gi ye",
       "matches_golden": true
     },
     {
@@ -16407,13 +15314,13 @@
     {
       "level": 12,
       "phrase": "I meant to go the other way.",
-      "roman": "mi ta gi [honen] nan dimet",
+      "roman": "mi ta gi [honen] dimet",
       "unresolved": [
         "meant_to",
         "honen"
       ],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -16421,7 +15328,7 @@
       },
       "quality": {
         "gate": "hard",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 1
       },
@@ -16434,7 +15341,7 @@
           "reason": null
         }
       ],
-      "expected": "mi ta gi [honen] nan dimet",
+      "expected": "mi ta gi [honen] dimet",
       "matches_golden": true,
       "note": "gap: honen (needs a root)"
     },
@@ -16537,10 +15444,10 @@
     {
       "level": 12,
       "phrase": "You went the wrong direction.",
-      "roman": "be ta gi gam nan",
+      "roman": "be ta gi gam",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -16548,13 +15455,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "be ta gi gam nan",
+      "expected": "be ta gi gam",
       "matches_golden": true
     },
     {
@@ -17430,7 +16337,7 @@
     {
       "level": 13,
       "phrase": "Can you give me a little water?",
-      "roman": "be ku mi gen be ?",
+      "roman": "be ku mi gen ye ?",
       "unresolved": [
         "can"
       ],
@@ -17449,7 +16356,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "be ku mi gen be ?",
+      "expected": "be ku mi gen ye ?",
       "matches_golden": true
     },
     {
@@ -19195,7 +18102,7 @@
     {
       "level": 15,
       "phrase": "I am cold and wet.",
-      "roman": "mi nes mak be",
+      "roman": "mi nes mak ye",
       "unresolved": [
         "wet"
       ],
@@ -19214,7 +18121,7 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi nes mak be",
+      "expected": "mi nes mak ye",
       "matches_golden": true
     },
     {
@@ -24270,7 +23177,7 @@
     {
       "level": 19,
       "phrase": "I want to go toward the water.",
-      "roman": "mi sak nan be gi",
+      "roman": "mi sak gi nan ye",
       "unresolved": [],
       "counts": {
         "direct": 5,
@@ -24287,7 +23194,30 @@
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sak nan be gi",
+      "expected": "mi sak gi nan ye",
+      "matches_golden": true
+    },
+    {
+      "level": 19,
+      "phrase": "Do you want to go to the beach?",
+      "roman": "be sak gi yetem ?",
+      "unresolved": [],
+      "counts": {
+        "direct": 5,
+        "interpreted": 0,
+        "semantic": 0,
+        "alias_weak": 0,
+        "unknown": 0
+      },
+      "quality": {
+        "gate": "pass",
+        "pass": 5,
+        "soft": 0,
+        "hard": 0
+      },
+      "review": [],
+      "gaps": [],
+      "expected": "be sak gi yetem ?",
       "matches_golden": true
     },
     {
@@ -24801,12 +23731,12 @@
     {
       "level": 19,
       "phrase": "Maybe that path leads to people.",
-      "roman": "ketnat nan gi nan balek ketnat",
+      "roman": "ketnat nan gi balek ketnat",
       "unresolved": [
         "leads"
       ],
       "counts": {
-        "direct": 6,
+        "direct": 5,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -24814,13 +23744,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 6,
+        "pass": 5,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "ketnat nan gi nan balek ketnat",
+      "expected": "ketnat nan gi balek ketnat",
       "matches_golden": true
     },
     {
@@ -26229,10 +25159,10 @@
     {
       "level": 20,
       "phrase": "I will come back to this place.",
-      "roman": "mi sa giyinam nan che",
+      "roman": "mi sa giyinam che",
       "unresolved": [],
       "counts": {
-        "direct": 5,
+        "direct": 4,
         "interpreted": 0,
         "semantic": 0,
         "alias_weak": 0,
@@ -26240,13 +25170,13 @@
       },
       "quality": {
         "gate": "pass",
-        "pass": 5,
+        "pass": 4,
         "soft": 0,
         "hard": 0
       },
       "review": [],
       "gaps": [],
-      "expected": "mi sa giyinam nan che",
+      "expected": "mi sa giyinam che",
       "matches_golden": true
     },
     {
